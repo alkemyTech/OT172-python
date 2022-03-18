@@ -1,3 +1,11 @@
+-- Codigo para base de datos postgresql
+-- sql para universidad de palermo
+-- Obtener los datos de las pesonas anotadas entre las fechas
+-- 01/9/2020 al 01/02/2021
+-- Al campo fecha_de_inscripcion se le pasa el metodo date, para poder trabajar,
+-- ya que esta en un formato dd/mes/yy
+-- se ordenan por fecha de incripcion ascendente
+
 select universidad,
     careers,
     fecha_de_inscripcion,
