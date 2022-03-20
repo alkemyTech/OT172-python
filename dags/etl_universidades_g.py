@@ -9,15 +9,22 @@ default_args = {
     'depends_on_past': True,
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 5,
-    'retry_delay': timedelta(minutes=5),
+    #'retries': 5,
+    #'retry_delay': timedelta(minutes=5),
     'start_date': datetime(2019, 1, 1),
     'schedule_interval': '0 * * * *',
     'execution_timeout': timedelta(minutes=30), #luego de 30m falla en cualquier tarea
     'trigger_rule': 'all_success'
 }
 
-
+"""
+   Decision de diseño: Esto es una ETL por lo:
+   Extract: seran el conjunto de las task que realizaran la ejecucion de los .sql
+   Transform: sera la task que ejecutara una funcion, objeto instanciado, etc de pandas
+        o de cualquier metodo que usemos para procesar los datos
+   Load: la task que importara los datos limpiados y enriquecidos a S3.
+"""
+# Ejemplo de juguete del minimo (por ahora) de task y operators necesarias.
 with DAG('etl_universidades_g', 
         default_args=default_args,
         template_searchpath = str(pathlib.Path().absolute()) + '/include',
