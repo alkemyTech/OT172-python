@@ -3,7 +3,12 @@ from airflow.operators.bash_operator import BashOperator
 from datetime import datetime, timedelta
 import pathlib
 
-# Configuracion del DAG
+""" 
+Configuracion del DAG
+Configurar un DAG, sin consultas, ni procesamiento para el grupo de universidades G:
+  Facultad Latinoamericana De Ciencias Sociales
+  Universidad J. F. Kennedy 
+"""
 default_args = {
     'owner': 'airflow',
     'depends_on_past': True,
@@ -34,14 +39,14 @@ with DAG('etl_universidades_g',
         extract_sql_query_1 = BashOperator(
             task_id='extract_sql_query_1',
             execution_timeout=timedelta(minutes=3),
-            bash_command='echo "Ejecutando query 1"',
+            bash_command='echo "Ejecutando query 1, Facultad Latinoamericana De Ciencias Sociales"',
             dag=dag
         )
 
         extract_sql_query_2 = BashOperator(
             task_id='extract_sql_query_2',
             execution_timeout=timedelta(minutes=3),
-            bash_command='echo "Ejecutando query 2"',
+            bash_command='echo "Ejecutando query 2, Universidad J. F. Kennedy"',
             dag=dag
         )
 
