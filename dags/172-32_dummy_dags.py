@@ -1,3 +1,5 @@
+# TAREA 172-32
+
 # Dag with Dummy operator for to designed tasks
 
 from airflow import DAG
@@ -13,8 +15,6 @@ default_args = {
 }
 
 with DAG('query_univ_DAG',
-         start_date=datetime(2020, 3, 22),
-         max_active_runs=3,
          schedule_interval='@hourly',
          default_args=default_args,
          template_searchpath='/home/juan/airflow/include',

@@ -1,3 +1,6 @@
+
+-- Tarea 172-16
+
 --Query to obtain raw data on people enrolled in Universodad Interamericana
 SELECT
 univiersities as university, 

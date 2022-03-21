@@ -10,11 +10,11 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
 
-def logger():
+def logger():  # TAREA 172-48
     import logging
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
                        filename='logoloro.log', encoding='utf-8', level=logging.DEBUG)
-    logging.debug("lolito")
+    logging.debug("")
     logging.info("")
     logging.warning("")
     logging.critical("")
@@ -29,7 +29,7 @@ default_args = {
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 5,
+    'retries': 5,         # TAREA 172-40
     'retry_delay': timedelta(seconds=30)
 }
 
