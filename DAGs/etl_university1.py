@@ -9,7 +9,7 @@ with DAG(
     'elt_university1_groupF',
     description = 'etl for group of universities F (Universidad De Morón)',
     schedule_interval = timedelta(hours=1),
-    start_date = datetime(2022, 3, 15)
+    start_date = datatime(2022, 3, 15)
 ) as dag:
     query_task1 = PostgresOperator(
         task_id = "Query_Uni1",
