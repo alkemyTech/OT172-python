@@ -14,7 +14,7 @@ def logger():
     import logging
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
                        filename='logoloro.log', encoding='utf-8', level=logging.DEBUG)
-    logging.debug("lolito")
+    logging.debug("")
     logging.info("")
     logging.warning("")
     logging.critical("")
@@ -35,7 +35,7 @@ default_args = {
 
 # The database was configured from Airflow, entering the option
 # "connections" of the "Admin" tab and the designated ID, will be
-# passed as a parameter to the "PostgreOperator" class.
+# set as a parameter to "PostgreOperator" class.
 
 with DAG('LaPampa_Univ',
          start_date=datetime(2020, 3, 22),
