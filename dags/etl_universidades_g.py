@@ -2,6 +2,14 @@ from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from datetime import datetime, timedelta
 import pathlib
+import logging
+
+
+# configuracion del logging
+# Formato del log: %Y-%m-%d - nombre_logger - mensaje
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
+                    level=logging.DEBUG,
+                    datefmt='%Y-%m-%d')
 
 # Configuracion del DAG
 default_args = {
