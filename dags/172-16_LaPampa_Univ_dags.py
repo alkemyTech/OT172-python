@@ -53,7 +53,7 @@ with DAG('LaPampa_Univ',
 
     opr_LaPampa = PostgresOperator(
         task_id='LaPampa',
-        postgres_conn_id='some_conn',
+        postgres_conn_id='training_db',
         sql='sql-Univ_nac_LaPampa.sql'
     )
 
