@@ -24,8 +24,8 @@ default_args = {
     'depends_on_past': True,
     'email_on_failure': False,
     'email_on_retry': False,
-    #'retries': 5,
-    #'retry_delay': timedelta(minutes=5),
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5), #parametro general de intentos para todas las tareas
     'start_date': datetime(2019, 1, 1),
     'schedule_interval': '0 * * * *',
     'execution_timeout': timedelta(minutes=30), #luego de 30m falla en cualquier tarea
@@ -49,6 +49,8 @@ with DAG('etl_universidades_g',
         extract_sql_query_1 = BashOperator(
             task_id='extract_sql_query_1',
             execution_timeout=timedelta(minutes=3),
+            retries: 5,
+            retry_delay: timedelta(minutes=2),
             bash_command='echo "Ejecutando query 1, Facultad Latinoamericana De Ciencias Sociales"',
             dag=dag
         )
@@ -56,6 +58,8 @@ with DAG('etl_universidades_g',
         extract_sql_query_2 = BashOperator(
             task_id='extract_sql_query_2',
             execution_timeout=timedelta(minutes=3),
+            retries: 5,
+            retry_delay: timedelta(minutes=2),
             bash_command='echo "Ejecutando query 2, Universidad J. F. Kennedy"',
             dag=dag
         )
@@ -68,6 +72,9 @@ with DAG('etl_universidades_g',
 
         load_s3 = BashOperator(
             task_id='load_s3',
+            execution_timeout=timedelta(minutes=3),
+            retries: 1,
+            retry_delay: timedelta(minutes=2),
             bash_command='echo "Cargando a S3"',
             dag=dag
         )
