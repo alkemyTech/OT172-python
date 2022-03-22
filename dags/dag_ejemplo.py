@@ -1,44 +1,48 @@
-from datetime import datetime, timedelta
-from airflow import DAG
+"""
+WIP. DAG para el procesamiento de datos sql a través de pandas
+"""
 
-# Operators; we need this to operate!
-from airflow.operators.bash import BashOperator
-with DAG(
-    'dummy_dag',
-    # These args will get passed on to each operator
-    # You can override them on a per-task basis during operator initialization
-    default_args={
-        'depends_on_past': False,
-        'email': ['airflow@example.com'],
-        'email_on_failure': False,
-        'email_on_retry': False,
-        'retries': 1,
-        'retry_delay': timedelta(minutes=5),
-    },
-    description='A dummy DAG that prints some info',
-    schedule_interval=timedelta(days=1),
-    start_date=datetime(2022, 3, 21),
+import datetime
+import pendulum
+
+from airflow.decorators import dag, task
+from airflow.providers.postgres.hooks.postgres import PostgresHook
+
+
+@dag(
+    schedule_interval="0 0 * * *",
+    start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
-    tags=['example'],
-) as dag:
+    dagrun_timeout=datetime.timedelta(minutes=60),
+)
+def Etl():
+    @task
+    def get_data():
+        query = """
+            select
+                universidades, carreras, fechas_de_inscripcion, nombres, sexo, fechas_nacimiento, codigos_postales
+            from
+                uba_kenedy uk
+            where
+                TO_DATE(fechas_de_inscripcion, 'YY-MON-DD') between '2020-09-01' and '2021-02-01'
+                and universidades = 'universidad-de-buenos-aires'
+            ;
+        """
+        postgres_hook = PostgresHook(postgres_conn_id="airflow-universities")
+        conn = postgres_hook.get_conn()
+        cur = conn.cursor()
+        cur.execute(query)
+        data = cur.fetchall()
 
-    # t1, t2 and t3 are examples of tasks created by instantiating operators
-    t1 = BashOperator(
-        task_id='print_info',
-        bash_command='echo "running task 1"',
-    )
+    @task
+    def process_data():
+        pass
 
-    t2 = BashOperator(
-        task_id='sleep',
-        depends_on_past=False,
-        bash_command='sleep 5',
-        retries=3,
-    )
+    @task
+    def save_data_to_s3():
+        pass
 
-    t3 = BashOperator(
-        task_id='print_final',
-        depends_on_past=False,
-        bash_command='echo "running task 3"',
-    )
+    get_data() >> process_data() >> save_data_to_s3()
 
-    t1 >> [t2, t3]
+
+dag = Etl()
