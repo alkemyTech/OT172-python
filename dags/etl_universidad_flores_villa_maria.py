@@ -12,9 +12,16 @@ from datetime import timedelta, datetime
 import pandas as pd
 from pathlib import Path
 import os
+import logging
 
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
+
+
+# Config logging
+logging.basicConfig(filename='app.log',datefmt='%Y/%m/%d', 
+                    format=' %(asctime)s - %(levelname)s - %(message)s',
+                    level=logging.DEBUG)
 
 
 ruta = str(Path().absolute())+'/apache-airflow-aceleracion/airflow/dags/OT172-python'
