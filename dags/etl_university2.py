@@ -1,7 +1,9 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators import PostgresOperator, PythonOperator, DummyOperator
-
+from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.operators.python import PythonOperator
+from airflow.operators.dummy_operator import DummyOperator
 """
 DAG configuration, without queries or processing for "Universidad De Morón"
 """
