@@ -7,6 +7,7 @@ univiersities as university,
 carrera as career, 
 inscription_dates as inscription_date, 
 names as name,
+sexo as gender,
 fechas_nacimiento as nacimiento,
 localidad as location, 
 email
