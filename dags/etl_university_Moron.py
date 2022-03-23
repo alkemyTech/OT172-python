@@ -31,4 +31,4 @@ with DAG(
         task_id = "Load",
         dag = dag
     )
-    query_task >> transformation_task >> load_task
+    query_task1 >> transformation_task >> load_task
