@@ -25,8 +25,12 @@ with DAG('query_univ_DAG',
          catchup=False,
          ) as dag:
 
-    query_1 = DummyOperator(task_id='UnivLaPampa')
-    query_2 = DummyOperator(task_id='Univ_Interamericana')
+    query_1_Univ_LaPampa = DummyOperator(task_id='UnivLaPampa',
+                            sql='sql_Univ_LaPampa.sql',
+                            )
+    query_2_Univ_Interamericana = DummyOperator(task_id='Univ_Interamericana',
+                            sql='sql_Univ_Interamericana.sql',
+                            )
 
     connection_task= PythonOperator(
         )
