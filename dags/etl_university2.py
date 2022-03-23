@@ -1,7 +1,5 @@
 from datetime import datetime, timedelta
 from airflow import DAG
-from airflow.providers.postgres.operators.postgres import PostgresOperator
-from airflow.operators.python import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 """
 DAG configuration, without queries or processing for "Universidad De Morón"
@@ -15,17 +13,17 @@ default_args = {
     'retry_delay': timedelta(seconds=30)
 }
 with DAG(
-    'elt_university1_groupF',
+    'elt_university_Moron',
     description = 'etl for group of universities F (Universidad De Morón)',
     schedule_interval = timedelta(hours=1),
     default_args=default_args,
     start_date = datetime(2022, 3, 15)
 ) as dag:
-    query_task1 = PostgresOperator(
-        task_id = "Query_Uni1",
+    query_task1 = DummyOperator(
+        task_id = "Query_Uni2",
         dag = dag
     )
-    transformation_task = PythonOperator(
+    transformation_task = DummyOperator(
         task_id = "Transformation",
         dag = dag
     )
