@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 """
-DAG configuration, without queries or processing for "Universidad De Morón"
+DAG configuration, without queries or processing for "Universidad Nacional De Río Cuarto"
 """
 default_args = {
     'owner': 'airflow',
