@@ -40,17 +40,18 @@ default_args = {
    Load: la task que importara los datos limpiados y enriquecidos a S3.
 """
 # Ejemplo de juguete del minimo (por ahora) de task y operators necesarias.
-with DAG('etl_universidades_g', 
+with DAG('etl_universidades_latCienciasSociales_JFKennedy', 
         default_args=default_args,
-        template_searchpath = str(pathlib.Path().absolute()) + '/include',
+        template_searchpath = str(pathlib.Path().absolute()) + '/../include',
         catchup=False
         ) as dag:
 
+        # reintentar 5 veces la tarea, si es que falla
         extract_sql_query_1 = BashOperator(
             task_id='extract_sql_query_1',
             execution_timeout=timedelta(minutes=3),
-            retries: 5,
-            retry_delay: timedelta(minutes=2),
+            retries=5,
+            retry_delay=timedelta(minutes=2),
             bash_command='echo "Ejecutando query 1, Facultad Latinoamericana De Ciencias Sociales"',
             dag=dag
         )
@@ -58,11 +59,17 @@ with DAG('etl_universidades_g',
         extract_sql_query_2 = BashOperator(
             task_id='extract_sql_query_2',
             execution_timeout=timedelta(minutes=3),
-            retries: 5,
-            retry_delay: timedelta(minutes=2),
+            retries=5,
+            retry_delay=timedelta(minutes=2),
             bash_command='echo "Ejecutando query 2, Universidad J. F. Kennedy"',
             dag=dag
         )
+        
+        """
+            se usa una sola task para el procesamiento de los datos de las
+            dos universidades, hay problemas duplicar las tareas de 
+            procesamiento de datos, se subida a S3 y luego ordenar el flujo.
+        """
 
         transform_pd = BashOperator(
             task_id='transform_pd',
@@ -73,8 +80,8 @@ with DAG('etl_universidades_g',
         load_s3 = BashOperator(
             task_id='load_s3',
             execution_timeout=timedelta(minutes=3),
-            retries: 1,
-            retry_delay: timedelta(minutes=2),
+            retries=1,
+            retry_delay=timedelta(minutes=2),
             bash_command='echo "Cargando a S3"',
             dag=dag
         )
