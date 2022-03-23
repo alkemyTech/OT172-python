@@ -1,6 +1,13 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
+from airflow.operators.python import PythonOperator
+import logging
+
+def log_function():
+    logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d', filename='logs.log', encoding='utf-8', level=logging.DEBUG)
+    return None
+
 """
 DAG configuration, without queries or processing for "Universidad Nacional De Río Cuarto"
 """
@@ -19,6 +26,11 @@ with DAG(
     default_args=default_args,
     start_date = datetime(2022, 3, 15)
 ) as dag:
+    log_conf = PythonOperator(
+        task_id = "Logs_configuration",
+        python_callable = log_function
+    )
+
     query_task1 = DummyOperator(
         task_id = "Query_Uni1",
         dag = dag
@@ -31,5 +43,4 @@ with DAG(
         task_id = "Load",
         dag = dag
     )
-
-    query_task1 >> transformation_task >> load_task
+    log_conf >> query_task1 >> transformation_task >> load_task
