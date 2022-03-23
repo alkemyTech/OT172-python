@@ -7,6 +7,7 @@ import logging
 def log_function():
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d', filename='logs.log', encoding='utf-8', level=logging.DEBUG)
     return None
+
 """
 DAG configuration, without queries or processing for "Universidad Nacional De Río Cuarto"
 """
@@ -29,6 +30,7 @@ with DAG(
         task_id = "Logs_configuration",
         python_callable = log_function
     )
+
     query_task1 = DummyOperator(
         task_id = "Query_Uni1",
         dag = dag
