@@ -4,6 +4,7 @@
 #  TASK 172-32
 
 # Dag with Dummy operator for to designed tasks
+# A PythonOperator will be used both for the connection to the database, and for the query and transformation of the data
 
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator #https://airflow.apache.org/docs/apache-airflow/2.0.1/_api/airflow/operators/dummy/index.html
@@ -23,8 +24,19 @@ with DAG('query_univ_DAG',
          template_searchpath='/home/juan/airflow/include',
          catchup=False,
          ) as dag:
-    tarea_1 = DummyOperator(task_id='UnivLaPampa')
-    tarea_2 = DummyOperator(task_id='Univ_Interamericana')
 
-    tarea_1
-    tarea_2
+    query_1 = DummyOperator(task_id='UnivLaPampa')
+    query_2 = DummyOperator(task_id='Univ_Interamericana')
+
+    connection_task= PythonOperator(
+        )
+
+    logging_task= PythonOperator(
+        )
+
+    ET_task = PythonOperator(
+        )
+
+    connection_task
+    logging_task
+    ET_task
