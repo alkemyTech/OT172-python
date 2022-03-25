@@ -1,5 +1,12 @@
 """
-WIP. DAG para el procesamiento de datos sql a través de pandas
+PT172-35
+Configurar un DAG, sin consultas, ni procesamiento
+Configurar el DAG para procese las siguientes universidades:
+Universidad Del Cine
+Universidad De Buenos Aires
+Documentar los operators que se deberían utilizar a futuro, teniendo en cuenta que se va a hacer
+dos consultas SQL (una para cada universidad), se van a procesar los datos con pandas y se van a
+cargar los datos en S3.  El DAG se debe ejecutar cada 1 hora, todos los días.
 """
 
 from datetime import datetime, timedelta
