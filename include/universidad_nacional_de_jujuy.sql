@@ -5,8 +5,6 @@
 
 -- se ordenan por fecha de incripcion ascendente
 
-
-
 select university,
     career,
     inscription_date,
