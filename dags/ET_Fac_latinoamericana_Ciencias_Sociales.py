@@ -54,7 +54,7 @@ def read_query_to_csv(**kwargs):
         datas = create_engine(URL).execute(query)
         df = pd.DataFrame(datas, columns=datas.keys())
         #deberiamos eliminar el archivo si existe?
-        df.to_csv(path_this_file + '/csv_files/' + filename + '.csv')
+        df.to_csv(path_this_file + '/csv_files/' + filename + '.csv', index=False)
     except exc.ObjectNotExecutableError as e:
         logger.error(f"""
         ObjectNotExecutableError: contenido del archivo sql {filename}
