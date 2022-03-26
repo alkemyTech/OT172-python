@@ -1,9 +1,9 @@
 from airflow import DAG
-from airflow.hooks.postgres_hook import PostgresHook
+from airflow.exceptions import AirflowException
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 from datetime import datetime, timedelta
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, exc
 import pathlib
 import logging
 import pandas as pd
@@ -25,33 +25,50 @@ port = "5432"
 db = "training"
 URL = f"postgresql://{user}:{password}@{host}:{port}/{db}"
 
-#Funcion que se conecta a una base de datos con postgresHook 
-# lee una query en un archivo y la ejecuta en la base de datos
-# descargando los datos en un archivo csv
+# read_query_to_csv
+# input: key 'filename' in **kwargs
+# output: none
+# realiza la conexion a una base de datos con parametros pasador por 
+# un archivo .env y realiza la query de un archivo .sql, finalmente
+# guarda el resultado en un archivo .csv
 def read_query_to_csv(**kwargs):
-    # leer el archivo
-    #FileNotFoundError
-    with open(str(pathlib.Path().absolute()) + '/include/' + kwargs['filename'] + '.sql', 'r') as f:
-        query = f.read()
-    logger.info("leida la query")
+    path_this_file = str(pathlib.Path().absolute())
+    filename = kwargs['filename']
+    try:
+        with open(path_this_file + '/include/' + filename + '.sql', 'r') as f:
+            query = f.read()
+    except FileNotFoundError as e:
+        logger.error(f"""
+        FileNotFoundError: el archivo en la ruta {e.filename}
+        no existe o no se puede leer.""")
+        raise AirflowException("Fallo a realizar la funcion: read_query_to_csv")
+    except (OSError, IOError) as e:
+        logger.error(e)
+        raise AirflowException("Fallo a realizar la funcion: read_query_to_csv")
+
+    logger.info("leida la query del archivo: " + filename + ".sql")
+    logger.info("procediendo con la consulta sql a la base de datos")
     # conectarse a la base de datos con los parametros
-    datas = create_engine(URL).execute(query).fetchall()
-    logger.info("conectado a la base de datos")
-    #importar los datos a un archivo csv con pandas
-    df = pd.DataFrame(datas)
-
-    # raise OSError(fr"Cannot save file into a non-existent directory: '{parent}'")
-    # check_parent_directory 
-    # https://stackoverflow.com/questions/47143836/pandas-dataframe-to-csv-raising-ioerror-no-such-file-or-directory
-    
-    df.to_csv(str(pathlib.Path().absolute()) + '/csv_files/' + kwargs['filename'] + '.csv')
+    try:
+        # Como verificar si se retorna algo vacio?
+        datas = create_engine(URL).execute(query).fetchall()
+        df = pd.DataFrame(datas)
+        df.to_csv(path_this_file + '/csv_files/' + filename + '.csv')
+    except exc.ObjectNotExecutableError as e:
+        logger.error(f"""
+        ObjectNotExecutableError: contenido del archivo sql {filename}
+        no es una query válida.""")
+        raise AirflowException("Fallo realizar la funcion: read_query_to_csv")
+    except exc.SQLAlchemyError as e:
+        logger.error(f"""
+        SQLAlchemyError: fallo la conexion a la base de datos:{URL}""")
+        raise AirflowException("Fallo realizar la funcion: read_query_to_csv")
+    except (OSError, IOError) as e:
+        logger.error(f"""
+        OSError: No se puede guardar csv por que la direccion no existe:
+        {e}""")
+        raise AirflowException("Fallo realizar la funcion: read_query_to_csv")
     logger.info("exportado a csv")
-
-
-
-    
-
-
 
 """ 
 Configuracion del DAG
