@@ -103,14 +103,14 @@ with DAG('ET_Fac_latinoamericana_Ciencias_Sociales',
         catchup=False
         ) as dag:
 
-        # reintentar 5 veces la tarea, si es que falla
-        # Configurar un Python Operators, para que extraiga información de la base de datos utilizando el .sql disponible en el repositorio base de las siguientes universidades: 
         extract_sql_query_1 = PythonOperator(
-            task_id='extract_sql_query_1',
+            task_id='extract_sql_facultad_latinoamericana_de_ciencias_sociales',
             python_callable=read_query_to_csv,
             # podriamos agregar el path del archivo .sql
             op_kwargs={'filename': 'facultad_latinoamericana_de_ciencias_sociales'},
             provide_context=True,
+            retries=5,
+            retry_delay=timedelta(minutes=1),
             dag=dag
         )
 
