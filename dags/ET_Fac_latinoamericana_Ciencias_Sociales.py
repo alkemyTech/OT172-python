@@ -51,8 +51,9 @@ def read_query_to_csv(**kwargs):
     # conectarse a la base de datos con los parametros
     try:
         # Como verificar si se retorna algo vacio?
-        datas = create_engine(URL).execute(query).fetchall()
-        df = pd.DataFrame(datas)
+        datas = create_engine(URL).execute(query)
+        df = pd.DataFrame(datas, columns=datas.keys())
+        #deberiamos eliminar el archivo si existe?
         df.to_csv(path_this_file + '/csv_files/' + filename + '.csv')
     except exc.ObjectNotExecutableError as e:
         logger.error(f"""
@@ -128,4 +129,4 @@ with DAG('ET_Fac_latinoamericana_Ciencias_Sociales',
             dag=dag
         )
 
-        transform_pd >> extract_sql_query_1>> load_s3
+        extract_sql_query_1 >> transform_pd >> load_s3
