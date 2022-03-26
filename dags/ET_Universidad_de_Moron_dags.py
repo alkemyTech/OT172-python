@@ -15,6 +15,7 @@ from airflow import DAG
 from datetime import timedelta, datetime
 import pandas as pd
 from pathlib import Path
+import os
 from os import path, makedirs
 import logging
 
@@ -27,6 +28,12 @@ logging.basicConfig(filename='log', encoding='utf-8',datefmt='%Y/%m/%d',
                     format=' %(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG)
 
+# Rutas
+ruta_base = path.abspath(path.join(path.dirname(__file__), ".."))
+ruta_include = path.abspath(path.join(ruta_base, 'include'))
+ruta_files = path.abspath(path.join(ruta_base,'files'))
+logging.info(f'ruta_include: {ruta_include}')
+logging.info(f'Ruta_files: {ruta_files}')
 
 def extract(query_sql, university):
     # connection
@@ -36,11 +43,11 @@ def extract(query_sql, university):
     logging.info("Connection established successfully.")
 
     # include and files folder paths
-    ruta_base = path.abspath(path.join(path.dirname(__file__), ".."))
-    ruta_include = path.abspath(path.join(ruta_base, 'include'))
-    ruta_files = path.abspath(path.join(ruta_base,'files'))
-    logging.info(f'ruta_include: {ruta_include}')
-    logging.info(f'Ruta_files: {ruta_files}')
+    #ruta_base = path.abspath(path.join(path.dirname(__file__), ".."))
+    #ruta_include = path.abspath(path.join(ruta_base, 'include'))
+    #ruta_files = path.abspath(path.join(ruta_base,'files'))
+    #logging.info(f'ruta_include: {ruta_include}')
+    #logging.info(f'Ruta_files: {ruta_files}')
 
     # if the files folder does not exist it is created
     if not path.isdir(ruta_files):
@@ -53,8 +60,17 @@ def extract(query_sql, university):
     moron_df.to_csv(f'{ruta_files}/{university}')
     logging.info('ET_Universidad_de_Moron.csv file created')
 
-def process():
-    pass
+def process(university):
+    # This function is responsible for processing and normalizing
+    # the data obtained in the previous task.
+    # Read csv file and create data frame
+    logging.info('Start de process function')
+    path_df = os.path.join(ruta_files, f'{university}')
+    data_frame = pd.read_csv(path_df)
+    logging.info('Data frame created')
+    
+
+
 def load():
     pass
 
@@ -87,7 +103,10 @@ with DAG(
     # En el futuro seran cambiados
     process_data = PythonOperator(
         task_id = 'process',
-        python_callable = process
+        python_callable = process,
+        op_kwargs={
+            'university': 'ET_Universidad_de_Moron.csv'
+        }
         )
     load_data = PythonOperator(
         task_id = 'load',
