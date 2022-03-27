@@ -32,7 +32,7 @@ ruta_base = path.abspath(path.join(path.dirname(__file__), ".."))
 ruta_include = path.abspath(path.join(ruta_base, 'include'))
 ruta_files = path.abspath(path.join(ruta_base,'files'))
 if not path.isdir(ruta_files):
-    makedirs(ruta_files)
+        makedirs(ruta_files)
 
 logging.info(f'ruta_include: {ruta_include}')
 logging.info(f'Ruta_files: {ruta_files}')
@@ -59,7 +59,6 @@ def process(university):
     path_df = os.path.join(ruta_files, f'{university}')
     data_frame = pd.read_csv(path_df)
     logging.info('Data frame created')
-
     
 
 
@@ -75,8 +74,8 @@ default_args = {
     'retry_delay': timedelta(seconds=30)
 }
 with DAG(
-    'ET_Universidad_de_Moron',
-    description = 'ETL dag for university Moron',
+    'ET_Universidad_Nacional_de_Rio_Cuarto_dags',
+    description = 'ETL dag for university Rio Cuarto',
     schedule_interval = timedelta(hours=1),
     start_date = datetime(2022,3,20),
     default_args=default_args,
@@ -88,8 +87,8 @@ with DAG(
         task_id = 'extract',
         python_callable = extract,
         op_kwargs={
-            'query_sql': 'Universidad_de_Moron.sql',
-            'university': 'ET_Universidad_de_Moron.csv'
+            'query_sql': 'Universidad_Nacional_de_Rio_Cuarto.sql',
+            'university': 'ET_Universidad_Nacional_de_Rio_Cuarto.csv'
         }
         )
     # En el futuro seran cambiados
@@ -97,7 +96,7 @@ with DAG(
         task_id = 'process',
         python_callable = process,
         op_kwargs={
-            'university': 'ET_Universidad_de_Moron.csv'
+            'university': 'ET_Universidad_Nacional_de_Rio_Cuarto.csv'
         }
         )
     load_data = PythonOperator(
