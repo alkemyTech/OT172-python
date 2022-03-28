@@ -15,7 +15,6 @@ class QueryExecuteReturnNothing(Exception):
         self.file_query = file_query
         super().__init__("error, query return nothing")
 
-
 # configuracion del logging
 # Formato del log: %Y-%m-%d - nombre_logger - mensaje
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
@@ -24,7 +23,7 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
 ## Por si necesitamos que los logs tengan el nombre del archivo donde se encuentra
 logger = logging.getLogger(__name__)
 
-#Configuracion de parametros de .env
+#Configuracion de parametros de .env (luego en unas variables de airflow)
 user = config("USER")
 password = config("PASSWORD")
 # eliminar http/https si esta en el host 
@@ -33,14 +32,6 @@ port = config("PORT")
 db = config("DB")
 db_url = f"postgresql://{user}:{password}@{host}:{port}/{db}"
 
-# read_query_to_csv
-# input: key 'filename' in **kwargs
-#        key 'folder_path' in **kwars - ruta de la carpeta donde esta filename
-#        key path_download in **kwars - ruta donde descargar la query result
-# output: archivo .csv descargado en la ruta path_download
-# realiza la conexion a una base de datos  
-# realiza la query de un archivo .sql, finalmente
-# guarda el resultado en un archivo .csv
 def read_query_to_csv(**kwargs):
     filename = kwargs['filename']
     filename += '.sql' if filename[-4:] not in '.sql' else ""
@@ -91,10 +82,11 @@ def read_query_to_csv(**kwargs):
         raise AirflowException("Fallo realizar la funcion: read_query_to_csv")
     logger.info(f"Resultado de la query {filename} guardado en: \n {path_download}")
 
+
 """ 
 Configuracion del DAG
 Configurar un DAG, sin consultas, ni procesamiento para el grupo de universidades G:
-  Facultad Latinoamericana De Ciencias Sociales
+  Universidad J. F. Kennedy 
 """
 default_args = {
     'owner': 'airflow',
@@ -116,16 +108,15 @@ default_args = {
         o de cualquier metodo que usemos para procesar los datos
    Load: la task que importara los datos limpiados y enriquecidos a S3.
 """
-with DAG('ET_Fac_latinoamericana_Ciencias_Sociales', 
+with DAG('ET_Uni_J_F_Kennedy', 
         default_args=default_args,
         catchup=False
         ) as dag:
 
-        extract_sql_query_1 = PythonOperator(
-            task_id='extract_sql_facultad_latinoamericana_de_ciencias_sociales',
+        extract_sql_query = PythonOperator(
+            task_id='extract_sql_universidad_j_f_kennedy',
             python_callable=read_query_to_csv,
-            # podriamos agregar el path del archivo .sql
-            op_kwargs={'filename': 'facultad_latinoamericana_de_ciencias_sociales', 
+            op_kwargs={'filename': 'Uni_J_F_Kennedy.sql', 
                         'folder_path': str(pathlib.Path().absolute()) + '/include/',
                         'path_download': str(pathlib.Path().absolute()) + '/csv_files/',
                         'db_url': db_url},
@@ -150,4 +141,4 @@ with DAG('ET_Fac_latinoamericana_Ciencias_Sociales',
             dag=dag
         )
 
-        extract_sql_query_1 >> transform_pd >> load_s3
+        extract_sql_query >> transform_pd >> load_s3
