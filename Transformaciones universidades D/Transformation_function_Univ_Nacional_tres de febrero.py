@@ -67,7 +67,7 @@ def transformation(df):
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv(f'{path}/ET_Univ_tecnologica_nacional.txt', sep='\t')
+    df.to_csv(f'{path}/ET_Univ_nacional_tres_de_febrero.txt', sep='\t')
     return(df)
 
 
