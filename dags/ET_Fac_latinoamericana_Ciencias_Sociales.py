@@ -127,7 +127,7 @@ with DAG('ET_Fac_latinoamericana_Ciencias_Sociales',
             # podriamos agregar el path del archivo .sql
             op_kwargs={'filename': 'facultad_latinoamericana_de_ciencias_sociales', 
                         'folder_path': str(pathlib.Path().absolute()) + '/include/',
-                        'path_download': str(pathlib.Path().absolute()) + '/csv_files/',
+                        'path_download': str(pathlib.Path().absolute()) + '/files/',
                         'db_url': db_url},
             provide_context=True,
             retries=5,
