@@ -45,7 +45,7 @@ def Conexion(**kwargs):
     except Exception as e:
         logging.error(e)
 """
-Configuracion del DAG con 2 operadores de Python para la Universidad Nacional de Rio Cuarto."
+Configuracion del DAG con 2 operadores de Python para la Universidad De Morón."
 """
 default_args = {
     'owner': 'airflow',
@@ -74,3 +74,4 @@ with DAG(
         }
     )
     log_conf >> query_task
+

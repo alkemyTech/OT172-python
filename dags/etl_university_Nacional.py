@@ -74,3 +74,4 @@ with DAG(
         }
     )
     log_conf >> query_task
+
