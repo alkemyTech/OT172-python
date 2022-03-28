@@ -72,7 +72,7 @@ def transformation(df):
     return(df)
 
 def main():
-    path= '/home/juan/Alkemy/OT172-python/files/Extraction_Univ_tecnologica_nacional.csv'
+    path= f'{path}/files/Extraction_Univ_tecnologica_nacional.csv'
     df= pd.read_csv(path)
     transformation(df)
 

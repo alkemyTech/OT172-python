@@ -72,6 +72,6 @@ def transformation(df):
 
 
 def main():
-    path= '{path}/files/Extraction_Univ_tnacional_tres_de_febrero.csv'
+    path= '{path}/files/'
     df= pd.read_csv(path)
     transformation()
