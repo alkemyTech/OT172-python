@@ -1,4 +1,4 @@
---- """consulta sql para universidad de flores"""
+"""consulta sql para universidad de flores"""
 
 SELECT 
     universidad,
