@@ -8,7 +8,6 @@ from datetime import datetime
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
-path = (pathlib.Path(__file__).parent.absolute()).parent
 
 def normalize_characters(column):
     column = column.apply(lambda x: str(
@@ -72,7 +71,7 @@ def transformation(df):
     return(df)
 
 def main():
-    path= f'{path}/files/Extraction_Univ_tecnologica_nacional.csv'
+    path= f'{(pathlib.Path(__file__).parent.absolute()).parent}/files/Extraction_Univ_tecnologica_nacional.csv'
     df= pd.read_csv(path)
     transformation(df)
 
