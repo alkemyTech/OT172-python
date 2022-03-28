@@ -146,7 +146,7 @@ def transformation(df):
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv('{path}/files/ET_Univ_tres_de_febrero.txt', header=None, index=None, sep='\t', mode='a')
+    df.to_csv(f'{path}/files/ET_Univ_tres_de_febrero.txt', header=None, index=None, sep='\t', mode='a')
     return(df)
 
 # Function for the entire ETL process, which will be called through a PythonOperator
