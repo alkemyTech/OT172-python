@@ -4,7 +4,7 @@
 -- Universidad De Buenos Aires
 
 select
-        universidades, carreras, fechas_de_inscripcion, nombres, sexo, fechas_nacimiento, codigos_postales
+        universidades, carreras, fechas_de_inscripcion, nombres, sexo, fechas_nacimiento, codigos_postales, emails
 from
         uba_kenedy uk
 where
