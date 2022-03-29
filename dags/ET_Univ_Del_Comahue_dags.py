@@ -17,6 +17,7 @@ logging.basicConfig(
     level=logging.debug
 )
 
+
 with DAG (
     'universidad_nacional_del_comahue',
     description = 'DAG para la universidad del comahue',
