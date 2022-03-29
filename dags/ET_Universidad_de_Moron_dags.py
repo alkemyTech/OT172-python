@@ -12,6 +12,7 @@
 
 from airflow import DAG
 from datetime import timedelta, datetime, date
+
 import pandas as pd
 from pathlib import Path
 import os
@@ -137,6 +138,7 @@ def process(university):
         logging.error('General error at data normalization')
 
 
+
 def load():
     pass
 
@@ -162,6 +164,7 @@ with DAG(
     extract = PythonOperator(
         task_id='extract',
         python_callable=extract,
+
         op_kwargs={
             'query_sql': 'Universidad_de_Moron.sql',
             'university': 'ET_Universidad_de_Moron.csv'

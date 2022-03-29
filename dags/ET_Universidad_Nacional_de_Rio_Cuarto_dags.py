@@ -12,6 +12,7 @@
 
 from airflow import DAG
 from datetime import timedelta, datetime, date
+
 import pandas as pd
 from pathlib import Path
 import os
@@ -174,6 +175,7 @@ with DAG(
     extract = PythonOperator(
         task_id='extract',
         python_callable=extract,
+
         op_kwargs={
             'query_sql': 'Universidad_Nacional_de_Rio_Cuarto.sql',
             'university': 'ET_Universidad_Nacional_de_Rio_Cuarto.csv'
@@ -194,3 +196,4 @@ with DAG(
 
 
 extract >> process_data >> load_data
+
