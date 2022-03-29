@@ -6,6 +6,8 @@ Universidad Del Cine
 Dejar la información en un archivo .csv dentro de la carpeta files.
 """
 from datetime import datetime
+import os
+from pathlib import Path
 
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -16,8 +18,10 @@ import pandas as pd
 
 import sqlparse
 
+parent_folder = Path(__file__).parent.absolute().parent
+
 def get_data_cine():
-    sql_src = '/home/lowenhard/airflow/include/universidad_del_cine.sql'
+    sql_src = os.path.join(parent_folder, 'include/universidad_del_cine.sql')
     with open(sql_src, 'r') as sqlfile:
         query = sqlfile.read()
     query = sqlparse.format(query, strip_comments=True).strip()

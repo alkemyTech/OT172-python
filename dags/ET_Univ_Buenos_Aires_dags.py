@@ -6,6 +6,8 @@ Universidad De Buenos Aires
 Dejar la información en un archivo .csv dentro de la carpeta files.
 """
 from datetime import datetime
+import os
+from pathlib import Path
 
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -16,8 +18,10 @@ import pandas as pd
 
 import sqlparse
 
+parent_folder = Path(__file__).parent.absolute().parent
+
 def get_data_uba():
-    sql_src = '/home/lowenhard/airflow/include/universidad_de_buenos_aires.sql'
+    sql_src = os.path.join(parent_folder, 'include/universidad_de_buenos_aires.sql')
     with open(sql_src, 'r') as sqlfile:
         query = sqlfile.read()
     query = sqlparse.format(query, strip_comments=True).strip()
@@ -27,7 +31,7 @@ def get_data_uba():
     cur.execute(query)
     data = cur.fetchall()
     df = pd.DataFrame(data=data)
-    header = ['universidades', 'carreras', 'fechas_de_inscripcion', 'nombres', 'sexo', 'fechas_nacimiento', 'codigos_postales']
+    header = ['universidades', 'carreras', 'fechas_de_inscripcion', 'nombres', 'sexo', 'fechas_nacimiento', 'codigos_postales', 'direcciones', 'emails']
     df.to_csv('/home/lowenhard/airflow/files/ET_Univ_Buenos_Aires.csv', header=header, index=False)
     return data
 
