@@ -4,9 +4,19 @@ Functions inside DAG will use PythonOperator and PostgresOperator
 Data will be processed with Pandas and loaded to S3
 """
 
+import logging
 
 from datetime import datetime, timedelta
 from airflow import DAG
+
+logging.basicConfig(
+    filename='log',
+    encoding='utf-8',
+    datefmt='%Y-%m-%d',
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    level=logging.debug
+)
+
 
 with DAG (
     'universidad_nacional_del_comahue',

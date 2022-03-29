@@ -1,6 +1,5 @@
 """consulta sql para la universidad de Villa Maria"""
 
-
 SELECT 
     universidad,
     carrera,
