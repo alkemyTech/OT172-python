@@ -14,7 +14,6 @@ from settings import *
 import logging
 import os
 import pathlib
-from TXT_tOs3oPERATOR import *
 
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
