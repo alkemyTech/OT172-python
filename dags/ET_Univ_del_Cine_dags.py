@@ -18,7 +18,7 @@ import pandas as pd
 
 import sqlparse
 
-parent_folder = Path(__file__).parent.absolute().parent
+parent_folder = Path(__file__).resolve().parent.parent
 
 def get_data_cine():
     sql_src = os.path.join(parent_folder, 'include/universidad_del_cine.sql')
@@ -31,14 +31,14 @@ def get_data_cine():
     cur.execute(query)
     data = cur.fetchall()
     df = pd.DataFrame(data=data)
-    header = ['universities', 'careers', 'inscription_dates', 'names', 'sexo', 'birth_dates', 'locations']
-    df.to_csv('/home/lowenhard/airflow/files/ET_Univ_del_Cine.csv', header=header, index=False)
+    header = ['universities', 'careers', 'inscription_dates', 'names', 'sexo', 'birth_dates', 'locations', 'direccion', 'emails']
+    df.to_csv(os.path.join(parent_folder, 'files/ET_Univ_del_Cine.csv'), header=header, index=False)
     return data
 
 with DAG(
     'python_operator_cine',
     start_date=datetime(2020, 3, 26),
-    template_searchpath='/home/lowenhard/airflow/include',
+    template_searchpath=os.path.join(parent_folder, 'include'),
     catchup=False,
     tags=['operator']
 ) as dag:
