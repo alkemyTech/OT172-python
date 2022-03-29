@@ -53,7 +53,7 @@ def extract(query_sql, university):
 
     moron_df = pd.read_sql(query_m, connection)
     moron_df.to_csv(f'{ruta_files}/{university}')
-    logging.info('ET_Universidad_de_Moron.csv file created')
+    logging.info('ET_Universidad_Nacional_de_Rio_Cuarto.csv file created')
 
 
 def process(university):
