@@ -18,6 +18,9 @@ def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
                                            'fechas_de_inscripcion'],
                      date_parser=dateparse)
 
+    if 'direcciones' in df.columns:
+        df = df.drop(['direcciones'], axis=1)
+
     df.columns = ['university', 'career', 'inscription_date', 'full_name',
                   'gender', 'birth_date', 'postal_code', 'email']
 

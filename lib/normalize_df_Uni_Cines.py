@@ -18,6 +18,9 @@ def normalize_df_Uni_Cines(path_df, path_dfmerge, path_download):
                      parse_dates=['inscription_dates', 'birth_dates'],
                      date_parser=dateparse)
 
+    if 'direcciones' in df.columns:
+        df = df.drop(['direcciones'], axis=1)
+
     df.columns = ['university', 'career', 'inscription_date', 'full_name',
                   'gender', 'age', 'location', 'email']
 
