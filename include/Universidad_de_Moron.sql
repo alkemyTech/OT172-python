@@ -6,7 +6,7 @@ SELECT
     ,REVERSE(SPLIT_PART(REVERSE(moron.nombrre),' ',1))  AS last_name
     ,moron.sexo                                         AS gender
     ,moron.nacimiento                                   AS age
-    ,moron.direccion                                    AS location
+    ,moron.codgoposstal                                 AS postal_code
     ,moron.eemail                                       AS email
 FROM 
     moron_nacional_pampa AS moron
