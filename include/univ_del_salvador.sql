@@ -8,9 +8,9 @@ select
     nombre,
     sexo,
     fecha_nacimiento,
-    --codigo_postal,
+    codigo_postal,
     direccion,
-    email,
+    email
 from
     salvador_villa_maria
 where

@@ -9,7 +9,7 @@ select
     fecha_nacimiento,
     codigo_postal,
     direccion,
-    correo_electronico,
+    correo_electronico
 from
     flores_comahue
 where
