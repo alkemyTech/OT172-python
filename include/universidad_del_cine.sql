@@ -5,6 +5,7 @@
 
 select
         universities, careers, inscription_dates, names, sexo, birth_dates, locations, direccion, emails
+
 from
         lat_sociales_cine
 where
