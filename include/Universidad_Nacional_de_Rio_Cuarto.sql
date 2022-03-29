@@ -6,7 +6,7 @@
     ,REVERSE(SPLIT_PART(REVERSE(nacional.names),'-',1))     AS last_name
     ,nacional.sexo                                          AS gender
     ,nacional.fechas_nacimiento                             AS age
-    ,nacional.direcciones                                   AS location
+    ,nacional.localidad                                     AS location
     ,nacional.email                                         AS email
 FROM 
     rio_cuarto_interamericana AS nacional
