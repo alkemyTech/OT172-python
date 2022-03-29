@@ -51,8 +51,8 @@ def extract(query_sql, university):
     file_m = open(f'{ruta_include}/{query_sql}', 'r')
     query_m = file_m.read()
 
-    moron_df = pd.read_sql(query_m, connection)
-    moron_df.to_csv(f'{ruta_files}/{university}')
+    rcuarto_df = pd.read_sql(query_m, connection)
+    rcuarto_df.to_csv(f'{ruta_files}/{university}')
     logging.info('ET_Universidad_Nacional_de_Rio_Cuarto.csv file created')
 
 
