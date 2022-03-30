@@ -17,9 +17,19 @@ from pathlib import Path
 import os
 from os import path, makedirs
 import logging
+from decouple import config
+
 
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
+#from airflow.providers.amazon.aws.transfers.local_to_s3 import LocalFilesystemToS3Operator
+from airflow.hooks.S3_hook import S3Hook
+
+# Config setting for .env
+
+BUCKET_NAME = config('BUCKET_NAME')
+PUBLIC_KEY = config('PUBLIC_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
 
 # Config logging
@@ -137,8 +147,14 @@ def process(university):
         logging.error('General error at data normalization')
 
 
-def load():
-    pass
+def upload(filename, key, bucket_name):
+    """ upload file to s3 """
+    try:
+        hook = S3Hook('s3_conn')
+        hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
+        logging.info('The file was saved')
+    except:
+        logging.error('Error to load file or already exists')
 
 
 default_args = {
@@ -167,18 +183,24 @@ with DAG(
             'university': 'ET_Universidad_de_Moron.csv'
         }
     )
-    # En el futuro seran cambiados
-    process_data = PythonOperator(
+
+    process = PythonOperator(
         task_id='process',
         python_callable=process,
         op_kwargs={
             'university': 'ET_Universidad_de_Moron.csv'
         }
     )
-    load_data = PythonOperator(
-        task_id='load',
-        python_callable=load
+
+    upload = PythonOperator(
+        task_id='upload',
+        python_callable=upload,
+        op_kwargs={
+            'filename': f'{ruta_files}/ET_Universidad_de_Moron.txt',
+            'key': 'ET_Universidad_de_Moron.txt',
+            'bucket_name': BUCKET_NAME
+        }
     )
 
 
-extract >> process_data >> load_data
+extract >> process >> upload
