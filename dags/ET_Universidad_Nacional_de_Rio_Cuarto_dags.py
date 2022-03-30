@@ -164,7 +164,7 @@ def upload(filename, key, bucket_name):
     """ upload file to s3 """
     try:
         hook = S3Hook('s3_conn')
-        hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
+        hook.load_file(filename=filename, key=key, bucket_name=bucket_name,replace=True)
         logging.info('The file was saved')
     except:
         logging.error('Error to load file or already exists')
