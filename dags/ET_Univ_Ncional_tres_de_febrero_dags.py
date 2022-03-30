@@ -10,7 +10,6 @@ from sympy import Id
 import pandas as pd
 import datetime
 from datetime import datetime
-from settings import *
 import logging
 import os
 import pathlib
@@ -178,9 +177,9 @@ with DAG('ETl_Univ_nacional_tres_de_febrero',
     connect_to_db = PythonOperator(
         task_id="connection",
         python_callable=get_connection,
-        op_kwargs={'username': LOGIN, 'password': PASSWORD,
-                   'db': SCHEMA, 'host': HOST,
-                   'conntype': 'HTTP', 'id': ID, 'port': PORT}
+        op_kwargs={'username': 'alkymer', 'password': 'alkymer123',
+                   'db': 'training', 'host': 'training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com',
+                   'conntype': 'HTTP', 'id': 'training_db', 'port': 5432}
 
     )
 

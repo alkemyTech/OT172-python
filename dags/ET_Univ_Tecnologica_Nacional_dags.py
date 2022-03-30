@@ -12,7 +12,6 @@ from sympy import Id
 import pandas as pd
 import datetime
 from datetime import datetime
-from settings import *
 import logging
 import sys
 import os
@@ -23,7 +22,6 @@ import pathlib
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
-
 
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
 def logger():
@@ -85,8 +83,6 @@ def extraction():
 # Finally, the df is saved as .csv
     df = pd.read_sql(query, conn)
     logging.info('qury successfull')
-    df.to_csv(f'{path}/files/Extraction_Univ_tecnologica_nacional.csv')
-    logging.info('Data saved as csv')
     return df
 
 # Function that removes spaces at the beginning or end of strings, hyphens and
@@ -150,7 +146,7 @@ def transformation(df):
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv('{path}/files/ET_Univ_tecnologica_nacional.csv.txt', header=None, index=None, sep='\t', mode='a')
+    df.to_csv(f'{path}/files/ET_Univ_tecnologica_nacional.txt', header=None, index=None, sep='\t', mode='a')
     return(df)
 
 
@@ -160,11 +156,7 @@ def ET_function(**kwargs):
         logging.info('Extraction successful')
     except:
         logging.error('Extraction error')
-    try:
-        df_t = transformation(df)
-        logging.info('Transformation successful')
-    except:
-        logging.error('Transformation error')
+    df_t = transformation(df)
 
 
 # Retries configuration
@@ -191,9 +183,9 @@ with DAG('ET_Univ_tecnologica_nacional',
     connect_to_db = PythonOperator(
         task_id="connection",
         python_callable=get_connection,
-        op_kwargs={'username': USER, 'password': PASSWORD,
-                   'db': SCHEMA, 'host': HOST,
-                   'conntype': CONNECTION_TYPE, 'id': ID, 'port': PORT}
+        op_kwargs={'username': 'alkymer', 'password': 'alkymer123',
+                   'db': 'training', 'host': 'training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com',
+                   'conntype': 'HTTP', 'id': 'training_db', 'port': 5432}
     )
 
 # PythonOperator for ETL function, commented above
