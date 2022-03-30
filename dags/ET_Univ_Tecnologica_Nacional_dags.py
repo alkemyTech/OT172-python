@@ -180,12 +180,12 @@ with DAG('ETL_Univ_tecnologica_nacional',
          ) as dag:
 
     # PythonOperator for the execution of get_connection, commented above
-    connect_to_db = PythonOperator(
-        task_id="connection",
+    connect_to_pgdb = PythonOperator(
+        task_id="pg_connection",
         python_callable=get_connection,
-        op_kwargs={'username': 'alkymer', 'password': 'alkymer123',
-                   'db': 'training', 'host': 'training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com',
-                   'conntype': 'HTTP', 'id': 'training_db', 'port': 5432}
+        op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
+                   'db': SCHEMA, 'host': PG_HOST,
+                   'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
     )
 
 # PythonOperator for ETL function, commented above
@@ -194,10 +194,27 @@ with DAG('ETL_Univ_tecnologica_nacional',
         python_callable=ET_function
     )
 
+    connect_to_s3 = PythonOperator(
+            task_id="s3_connection",
+            python_callable=get_connection,
+            op_kwargs={'buket_name': BUCKET_NAME,
+            'conntype': S3_ID,
+            'secret_key':S3_SECRET_KEY,
+            'public_key':S3_PUBLIC_KEY,
+            'id':'s3_con'} 
+        )
+
+# PythonOperator for ETL function, commented above
+    load_task = PythonOperator(
+        task_id="Load",
+        python_callable=load_s3_function
+    )
+
+
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
         python_callable=logger
     )
 
-    logging_task >> connect_to_db >> ET_task
+    logging_task >> connect_to_pgdb >> ET_task >>  connect_to_s3 >> load_task
