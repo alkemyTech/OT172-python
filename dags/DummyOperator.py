@@ -18,7 +18,7 @@ default_args = {
     'retry_delay': timedelta(seconds=30)
 }
 
-with DAG('query_univ_DAG',
+with DAG('Univ_La_PampaANDInteramericana_Dummy_dag',
          schedule_interval='@hourly',
          default_args=default_args,
          template_searchpath='/home/juan/airflow/include',
