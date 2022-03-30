@@ -180,12 +180,12 @@ with DAG('ET_Univ_tecnologica_nacional',
          ) as dag:
 
     # PythonOperator for the execution of get_connection, commented above
-    connect_to_db = PythonOperator(
-        task_id="connection",
+    connect_to_pgdb = PythonOperator(
+        task_id="pg_connection",
         python_callable=get_connection,
-        op_kwargs={'username': 'alkymer', 'password': 'alkymer123',
-                   'db': 'training', 'host': 'training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com',
-                   'conntype': 'HTTP', 'id': 'training_db', 'port': 5432}
+        op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
+                   'db': SCHEMA, 'host': PG_HOST,
+                   'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
     )
 
 # PythonOperator for ETL function, commented above
