@@ -87,7 +87,7 @@ def get_connection(id, conntype, username=None, password=None, host=None, db=Non
 def extraction():
         import pandas as pd
         from sqlalchemy import text
-        hook = PostgresHook(postgres_conn_id='training_db')
+        hook = PostgresHook(postgres_conn_id=PG_ID)
         conn = hook.get_conn()
       
 # SQL query: To execute the query with the Hook, it must be passed as a string to the function
@@ -175,7 +175,7 @@ def transformation(df):
 
 def load_s3_function():
     hook = S3Hook('s3_conn')
-    hook.load_file(filename=f'{path}/files/ET_Univ_tres_de_febrero.txt', key= 'AKIAS2JWQJCDGXD7PRD3', bucket_name='cohorte-marzo-77238c6a')
+    hook.load_file(filename=f'{path}/files/ET_Univ_tres_de_febrero.txt', key= PUBLIC_KEY, bucket_name= BUCKET_NAME)
 
 def ET_function(**kwargs):
     df = extraction()
@@ -207,9 +207,9 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
     connect_to_pgdb = PythonOperator(
         task_id="pg_connection",
         python_callable=get_connection,
-        op_kwargs={'username': 'alkymer', 'password': 'alkymer123',
-                   'db': 'training', 'host': 'training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com',
-                   'conntype': 'HTTP', 'id': 'training_db', 'port': 5432}
+        op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
+                   'db': SCHEMA, 'host': PG_HOST,
+                   'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
     )
 
 # PythonOperator for ETL function, commented above
@@ -221,10 +221,10 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
     connect_to_s3 = PythonOperator(
             task_id="s3_connection",
             python_callable=get_connection,
-            op_kwargs={'buket_name':'cohorte-marzo-77238c6a',
-            'conntype':'s3',
-            'secret_key':'BbanJIudXvked93V/QptCEeqqKvM7YL+LyGvUJZo',
-            'public_key':'AKIAS2JWQJCDGXD7PRD3',
+            op_kwargs={'buket_name': BUCKET_NAME,
+            'conntype': S3_ID,
+            'secret_key':S3_SECRET_KEY,
+            'public_key':S3_PUBLIC_KEY,
             'id':'s3_con'} 
         )
 
