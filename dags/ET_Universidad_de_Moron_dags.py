@@ -48,18 +48,22 @@ except:
 
 
 def extract(query_sql, university):
-    # connection
-    pg_hook = PostgresHook(postgres_conn_id='postgres', schema='training')
-    connection = pg_hook.get_conn()
-    # cursor = connection.cursor()
-    logging.info("Connection established successfully.")
+    """ extract university data and create a csv file """
+    try:
+        # connection
+        pg_hook = PostgresHook(postgres_conn_id='postgres', schema='training')
+        connection = pg_hook.get_conn()
+        # cursor = connection.cursor()
+        logging.info("Connection established successfully.")
 
-    file_m = open(f'{ruta_include}/{query_sql}', 'r')
-    query_m = file_m.read()
+        file_m = open(f'{ruta_include}/{query_sql}', 'r')
+        query_m = file_m.read()
 
-    moron_df = pd.read_sql(query_m, connection)
-    moron_df.to_csv(f'{ruta_files}/{university}')
-    logging.info('ET_Universidad_de_Moron.csv file created')
+        moron_df = pd.read_sql(query_m, connection)
+        moron_df.to_csv(f'{ruta_files}/{university}')
+        logging.info('ET_Universidad_de_Moron.csv file created')
+    except:
+        logging.error('Error to create csv file')
 
 
 def process(university):
