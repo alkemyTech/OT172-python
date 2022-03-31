@@ -76,8 +76,10 @@ def normalize_df_Uni_Cines(path_df, path_dfmerge, path_download):
         df.loc[row_i, 'gender'] = (
             (np.nan, 'female')[gen == 'F'], 'male')[gen == 'M']
 
-        # age, ya esta en formato int64
+        # age
         age = df.loc[row_i, 'age']
+        if age > datetime.now():
+            age = age.replace(year=age.year -100)
         df.loc[row_i, 'age'] = relativedelta(datetime.now(), age).years
 
         # location
