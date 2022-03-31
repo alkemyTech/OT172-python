@@ -13,6 +13,7 @@
 from airflow import DAG
 from datetime import timedelta, datetime, date
 import pandas as pd
+
 import os
 from os import path, makedirs
 import logging
@@ -23,11 +24,11 @@ from airflow.hooks.postgres_hook import PostgresHook
 from airflow.hooks.S3_hook import S3Hook
 
 
-# Config setting .env
+# Config setting for .env
 
 BUCKET_NAME = config('BUCKET_NAME')
 PUBLIC_KEY = config('PUBLIC_KEY')
-
+SECRET_KEY = config('SECRET_KEY')
 
 # Config logging
 logging.basicConfig(filename='log', encoding='utf-8', datefmt='%Y/%m/%d',
@@ -49,22 +50,18 @@ except:
 
 
 def extract(query_sql, university):
-    """ extract university data and create a csv file """
     # connection
-    try:
-        pg_hook = PostgresHook(postgres_conn_id='postgres', schema='training')
-        connection = pg_hook.get_conn()
-        # cursor = connection.cursor()
-        logging.info("Connection established successfully.")
+    pg_hook = PostgresHook(postgres_conn_id='postgres', schema='training')
+    connection = pg_hook.get_conn()
+    # cursor = connection.cursor()
+    logging.info("Connection established successfully.")
 
-        file_m = open(f'{ruta_include}/{query_sql}', 'r')
-        query_m = file_m.read()
+    file_m = open(f'{ruta_include}/{query_sql}', 'r')
+    query_m = file_m.read()
 
-        rcuarto_df = pd.read_sql(query_m, connection)
-        rcuarto_df.to_csv(f'{ruta_files}/{university}')
-        logging.info('ET_Universidad_Nacional_de_Rio_Cuarto.csv file created')
-    except:
-        logging.error('Error to create csv file')
+    rcuarto_df = pd.read_sql(query_m, connection)
+    rcuarto_df.to_csv(f'{ruta_files}/{university}')
+    logging.info('ET_Universidad_Nacional_de_Rio_Cuarto.csv file created')
 
 
 def process(university):
