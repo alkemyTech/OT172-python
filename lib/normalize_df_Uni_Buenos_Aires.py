@@ -82,7 +82,7 @@ def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
         # age
         age = df.loc[row_i, 'birth_date']
         
-        if age > datetime.datetime.now():
+        if age > datetime.now():
             # de esta forma calculamos con el formato de año correcto
             age = age.replace(year=age.year - 100)
         df.loc[row_i, 'birth_date'] = relativedelta(datetime.now(), age).years
