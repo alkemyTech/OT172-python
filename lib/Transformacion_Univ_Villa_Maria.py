@@ -1,4 +1,5 @@
 """
+PT170-76
 Una funcion que devuelva un txt para cada una de las siguientes universidades con los datos normalizados:
 Universidad Nacional De Villa María
 
@@ -14,40 +15,53 @@ postal_code: str
 location: str minúscula sin espacios extras, ni guiones
 email: str minúsculas, sin espacios extras, ni guiones
 
+university, career, inscription_date, first_name, last_name, gender, age, postal_code, location, email
+
 Aclaraciones:
 Para calcular codigo postal o locación se va a utilizar el .csv que se encuentra en el repo.
 La edad se debe calcular en todos los casos
-
-universidad,carrera,fecha_de_inscripcion,nombre_de_usuario,sexo,fecha_nacimiento,direccion,email
-UNIVERSIDAD_NACIONAL_DE_VILLA_MARÍA,LICENCIATURA_EN_CIENCIA_POLÍTICA_,15-Sep-20,WELCHMIGUEL,M,05-Oct-15,"594_ALVARADO_STREET_SUITE_945
-CHANSIDE,_IL_06393",RICHARD21@HOTMAIL.COM
-UNIVERSIDAD_NACIONAL_DE_VILLA_MARÍA,LICENCIATURA_EN_PLANIFICACIÓN_Y_DISEÑO_DEL_PAISAJE,20-Sep-20,RACHELFLORES,F,18-Sep-67,"9556_RYAN_FORD
-PORT_DEVINBOROUGH,_UT_80704",JDALTON@HOTMAIL.COM
 """
 from datetime import datetime
 from pathlib import Path
 import os
 
 import pandas as pd
+import numpy as np
 
 folder = Path(__file__).resolve().parent.parent
-csvf = os.path.join(folder, 'airflow/files/ET_Univ_Villa_Maria.csv')
+csv_file = os.path.join(folder, 'airflow/files/ET_Univ_Villa_Maria.csv')
+list1 = ['university', 'career', 'inscription_date', 'gender', 'age', 'location', 'email']
+list2 = ['universidad', 'carrera', 'fecha_de_inscripcion', 'sexo', 'fecha_nacimiento', 'direccion', 'email']
+diccionario = dict(zip(list1, list2))
 
 def get_dataframe():
-    df = pd.read_csv(csvf)
-    return df.head()
+    df = pd.read_csv(csv_file)
+    return df
 
-def lowert(col):
-    return col.lower().replace('_', ' ').strip()
+def lower_trans(col):
+    return col.lower().replace('_', ' ').replace('\n', ' ').strip()
 
-def process1():
-    today = datetime.now()
+def format_date(x):
+    p1 = datetime.strptime(x, '%d-%b-%y')
+    return datetime.strftime(p1, '%Y-%m-%d')
+
+def process_df():
     df = get_dataframe()
-    df['universidad'] = df['universidad'].apply(lowert)
-    df['carrera'] = df['carrera'].apply(lowert)
-    df['email'] = df['email'].apply(lowert)
+    today = datetime.now()
+    df['universidad'] = df['universidad'].apply(lower_trans)
+    df['carrera'] = df['carrera'].apply(lower_trans)
+    df['email'] = df['email'].apply(lower_trans)
+    df['direccion'] = df['direccion'].apply(lower_trans)
+    df['fecha_de_inscripcion'] = df['fecha_de_inscripcion'].apply(format_date)
     df['sexo'] = df['sexo'].apply(lambda x: 'male' if x == 'M' else 'female')
-    years = lambda x: (today - datetime.strptime(x, '%d-%b-%y')).days // 365
-    df['fecha_nacimiento'] = df['fecha_nacimiento'].apply(years)
-    print(df.loc[2])
+    get_age = lambda x: (today - datetime.strptime(x, '%d-%b-%y')).days // 365
+    df['fecha_nacimiento'] = df['fecha_nacimiento'].apply(get_age)
+    df.rename(columns=diccionario)
+    df.drop(columns=['nombre_de_usuario'], inplace=True)
+    df['first_name'] = np.nan
+    df['last_name'] = np.nan
+    df['postal_code'] = np.nan
+    return df
 
+if __name__ == '__main__':
+    process_df()
