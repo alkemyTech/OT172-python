@@ -1,4 +1,4 @@
-# ETL de datos de diferentes centros educativos para el Ministerio de Educación de la Nación
+# Proyecto #1 Flujos de ejecución
 ## Descripción
 El programa toma información de diferentes centros educativos mediante consultas sql a una base de datos postgresql, normaliza y transforma los datos, y los almacena en Amazon Simple Storage Service (Amazon S3), asi como en forma local, en archivos ".txt".
 
