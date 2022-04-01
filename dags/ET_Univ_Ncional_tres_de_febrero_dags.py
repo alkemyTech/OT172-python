@@ -1,4 +1,3 @@
-import os
 from asyncio import Task
 from airflow import DAG
 from airflow.providers.postgres.operators.postgres import PostgresOperator
@@ -7,15 +6,12 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 from airflow.models import Connection
 from airflow import settings
-from path import Path
 from sympy import Id
 import pandas as pd
 import datetime
 from datetime import datetime
 from settings import *
 import logging
-import sys
-import os
 import os
 import pathlib
 
@@ -24,10 +20,13 @@ import pathlib
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
 
+# root
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
+
+
 def logger():
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
-                        filename=f'{path}/tecnologica_nacional_univ_logs.log', encoding='utf-8', level=logging.DEBUG)
+                        filename=f'{path}/tres_de_febrero_univ_logs.log', encoding='utf-8', level=logging.DEBUG)
     logging.debug("")
     logging.info("")
     logging.warning("")
@@ -73,22 +72,18 @@ def extraction():
 # SQL query: To execute the query with the Hook, it must be passed as a string to the function
 # pd.read_sql, along with the conn object that establishes the connection.
 # The .sql file is opened and the text is saved in the query variable
-    with open(f'{path}/include/Univ_tecnologica_nacional.sql') as file:
+    with open(f'{path}/include/Univ_tres_de_febrero.sql') as file:
         try:
             query = str(text(file.read()))
             logging.info(f'Extracting query to {file}')
         except:
             logging.error(f'Error')
 
+
 # The output of this function is a df with the selected rows and columns
 # Finally, the df is saved as .csv
     df = pd.read_sql(query, conn)
-    logging.info('qury successfull')
-
-    df.to_csv(f'{path}/files/Extraction_Univ_tecnologica_nacional.csv')
-    logging.info('Data saved as csv')
-
-    return df
+    return(df)
 
 # Function that removes spaces at the beginning or end of strings, hyphens and
 # convert words to lower case
@@ -118,7 +113,7 @@ def normalize_characters(column):
 # step to number and the age was obtained using the formula 100+(current date - date of birth)
 # lines 12-16: A csv with the postal codes and their corresponding cities was passed to df.
 # the names of the cities were changed to lowercase letters to match the localities in the table
-# sql-query. The resulting df was passed to the dictionary, establishing the postl code variable as key (also defined in the
+# query. The resulting df was passed to the dictionary, establishing the postl code variable as key (also defined in the
 # sql query table. Finally, the values ​​of the zip codes in the query table are called, in the dictionary
 # previously defined, resulting in the corresponding localities column).
 # line 17: only the required columns were selected
@@ -151,9 +146,10 @@ def transformation(df):
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv(f'{path}/files/ET_Univ_tecnologica_nacional.txt', header=None, index=None, sep='\t', mode='a')
-
+    df.to_csv('{path}/files/ET_Univ_tres_de_febrero.txt', header=None, index=None, sep='\t', mode='a')
     return(df)
+
+# Function for the entire ETL process, which will be called through a PythonOperator
 
 
 def ET_function(**kwargs):
@@ -162,8 +158,11 @@ def ET_function(**kwargs):
         logging.info('Extraction successful')
     except:
         logging.error('Extraction error')
-    df_t = transformation(df)
-
+    try:
+        df_t = transformation(df)
+        logging.info('Transformation successful')
+    except:
+        logging.error('Transformation error')
 
 
 # Retries configuration
@@ -177,8 +176,7 @@ default_args = {
 }
 
 # Dag definition for the ETL process
-with DAG('ETL_Univ_tecnologica_nacional',
-
+with DAG('ET_Univ_nacional_tres_de_febrero',
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -188,12 +186,12 @@ with DAG('ETL_Univ_tecnologica_nacional',
          ) as dag:
 
     # PythonOperator for the execution of get_connection, commented above
-    connect_to_pgdb = PythonOperator(
-        task_id="pg_connection",
+    connect_to_db = PythonOperator(
+        task_id="connection",
         python_callable=get_connection,
-        op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
-                   'db': SCHEMA, 'host': PG_HOST,
-                   'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
+        op_kwargs={'username': USER, 'password': PASSWORD,
+                   'db': SCHEMA, 'host': HOST,
+                   'conntype': CONNECTION_TYPE, 'id': ID, 'port': PORT}
 
     )
 
@@ -203,29 +201,10 @@ with DAG('ETL_Univ_tecnologica_nacional',
         python_callable=ET_function
     )
 
-    connect_to_s3 = PythonOperator(
-            task_id="s3_connection",
-            python_callable=get_connection,
-            op_kwargs={'buket_name': BUCKET_NAME,
-            'conntype': S3_ID,
-            'secret_key':S3_SECRET_KEY,
-            'public_key':S3_PUBLIC_KEY,
-            'id':'s3_con'} 
-        )
-
-# PythonOperator for ETL function, commented above
-    load_task = PythonOperator(
-        task_id="Load",
-        python_callable=load_s3_function
-    )
-
-
-
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
         python_callable=logger
     )
 
-    logging_task >> connect_to_pgdb >> ET_task >>  connect_to_s3 >> load_task
-
+    logging_task >> connect_to_db >> ET_task
