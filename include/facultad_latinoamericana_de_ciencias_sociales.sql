@@ -2,16 +2,16 @@
 
 -- Obtener los datos de las pesonas anotadas en entre las fechas 
 -- 01/9/2020 al 01/02/2021 de Facultad Latinoamericana De Ciencias Sociales
--- Consideraciones: se concluye que en la columna "names" el primero de ellos 
---      es firts name y el ultimo es last name
+--
+-- columna nombre: muchas de las personas tienen segundo nombre y/o usan abreviaturas de 
+-- titulos profesionales o formales, lo que requiere una atencion mas a detalle con pandas
 -- 
---      Falta la columna "postal_code"
+--  Falta la columna "postal_code"
 SELECT 
     latCine.universities AS university,
     latCine.careers AS career,
     latCine.inscription_dates AS inscription_date,
-    SPLIT_PART(latCine.names, '-', 1) AS first_name,
-    REVERSE(SPLIT_PART(REVERSE(latCine.names), '-', 1)) AS last_name,
+    latCine.names AS full_name,
     latCine.sexo AS gender,
     date_part('year', 
         AGE(to_date(latCine.birth_dates, 'DD-MM-YYYY'))) AS age,
