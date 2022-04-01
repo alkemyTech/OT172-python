@@ -24,7 +24,6 @@ import pathlib
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
 
-
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
 def logger():
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
@@ -85,8 +84,10 @@ def extraction():
 # Finally, the df is saved as .csv
     df = pd.read_sql(query, conn)
     logging.info('qury successfull')
+
     df.to_csv(f'{path}/files/Extraction_Univ_tecnologica_nacional.csv')
     logging.info('Data saved as csv')
+
     return df
 
 # Function that removes spaces at the beginning or end of strings, hyphens and
@@ -150,7 +151,8 @@ def transformation(df):
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv('{path}/files/ET_Univ_tecnologica_nacional.csv.txt', header=None, index=None, sep='\t', mode='a')
+    df.to_csv(f'{path}/files/ET_Univ_tecnologica_nacional.txt', header=None, index=None, sep='\t', mode='a')
+
     return(df)
 
 
@@ -160,11 +162,8 @@ def ET_function(**kwargs):
         logging.info('Extraction successful')
     except:
         logging.error('Extraction error')
-    try:
-        df_t = transformation(df)
-        logging.info('Transformation successful')
-    except:
-        logging.error('Transformation error')
+    df_t = transformation(df)
+
 
 
 # Retries configuration
@@ -178,7 +177,8 @@ default_args = {
 }
 
 # Dag definition for the ETL process
-with DAG('ET_Univ_tecnologica_nacional',
+with DAG('ETL_Univ_tecnologica_nacional',
+
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -188,12 +188,13 @@ with DAG('ET_Univ_tecnologica_nacional',
          ) as dag:
 
     # PythonOperator for the execution of get_connection, commented above
-    connect_to_db = PythonOperator(
-        task_id="connection",
+    connect_to_pgdb = PythonOperator(
+        task_id="pg_connection",
         python_callable=get_connection,
-        op_kwargs={'username': USER, 'password': PASSWORD,
-                   'db': SCHEMA, 'host': HOST,
-                   'conntype': CONNECTION_TYPE, 'id': ID, 'port': PORT}
+        op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
+                   'db': SCHEMA, 'host': PG_HOST,
+                   'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
+
     )
 
 # PythonOperator for ETL function, commented above
@@ -202,10 +203,29 @@ with DAG('ET_Univ_tecnologica_nacional',
         python_callable=ET_function
     )
 
+    connect_to_s3 = PythonOperator(
+            task_id="s3_connection",
+            python_callable=get_connection,
+            op_kwargs={'buket_name': BUCKET_NAME,
+            'conntype': S3_ID,
+            'secret_key':S3_SECRET_KEY,
+            'public_key':S3_PUBLIC_KEY,
+            'id':'s3_con'} 
+        )
+
+# PythonOperator for ETL function, commented above
+    load_task = PythonOperator(
+        task_id="Load",
+        python_callable=load_s3_function
+    )
+
+
+
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
         python_callable=logger
     )
 
-    logging_task >> connect_to_db >> ET_task
+    logging_task >> connect_to_pgdb >> ET_task >>  connect_to_s3 >> load_task
+

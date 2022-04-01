@@ -1,5 +1,5 @@
---Query to obtain raw data on people enrolled in Universodad de
--- La Pampa
+--Query to obtain raw data on people enrolled in Universodad Tecnológica Nacional
+
 
 
 SELECT
