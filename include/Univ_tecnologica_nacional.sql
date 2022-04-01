@@ -1,6 +1,7 @@
 --Query to obtain raw data on people enrolled in Universodad Tecnológica Nacional
 
 
+
 SELECT
 university,
 career, 

@@ -10,6 +10,8 @@ from sympy import Id
 import pandas as pd
 import datetime
 from datetime import datetime
+
+from settings import *
 import logging
 import os
 import pathlib
@@ -59,6 +61,7 @@ def get_connection(username, password, host, db, conntype, id, port):
 # Data extraction function through database queries
 # Start connecting to the database through the Postgres operator`s Hook
 def extraction():
+
         import pandas as pd
         from sqlalchemy import text
         hook = PostgresHook(postgres_conn_id='training_db')
@@ -79,6 +82,7 @@ def extraction():
 # Finally, the df is saved as .csv
         df = pd.read_sql(query, conn)
         return(df)
+
 
 # Function that removes spaces at the beginning or end of strings, hyphens and
 # convert words to lower case
@@ -119,6 +123,7 @@ def transformation(df):
     logging.info(f'normalizing data')
     df['university'] = normalize_characters(df['university'])
     df['career'] = normalize_characters(df['career'])
+
     df['gender'] = df['gender'].apply(
         lambda x: 'male' if x == 'm' else 'female')
 
@@ -142,6 +147,7 @@ def transformation(df):
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
     df.to_csv(f'{path}/files/ET_Univ_nacional_tres_de_febrero.txt', sep='\t')
+
     return(df)
 
 # Function for the entire ETL process, which will be called through a PythonOperator
@@ -151,7 +157,7 @@ def ET_function(**kwargs):
         df = extraction()
         logging.info('Extraction successful')
         df_t = transformation(df)
-        
+
 
 # Retries configuration
 default_args = {
@@ -164,7 +170,8 @@ default_args = {
 }
 
 # Dag definition for the ETL process
-with DAG('ETl_Univ_nacional_tres_de_febrero',
+=======
+with DAG('ET_Univ_nacional_tres_de_febrero',
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
