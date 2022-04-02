@@ -3,6 +3,8 @@ import os
 import shutil
 import fileinput
 import pathlib
+from datetime import date
+from pendulum import datetime
 
 def create_dags(dict_config=None):
         path = (pathlib.Path(__file__).parent.absolute()).parent
@@ -20,23 +22,32 @@ def create_dags(dict_config=None):
                 new_filename = f'{path}/dags/'+id+'_dags.py'
                 shutil.copyfile(dag_template_filename, new_filename)
 
-                keys=[key for key in dict_config]
 
-                if (dict_config==None) or (id not in (keys)):
+                if (dict_config==None) or (id not in ([key for key in dict_config])):
                     Config= 'Config_1'
                 else:
                     Config= dict_config[str(id)]
                 print(id+' '+ Config)
                 for line in fileinput.input(new_filename, inplace=True):
                     line= line.replace("dagid_toreplace", "'"+id+"'")
-                    line= line.replace("scheduler_toreplace","'"+config[Config][0]['Schedule']+"'")
+                    line= line.replace("owner_toreplace","'"+config[Config][0]['owner']+"'")
+                    line= line.replace("depends_on_past_toreplace",config[Config][0]['depends_on_past'])
+                    line= line.replace("email_on_failure_toreplace",config[Config][0]['email_on_failure'])
+                    line= line.replace("email_on_retry_toreplace",config[Config][0]['email_on_retry'])
+                    line= line.replace("retries_toreplace",config[Config][0]['retries'])
+                    line= line.replace("retry_delay_toreplace", config[Config][0]['retry_delay'])
+    
+                    line= line.replace("start_date_toreplace",config[Config][0]['start_date'])
+                    line= line.replace("max_active_runs_toreplace",config[Config][0]['max_active_runs'])
+                    line= line.replace("schedule_interval_toreplace","'"+config[Config][0]['schedule_interval']+"'")
+                    line= line.replace("template_searchpath_toreplace",config[Config][0]['template_searchpath']+"'")
+                    line= line.replace("catchup_toreplace",config[Config][0]['catchup'])
+                    line= line.replace("fechadia",str(date.today()))
                     print(line, end="")
 
 
 def main():
-    create_dags(dict_config= {"Univ_de_buenos_aires": "Config_2",
-    "Univ_nacional_de_jujuy": "Config_3",
-    "Univ_nacional_LaPampa": "Config_2"})
+    create_dags()
 
 if __name__ == "__main__":
     main()

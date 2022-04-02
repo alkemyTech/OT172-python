@@ -1,7 +1,30 @@
 
 
 
-{"Config_1":[{  "Schedule": "@hourly"}],
- "Config_2":[{  "Schedule": "@dialy"}],
-"Config_3":[{  "Schedule": "@monyhly"}]
+{"Config_1":[{  "owner": "airflow",
+    "depends_on_past": "False",
+    "email_on_failure": "False",
+    "email_on_retry": "False",
+    "retries": "5",
+    "retry_delay": "timedelta(seconds=30)",
+
+    "start_date":"2020,4,4",
+    "max_active_runs": "8",
+    "schedule_interval": "@hourly",
+    "template_searchpath": "f'{path}/airflow/include",
+    "catchup":"False"}],
+
+"Config_2":[{  "owner": "airflow",
+        "depends_on_past": "False",
+        "email_on_failure": "False",
+        "email_on_retry": "False",
+        "retries": "5",
+        "retry_delay": "timedelta(seconds=30)",
+    
+        "start_date":"2020,4,4",
+        "max_active_runs": "8",
+        "schedule_interval": "@hourly",
+        "template_searchpath": "f'{path}/airflow/include",
+        "catchup":"False"}]
 }
+             

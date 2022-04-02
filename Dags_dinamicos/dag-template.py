@@ -1,3 +1,26 @@
+###################################################################################
+# Dag creado el dia fechadia con la siguiente configuración:
+#
+# Ruta de archivos SQL= rutasql
+# 
+# Configuraciòn:
+# Default args: 
+#               'owner': 'owner_toreplace',
+#               'depends_on_past': depends_on_past_toreplace,
+#               'email_on_failure': email_on_failure_toreplace,
+#               'email_on_retry': email_on_retry_toreplace,
+#               'retries': retries_toreplace,
+#                retry_delay': retry_delay_toreplace
+# 
+# start_date=datetime(startdate_toreplace),
+#                max_active_runs= runs_toreplace,
+#                schedule_interval= scheduler_toreplace,
+#                template_searchpath= rutasql,
+#                catchup=False,
+#             
+#########################################################################################
+
+
 from asyncio import Task
 from airflow import DAG
 from airflow.providers.postgres.operators.postgres import PostgresOperator
@@ -190,24 +213,24 @@ def ET_function(**kwargs):
 
 # Retries configuration
 default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 5,
-    'retry_delay': timedelta(seconds=30)
+    'owner': owner_toreplace,
+    'depends_on_past': depends_on_past_toreplace,
+    'email_on_failure': email_on_failure_toreplace,
+    'email_on_retry': email_on_retry_toreplace,
+    'retries':retries_toreplace,
+    'retry_delay': retry_delay_toreplace
 }
 
 # Dag definition for the ETL process
 
 # Dag definition for the ETL process
 with DAG(dagid_toreplace,
-         start_date=datetime(2020, 3, 24),
-         max_active_runs=3,
-         schedule_interval= scheduler_toreplace,
+         start_date=datetime(start_date_toreplace),
+         max_active_runs=max_active_runs_toreplace,
+         schedule_interval= schedule_interval_toreplace,
          default_args=default_args,
-         template_searchpath=f'{path}/airflow/include',
-         catchup=False,
+         template_searchpath=template_searchpath_toreplace,
+         catchup=catchup_toreplace,
          ) as dag:
 
     # PythonOperator for the execution of get_connection, commented above
