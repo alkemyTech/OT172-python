@@ -97,6 +97,3 @@ try:
             logging.error('Error to creating .txt file')
 except:
     logging.error('General error at data normalization')
-
-if __name__ == '__main__':
-    normalizar_universidad_de_rio_cuarto()
