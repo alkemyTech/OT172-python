@@ -1,16 +1,16 @@
 ###################################################################################
-# Dag creado el dia fechadia con la siguiente configuración:
+# Dag creado el dia 2022-04-02 con la siguiente configuración:
 #
 # Ruta de archivos SQL= rutasql
 # 
 # Configuraciòn:
 # Default args: 
-#               'owner': 'owner_toreplace',
-#               'depends_on_past': depends_on_past_toreplace,
-#               'email_on_failure': email_on_failure_toreplace,
-#               'email_on_retry': email_on_retry_toreplace,
-#               'retries': retries_toreplace,
-#                retry_delay': retry_delay_toreplace
+#               'owner': ''airflow'',
+#               'depends_on_past': False,
+#               'email_on_failure': False,
+#               'email_on_retry': False,
+#               'retries': 5,
+#                retry_delay': timedelta(seconds=30)
 # 
 # start_date=datetime(startdate_toreplace),
 #                max_active_runs= runs_toreplace,
@@ -114,7 +114,7 @@ def extraction():
 # SQL query: To execute the query with the Hook, it must be passed as a string to the function
 # pd.read_sql, along with the conn object that establishes the connection.
 # The .sql file is opened and the text is saved in the query variable
-        with open(f'{path}/include/'+dagid_toreplace+'.sql') as file:
+        with open(f'{path}/include/'+'Univ_nacional_de_villa_maria'+'.sql') as file:
             try:
                 query = str(text(file.read()))
                 logging.info(f'Extracting query to {file}')
@@ -235,29 +235,29 @@ def load_s3_function():
 def ET_function(**kwargs):
         df = extraction()
         logging.info('Extraction successful')
-        df_t = transformation(df,dagid_toreplace)
+        df_t = transformation(df,'Univ_nacional_de_villa_maria')
         
 
 # Retries configuration
 default_args = {
-    'owner': owner_toreplace,
-    'depends_on_past': depends_on_past_toreplace,
-    'email_on_failure': email_on_failure_toreplace,
-    'email_on_retry': email_on_retry_toreplace,
-    'retries':retries_toreplace,
-    'retry_delay': retry_delay_toreplace
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries':5,
+    'retry_delay': timedelta(seconds=30)
 }
 
 # Dag definition for the ETL process
 
 # Dag definition for the ETL process
-with DAG(dagid_toreplace,
-         start_date=datetime(start_date_toreplace),
-         max_active_runs=max_active_runs_toreplace,
-         schedule_interval= schedule_interval_toreplace,
+with DAG('Univ_nacional_de_villa_maria',
+         start_date=datetime(2020,4,4),
+         max_active_runs=8,
+         schedule_interval= '@hourly',
          default_args=default_args,
-         template_searchpath=template_searchpath_toreplace,
-         catchup=catchup_toreplace,
+         template_searchpath=f'{path}/airflow/include',
+         catchup=False,
          ) as dag:
 
 # PythonOperator for the execution of get_connection, commented above
