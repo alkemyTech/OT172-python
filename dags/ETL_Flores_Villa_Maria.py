@@ -11,8 +11,6 @@ from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 import pandas as pd
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s - %(message)s')
-
 # creating cvs files
 ruta = str(Path().absolute())+'/airflow/dags/OT172-python'
 def query_csv():
@@ -34,6 +32,10 @@ def query_csv():
     maria_df.to_csv(f'{ruta}/files/villa_maria.csv')
 
 # 2 define default arguments
+default_args = {
+    'retries': 5,  
+    'retry_delay': timedelta(minutes=5)
+}
 
 # 3 instantiate the DAG
 with DAG(
