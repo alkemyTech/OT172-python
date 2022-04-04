@@ -32,7 +32,7 @@ import pandas as pd
 import numpy as np
 
 folder = Path(__file__).resolve().parent.parent
-csv_file = os.path.join(folder, 'airflow/files/ET_Univ_De_Flores.csv')
+csv_file = os.path.join(folder, 'files/ET_Univ_De_Flores.csv')
 list1 = ['universidad', 'carrera', 'fecha_de_inscripcion', 'sexo', 'fecha_nacimiento', 'codigo_postal', 'direccion', 'correo_electronico']
 list2 = ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
 diccionario = dict(zip(list1, list2))
@@ -59,7 +59,7 @@ def process_df():
     df['first_name'] = np.nan
     df['last_name'] = np.nan
     df['postal_code'] = np.nan
-    return df
+    df.to_csv(os.path.join(folder, 'files/ET_Univ_De_Flores.txt'), sep='\t', index=None)
 
 if __name__ == '__main__':
     process_df()
