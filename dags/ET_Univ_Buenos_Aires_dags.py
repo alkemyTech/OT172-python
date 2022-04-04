@@ -8,15 +8,24 @@ Dejar la información en un archivo .csv dentro de la carpeta files.
 from datetime import datetime
 import os
 from pathlib import Path
-
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy import DummyOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-
+from dateutil.relativedelta import relativedelta
+from difflib import SequenceMatcher as SM
+import logging
 import pandas as pd
+import numpy as np
+from tenacity import retry
+#import sqlparse
 
-import sqlparse
+
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
+                    level=logging.DEBUG,
+                    datefmt='%Y-%m-%d')
+## Por si necesitamos que los logs tengan el nombre del archivo donde se encuentra
+logger = logging.getLogger(__name__)
 
 parent_folder = Path(__file__).resolve().parent.parent
 
@@ -24,7 +33,7 @@ def get_data_uba():
     sql_src = os.path.join(parent_folder, 'include/universidad_de_buenos_aires.sql')
     with open(sql_src, 'r') as sqlfile:
         query = sqlfile.read()
-    query = sqlparse.format(query, strip_comments=True).strip()
+    #query = sqlparse.format(query, strip_comments=True).strip()
     postgres_hook = PostgresHook(postgres_conn_id="airflow-universities")
     conn = postgres_hook.get_conn()
     cur = conn.cursor()
@@ -35,19 +44,124 @@ def get_data_uba():
     df.to_csv(os.path.join(parent_folder, 'files/ET_Univ_Buenos_Aires.csv'), header=header, index=False)
     return data
 
+
+def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
+    logger.info(f"ruta del csv con los datos: {path_df}")
+    logger.info(f"ruta del csv de cod_postales: {path_dfmerge}")
+    logger.info(f"ruta de descarga: {path_download}")
+
+    def dateparse(x): return datetime.strptime(x, '%y-%b-%d')
+    df = pd.read_csv(path_df, parse_dates=['fechas_de_inscripcion',
+                                           'fechas_nacimiento'],
+                     date_parser=dateparse)
+
+    if 'direcciones' in df.columns:
+        df = df.drop(['direcciones'], axis=1)
+
+    df.columns = ['university', 'career', 'inscription_date', 'full_name',
+                  'gender', 'birth_date', 'postal_code', 'email']
+
+    # Lectura y renombre del csv con postal_code y location
+    dfmerge = pd.read_csv(path_dfmerge)
+    dfmerge.columns = ['postal_code', 'location']
+    dfmerge['location'] = dfmerge['location'].apply(lambda x: x.lower())
+
+    # Creando columnas con valores nulos por defecto
+    df['first_name'] = np.nan
+    df['last_name'] = np.nan
+    print("forcito")
+    # Recorrer todas las filas y normalizar fila por fila, columna por columna
+    for row_i in range(len(df)):
+        # University
+        uni = df.loc[row_i, 'university']
+        df.loc[row_i, 'university'] = uni.lower().replace("-", " ").strip()
+
+        # Career
+        carr = df.loc[row_i, 'career']
+        df.loc[row_i, 'career'] = carr.lower().replace("-", " ").strip()
+
+        # inscription_date
+        ins_date = df.loc[row_i, 'inscription_date']
+        df.loc[row_i, 'inscription_date'] = ins_date.strftime('%Y-%m-%d')
+
+        # fist name
+        # lista de abreviaciones mas usadas
+        list_abrev = [
+            'dr',
+            'dra',
+            'ms',
+            'mrs',
+            'ing',
+            'lic',
+            'ph.d',
+            'mtro',
+            'arq']
+        # funcion auxiliar, comprueba que si existe alguna abreviacion de
+        # profesion
+
+        def match_check(elem, list_c):
+            for i in list_c:
+                return True if SM(None, elem.lower(), i).ratio() > 0.6 else ""
+            return False
+
+        fname = df.loc[row_i, 'full_name'].lower().split("-")
+        fname = fname[1:] if match_check(fname[0], list_abrev) else fname
+        df.loc[row_i, 'first_name'] = fname[0]
+
+        # last name
+        df.loc[row_i, 'last_name'] = fname[-1]
+
+        # gender
+        gen = df.loc[row_i, 'gender']
+        df.loc[row_i, 'gender'] = (
+            (np.nan, 'female')[gen == 'f'], 'male')[gen == 'm']
+
+        # age
+        age = df.loc[row_i, 'birth_date']
+        
+        if age > datetime.now():
+            # de esta forma calculamos con el formato de año correcto
+            age = age.replace(year=age.year - 100)
+        df.loc[row_i, 'birth_date'] = relativedelta(datetime.now(), age).years
+
+        # email, no pueden tener espacios pero si guiones entre los caracteres
+        email = df.loc[row_i, 'email']
+        df.loc[row_i, 'email'] = email.lower().strip("-").replace(" ", "")
+
+    # location, realizaremos un left join
+    df = df.merge(dfmerge, on='postal_code', how='left')
+
+    # eliminar y renombrar columnas
+    df = df.drop(['full_name'], axis=1).rename(columns={'birth_date': 'age'})
+    print("finals")
+    # importar a una ruta especifica
+    df.to_csv(path_download + 'Uni_Buenos_Aires.txt', sep="|")
+    logger.info(f"Dataset normalizado y descargado")
+
+
 with DAG(
-    'python_operator_uba',
+    'ET_Univ_Buenos_Aires_dags',
     start_date=datetime(2020, 3, 26),
     template_searchpath=os.path.join(parent_folder, 'include'),
     catchup=False,
     tags=['operator']
 ) as dag:
-    t0 = DummyOperator(task_id='start')
     t1 = PythonOperator(
         task_id='create_csv',
         python_callable=get_data_uba,
         dag=dag,
     )
-    t2 = DummyOperator(task_id='end')
+    t2 = PythonOperator(
+        task_id='normalize_csv',
+        python_callable=normalize_df_Uni_Buenos_Aires,
+        retries=5,
+        op_kwargs={
+            'path_df': os.path.join(parent_folder, 
+                'files/ET_Univ_Buenos_Aires.csv'),
+            'path_dfmerge': os.path.join(parent_folder, 
+                'dataset/codigos_postales.csv'),
+            'path_download': os.path.join(parent_folder, 
+                'files/')},
+        dag=dag)
 
-t0 >> t1 >> t2
+t1 >> t2
