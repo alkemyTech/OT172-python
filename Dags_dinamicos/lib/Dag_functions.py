@@ -1,25 +1,3 @@
-###################################################################################
-# Dag creado el dia fechadia con la siguiente configuración:
-#
-# Ruta de archivos SQL= rutasql
-# 
-# Configuraciòn:
-# Default args: 
-#               'owner': 'owner_toreplace',
-#               'depends_on_past': depends_on_past_toreplace,
-#               'email_on_failure': email_on_failure_toreplace,
-#               'email_on_retry': email_on_retry_toreplace,
-#               'retries': retries_toreplace,
-#                retry_delay': retry_delay_toreplace
-# 
-# start_date=datetime(startdate_toreplace),
-#                max_active_runs= runs_toreplace,
-#                schedule_interval= scheduler_toreplace,
-#                template_searchpath= rutasql,
-#                catchup=False,
-#             
-#########################################################################################
-
 
 
 from asyncio import Task
@@ -39,36 +17,11 @@ import logging
 import os
 import pathlib
 from decouple import config
-
-
-###### Credentials
-
-PG_USERNAME= config('PG_USERNAME', default='')
-PG_PASSWORD= config('PG_PASSWORD', default='')
-PG_SCHEMA= config('PG_SCHEMA', default='')
-PG_HOST= config('PG_HOST', default='')
-PG_CONNTYPE=config(' PG_CONNTYPE', default='')
-PG_ID= config('PG_ID', default='')
-PG_PORT= config('PORT', default='')
-
-
-S3_BUCKET_NAME=config('BUCKET_NAME', default='')
-S3_ID=config('S3_ID', default='')
-S3_SECRET_KEY=config('S3_SECRET_KEY', default='')
-S3_PUBLIC_KEY=config('S3_PUBLIC_KEY', default='')
-
-
-
-# To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
-#  This function detects the path of the running .py file. Since that file is in /dags, it is
-#  necessary to move up one level. This is achieved with the .parent method.
-path = (pathlib.Path(__file__).parent.absolute()).parent
-
-# root
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
 
 
-def logger():
+def logger(path):
+    import logging
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
                         filename=f'{path}/dagtoreplace.log', encoding='utf-8', level=logging.DEBUG)
     logging.debug("")
@@ -77,9 +30,13 @@ def logger():
     logging.critical("")
     return None
 
+# root
+
 # Function to create/establish the connection to the database.
 # Initially, the function looks for a database with the id. # if ID exist, establish a connection. If not, the try block fails.
 # and the exception is raised, creating a new connection
+
+
 
 
 def get_connection(id, conntype, username=None, password=None, host=None, db=None, port=None,
@@ -122,16 +79,15 @@ def get_connection(id, conntype, username=None, password=None, host=None, db=Non
 
 # Data extraction function through database queries
 # Start connecting to the database through the Postgres operator`s Hook
-def extraction():
-        import pandas as pd
+def extraction(path, dag_id, pgdb_id):
         from sqlalchemy import text
-        hook = PostgresHook(postgres_conn_id='training_db')
+        hook = PostgresHook(postgres_conn_id=pgdb_id)
         conn = hook.get_conn()
       
 # SQL query: To execute the query with the Hook, it must be passed as a string to the function
 # pd.read_sql, along with the conn object that establishes the connection.
 # The .sql file is opened and the text is saved in the query variable
-        with open(f'{path}/include/'+dagid_toreplace+'.sql') as file:
+        with open(f'{path}/include/{dag_id}.sql') as file:
             try:
                 query = str(text(file.read()))
                 logging.info(f'Extracting query to {file}')
@@ -243,76 +199,13 @@ def transformation(df, dag_id):
 # Function for the entire ETL process, which will be called through a PythonOperator
 
 
-def load_s3_function():
-    hook = S3Hook('s3_conn')
+def load_s3_function(path, id_conn, bucket_name, key):
+    hook = S3Hook(id_conn)
     hook.load_file(filename=f'{path}/files/ET_Univ_tres_de_febrero.txt',
-                   key=S3_PUBLIC_KEY, bucket_name=S3_BUCKET_NAME)
+                   key=key, bucket_name=bucket_name)
 
 
-def ET_function(**kwargs):
-        df = extraction()
+def ET_function(path, dag_id):
+        df = extraction(path, dag_id)
         logging.info('Extraction successful')
-        df_t = transformation(df,dagid_toreplace)
-        
-
-# Retries configuration
-default_args = {
-    'owner': owner_toreplace,
-    'depends_on_past': depends_on_past_toreplace,
-    'email_on_failure': email_on_failure_toreplace,
-    'email_on_retry': email_on_retry_toreplace,
-    'retries':retries_toreplace,
-    'retry_delay': retry_delay_toreplace
-}
-
-# Dag definition for the ETL process
-
-# Dag definition for the ETL process
-with DAG(dagid_toreplace,
-         start_date=datetime(start_date_toreplace),
-         max_active_runs=max_active_runs_toreplace,
-         schedule_interval= schedule_interval_toreplace,
-         default_args=default_args,
-         template_searchpath=template_searchpath_toreplace,
-         catchup=catchup_toreplace,
-         ) as dag:
-
-# PythonOperator for the execution of get_connection, commented above
-    connect_to_pgdb = PythonOperator(
-            task_id="pg_connection",
-            python_callable=get_connection,
-            op_kwargs={'username': PG_USERNAME, 'password': PG_PASSWORD,
-                       'db': PG_SCHEMA, 'host': PG_HOST,
-                       'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': (PG_PORT)}
-    )
-# PythonOperator for ETL function, commented above
-    ET_task = PythonOperator(
-        task_id="ET",
-        python_callable=ET_function
-    )
-
-
-    connect_to_s3 = PythonOperator(
-            task_id="s3_connection",
-            python_callable=get_connection,
-            op_kwargs={'buket_name': S3_BUCKET_NAME,
-            'conntype': S3_ID,
-            'secret_key':S3_SECRET_KEY,
-            'public_key':S3_PUBLIC_KEY,
-            'id':'s3_con'} 
-        )
-
-# PythonOperator for ETL function, commented above
-    load_task = PythonOperator(
-        task_id="Load",
-        python_callable=load_s3_function
-    )
-
-# PythonOperator for logger function, commented above
-    logging_task = PythonOperator(
-        task_id="logguers",
-        python_callable=logger
-    )
-
-logging_task >> connect_to_pgdb >> ET_task >> connect_to_s3 >> load_task
-
+        df_t = transformation(df,dag_id)
