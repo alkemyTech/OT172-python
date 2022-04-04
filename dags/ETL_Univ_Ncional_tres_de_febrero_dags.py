@@ -1,21 +1,17 @@
-import os
 from asyncio import Task
 from airflow import DAG
+from airflow.hooks.S3_hook import S3Hook
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 from airflow.models import Connection
 from airflow import settings
-from path import Path
 from sympy import Id
 import pandas as pd
 import datetime
 from datetime import datetime
-from settings import *
 import logging
-import sys
-import os
 import os
 import pathlib
 
@@ -24,7 +20,11 @@ import pathlib
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
 
+# root
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
+
+
+
 def logger():
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
                         filename=f'{path}/tecnologica_nacional_univ_logs.log', encoding='utf-8', level=logging.DEBUG)
@@ -39,56 +39,72 @@ def logger():
 # and the exception is raised, creating a new connection
 
 
-def get_connection(username, password, host, db, conntype, id, port):
-    try:
-        hook = PostgresHook(postgres_conn_id=id)
-        conn = (hook.get_uri())
-        logging.info(f'Conected to {id}')
-    except:
-        logging.info(f'Creating connection to {id}')
-        new_conn = Connection(conn_id=id, conn_type=conntype,
-                              login=username,
-                              host=host, schema=db, port=port)
-        new_conn.set_password(password)
+def get_connection(id, conntype, username=None, password=None, host=None, db=None, port=None,
+                     secret_key=None, public_key=None, buket_name=None):
 
-        session = settings.Session()
+    if conntype == 's3':
+        try:
+            hook = S3Hook(id)
+            logging.info(f'Conected to {id}')
+        except:
+            logging.info(f'Creating connection to {id}')
+            extra = {"aws_access_key_id": public_key,
+                    "aws_secret_access_key": secret_key}
+            new_conn = Connection(conn_id=id, conn_type=conntype,
+                                schema=buket_name, extra=extra)
 
-        session.add(new_conn)
-        session.commit()
-        logging.info(f'Conected to {id}')
+            session = settings.Session()
+
+            session.add(new_conn)
+            session.commit()
+            logging.info(f'Conected to {id}')
+
+    elif conntype == 'HTTP':
+        try:
+            hook = PostgresHook(postgres_conn_id=id)
+            conn = (hook.get_uri())
+            logging.info(f'Conected to {id}')
+        except:
+            logging.info(f'Creating connection to {id}')
+            new_conn = Connection(conn_id=id, conn_type=conntype,
+                                login=username,
+                                host=host, schema=db, port=port)
+            new_conn.set_password(password)
+
+            session = settings.Session()
+
+            session.add(new_conn)
+            session.commit()
+            logging.info(f'Conected to {id}')
+
 
 
 # Data extraction function through database queries
 # Start connecting to the database through the Postgres operator`s Hook
+
+# Data extraction function through database queries
+# Start connecting to the database through the Postgres operator`s Hook
 def extraction():
-    try:
         import pandas as pd
         from sqlalchemy import text
-        hook = PostgresHook(postgres_conn_id='training_db')
+        hook = PostgresHook(postgres_conn_id=PG_ID)
         conn = hook.get_conn()
-        logging.info(f'Conected to {id}')
-    except:
-        logging.error(f'Conection Error')
-
+      
 # SQL query: To execute the query with the Hook, it must be passed as a string to the function
 # pd.read_sql, along with the conn object that establishes the connection.
 # The .sql file is opened and the text is saved in the query variable
-    with open(f'{path}/include/Univ_tecnologica_nacional.sql') as file:
-        try:
-            query = str(text(file.read()))
-            logging.info(f'Extracting query to {file}')
-        except:
-            logging.error(f'Error')
+        with open(f'{path}/include/Univ_nacional_tres_de_febrero.sql') as file:
+            try:
+                query = str(text(file.read()))
+                logging.info(f'Extracting query to {file}')
+            except:
+                logging.error(f'Error')
+
 
 # The output of this function is a df with the selected rows and columns
 # Finally, the df is saved as .csv
-    df = pd.read_sql(query, conn)
-    logging.info('qury successfull')
-
-    df.to_csv(f'{path}/files/Extraction_Univ_tecnologica_nacional.csv')
-    logging.info('Data saved as csv')
-
-    return df
+        df = pd.read_sql(query, conn)
+        return(df)
 
 # Function that removes spaces at the beginning or end of strings, hyphens and
 # convert words to lower case
@@ -118,50 +134,51 @@ def normalize_characters(column):
 # step to number and the age was obtained using the formula 100+(current date - date of birth)
 # lines 12-16: A csv with the postal codes and their corresponding cities was passed to df.
 # the names of the cities were changed to lowercase letters to match the localities in the table
-# sql-query. The resulting df was passed to the dictionary, establishing the postl code variable as key (also defined in the
+# query. The resulting df was passed to the dictionary, establishing the postl code variable as key (also defined in the
 # sql query table. Finally, the values ​​of the zip codes in the query table are called, in the dictionary
 # previously defined, resulting in the corresponding localities column).
 # line 17: only the required columns were selected
 
 
 def transformation(df):
+    path=(pathlib.Path(__file__).parent.absolute()).parent
     logging.info(f'normalizing data')
     df['university'] = normalize_characters(df['university'])
     df['career'] = normalize_characters(df['career'])
-    df['location'] = normalize_characters(df['location'])
     df['gender'] = df['gender'].apply(
         lambda x: 'male' if x == 'm' else 'female')
 
     old_date = pd.to_datetime(df['inscription_date'])
     df['inscription_date'] = pd.to_datetime(old_date, '%Y/%m/%d')
 
-    df['first_name'] = df['name'].apply(lambda x: str(x).split(' ')[0])
-    df['last_name'] = df['name'].apply(lambda x: str(x).split(' ')[1])
+    df['first_name'] = df['name'].apply(lambda x: str(x).split('_')[0])
+    df['last_name'] = df['name'].apply(lambda x: str(x).split('_')[1])
 
     curr = datetime.now()
     df['age'] = df['nacimiento'].apply(lambda x: (
-        curr.year - datetime.strptime(str(x), '%Y/%m/%d').year))
+        100+(int(str(curr.year)[2:4]) - int(x[7:9]))))
 
     df_postal_codes = (pd.read_csv(f'{path}/dataset/codigos_postales.csv'))
     df_postal_codes['localidad'] = df_postal_codes['localidad'].apply(
         lambda x: x.lower())
     dict_postal_codes = dict(
-        zip(df_postal_codes.localidad, df_postal_codes.codigo_postal))
-    df['postal_code'] = df['location'].apply(lambda x: dict_postal_codes[x])
+        zip(df_postal_codes.codigo_postal, df_postal_codes.localidad))
+    df['location'] = df['postal_code'].apply(lambda x: dict_postal_codes[int(x)])
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv(f'{path}/files/ET_Univ_tecnologica_nacional.txt', header=None, index=None, sep='\t', mode='a')
-
+    df.to_csv(f'{path}/files/ET_Univ_nacional_tres_de_febrero.txt', sep='\t')
     return(df)
 
+# Function for the entire ETL process, which will be called through a PythonOperator
+
+
+def load_s3_function():
+    hook = S3Hook('s3_conn')
+    hook.load_file(filename=f'{path}/files/ET_Univ_tres_de_febrero.txt', key= PUBLIC_KEY, bucket_name= BUCKET_NAME)
 
 def ET_function(**kwargs):
-    try:
-        df = extraction()
-        logging.info('Extraction successful')
-    except:
-        logging.error('Extraction error')
+    df = extraction()
     df_t = transformation(df)
 
 
@@ -177,8 +194,7 @@ default_args = {
 }
 
 # Dag definition for the ETL process
-with DAG('ETL_Univ_tecnologica_nacional',
-
+with DAG('ETL_Univ_nacional_tres_de_febrero',
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -194,7 +210,6 @@ with DAG('ETL_Univ_tecnologica_nacional',
         op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
                    'db': SCHEMA, 'host': PG_HOST,
                    'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
-
     )
 
 # PythonOperator for ETL function, commented above
@@ -220,7 +235,6 @@ with DAG('ETL_Univ_tecnologica_nacional',
     )
 
 
-
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
@@ -228,4 +242,3 @@ with DAG('ETL_Univ_tecnologica_nacional',
     )
 
     logging_task >> connect_to_pgdb >> ET_task >>  connect_to_s3 >> load_task
-
