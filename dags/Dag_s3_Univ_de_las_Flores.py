@@ -10,26 +10,23 @@ import logging
 from pathlib import Path
 import os
 
-from decouple import config
-
 from datetime import datetime
 from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.dummy import DummyOperator
 from airflow.hooks.S3_hook import S3Hook
+from airflow.models import Variable
 
 folder = Path(__file__).resolve().parent.parent
 log = logging.getLogger(__name__)
 
 def upload_to_s3(filename, key, bucket_name):
     hook = S3Hook('s3-connection')
-    #hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
+    hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
     has_key = hook.check_for_key(key, bucket_name=bucket_name)
-    print(filename, key, bucket_name)
-    print("Created Connection")
-    print(hook.get_session())
-    print(str(has_key))
-    log.info('Checking s3 connection')
+    log.info(f'filename: {filename}, s3 key: {key}')
+    log.info('Created Connection: {hook.get_session()}')
+    log.info(f'File exists {str(has_key)}')
 
 with DAG(
     dag_id='s3_uni_flores',
@@ -43,7 +40,7 @@ with DAG(
         op_kwargs={
             'filename': os.path.join(folder, 'files/ET_Univ_DE_Flores.txt'),
             'key': 'ET_Univ_DE_Flores.txt',
-            'bucket_name': config('BUCKET_NAME')
+            'bucket_name': Variable.get('BUCKET_NAME')
         }
     )
 
