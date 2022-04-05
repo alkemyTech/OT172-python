@@ -1,4 +1,5 @@
---Query to obtain raw data on people enrolled in Universodad Interamericana
+--Query to obtain raw data on people enrolled in Universodad tres de febrero
+
 SELECT
 universidad as university,
 careers as career, 

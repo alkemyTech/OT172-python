@@ -1,26 +1,32 @@
-# Configurar el Python Operator para que ejecute las dos funciones que procese
-# los datos para las siguientes universidades:
-#       Universidad Nacional De Río Cuarto
-
+# Dag for extract, process and upload data to s3
+# Dag use data for Universidad de Moron
 # The dag runs every 1 hour
-# Operators to use: PythonOperator, PostgresHook
+# Operators to use: PythonOperator, PostgresHook and S3Hook
 # Connection made in ariflow interface
 # Use pandas to create .csv file
 # create files folder for load .csv files
 # the extract task outputs a .csv file. To work with him on the next task
+# The process task retur a .txt file
+# The upload task save de txt file in S3
 
 
 from airflow import DAG
 from datetime import timedelta, datetime, date
-
 import pandas as pd
-from pathlib import Path
 import os
 from os import path, makedirs
 import logging
+from decouple import config
 
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
+from airflow.hooks.S3_hook import S3Hook
+
+# Config setting for .env
+
+BUCKET_NAME = config('BUCKET_NAME')
+PUBLIC_KEY = config('PUBLIC_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
 
 # Config logging
@@ -138,9 +144,14 @@ def process(university):
         logging.error('General error at data normalization')
 
 
-
-def load():
-    pass
+def upload(filename, key, bucket_name):
+    """ upload file to s3 """
+    try:
+        hook = S3Hook('s3_conn')
+        hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
+        logging.info('The file was saved')
+    except:
+        logging.error('Error to load file or already exists')
 
 
 default_args = {
@@ -164,24 +175,29 @@ with DAG(
     extract = PythonOperator(
         task_id='extract',
         python_callable=extract,
-
         op_kwargs={
             'query_sql': 'Universidad_de_Moron.sql',
             'university': 'ET_Universidad_de_Moron.csv'
         }
     )
-    # En el futuro seran cambiados
-    process_data = PythonOperator(
+
+    process = PythonOperator(
         task_id='process',
         python_callable=process,
         op_kwargs={
             'university': 'ET_Universidad_de_Moron.csv'
         }
     )
-    load_data = PythonOperator(
-        task_id='load',
-        python_callable=load
+
+    upload = PythonOperator(
+        task_id='upload',
+        python_callable=upload,
+        op_kwargs={
+            'filename': f'{ruta_files}/ET_Universidad_de_Moron.txt',
+            'key': 'ET_Universidad_de_Moron.txt',
+            'bucket_name': BUCKET_NAME
+        }
     )
 
 
-extract >> process_data >> load_data
+extract >> process >> upload
