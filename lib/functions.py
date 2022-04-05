@@ -1,28 +1,9 @@
-import os
-from airflow import DAG
-import datetime
-from datetime import datetime, timedelta
-from decouple import config
-import pathlib
-import logging
 
-
-# Credentials,  path & table id:
-
-TABLE_ID= 'Univ_Interamericana'
-PG_ID= config('PG_ID', default='')
-
-# To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
-#  This function detects the path of the running .py file. Since that file is in /dags, it is
-#  necessary to move up one level. This is achieved with the .parent method.
-path = (pathlib.Path(__file__).parent.absolute()).parent
-
-
-# Functions
-# Function to define logs, using the logging library: https:/docs.python.org/3/howto/logging.html
 
 
 def logger(relative_path):
+    path = (pathlib.Path(__file__).parent.absolute()).parent
+
     """Function to configure the code logs
 
     Args: relativ path to .log file"""
@@ -56,6 +37,9 @@ def extraction(database_id:str, table_id:str):
     in the Airflow interface,taking as a parameter the ID designated 
     to the connection
     """
+    import pandas as pd
+    from sqlalchemy import text
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
     logging.info('Connecting to db')
     if (not isinstance(database_id, str) or not isinstance(table_id, str)):
             logging.ERROR('input not supported. Please enter string like values')
@@ -97,44 +81,3 @@ def extraction(database_id:str, table_id:str):
     df.to_csv(f'{path}/files/{table_id}.csv', sep='\t')
     logging.info('Data saved as csv')
     return None
-
-
-# Retries configuration
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 5,
-    'retry_delay': timedelta(seconds=30)
-}
-
-# Dag definition for the E process
-with DAG('Extraction_Univ_LaPamPa',
-         description='for the execution of an sql query to the trainingn\
-          database, to obtain information about Universidad tres de febrero',
-         start_date=datetime(2020, 3, 24),
-         max_active_runs=3,
-         schedule_interval='@hourly',
-         default_args=default_args,
-         template_searchpath=f'{path}/include',
-         catchup=False,
-         ) as dag:
-
-# PythonOperator for extraaction function, commented above
-    extraction_task = PythonOperator(
-        task_id="Extraction",
-        python_callable=extraction,
-        op_kwargs={'database_id': 'training_db',
-                   'table_id': TABLE_ID}
-    )
-# PythonOperator for logger function, commented above
-    logging_task = PythonOperator(
-        task_id="logguers",
-        python_callable=logger,
-        op_args= {f'{path}/logs/{TABLE_ID}'}
-    )
-
-    logging_task 
-    extraction_task
-
