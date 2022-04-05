@@ -20,6 +20,7 @@ import numpy as np
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG,
                     datefmt='%Y-%m-%d')
+
 # Por si necesitamos que los logs tengan el nombre del archivo donde se
 # encuentra
 logger = logging.getLogger(__name__)
@@ -216,3 +217,4 @@ with DAG(
 
 
 t1 >> t2 >> t3
+

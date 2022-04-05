@@ -132,7 +132,6 @@ def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
 
         # age
         age = df.loc[row_i, 'birth_date']
-
         if age > datetime.now():
             # de esta forma calculamos con el formato de año correcto
             age = age.replace(year=age.year - 100)
@@ -151,6 +150,7 @@ def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
     # importar a una ruta especifica
     df.to_csv(path_download + 'Uni_Buenos_Aires.txt', sep="|")
     logger.info(f"Dataset normalizado y descargado")
+
 
 
 def upload_to_s3(filepath, key, bucketname):
@@ -179,7 +179,7 @@ def upload_to_s3(filepath, key, bucketname):
         raise AirflowException(e)
     logger.info(f"Archivo subido a S3")
 
-
+    
 with DAG(
     'ET_Univ_Buenos_Aires_dags',
     start_date=datetime(2020, 3, 26),
@@ -217,4 +217,5 @@ with DAG(
 
 
 t1 >> t2 >> t3
+
 
