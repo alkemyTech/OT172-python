@@ -1,47 +1,61 @@
-"""
-PT172-67
-Configurar un Python Operators, para que extraiga información de la base de datos
-utilizando el .sql disponible en el repositorio base de las siguientes universidades:
-Universidad De Buenos Aires
-Dejar la información en un archivo .csv dentro de la carpeta files.
-"""
 from datetime import datetime
-import os
 from pathlib import Path
 from airflow import DAG
+from botocore.exceptions import NoCredentialsError
+from botocore.exceptions import ClientError
+from airflow.exceptions import AirflowException
 from airflow.operators.python_operator import PythonOperator
-from airflow.operators.dummy import DummyOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from dateutil.relativedelta import relativedelta
 from difflib import SequenceMatcher as SM
 import logging
+from airflow.hooks.S3_hook import S3Hook
+import os
 import pandas as pd
 import numpy as np
 from tenacity import retry
-#import sqlparse
+# import sqlparse
 
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG,
                     datefmt='%Y-%m-%d')
-## Por si necesitamos que los logs tengan el nombre del archivo donde se encuentra
+# Por si necesitamos que los logs tengan el nombre del archivo donde se
+# encuentra
 logger = logging.getLogger(__name__)
 
 parent_folder = Path(__file__).resolve().parent.parent
 
+
 def get_data_uba():
-    sql_src = os.path.join(parent_folder, 'include/universidad_de_buenos_aires.sql')
+    sql_src = os.path.join(
+        parent_folder,
+        'include/universidad_de_buenos_aires.sql')
     with open(sql_src, 'r') as sqlfile:
         query = sqlfile.read()
-    #query = sqlparse.format(query, strip_comments=True).strip()
+    # query = sqlparse.format(query, strip_comments=True).strip()
     postgres_hook = PostgresHook(postgres_conn_id="airflow-universities")
     conn = postgres_hook.get_conn()
     cur = conn.cursor()
     cur.execute(query)
     data = cur.fetchall()
     df = pd.DataFrame(data=data)
-    header = ['universidades', 'carreras', 'fechas_de_inscripcion', 'nombres', 'sexo', 'fechas_nacimiento', 'codigos_postales', 'direcciones', 'emails']
-    df.to_csv(os.path.join(parent_folder, 'files/ET_Univ_Buenos_Aires.csv'), header=header, index=False)
+    header = [
+        'universidades',
+        'carreras',
+        'fechas_de_inscripcion',
+        'nombres',
+        'sexo',
+        'fechas_nacimiento',
+        'codigos_postales',
+        'direcciones',
+        'emails']
+    df.to_csv(
+        os.path.join(
+            parent_folder,
+            'files/ET_Univ_Buenos_Aires.csv'),
+        header=header,
+        index=False)
     return data
 
 
@@ -118,7 +132,6 @@ def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
 
         # age
         age = df.loc[row_i, 'birth_date']
-        
         if age > datetime.now():
             # de esta forma calculamos con el formato de año correcto
             age = age.replace(year=age.year - 100)
@@ -139,6 +152,34 @@ def normalize_df_Uni_Buenos_Aires(path_df, path_dfmerge, path_download):
     logger.info(f"Dataset normalizado y descargado")
 
 
+
+def upload_to_s3(filepath, key, bucketname):
+    logger.info(f"ruta del txt: {filepath}")
+    logger.info(f"key: {key}")
+    logger.info(f"nombre del bucket: {bucketname}")
+
+    try:
+        hook = S3Hook('s3_conn')
+        hook.load_file(
+            filename=filepath,
+            key=key,
+            bucket_name=bucketname,
+            replace=True)
+    except NoCredentialsError as e:
+        logger.error(f"No se pudo subir el archivo a S3: {e}")
+        raise AirflowException(f"No se pudo subir el archivo a S3: {e}")
+    except ClientError as e:
+        logger.error(e.response["Error"]["Message"])
+        raise AirflowException(e)
+    except FileNotFoundError as e:
+        logger.error("No existe el archivo a subir a S3:" + e)
+        raise AirflowException(e)
+    except Exception as e:
+        logger.error(e)
+        raise AirflowException(e)
+    logger.info(f"Archivo subido a S3")
+
+    
 with DAG(
     'ET_Univ_Buenos_Aires_dags',
     start_date=datetime(2020, 3, 26),
@@ -156,12 +197,25 @@ with DAG(
         python_callable=normalize_df_Uni_Buenos_Aires,
         retries=5,
         op_kwargs={
-            'path_df': os.path.join(parent_folder, 
-                'files/ET_Univ_Buenos_Aires.csv'),
-            'path_dfmerge': os.path.join(parent_folder, 
-                'dataset/codigos_postales.csv'),
-            'path_download': os.path.join(parent_folder, 
-                'files/')},
+            'path_df': os.path.join(parent_folder,
+                                    'files/ET_Univ_Buenos_Aires.csv'),
+            'path_dfmerge': os.path.join(parent_folder,
+                                         'dataset/codigos_postales.csv'),
+            'path_download': os.path.join(parent_folder,
+                                          'files/')},
         dag=dag)
 
-t1 >> t2
+    t3 = PythonOperator(
+        task_id='upload_to_s3',
+        python_callable=upload_to_s3,
+        op_kwargs={
+            'filepath': os.path.join(parent_folder,
+                                     'files/Uni_Buenos_Aires.txt'),
+            'key': 'Uni_buenos_aires.txt',
+            'bucketname': 'cohorte-marzo-77238c6a'},
+        dag=dag)
+
+
+t1 >> t2 >> t3
+
+
