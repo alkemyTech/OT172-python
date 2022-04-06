@@ -77,4 +77,5 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
         op_kwargs={'id_conn': S3_ID, 'bucket_name': BUCKET_NAAME, 'key': PUBLIC_KEY}
     )
 
-    logging_task >>  ET_task >>   load_task
+    logging_task 
+    ET_task >>   load_task
