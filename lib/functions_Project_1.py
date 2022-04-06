@@ -1,9 +1,15 @@
+import sys
+import pathlib
+import logging
+import pandas as pd
+import datetime
+from datetime import date
+import os
+from sqlalchemy import text
+from airflow.providers.postgres.hooks.postgres import PostgresHook
+
 def logger(relative_path):
-    import sys
-    if pathlib not in sys.modules:
-        import pathlib
-    if logging not in sys.modules:
-        import logging
+
     path_p = (pathlib.Path(__file__).parent.absolute()).parent
 
     """Function to configure the code logs
@@ -39,19 +45,6 @@ def extraction(database_id:str, table_id:str):
     in the Airflow interface,taking as a parameter the ID designated 
     to the connection
     """
-    import sys
-    if os not in sys.modules:
-        import os
-    if pd not in sys.modules:
-        import pandas as pd
-    if sqlalchemy not in sys.modules:
-        from sqlalchemy import text
-    if PostgresHook not in sys.modules:
-        from airflow.providers.postgres.hooks.postgres import PostgresHook
-    if logging not in sys.modules:
-        import logging
-    if pathlib not in sys.modules:
-        import pathlib
 
     path_p = (pathlib.Path(__file__).parent.absolute()).parent
 
@@ -100,8 +93,7 @@ def extraction(database_id:str, table_id:str):
 
   
 def load_s3(path, id_conn, bucket_name, key):
-    if pathlib not in sys.modules:
-        import pathlib
+
 
     path_p = (pathlib.Path(__file__).parent.absolute()).parent
     from airflow.hooks.S3_hook import S3Hook
@@ -127,6 +119,7 @@ def normalize_characters(column):
     The function takes the string values of the 
     column of a df and normalizes the special characters
     """
+    import sys
     if logging not in sys.modules:
         import logging
 
@@ -204,17 +197,7 @@ def transform_df(df, university_id:str):
     location and postal_code: depending on the column in the table, the 
     values ​​are used as input to define a dictionary, by which the values ​​of the 
     missing column will be called"""
-    if os not in sys.modules:
-        import os
-    if pd not in sys.modules:
-        import pandas as pd
-    if datetime not in sys.modules:
-        import datetime
-        import date
-    if date not in sys.modules:
-        import logging
-    if pathlib not in sys.modules:
-        import pathlib
+
   
     path_p=(pathlib.Path(__file__).parent.absolute()).parent
     logging.info(f'normalizing data')
