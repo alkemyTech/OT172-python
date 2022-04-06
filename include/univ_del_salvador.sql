@@ -2,17 +2,17 @@
 --La parte de codigo postal se tiene que procesar el archivo extra para sacarlo a partir de la localidad
 
 select
-    salvador.universidad                                AS university,
-    salvador.carrera                                    AS career,
-    salvador.fecha_de_inscripcion                       AS inscription_date,
-    SPLIT_PART(salvador.name,' ',1)                     AS first_name,
-    REVERSE(SPLIT_PART(REVERSE(salvador.name),' ',1))   AS last_name,
-    salvador.sexo                                       AS gender,
-    salvador.fecha_nacimiento                           AS age,
-    salvador.direccion                                  AS location,
-    salvador.email                                      AS email
+    universidad,
+    carrera,
+    fecha_de_inscripcion,
+    nombre,
+    sexo,
+    fecha_nacimiento,
+    codigo_postal,
+    direccion,
+    email
 from
-    salvador_villa_maria as salvador
+    salvador_villa_maria
 where
     universidad = 'UNIVERSIDAD_DEL_SALVADOR' 
     and (date(fecha_de_inscripcion) BETWEEN '01-Sep-2020' and  '01-Feb-2021' )
