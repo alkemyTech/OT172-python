@@ -57,6 +57,7 @@ with DAG('Extraction_Univ_LaPamPa',
         python_callable=extraction_transform_data,
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
+
     )
 
 # PythonOperator for logger function, commented above

@@ -24,9 +24,9 @@ PG_ID= config('PG_ID', default='')
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
 
-
 # Functions
 # Function to define logs, using the logging library: https:/docs.python.org/3/howto/logging.html
+
 
 
 # Retries configuration
@@ -43,6 +43,7 @@ default_args = {
 with DAG('Extraction_Univ_LaPamPa',
          description='for the execution of an sql query to the trainingn\
           database, to obtain information about Universidad tres de febrero',
+
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -60,6 +61,7 @@ with DAG('Extraction_Univ_LaPamPa',
     )
 
 # PythonOperator for ETL function, commented above
+
     load_task = PythonOperator(
         task_id="Load",
         python_callable=load_s3_function
@@ -76,3 +78,4 @@ with DAG('Extraction_Univ_LaPamPa',
 
     logging_task 
     extraction_task >> load_task
+
