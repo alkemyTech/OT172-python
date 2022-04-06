@@ -14,16 +14,19 @@ except:
 try:
     def normalizar_universidad_de_moron():
         """ Data normalization for University of Moron """
+
+        logging.info('Start de process function')
         try:
             # read csv file and create data frame
             moron_df = pd.read_csv(f'{ruta_files}/ET_Universidad_de_Moron.csv')
             # read csv file codigo poasta and create data frame
             codigo_p_df = pd.read_csv(
                 f'{ruta_base}/dataset/codigos_postales.csv')
+            logging.info('Data frame created')
         except:
             logging.error('Error reading file csv ')
 
-        # Format: lowercase, without '-', '_' or ' '
+        """ normalize columns: Format: lowercase, without '-', '_' or ' ' """
         moron_df['university'] = moron_df['university'].str.strip(
         ).str.lower().str.replace("-", " ").str.replace("_", " ")
         moron_df['career'] = moron_df['career'].str.strip(
@@ -51,6 +54,8 @@ try:
             location = dic[codigo]
             return location
         moron_df['location'] = moron_df['postal_code'].apply(location)
+        logging.info('column location created and normalized')
+
 
         # inscription_data str %Y-%m-%d format
         def inscription(date_inscription):
@@ -60,6 +65,8 @@ try:
             return formato
         moron_df['inscription_date'] = moron_df['inscription_date'].apply(
             inscription)
+        logging.info('Change inscription date format')
+
 
         # Edad
         def age(born):
@@ -69,18 +76,20 @@ try:
             return today.year - born.year - ((today.month,
                                               today.day) < (born.month, born.day))
         moron_df['age'] = moron_df['age'].apply(age)
-
+        logging.info('Get age by the date of birth')
         # moron_df.to_excel(f'{ruta_normalized}/data1.xlsx')
+        logging.info('End of the process for university of Moron')
+
         try:
             # Create .TXT file in files folder
             moron_df.to_csv(
                 f'{ruta_files}/ET_Universidad_de_Moron.txt', index=None, sep='\t')
-            logging.info('Create .txt file in files folder')
+            logging.info('File .txt created in files folder')
+            logging.info('Finish')
         except:
             logging.error('Error to creating txt file')
 
 except:
     logging.error('General error at data normalization')
 
-if __name__ == '__main__':
-    normalizar_universidad_de_moron()
+
