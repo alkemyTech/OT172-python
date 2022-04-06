@@ -14,6 +14,7 @@ except:
 try:
     def normalizar_universidad_de_moron():
         """ Data normalization for University of Moron """
+
         logging.info('Start de process function')
         try:
             # read csv file and create data frame
@@ -55,6 +56,7 @@ try:
         moron_df['location'] = moron_df['postal_code'].apply(location)
         logging.info('column location created and normalized')
 
+
         # inscription_data str %Y-%m-%d format
         def inscription(date_inscription):
             """ Change inscription date format to yyyy-mm-dd"""
@@ -64,6 +66,7 @@ try:
         moron_df['inscription_date'] = moron_df['inscription_date'].apply(
             inscription)
         logging.info('Change inscription date format')
+
 
         # Edad
         def age(born):
@@ -76,6 +79,7 @@ try:
         logging.info('Get age by the date of birth')
         # moron_df.to_excel(f'{ruta_normalized}/data1.xlsx')
         logging.info('End of the process for university of Moron')
+
         try:
             # Create .TXT file in files folder
             moron_df.to_csv(

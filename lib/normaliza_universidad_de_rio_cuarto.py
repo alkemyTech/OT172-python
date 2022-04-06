@@ -97,3 +97,4 @@ try:
             logging.error('Error to creating .txt file')
 except:
     logging.error('General error at data normalization')
+

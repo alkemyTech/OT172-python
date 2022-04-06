@@ -13,6 +13,7 @@
 from airflow import DAG
 from datetime import timedelta, datetime, date
 import pandas as pd
+
 import os
 from os import path, makedirs
 import logging
@@ -27,7 +28,6 @@ from airflow.hooks.S3_hook import S3Hook
 
 BUCKET_NAME = config('BUCKET_NAME')
 PUBLIC_KEY = config('PUBLIC_KEY')
-
 
 # Config logging
 logging.basicConfig(filename='log', encoding='utf-8', datefmt='%Y/%m/%d',
@@ -65,6 +65,7 @@ def extract(query_sql, university):
         logging.info('ET_Universidad_Nacional_de_Rio_Cuarto.csv file created')
     except:
         logging.error('Error to create csv file')
+
 
 
 def process(university):
@@ -164,7 +165,7 @@ def upload(filename, key, bucket_name):
     """ upload file to s3 """
     try:
         hook = S3Hook('s3_conn')
-        hook.load_file(filename=filename, key=key, bucket_name=bucket_name,replace=True)
+        hook.load_file(filename=filename, key=key, bucket_name=bucket_name,replace=True)     
         logging.info('The file was saved')
     except:
         logging.error('Error to load file or already exists')
