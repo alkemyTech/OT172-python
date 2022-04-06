@@ -3,6 +3,7 @@ from airflow import DAG
 import datetime
 from datetime import datetime, timedelta
 from decouple import config
+
 import pathlib
 import logging
 from lib.functios import *
@@ -19,9 +20,9 @@ PG_ID= config('PG_ID', default='')
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
 
-
 # Functions
 # Function to define logs, using the logging library: https:/docs.python.org/3/howto/logging.html
+
 
 
 # Retries configuration
@@ -38,6 +39,8 @@ default_args = {
 with DAG('Extraction_Univ_LaPamPa',
          description='for the execution of an sql query to the trainingn\
           database, to obtain information about Universidad tres de febrero',
+# Dag definition for the ETL process
+
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -53,6 +56,7 @@ with DAG('Extraction_Univ_LaPamPa',
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
     )
+
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
