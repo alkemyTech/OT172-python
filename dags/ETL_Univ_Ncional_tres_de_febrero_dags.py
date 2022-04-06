@@ -26,15 +26,14 @@ from functions_Project_1 import *
 
 # Credentials,  path & table id:
 
-TABLE_ID= 'Univ_tecnologica_nacional'
+TABLE_ID= 'Univ_nacional_tres_de_febrero'
 PG_ID= config('PG_ID', default='')
 S3_ID=config('S3_ID', default='')
 BUCKET_NAAME=config('V', default='')
 PUBLIC_KEY=config('PUBLIC_KEY', default='')
-
-# root
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
 
+# Retries configuration
 # Retries configuration
 default_args = {
     'owner': 'airflow',
@@ -71,7 +70,12 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
         op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
+  # PythonOperator for ETL function, commented above
+    load_task = PythonOperator(
+        task_id="Load",
+        python_callable=load_s3,
+        op_kwargs={'id_conn': S3_ID, 'bucket_name': BUCKET_NAAME, 'key': PUBLIC_KEY}
+    )
 
-
-    logging_task
-    ET_task
+    logging_task 
+    ET_task >>   load_task
