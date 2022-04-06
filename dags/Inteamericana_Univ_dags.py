@@ -44,4 +44,3 @@ with DAG('Interamericana_Unv',
     
     opr_Interamericana
 
-print(dag.description)
