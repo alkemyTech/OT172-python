@@ -51,9 +51,9 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
 
 
 # PythonOperator for extraaction function, commented above
-    extraction_task = PythonOperator(
+    ET_task = PythonOperator(
         task_id="Extraction",
-        python_callable=extraction,
+        python_callable=extraction_transform_data,
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
 
@@ -65,7 +65,11 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
         op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
-    logging_task
-    extraction_task
+  # PythonOperator for ETL function, commented above
+    load_task = PythonOperator(
+        task_id="Load",
+        python_callable=load_s3,
+        op_kwargs={'id_conn': S3_ID, 'bucket_name': BUCKET_NAAME, 'key': PUBLIC_KEY}
+    )
 
-
+    logging_task >>  ET_task >>   load_task
