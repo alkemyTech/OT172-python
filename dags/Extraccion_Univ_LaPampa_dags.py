@@ -2,11 +2,11 @@ import os
 from airflow import DAG
 import datetime
 from datetime import datetime, timedelta
+from airflow.operators.python import PythonOperator
 from decouple import config
 import pathlib
 import logging
-from lib.functios import *
-
+from lib.functions_Project_1 import extraction, logger
 
 # Credentials,  path & table id:
 
@@ -55,7 +55,6 @@ with DAG('Extraction_Univ_LaPamPa',
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
-<<<<<< PT172-64
         python_callable=logger,
         op_args= {f'{path}/logs/{TABLE_ID}'}
     )

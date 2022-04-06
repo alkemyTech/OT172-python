@@ -2,24 +2,25 @@ import os
 from airflow import DAG
 import datetime
 from datetime import datetime, timedelta
+from airflow.operators.python import PythonOperator
 from decouple import config
 import pathlib
 import logging
-from lib.extraction_function import extraction
-from lib.logg import logger
-
+from lib.functions_Project_1 import extraction, logger
 
 # Credentials,  path & table id:
 
-TABLE_ID= 'Univ_Interamericana'
+TABLE_ID= 'Univ_interamericana'
 PG_ID= config('PG_ID', default='')
-
 
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
 path = (pathlib.Path(__file__).parent.absolute()).parent
 
+
+# Functions
+# Function to define logs, using the logging library: https:/docs.python.org/3/howto/logging.html
 
 # Retries configuration
 default_args = {
@@ -35,7 +36,6 @@ default_args = {
 with DAG('Extraction_Univ_LaPamPa',
          description='for the execution of an sql query to the trainingn\
           database, to obtain information about Universidad tres de febrero',
-
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -50,6 +50,7 @@ with DAG('Extraction_Univ_LaPamPa',
         python_callable=extraction,
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
+
     )
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
@@ -60,5 +61,4 @@ with DAG('Extraction_Univ_LaPamPa',
 
     logging_task 
     extraction_task
-
 
