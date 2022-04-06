@@ -1,16 +1,18 @@
-import sys
-import pathlib
-import logging
-import pandas as pd
-import datetime
-from datetime import date
-import os
-from sqlalchemy import text
+from airflow.hooks.S3_hook import S3Hook
 from airflow.providers.postgres.hooks.postgres import PostgresHook
+from datetime import datetime
+from sympy import Id
+import pandas as pd
+import logging
+import os
+import sys
+from decouple import config
+import pathlib
+
+path_p = (pathlib.Path(__file__).parent.absolute()).parent
+  
 
 def logger(relative_path):
-
-    path_p = (pathlib.Path(__file__).parent.absolute()).parent
 
     """Function to configure the code logs
 
@@ -46,8 +48,7 @@ def extraction(database_id:str, table_id:str):
     to the connection
     """
 
-    path_p = (pathlib.Path(__file__).parent.absolute()).parent
-
+    from sqlalchemy import text
     logging.info('Connecting to db')
     if (not isinstance(database_id, str) or not isinstance(table_id, str)):
             logging.ERROR('input not supported. Please enter string like values')
@@ -88,15 +89,13 @@ def extraction(database_id:str, table_id:str):
         logging.ERROR('query fail')
     df.to_csv(f'{path_p}/files/{table_id}.csv', sep='\t')
     logging.info('Data saved as csv')
-    return None
+    return df
 
 
   
 def load_s3(path, id_conn, bucket_name, key):
 
 
-    path_p = (pathlib.Path(__file__).parent.absolute()).parent
-    from airflow.hooks.S3_hook import S3Hook
     hook = S3Hook(id_conn)
     hook.load_file(filename=f'{path_p}/files/ET_Univ_tres_de_febrero.txt',
                    key=key, bucket_name=bucket_name)
@@ -119,10 +118,7 @@ def normalize_characters(column):
     The function takes the string values of the 
     column of a df and normalizes the special characters
     """
-    import sys
-    if logging not in sys.modules:
-        import logging
-
+ 
     try:
         column = column.apply(lambda x: str(
             x).replace(' \W'+'*'+'\W', '\W'+'*'+'\W'))
@@ -199,7 +195,6 @@ def transform_df(df, university_id:str):
     missing column will be called"""
 
   
-    path_p=(pathlib.Path(__file__).parent.absolute()).parent
     logging.info(f'normalizing data')
 
     #strngs with special characters
@@ -278,7 +273,7 @@ def transform_df(df, university_id:str):
         df = df[['university', 'career', 'inscription_date', 'first_name',
                 'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
         df.to_csv(f'{path_p}/files/ETL_{university_id}.txt', sep='\t')
-    return(df)
+    return None
 
 
 def extraction_transform_data(database_id:str, table_id:str):
@@ -288,5 +283,5 @@ def extraction_transform_data(database_id:str, table_id:str):
     see help(extraction)
         help(transform_df)"""
     df=extraction(database_id, table_id)
-    df_t=transform_df(df)
+    df_t=transform_df(df, table_id)
     return df_t

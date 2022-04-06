@@ -1,18 +1,24 @@
 from asyncio import Task
 from airflow import DAG
+from airflow.hooks.S3_hook import S3Hook
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
-from datetime import datetime, timedelta
-import datetime
+from datetime import timedelta
 from datetime import datetime
-from decouple import config
+from airflow.models import Connection
+from airflow import settings
+from sympy import Id
+import pandas as pd
+import logging
 import os
-import pathlib
 import sys
+from decouple import config
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
+import pathlib
+
 path_p = (pathlib.Path(__file__).parent.absolute()).parent
   
 sys.path.append(f'/{path_p}/lib')
@@ -41,7 +47,7 @@ default_args = {
 
 # Dag definition for the ETL process
 with DAG('ETL_Univ_nacional_tres_de_febrero',
-         start_date=datetime(2020, 3, 24),
+         start_date = datetime(2022, 3, 15),
          max_active_runs=3,
          schedule_interval='@hourly',
          default_args=default_args,
