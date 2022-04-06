@@ -22,7 +22,6 @@ path = (pathlib.Path(__file__).parent.absolute()).parent
 # Functions
 # Function to define logs, using the logging library: https:/docs.python.org/3/howto/logging.html
 
-
 # Retries configuration
 default_args = {
     'owner': 'airflow',
@@ -51,10 +50,12 @@ with DAG('Extraction_Univ_LaPamPa',
         python_callable=extraction,
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
+
     )
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
+<<<<<< PT172-64
         python_callable=logger,
         op_args= {f'{path}/logs/{TABLE_ID}'}
     )
