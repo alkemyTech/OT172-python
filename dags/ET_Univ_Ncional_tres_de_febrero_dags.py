@@ -10,6 +10,7 @@ from sympy import Id
 import pandas as pd
 import datetime
 from datetime import datetime
+
 from settings import *
 import logging
 import os
@@ -60,30 +61,28 @@ def get_connection(username, password, host, db, conntype, id, port):
 # Data extraction function through database queries
 # Start connecting to the database through the Postgres operator`s Hook
 def extraction():
-    try:
+
         import pandas as pd
         from sqlalchemy import text
         hook = PostgresHook(postgres_conn_id='training_db')
         conn = hook.get_conn()
-        logging.info(f'Conected to {id}')
-    except:
-        logging.error(f'Conection Error')
-
+      
 # SQL query: To execute the query with the Hook, it must be passed as a string to the function
 # pd.read_sql, along with the conn object that establishes the connection.
 # The .sql file is opened and the text is saved in the query variable
-    with open(f'{path}/include/Univ_tres_de_febrero.sql') as file:
-        try:
-            query = str(text(file.read()))
-            logging.info(f'Extracting query to {file}')
-        except:
-            logging.error(f'Error')
+        with open(f'{path}/include/Univ_nacional_tres_de_febrero.sql') as file:
+            try:
+                query = str(text(file.read()))
+                logging.info(f'Extracting query to {file}')
+            except:
+                logging.error(f'Error')
 
 
 # The output of this function is a df with the selected rows and columns
 # Finally, the df is saved as .csv
-    df = pd.read_sql(query, conn)
-    return(df)
+        df = pd.read_sql(query, conn)
+        return(df)
+
 
 # Function that removes spaces at the beginning or end of strings, hyphens and
 # convert words to lower case
@@ -120,49 +119,44 @@ def normalize_characters(column):
 
 
 def transformation(df):
+    path=(pathlib.Path(__file__).parent.absolute()).parent
     logging.info(f'normalizing data')
     df['university'] = normalize_characters(df['university'])
     df['career'] = normalize_characters(df['career'])
-    df['location'] = normalize_characters(df['location'])
+
     df['gender'] = df['gender'].apply(
         lambda x: 'male' if x == 'm' else 'female')
 
     old_date = pd.to_datetime(df['inscription_date'])
     df['inscription_date'] = pd.to_datetime(old_date, '%Y/%m/%d')
 
-    df['first_name'] = df['name'].apply(lambda x: str(x).split(' ')[0])
-    df['last_name'] = df['name'].apply(lambda x: str(x).split(' ')[1])
+    df['first_name'] = df['name'].apply(lambda x: str(x).split('_')[0])
+    df['last_name'] = df['name'].apply(lambda x: str(x).split('_')[1])
 
     curr = datetime.now()
     df['age'] = df['nacimiento'].apply(lambda x: (
-        curr.year - datetime.strptime(str(x), '%Y/%m/%d').year))
+        100+(int(str(curr.year)[2:4]) - int(x[7:9]))))
 
     df_postal_codes = (pd.read_csv(f'{path}/dataset/codigos_postales.csv'))
     df_postal_codes['localidad'] = df_postal_codes['localidad'].apply(
         lambda x: x.lower())
     dict_postal_codes = dict(
-        zip(df_postal_codes.localidad, df_postal_codes.codigo_postal))
-    df['postal_code'] = df['location'].apply(lambda x: dict_postal_codes[x])
+        zip(df_postal_codes.codigo_postal, df_postal_codes.localidad))
+    df['location'] = df['postal_code'].apply(lambda x: dict_postal_codes[int(x)])
 
     df = df[['university', 'career', 'inscription_date', 'first_name',
              'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-    df.to_csv('{path}/files/ET_Univ_tres_de_febrero.txt', header=None, index=None, sep='\t', mode='a')
+    df.to_csv(f'{path}/files/ET_Univ_nacional_tres_de_febrero.txt', sep='\t')
+
     return(df)
 
 # Function for the entire ETL process, which will be called through a PythonOperator
 
 
 def ET_function(**kwargs):
-    try:
         df = extraction()
         logging.info('Extraction successful')
-    except:
-        logging.error('Extraction error')
-    try:
         df_t = transformation(df)
-        logging.info('Transformation successful')
-    except:
-        logging.error('Transformation error')
 
 
 # Retries configuration
@@ -176,6 +170,7 @@ default_args = {
 }
 
 # Dag definition for the ETL process
+=======
 with DAG('ET_Univ_nacional_tres_de_febrero',
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
@@ -186,15 +181,13 @@ with DAG('ET_Univ_nacional_tres_de_febrero',
          ) as dag:
 
     # PythonOperator for the execution of get_connection, commented above
-    connect_to_db = PythonOperator(
-        task_id="connection",
+    connect_to_pgdb = PythonOperator(
+        task_id="pg_connection",
         python_callable=get_connection,
-        op_kwargs={'username': USER, 'password': PASSWORD,
-                   'db': SCHEMA, 'host': HOST,
-                   'conntype': CONNECTION_TYPE, 'id': ID, 'port': PORT}
-
+        op_kwargs={'username': PG_USER, 'password': PG_PASSWORD,
+                   'db': SCHEMA, 'host': PG_HOST,
+                   'conntype': PG_CONNTYPE, 'id': PG_ID, 'port': int(PG_PORT)}
     )
-
 # PythonOperator for ETL function, commented above
     ET_task = PythonOperator(
         task_id="ET",

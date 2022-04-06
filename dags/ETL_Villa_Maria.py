@@ -10,6 +10,9 @@ from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 import pandas as pd
 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s: %(levelname)s - %(message)s')
+
+
 # creating cvs files
 ruta = str(Path().absolute())+'/airflow/OT172-python'
 def query_csv():
@@ -32,6 +35,9 @@ default_args = {
 }
 
 # 3 instantiate the DAG
+
+logger = logging.getLogger("Universities group A")
+
 with DAG(
     'ETL_Villa_Maria',
     description = 'ETL for a university in the group A',
