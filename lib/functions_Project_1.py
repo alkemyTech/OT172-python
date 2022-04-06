@@ -1,14 +1,16 @@
-
-
-
 def logger(relative_path):
-    path = (pathlib.Path(__file__).parent.absolute()).parent
+    import sys
+    if pathlib not in sys.modules:
+        import pathlib
+    if logging not in sys.modules:
+        import logging
+    path_p = (pathlib.Path(__file__).parent.absolute()).parent
 
     """Function to configure the code logs
 
     Args: relativ path to .log file"""
     logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
-                        filename=f'{path}/{relative_path}', encoding='utf-8', level=logging.ERROR)
+                        filename=f'{path_p}/{relative_path}', encoding='utf-8', level=logging.ERROR)
     logging.debug("")
     logging.info("")
     logging.warning("")
@@ -37,9 +39,22 @@ def extraction(database_id:str, table_id:str):
     in the Airflow interface,taking as a parameter the ID designated 
     to the connection
     """
-    import pandas as pd
-    from sqlalchemy import text
-    from airflow.providers.postgres.hooks.postgres import PostgresHook
+    import sys
+    if os not in sys.modules:
+        import os
+    if pd not in sys.modules:
+        import pandas as pd
+    if sqlalchemy not in sys.modules:
+        from sqlalchemy import text
+    if PostgresHook not in sys.modules:
+        from airflow.providers.postgres.hooks.postgres import PostgresHook
+    if logging not in sys.modules:
+        import logging
+    if pathlib not in sys.modules:
+        import pathlib
+
+    path_p = (pathlib.Path(__file__).parent.absolute()).parent
+
     logging.info('Connecting to db')
     if (not isinstance(database_id, str) or not isinstance(table_id, str)):
             logging.ERROR('input not supported. Please enter string like values')
@@ -57,9 +72,9 @@ def extraction(database_id:str, table_id:str):
 # pd.read_sql, along with the conn object that establishes the connection.
 # The .sql file is opened and the text is saved in the query variable
     logging.info('opening sql file')
-    if os.path.exists(f'{path}/include/{table_id}.sql'):
+    if os.path.exists(f'{path_p}/include/{table_id}.sql'):
         try:        
-            with open(str(f'{path}/include/{table_id}.sql')) as file:
+            with open(str(f'{path_p}/include/{table_id}.sql')) as file:
                 try:
                     query = str(text(file.read()))
                     logging.info(f'Extracting data to {file}')
@@ -78,16 +93,20 @@ def extraction(database_id:str, table_id:str):
         logging.info('query successfull')
     except:
         logging.ERROR('query fail')
-    df.to_csv(f'{path}/files/{table_id}.csv', sep='\t')
+    df.to_csv(f'{path_p}/files/{table_id}.csv', sep='\t')
     logging.info('Data saved as csv')
     return None
 
 
   
 def load_s3(path, id_conn, bucket_name, key):
+    if pathlib not in sys.modules:
+        import pathlib
+
+    path_p = (pathlib.Path(__file__).parent.absolute()).parent
     from airflow.hooks.S3_hook import S3Hook
     hook = S3Hook(id_conn)
-    hook.load_file(filename=f'{path}/files/ET_Univ_tres_de_febrero.txt',
+    hook.load_file(filename=f'{path_p}/files/ET_Univ_tres_de_febrero.txt',
                    key=key, bucket_name=bucket_name)
 
 # Data transformation functions
@@ -108,6 +127,9 @@ def normalize_characters(column):
     The function takes the string values of the 
     column of a df and normalizes the special characters
     """
+    if logging not in sys.modules:
+        import logging
+
     try:
         column = column.apply(lambda x: str(
             x).replace(' \W'+'*'+'\W', '\W'+'*'+'\W'))
@@ -182,14 +204,19 @@ def transform_df(df, university_id:str):
     location and postal_code: depending on the column in the table, the 
     values ​​are used as input to define a dictionary, by which the values ​​of the 
     missing column will be called"""
-    import pandas as pd
-    import pathlib
-    import datetime
-    from datetime import date
-    import logging
-    import os
-           
-    path=(pathlib.Path(__file__).parent.absolute()).parent
+    if os not in sys.modules:
+        import os
+    if pd not in sys.modules:
+        import pandas as pd
+    if datetime not in sys.modules:
+        import datetime
+        import date
+    if date not in sys.modules:
+        import logging
+    if pathlib not in sys.modules:
+        import pathlib
+  
+    path_p=(pathlib.Path(__file__).parent.absolute()).parent
     logging.info(f'normalizing data')
 
     #strngs with special characters
@@ -249,8 +276,8 @@ def transform_df(df, university_id:str):
         key= 'localidad'
         value= 'codigo_postal'
         try:
-            if os.path.exists(f'{path}/dataset/codigos_postales.csv'):
-                df_postal_codes = (pd.read_csv(f'{path}/dataset/codigos_postales.csv'))
+            if os.path.exists(f'{path_p}/dataset/codigos_postales.csv'):
+                df_postal_codes = (pd.read_csv(f'{path_p}/dataset/codigos_postales.csv'))
             else:
                 logging.info('postal code file does not exist in the specified path')
             df_postal_codes['localidad'] = df_postal_codes['localidad'].apply(
@@ -267,7 +294,7 @@ def transform_df(df, university_id:str):
     # save_data
         df = df[['university', 'career', 'inscription_date', 'first_name',
                 'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
-        df.to_csv(f'{path}/files/ETL_{university_id}.txt', sep='\t')
+        df.to_csv(f'{path_p}/files/ETL_{university_id}.txt', sep='\t')
     return(df)
 
 

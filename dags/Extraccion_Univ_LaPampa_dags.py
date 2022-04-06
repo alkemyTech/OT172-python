@@ -6,20 +6,20 @@ from airflow.operators.python import PythonOperator
 from decouple import config
 import pathlib
 import logging
-from lib.functions_Project_1 import extraction, logger
-
-# Credentials,  path & table id:
-
-TABLE_ID= 'Univ_nac_LaPampa'
-PG_ID= config('PG_ID', default='')
-
+import sys
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
-path = (pathlib.Path(__file__).parent.absolute()).parent
+path_p = (pathlib.Path(__file__).parent.absolute()).parent
+  
+sys.path.append(f'/{path_p}/lib')
+from functions_Project_1 import *
 
+# Credentials,  path & table id:
 
-# Functions
+TABLE_ID= 'Univ_nacional_tres_de_febrero'
+PG_ID= config('PG_ID', default='')
+S3_ID=config('S3_ID', default='')
 # Function to define logs, using the logging library: https:/docs.python.org/3/howto/logging.html
 
 # Retries configuration
@@ -40,7 +40,7 @@ with DAG('Extraction_Univ_LaPamPa',
          max_active_runs=3,
          schedule_interval='@hourly',
          default_args=default_args,
-         template_searchpath=f'{path}/include',
+         template_searchpath=f'{path_p}/include',
          catchup=False,
          ) as dag:
 
@@ -56,7 +56,7 @@ with DAG('Extraction_Univ_LaPamPa',
     logging_task = PythonOperator(
         task_id="logguers",
         python_callable=logger,
-        op_args= {f'{path}/logs/{TABLE_ID}'}
+        op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
     logging_task 
