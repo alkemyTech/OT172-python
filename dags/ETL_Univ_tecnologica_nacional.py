@@ -8,6 +8,7 @@ import logging
 from lib.connection_func import load_s3
 from lib.logg import logger
 from lib.transform_all_data import *
+from lib.connection_func import *
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
 from airflow.models import Connection
@@ -18,6 +19,9 @@ from airflow.hooks.S3_hook import S3Hook
 
 TABLE_ID= 'Univ_tecnologica_nacional'
 PG_ID= config('PG_ID', default='')
+S3_ID=config('S3_ID', default='')
+BUCKET_NAAME=config('V', default='')
+PUBLIC_KEY=config('PUBLIC_KEY', default='')
 
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
@@ -62,7 +66,11 @@ with DAG('Extraction_Univ_LaPamPa',
 # PythonOperator for ETL function, commented above
     load_task = PythonOperator(
         task_id="Load",
-        python_callable=load_s3_function
+        python_callable=load_s3_function,
+        op_args={'path': path,
+         'id_conn': S3_ID,
+         'bucket_name': BUCKET_NAAME,
+          'key': PUBLIC_KEY}
     )
 
 # PythonOperator for logger function, commented above
@@ -75,4 +83,4 @@ with DAG('Extraction_Univ_LaPamPa',
 
 
     logging_task 
-    extraction_task
+    extraction_task >> load_task
