@@ -11,7 +11,7 @@
     "start_date":"2020,4,4",
     "max_active_runs": "8",
     "schedule_interval": "@hourly",
-    "template_searchpath": "f'{path}/airflow/include",
+    "template_searchpath": "f'{path_p}/airflow/include",
     "catchup":"False"}],
 
 "Config_2":[{  "owner": "airflow",
@@ -24,7 +24,7 @@
         "start_date":"2020,4,4",
         "max_active_runs": "5",
         "schedule_interval": "@minutely",
-        "template_searchpath": "f'{path}/airflow/include",
+        "template_searchpath": "f'{path_p}/airflow/include",
         "catchup":"False"}],
 
 "Config_3":[{  "owner": "airflow",
@@ -37,7 +37,7 @@
     "start_date":"2020,4,4",
     "max_active_runs": "15",
     "schedule_interval": "@dialy",
-    "template_searchpath": "f'{path}/airflow/include",
+    "template_searchpath": "f'{path_p}/airflow/include",
     "catchup":"False"}]
 
 }
