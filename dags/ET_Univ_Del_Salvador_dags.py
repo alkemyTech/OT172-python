@@ -8,8 +8,11 @@ import logging
 from datetime import datetime, timedelta
 from airflow import DAG
 from pathlib import Path
-from airflow.operators.dummy import PostgresHook
+from airflow.operators.dummy import DummyOperator
+from airflow.operators.python import PythonOperator
+from airflow.hooks.postgres_hook import PostgresHook
 import pandas as pd
+import numpy as np
 
 logging.basicConfig(
     filename='log',
@@ -28,10 +31,10 @@ def query_csv():
     cursor = connection.cursor()
 
     salvador_sql = open(f'{ruta}/include/univ_del_salvador.sql', 'r')
-    
+
     salvador_query = salvador_sql.read()
     
-    salvador_df = pd.read_sql(salvador_query, connection)
+    salvador_df = pd.read_sql(salvador_sql, connection)
     salvador_df.to_csv(f'{ruta}/files/salvador.csv')
 
 # INSTANTIATE THE DAG
@@ -42,12 +45,16 @@ with DAG (
     start_date = datetime(2022,3,24)
 ) as dag:
 
-# TASKS
-    def task_1():
-        pass
-    def task_2():
-        pass
-    def task_3():
-        pass
+    extract = PythonOperator(
+                    task_id='Query_Salvador',
+                    python_callable=query_csv,
+                    op_kwargs={
+                        'sql_file': 'query_salvador.sql',
+                        'file_name': 'salvador.csv'
+                        }
+                    )
+    process = DummyOperator(task_id="Process_Data")
+    load = DummyOperator(task_id="Load_Data")
+
 # DEPENDENCIES
-    task_1 >> task_2 >> task_3
+extract >> process >> load

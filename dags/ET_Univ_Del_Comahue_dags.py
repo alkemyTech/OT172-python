@@ -8,7 +8,9 @@ import logging
 from datetime import datetime, timedelta
 from airflow import DAG
 from pathlib import Path
-from airflow.operators.dummy import PostgresHook
+from airflow.operators.dummy import DummyOperator
+from airflow.operators.python import PythonOperator
+from airflow.hooks.postgres_hook import PostgresHook
 import pandas as pd
 
 logging.basicConfig(
@@ -41,12 +43,16 @@ with DAG (
     start_date = datetime(2022,3,24)
 ) as dag:
 # TASKS
-    def task_1():
-        pass
-    def task_2():
-        pass
-    def task_3():
-        pass
-# DEPENDENCIES
-    task_1 >> task_2 >> task_3
+    extract = PythonOperator(
+                    task_id='Query_Comahue',
+                    python_callable=query_csv,
+                    op_kwargs={
+                        'sql_file': 'query_comahue.sql',
+                        'file_name': 'comahue.csv'
+                        }
+                    )
+    process = DummyOperator(task_id="Process_Data")
+    load = DummyOperator(task_id="Load_Data")
 
+# DEPENDENCIES
+extract >> process >> load
