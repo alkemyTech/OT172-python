@@ -28,7 +28,7 @@ PG_CONNTYPE=config(' PG_CONNTYPE', default='')
 PG_ID= config('PG_ID', default='')
 PG_PORT= config('PORT', default='')
 
-def generate_sql(df, id, univ):
+def generate_sql(df, id, selected_univ):
     """The function creates the files with the sql queries for 
     the required universities
     Args: 
@@ -99,7 +99,7 @@ def generate_sql(df, id, univ):
 
     for line in fileinput.input(new_filename, inplace=True, backup=f'.bak'):
                     line= line.replace("idimput", id)
-                    line= line.replace("selectuniv", univ)
+                    line= line.replace("selectuniv", selected_univ)
                     line= line.replace("universityimput", univ)
                     line= line.replace('nameinput',nam)
                     line= line.replace('genderinput',gen)
@@ -157,7 +157,7 @@ def main(id_univ_list):
 
         conn=psycopg2.connect(**params)
         df=pd.read_sql(query, conn)
-        generate_sql(df, id=id_,univ= univ_)
+        generate_sql(df, id=id_,selected_univ= univ_)
         print(id_+' generated')
 
 

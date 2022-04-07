@@ -1,3 +1,27 @@
+
+###################################################################################
+# Dag creado el dia 2022-04-07 con la siguiente configuración:
+#
+# Ruta de archivos SQL= /home/juan/airflow/OT172-python/include
+# 
+# Configuraciòn:
+# Default args: 
+#               'owner': ''airflow'',
+#               'depends_on_past': False,
+#               'email_on_failure': False,
+#               'email_on_retry': False,
+#               'retries': 5,
+#                retry_delay': timedelta(seconds=30)
+# 
+# start_date=datetime(startdate_toreplace),
+#                max_active_runs= runs_toreplace,
+#                schedule_interval= scheduler_toreplace,
+#                template_searchpath= /home/juan/airflow/OT172-python/include,
+#                catchup=False,
+#           
+#########################################################################################
+
+
 from asyncio import Task
 from airflow import DAG
 from airflow.hooks.S3_hook import S3Hook
@@ -8,6 +32,7 @@ from datetime import timedelta
 from datetime import datetime
 from airflow.models import Connection
 from airflow import settings
+from pydata_google_auth import default
 from sympy import Id
 import pandas as pd
 import logging
@@ -24,16 +49,15 @@ path_p = (pathlib.Path(__file__).parent.absolute()).parent
 sys.path.append(f'/{path_p}/lib')
 from functions_Project_1 import *
 
-# Credentials,  path & table id:
 
-TABLE_ID= 'Univ_tecnologica_nacional'
+# Credentials,  path & table id:
 PG_ID= config('PG_ID', default='')
 S3_ID=config('S3_ID', default='')
-BUCKET_NAAME=config('V', default='')
-PUBLIC_KEY=config('PUBLIC_KEY', default='')
+TABLE_ID= 'lat_sociales_cine'
+BUKET_NAME= config('S3_BUCKET_NAME', default='')
 
-# root
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
+
 
 # Retries configuration
 default_args = {
@@ -41,29 +65,31 @@ default_args = {
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 5,
+    'retries':5,
     'retry_delay': timedelta(seconds=30)
 }
 
+
 # Dag definition for the ETL process
-with DAG('ETL_Univ_nacional_tres_de_febrero',
-         start_date = datetime(2022, 3, 15),
-         max_active_runs=3,
-         schedule_interval='@hourly',
+with DAG('lat_sociales_cine',
+         start_date=datetime(2020,4,4),
+         max_active_runs=8,
+         schedule_interval= '@hourly',
          default_args=default_args,
          template_searchpath=f'{path_p}/airflow/include',
          catchup=False,
          ) as dag:
 
-
+#
 # PythonOperator for extraaction function, commented above
     ET_task = PythonOperator(
-        task_id="Extraction",
+        task_id="ET",
         python_callable=extraction_transform_data,
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
 
     )
+
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
@@ -71,19 +97,12 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
         op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
-<<<<<<< HEAD
   # PythonOperator for ETL function, commented above
     load_task = PythonOperator(
         task_id="Load",
         python_callable=load_s3,
-        op_kwargs={'id_conn': S3_ID, 'bucket_name': BUCKET_NAAME, 'key': PUBLIC_KEY}
+        op_kwargs={'id_conn': S3_ID, 'univ': TABLE_Id, 'bucket_name':BUCKET_NAME}
     )
 
-    logging_task
-    ET_task >>   load_task
-=======
+    logging_task >>  ET_task >>   load_task
 
-
-    logging_task
-    ET_task
->>>>>>> main
