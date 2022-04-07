@@ -71,7 +71,19 @@ with DAG('ETL_Univ_nacional_tres_de_febrero',
         op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
+<<<<<<< HEAD
+  # PythonOperator for ETL function, commented above
+    load_task = PythonOperator(
+        task_id="Load",
+        python_callable=load_s3,
+        op_kwargs={'id_conn': S3_ID, 'bucket_name': BUCKET_NAAME, 'key': PUBLIC_KEY}
+    )
+
+    logging_task
+    ET_task >>   load_task
+=======
 
 
     logging_task
     ET_task
+>>>>>>> main
