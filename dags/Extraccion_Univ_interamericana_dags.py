@@ -1,89 +1,28 @@
-from asyncio import Task
-from airflow import DAG
-from airflow.providers.postgres.hooks.postgres import PostgresHook
-from airflow.operators.python import PythonOperator
-from datetime import datetime, timedelta
-from airflow.models import Connection
-from airflow import settings
-from sympy import Id
-import pandas as pd
-import datetime
-from datetime import datetime
-from settings import *
-import logging
 import os
+from airflow import DAG
+import datetime
+from datetime import datetime, timedelta
+from airflow.operators.python import PythonOperator
+from decouple import config
 import pathlib
-
+import logging
+import sys
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
-path = (pathlib.Path(__file__).parent.absolute()).parent
+path_p = (pathlib.Path(__file__).parent.absolute()).parent
+  
+sys.path.append(f'/{path_p}/lib')
+from functions_Project_1 import *
 
-# Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
+# Credentials,  path & table id:
 
-
-def logger():
-    logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
-                        filename=f'{path}/tinteramericana_univ_logs.log', encoding='utf-8', level=logging.DEBUG)
-    logging.debug("")
-    logging.info("")
-    logging.warning("")
-    logging.critical("")
-    return None
-
-# Function to create/establish the connection to the database.
-# Initially, the function looks for a database with the id. # if ID exist, establish a connection. If not, the try block fails.
-# and the exception is raised, creating a new connection
-
-
-def get_connection(username, password, host, db, conntype, id, port):
-    try:
-        hook = PostgresHook(postgres_conn_id=id)
-        conn = (hook.get_uri())
-        logging.info(f'Conected to {id}')
-    except:
-        logging.info(f'Creating connection to {id}')
-        new_conn = Connection(conn_id=id, conn_type=conntype,
-                              login=username,
-                              host=host, schema=db, port=port)
-        new_conn.set_password(password)
-
-        session = settings.Session()
-
-        session.add(new_conn)
-        session.commit()
-        logging.info(f'Conected to {id}')
-
-
-# Data extraction function through database queries
-# Start connecting to the database through the Postgres operator`s Hook
-def extraction():
-    try:
-        import pandas as pd
-        from sqlalchemy import text
-        hook = PostgresHook(postgres_conn_id='training_db')
-        conn = hook.get_conn()
-        logging.info(f'Conected to {id}')
-    except:
-        logging.error(f'Conection Error')
-
-# SQL query: To execute the query with the Hook, it must be passed as a string to the function
-# pd.read_sql, along with the conn object that establishes the connection.
-# The .sql file is opened and the text is saved in the query variable
-    with open(f'{path}/include/Univ-interamericana.sql') as file:
-        try:
-            query = str(text(file.read()))
-            logging.info(f'Extracting query to {file}')
-        except:
-            logging.error(f'Error')
-
-# The output of this function is a df with the selected rows and columns
-# Finally, the df is saved as .csv
-    df = pd.read_sql(query, conn)
-    logging.info('qury successfull')
-    df.to_csv(f'{path}/files/Extraction_Univ_interamericana.csv')
-    logging.info('Data saved as csv')
-
+TABLE_ID= 'Univ_nacional_tres_de_febrero'
+PG_ID= config('PG_ID', default='')
+S3_ID=config('S3_ID', default='')
+S3_ID=config('S3_ID', default='')
+BUCKET_NAAME=config('BUCKET_NAME', default='')
+PUBLIC_KEY=config('PUBLIC_KEY', default='')
 
 # Retries configuration
 default_args = {
@@ -95,37 +34,33 @@ default_args = {
     'retry_delay': timedelta(seconds=30)
 }
 
-# Dag definition for the ETL process
-with DAG('Extraction_Univ_interamericana',
-         description='for the execution of an sql query to the training database, to obtain information about Universidad tres de febrero',
+# Dag definition for the E process
+with DAG('Extraction_Univ_LaPamPa',
+         description='for the execution of an sql query to the trainingn\
+          database, to obtain information about Universidad tres de febrero',
          start_date=datetime(2020, 3, 24),
          max_active_runs=3,
          schedule_interval='@hourly',
          default_args=default_args,
-         template_searchpath=f'{path}/include',
+         template_searchpath=f'{path_p}/include',
          catchup=False,
          ) as dag:
-
-    # PythonOperator for the execution of get_connection, commented above
-    connect_to_db = PythonOperator(
-        task_id="connection",
-        python_callable=get_connection,
-        op_kwargs={'username': USER, 'password': PASSWORD,
-                   'db': SCHEMA, 'host': HOST,
-                   'conntype': CONNECTION_TYPE, 'id': ID, 'port': PORT}
-
-    )
 
 # PythonOperator for extraaction function, commented above
     extraction_task = PythonOperator(
         task_id="Extraction",
-        python_callable=extraction
-    )
+        python_callable=extraction,
+        op_kwargs={'database_id': 'training_db',
+                   'table_id': TABLE_ID}
 
+    )
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
-        python_callable=logger
+        python_callable=logger,
+        op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
-    connect_to_db >> logging_task >> extraction_task
+    logging_task 
+    extraction_task
+
