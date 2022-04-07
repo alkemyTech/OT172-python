@@ -9,6 +9,18 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
+
+def logger(): # TAREA 172-48
+    import logging
+    logging.basicConfig(format='%(asctime)s %(logger)s %(message)s', datefmt='%Y-%m-%d',
+                       filename='logoloro.log', encoding='utf-8', level=logging.DEBUG)
+    logging.debug("")
+    logging.info("")
+    logging.warning("")
+    logging.critical("")
+    return None
+
+
 #The following configuration establishes a maximum of 5 retries, 
 # with an interval of 5 seconds between them.
 
@@ -34,10 +46,17 @@ with DAG('LaPampa_Univ',
          catchup=False,
          ) as dag:
 
+    logging_task= PythonOperator(
+        task_id= "logging",
+        python_callable= logger
+    )
+
     opr_LaPampa = PostgresOperator(
         task_id='LaPampa',
         postgres_conn_id='some_conn',
         sql='sql-Univ_nac_LaPampa.sql'
     )
 
+    
+    logging_task
     opr_LaPampa
