@@ -26,6 +26,9 @@ default_args = {
 # passed as a parameter to the "PostgreOperator" class.
 
 with DAG('Interamericana_Unv',
+ description=("dag for execute queries to a PgSQL database, "+
+         "contained in the 'Interamericana_Unv' file, in the 'include' fold"),
+
          start_date=datetime(2020, 3, 22),
          max_active_runs=3,
          schedule_interval='@hourly',
@@ -41,3 +44,4 @@ with DAG('Interamericana_Unv',
     )
     
     opr_Interamericana
+
