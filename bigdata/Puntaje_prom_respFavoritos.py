@@ -1,5 +1,6 @@
 
 from doctest import ELLIPSIS_MARKER
+from importlib.resources import path
 from statistics import mean
 import xml.etree.ElementTree as ET
 from functools import reduce
@@ -10,9 +11,10 @@ import os
 import sys
 import operator
 import pandas as pd
+import pathlib
 
-path_p = (pathlib.Path(__file__).parent.absolute()).parent
-
+path_p = (pathlib.Path(__file__).parent.absolute())
+  
 sys.path.append(f'/{path_p}/lib')
 #from mapReduce import *
 
@@ -125,7 +127,7 @@ def top_10_fav_scores(data):
 
 def main():
     tree = ET.parse(
-        '/home/juan/Alkemy/OT172-python/bigdata/Stack Overflow 11-2010/112010 Meta Stack Overflow/posts.xml')
+        f'{path_p}dataset/112010 Meta Stack Overflow/posts.xml')
     root = tree.getroot()
     chunked_data = chunkify(root, 50)
     tags = list(map(mapper_prom_score, chunked_data))
