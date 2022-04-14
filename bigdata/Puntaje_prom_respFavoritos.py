@@ -22,11 +22,14 @@ sys.path.append(f'/{path_p}/lib')
 # Puntaje promedio de las repuestas con mas favoritos
 ############################################################################################################
 
+# Abordaje del problema
 
-def chunkify(data, len_of_chunks):
-    for i in range(0, len(data), len_of_chunks):
-        yield data[i:i + len_of_chunks]
-
+# 1- A partir de los datos, se obtienen la cantidad de favoritos por respuesta y su score
+# 2- El resultado del paso 1, se usa como input en una función filter, que se encarga de eparar aquellas entradas
+# sin resultado alguno ("None")
+# 3- Un primer reductor, reduce los datos del chunck procesado.
+# 4- Mediante una nueva secuencia de filtro y reduce, se obtiene el formato requerido. y finalmente
+# se selecciona la cantidad pedida por la tarea
 
 def get_fav_scores(data):
     """
@@ -108,16 +111,12 @@ def mapper_prom_score(chunck):
     return fav_scores_count
 
 
-def split_data(data):
-
-    dic = {}
-    for i in data:
-        for key, value in i.items():
-            dic.update({key: value})
-    return dic
-
-
 def top_10_fav_scores(data):
+    """Sorts the input dictionary data, according to the value of 
+    its keys, takes the keys and values according to that order 
+    and returns a list, with two list lists inside, one with the 
+    top 10 keys and another with the corresponding values
+    """
     sort_data = dict(sorted(data.items(), key=lambda x:int(x[0])))
     tot_keys= list(sort_data.keys())
     top_10_keys= tot_keys[-10:]
