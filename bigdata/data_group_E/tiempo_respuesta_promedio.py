@@ -23,7 +23,7 @@ ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 try:
     logging.config.fileConfig(f'{ruta_base}/data_group_E/logging.cfg')
     # create logger
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger('Tiempo_Respuesta_promedio')
     """
     # application code for logger
     logger.debug('debug message')
@@ -58,9 +58,7 @@ def obtener_datos():
 
 def obt_score(data):
     """
-    Obtiene los datos de los atributos 'ViewCount' y 'AnswerCout'
-    Arg: Datos obtenidos del repositorio
-    Return: retorna los datos en forma de enteros, de view y answer
+   
     """
     try:
         score = int(data.attrib['Score'])
@@ -81,10 +79,8 @@ def obt_score(data):
 
 def mapper(data):
     """
-    Funcion que hace el mapeo para obtener las visitas y las respuestas.
-    Luego hace un reduce de esos datos.
     Arg: Recibe el data_chuks
-    return: Retorna una lista de tuplas ya reducidas.
+    return: 
     """
     view_answer = list(map(obt_score, data))
     #reducido = reduce(reducir_views_answer, view_answer)
