@@ -1,12 +1,12 @@
 """
-Configuracion del archivo .cfg para el logging
 
 Utilizar MapReduce para el grupo de datos E
 * Top 10 fechas con mayor cantidad de post creados
 
 * Relación entre cantidad de respuestas y sus visitas.
 
-* Del ranking de los primeros 0-100 por score, tomar el tiempo de respuesta promedio e informar un único valor.
+* Del ranking de los primeros 0-100 por score, tomar el tiempo de respuesta promedio 
+e informar un único valor.
 """
 
 from functools import reduce
@@ -17,19 +17,31 @@ import logging
 import logging.config
 import time
 import datetime
+import os, sys
+
+sys.path.insert(1, os.path.abspath("C:/Users\Lucyfer\Documents\Fernando\Alkemy\Aceleracion\OT172\OT172-python/bigdata"))
+from lib.chunkify import *
 
 
-logging.config.fileConfig('OT172-python/bigdata/map_reduce/logging.cfg')
-# create logger
-logger = logging.getLogger(__name__)
-"""
-# application code for logger
-logger.debug('debug message')
-logger.info('info message')
-logger.warning('warn message')
-logger.error('error message')
-logger.critical('critical message')
-"""
+ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+#ruta_include = path.abspath(path.join(ruta_base, 'include'))
+try:
+    logging.config.fileConfig(f'{ruta_base}/data_group_E/logging.cfg')
+    
+    # create logger
+    logger = logging.getLogger(__name__)
+    """
+    # application code for logger
+    logger.debug('debug message')
+    logger.info('info message')
+    logger.warning('warn message')
+    logger.error('error message')
+    logger.critical('critical message')
+    """
+except KeyError as e:
+   print('No se encontro el archivo logging.cfg en el path especificado.')
+   raise e
 
 def obtener_datos():
     """
@@ -37,7 +49,7 @@ def obtener_datos():
     Return: retorna los datos que seran procesados luego
     """
     try:
-        post = ET.parse(r"112010 Meta Stack Overflow\posts.xml")
+        post = ET.parse(f"{ruta_base}/data_set/112010 Meta Stack Overflow/posts.xml")
         data_post = post.getroot()
         logger.info('Datos obtenidos con exito.')
         return data_post
@@ -47,6 +59,7 @@ def obtener_datos():
     except Exception as e:
         logger.error(e)
         raise e
+    
 
 
 
@@ -137,7 +150,7 @@ if __name__=="__main__":
 
     logger.info(f'El top 10 fechas con mayor cantidad de post es:\n')
     for i in top:
-        logger.info(f'Fecha: {i[0]} se crearon => {i[1]} posts')
+        logger.info(f'En la fecha: {i[0]} se crearon => {i[1]} posts')
     
     logger.info(f'Tiempo para procesar los datso: {time_end - time_start}')
 
