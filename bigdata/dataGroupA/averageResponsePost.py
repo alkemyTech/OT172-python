@@ -35,8 +35,6 @@ def str_to_datetime(date_string):
     si el postId de un comentario de dic2 esta
     en dic1 entonces agregar el Date de comentario
     al dic1, caso contrario crear en dic1 postId: Date"""
-
-
 def group_dates_with_postId(dic1, dic2):
     for key, value in dic2.items():
         if key in dic1.keys():
@@ -49,8 +47,6 @@ def group_dates_with_postId(dic1, dic2):
 """ Input: lista de xml
     Ouput: lista de diccionarios con formato
         {postId: [lista de fechas de comentarios a ese postId]}"""
-
-
 def mapped_comments(c_chunk):
     # Obtener los postId y fecha de creacion de cada comentario
     mappedOne = list(map(get_pId_Date_comment, c_chunk))
@@ -62,8 +58,6 @@ def mapped_comments(c_chunk):
 """ Input: lista de xml
     Ouput: lista de diccionarios con formato
         {Id: [lista con solamente su fecha de creacion]}"""
-
-
 def mapped_posts(p_chunk):
     return list(map(get_Id_Date_post, p_chunk))
 
@@ -76,8 +70,6 @@ def mapped_posts(p_chunk):
             como postId en el diccionario de comentarios
             Caso contrario retorna el diccionario con la misma clave,
             pero con valor None"""
-
-
 def only_whit_comments(Onedicc, comments_dicc):
     for key, value in Onedicc.items():
         if key in comments_dicc.keys():
@@ -90,10 +82,7 @@ def only_whit_comments(Onedicc, comments_dicc):
 """ Input: un diccionario con un solo par de clave valor tipo:
     {Id: [[date_creacion_Post],[dates_comentarios]]}
     Output: un diccionario con un solo par de clave valor tipo:
-    {Id: time -> indicando el tiempo promedio de respuesta en horas}
-"""
-
-
+    {Id: time -> indicando el tiempo promedio de respuesta en horas}"""
 def calculed_average(Onedicc):
     # para el unico elemento del diccionario
     for key, value in Onedicc.items():

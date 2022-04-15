@@ -14,8 +14,6 @@ def divide_chunks(iterable, n):
 """ Input: xml
     Output: listas con tags o None
     Solo si el post tiene tags y tiene el campo AcceptedAnswerId"""
-
-
 def get_Tags_AcceptedAnswer(xml):
     if ('Tags' not in xml.attrib or xml.attrib['Tags']
             == '') and 'AcceptedAnswerId' not in xml.attrib:
@@ -26,8 +24,6 @@ def get_Tags_AcceptedAnswer(xml):
 
 """ Input: chunk de listas con xml's
     Output: diccionario con tags y cantidad de apariciones"""
-
-
 def mapper(data_chunk):
     # obtener tags de cada post
     data_process = list(map(get_Tags_AcceptedAnswer, data_chunk))
@@ -44,8 +40,6 @@ def mapper(data_chunk):
         sumar valor de dicc2 a clave de dicc1
     si no existe:
         agregar clave:valor de dicc2 a dicc1"""
-
-
 def reducer_CounterTags(dicc1, dicc2):
     for key, value in dicc2.items():
         if key in dicc1.keys():

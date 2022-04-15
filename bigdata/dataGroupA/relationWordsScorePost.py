@@ -15,8 +15,6 @@ def divide_chunks(iterable, n):
         id, len_words, score, relation
     Aqui esta el fuerte de todas las funciones, formateando y limpiando
     los campos del xml que necesitamos ademas de calcular la relacion"""
-
-
 def body_score(xml):
     words = re.findall(
         r'(?<!\S)[A-Za-z]+(?!\S)|(?<!\S)[A-Za-z]+(?=:(?!\S))',
@@ -33,8 +31,6 @@ def body_score(xml):
 """ Input: lista de xml
     Output: lista de diccionarios con id, len_words, score, relation
     solo llama a la funcion body_score para un map"""
-
-
 def mapped(data_chunk):
     return list(map(body_score, data_chunk))
 
