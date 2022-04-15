@@ -30,7 +30,7 @@ try:
     logging.config.fileConfig(f'{ruta_base}/data_group_E/logging.cfg')
     
     # create logger
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger('top_10_fechas_con_mas_post')
     """
     # application code for logger
     logger.debug('debug message')
