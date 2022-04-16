@@ -1,12 +1,9 @@
 """
 
 Utilizar MapReduce para el grupo de datos E
+
 * Top 10 fechas con mayor cantidad de post creados
 
-* Relación entre cantidad de respuestas y sus visitas.
-
-* Del ranking de los primeros 0-100 por score, tomar el tiempo de respuesta promedio 
-e informar un único valor.
 """
 
 from functools import reduce

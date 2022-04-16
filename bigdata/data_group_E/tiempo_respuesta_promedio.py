@@ -6,18 +6,15 @@ Utilizar MapReduce para el grupo de datos E
   de respuesta promedio e informar un único valor.
 """
 
-import os
-import sys
-sys.path.insert(1, os.path.abspath("C:/Users\Lucyfer\Documents\Fernando\Alkemy\Aceleracion\OT172\OT172-python/bigdata"))
+
 from functools import reduce
 from typing import Counter
 import xml.etree.ElementTree as ET
-import re
 import logging
 import logging.config
 import time
 import datetime
-from lib.chunkify import chunk_data
+
 
 ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 try:
@@ -38,6 +35,23 @@ except KeyError as e:
 except FileNotFoundError as e:
     print(f'La ruta el directorio es incorrecta. {e}')
     raise e
+
+def chunk_data(iterable, len_of_chunk):
+    """ 
+    Se divide la data en partes para poder trabajarla
+    arg: iterable: lista de datos obtenida
+         len_of_chunk: cantidad de partes en las que se dividira la lista
+    retunr: Retorna la lista dividida en partes
+    """
+    try:
+        if len_of_chunk < 0:
+            raise TypeError('El numero de len_of_chunk debe ser mayor a 0')
+        for i in range(0, len(iterable), len_of_chunk):
+            yield iterable[i:i +len_of_chunk]
+        
+    except TypeError as e:
+        logger.error(f"Ocurrió una excepción identificada: {e}")
+
 
 def obtener_datos():
     """

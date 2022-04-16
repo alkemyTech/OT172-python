@@ -4,18 +4,14 @@ Utilizar MapReduce para el grupo de datos E
 Parte 2:
         * Relación entre cantidad de respuestas y sus visitas.
 """
-import os
-import sys
-sys.path.insert(1, os.path.abspath("C:/Users\Lucyfer\Documents\Fernando\Alkemy\Aceleracion\OT172\OT172-python/bigdata"))
 from functools import reduce
-from typing import Counter
 import xml.etree.ElementTree as ET
-import re
 import logging
 import logging.config
 import time
-import datetime
-from lib.chunkify import chunk_data
+import os
+
+
 
 
 
@@ -39,6 +35,22 @@ except KeyError as e:
 except FileNotFoundError as e:
     print(f'La ruta el directorio es incorrecta. {e}')
     raise e
+
+def chunk_data(iterable, len_of_chunk):
+    """ 
+    Se divide la data en partes para poder trabajarla
+    arg: iterable: lista de datos obtenida
+         len_of_chunk: cantidad de partes en las que se dividira la lista
+    retunr: Retorna la lista dividida en partes
+    """
+    try:
+        if len_of_chunk < 0:
+            raise TypeError('El numero de len_of_chunk debe ser mayor a 0')
+        for i in range(0, len(iterable), len_of_chunk):
+            yield iterable[i:i +len_of_chunk]
+        
+    except TypeError as e:
+        logger.error(f"Ocurrió una excepción identificada: {e}")
 
 def obtener_datos():
     """
@@ -65,12 +77,12 @@ def obt_views_answer(data):
     Return: retorna los datos en forma de enteros, de view y answer
     """
     try:
-        view_count = int(data.attrib['ViewCount'])
         try:
             answer_count = int(data.attrib['AnswerCount'])
+            view_count = int(data.attrib['ViewCount'])
+            return view_count, answer_count
         except:
-            answer_count = 0
-        return view_count, answer_count
+            return        
     except Exception as e:
         logger.error(f'Error al obtener las visitas y respuestas {e}')
 
@@ -93,7 +105,11 @@ def mapper(data):
     return: Retorna una lista de tuplas ya reducidas.
     """
     view_answer = list(map(obt_views_answer, data))
-    reducido = reduce(reducir_views_answer, view_answer)
+    view_answer = list(filter(None, view_answer))
+    try:
+        reducido = reduce(reducir_views_answer, view_answer)
+    except:
+        return
     return reducido
 
 def respuestas_y_visitas():
@@ -106,8 +122,9 @@ def respuestas_y_visitas():
         data_chuncks = chunk_data(data, 50)
         logger.info('Datos separados en partes con exito')
         mapped = list(map(mapper, data_chuncks))
+        mapped = list(filter(None, mapped))
         resultado = reduce(reducir_views_answer, mapped)
-        logger.info('Cantidad total de viwes y answer obtenidas con exito')
+        logger.info('Cantidad total de views y answer obtenidas con exito')
         return resultado
     except Exception as e:
         logger.error(f'Errro en la ejecucion de respuestas_y_visitas(). {e} ')
