@@ -60,5 +60,3 @@ def xml_map_reduce():
     vals = get_tag_list(8)
     mapa = list(map(tag_extractor, vals))
     return reduce(tag_reducer, mapa)
-
-print(xml_map_reduce())
