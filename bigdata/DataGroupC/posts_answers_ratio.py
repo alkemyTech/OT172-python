@@ -54,7 +54,6 @@ def word_answer_extractor(row):
     return
 
 def word_answer_reducer(c, tupla):
-    print(c, tupla)
     c.update({tupla[0]: tupla[1]})
     return c
 
