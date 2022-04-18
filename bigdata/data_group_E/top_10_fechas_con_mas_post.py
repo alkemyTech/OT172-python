@@ -9,19 +9,14 @@ Utilizar MapReduce para el grupo de datos E
 from functools import reduce
 from typing import Counter
 import xml.etree.ElementTree as ET
-import re
 import logging
 import logging.config
 import time
 import datetime
 import os, sys
 
-sys.path.insert(1, os.path.abspath("C:/Users\Lucyfer\Documents\Fernando\Alkemy\Aceleracion\OT172\OT172-python/bigdata"))
-from lib.chunkify import *
-
 
 ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-
 #ruta_include = path.abspath(path.join(ruta_base, 'include'))
 try:
     logging.config.fileConfig(f'{ruta_base}/data_group_E/logging.cfg')
@@ -149,5 +144,5 @@ if __name__=="__main__":
     for i in top:
         logger.info(f'En la fecha: {i[0]} se crearon => {i[1]} posts')
     
-    logger.info(f'Tiempo para procesar los datso: {time_end - time_start}')
+    logger.info(f'Tiempo para procesar los datos: {time_end - time_start}')
 

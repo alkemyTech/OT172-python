@@ -4,16 +4,13 @@ Utilizar MapReduce para el grupo de datos E
 Parte 2:
         * Relación entre cantidad de respuestas y sus visitas.
 """
+
 from functools import reduce
 import xml.etree.ElementTree as ET
 import logging
 import logging.config
 import time
 import os
-
-
-
-
 
 ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 try:
@@ -139,7 +136,7 @@ if __name__=="__main__":
     relacion = respuestas_y_visitas()
     logger.info('Fin del procesamiento de datos')
     time_end = time.time()
-    logger.info(f'Tiempo para procesar los datso: {time_end - time_start}')
+    logger.info(f'Tiempo para procesar los datos: {time_end - time_start}')
 
     logger.info(f'Se obtuvieron {relacion[0]} visitas y {relacion[1]} respuestas en los datos analizados')
     a = relacion[0]/relacion[1]
