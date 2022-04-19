@@ -53,7 +53,7 @@ from functions_Project_1 import *
 # Credentials,  path & table id:
 PG_ID= config('PG_ID', default='')
 S3_ID=config('S3_ID', default='')
-TABLE_ID= 'moron_nacional_pampa'
+TABLE_ID= 'sql-Univ_nac_LaPampa'
 BUKET_NAME= config('S3_BUCKET_NAME', default='')
 
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
@@ -71,7 +71,7 @@ default_args = {
 
 
 # Dag definition for the ETL process
-with DAG('moron_nacional_pampa',
+with DAG('sql-Univ_nac_LaPampa',
          start_date=datetime(2020,4,4),
          max_active_runs=8,
          schedule_interval= '@hourly',

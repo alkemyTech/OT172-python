@@ -1,8 +1,8 @@
 
 ###################################################################################
-# Dag creado el dia 2022-04-07 con la siguiente configuración:
+# Dag creado el dia 2022-04-13 con la siguiente configuración:
 #
-# Ruta de archivos SQL= /home/juan/airflow/OT172-python/airflow/include
+# Ruta de archivos SQL= /home/juan/Alkemy/OT172-python/airflow/include
 # 
 # Configuraciòn:
 # Default args: 
@@ -16,7 +16,7 @@
 # start_date=datetime(startdate_toreplace),
 #                max_active_runs= runs_toreplace,
 #                schedule_interval= scheduler_toreplace,
-#                template_searchpath= /home/juan/airflow/OT172-python/airflow/include,
+#                template_searchpath= /home/juan/Alkemy/OT172-python/airflow/include,
 #                catchup=False,
 #           
 #########################################################################################

@@ -1,6 +1,3 @@
-### Template for creating customized dags files using the generate 
-### dags function. The different configuration parameters are replaced by 
-### what is set in the dag_config.json file, customizing each dag
 
 ###################################################################################
 # Dag creado el dia fechadia con la siguiente configuración:
@@ -25,49 +22,40 @@
 #########################################################################################
 
 
-from Dag_functions import *
 from asyncio import Task
 from airflow import DAG
 from airflow.hooks.S3_hook import S3Hook
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
+from datetime import timedelta
+from datetime import datetime
 from airflow.models import Connection
 from airflow import settings
+from pydata_google_auth import default
 from sympy import Id
 import pandas as pd
-import datetime
-from datetime import datetime
 import logging
 import os
-import pathlib
+import sys
 from decouple import config
-
-
-###### Credentials
-
-PG_USERNAME= config('PG_USERNAME', default='')
-PG_PASSWORD= config('PG_PASSWORD', default='')
-PG_SCHEMA= config('PG_SCHEMA', default='')
-PG_HOST= config('PG_HOST', default='')
-PG_CONNTYPE=config(' PG_CONNTYPE', default='')
-PG_ID= config('PG_ID', default='')
-PG_PORT= config('PORT', default='')
-
-
-S3_BUCKET_NAME=config('BUCKET_NAME', default='')
-S3_ID=config('S3_ID', default='')
-S3_SECRET_KEY=config('S3_SECRET_KEY', default='')
-S3_PUBLIC_KEY=config('S3_PUBLIC_KEY', default='')
-
-
-
 # To define the directory, the pathlib.Path(__file__) function of the payhlib module was used.
 #  This function detects the path of the running .py file. Since that file is in /dags, it is
 #  necessary to move up one level. This is achieved with the .parent method.
-path = (pathlib.Path(__file__).parent.absolute()).parent
+import pathlib
 
-# root
+path_p = (pathlib.Path(__file__).parent.absolute()).parent
+  
+sys.path.append(f'/{path_p}/lib')
+from functions_Project_1 import *
+
+
+# Credentials,  path & table id:
+PG_ID= config('PG_ID', default='')
+S3_ID=config('S3_ID', default='')
+TABLE_ID= dagid_toreplace
+BUKET_NAME= config('S3_BUCKET_NAME', default='')
+
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
 
 
@@ -81,7 +69,6 @@ default_args = {
     'retry_delay': retry_delay_toreplace
 }
 
-# Dag definition for the ETL process
 
 # Dag definition for the ETL process
 with DAG(dagid_toreplace,
@@ -92,29 +79,30 @@ with DAG(dagid_toreplace,
          template_searchpath=template_searchpath_toreplace,
          catchup=catchup_toreplace,
          ) as dag:
+
+#
 # PythonOperator for extraaction function, commented above
-    extraction_task = PythonOperator(
-        task_id="Extraction",
+    ET_task = PythonOperator(
+        task_id="ET",
         python_callable=extraction_transform_data,
         op_kwargs={'database_id': 'training_db',
                    'table_id': TABLE_ID}
-    )
 
-# PythonOperator for ETL function, commented above
-
-    load_task = PythonOperator(
-        task_id="Load",
-        python_callable=load_s3_function
     )
 
 # PythonOperator for logger function, commented above
     logging_task = PythonOperator(
         task_id="logguers",
         python_callable=logger,
-        op_args= {f'{path}/logs/{TABLE_ID}'}
+        op_args= {f'{path_p}/logs/{TABLE_ID}'}
     )
 
+  # PythonOperator for ETL function, commented above
+    load_task = PythonOperator(
+        task_id="Load",
+        python_callable=load_s3,
+        op_kwargs={'id_conn': S3_ID, 'univ': TABLE_Id, 'bucket_name':BUCKET_NAME}
+    )
 
+    logging_task >>  ET_task >>   load_task
 
-    logging_task 
-    extraction_task >> load_task
