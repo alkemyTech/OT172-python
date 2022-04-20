@@ -3,6 +3,14 @@ import xml.etree.ElementTree as ET
 from functools import reduce
 import pathlib
 import re
+import logging
+import logging.config
+import pathlib
+import sys
+
+
+logging.config.fileConfig(f'{pathlib.Path(__file__).parent.absolute()}/logging.cfg')
+logger = logging.getLogger('relationWordsScore')
 
 
 def divide_chunks(iterable, n):
@@ -36,23 +44,36 @@ def mapped(data_chunk):
 
 
 if '__main__' == __name__:
-    path = str(pathlib.Path().absolute()) + '/../..' + \
-        config('dataset_path') + 'posts.xml'
-    tree_xml = ET.parse(path)
+    try:
+        path = str(pathlib.Path().absolute()) + '/../..' + \
+            config('dataset_path') + 'posts.xml'
+        tree_xml = ET.parse(path)
+    except FileNotFoundError as e:
+        logger.error(f'relationWordsScore - Archivo no encontrado: {path}')
+        logger.error(f'relationWordsScore - Error: {e}')
+        sys.exit(1)
     data_chunks = divide_chunks(tree_xml.getroot(), 100)
+    logger.info(f'relationWordsScore - Division en chunks de datos: {path}')
 
+    logger.info(f'relationWordsScore - Mapeo de datos')
     # llamada a la funcion mapper principal
     mapped = list(map(mapped, data_chunks))
     # aplanar lista con reduce
     mapped = reduce(lambda x, y: x + y, mapped)
+    logger.info(f'relationWordsScore - Aplanado de datos, datos listos')
 
-    path_download = str(pathlib.Path().absolute()) + '/../..' + \
-        config('files_path') + 'relationWordsScoreA.txt'
-    with open(path_download, 'w') as f:
-        for item in mapped:
-            f.write('PostID: ' +
-                    str(item['id']) +
-                    ' Relation: ' +
-                    str(item['relation']) +
-                    '\n')
-    print('Done!')
+    try:
+        path_download = str(pathlib.Path().absolute()) + '/../..' + \
+            config('files_path') + 'relationWordsScoreA.txt'
+        with open(path_download, 'w') as f:
+            for item in mapped:
+                f.write('PostID: ' +
+                        str(item['id']) +
+                        ' Relation: ' +
+                        str(item['relation']) +
+                        '\n')
+    except Exception as e:
+        logger.error(f'relationWordsScore - Error al escribir en: {path_download}')
+        logger.error(f'relationWordsScore - Error: {e}')
+        sys.exit(1)
+    logger.info(f'relationWordsScore - Archivo creado: {path_download}')

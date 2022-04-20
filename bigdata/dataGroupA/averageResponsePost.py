@@ -4,10 +4,16 @@ from functools import reduce, partial
 from datetime import datetime
 from statistics import mean
 import xml.etree.ElementTree as ET
+import logging
+import logging.config
 import pathlib
+import sys
 import time
 import re
 
+
+logging.config.fileConfig(f'{pathlib.Path(__file__).parent.absolute()}/logging.cfg')
+logger = logging.getLogger('averageResponse')
 
 def divide_chunks(iterable, n):
     for i in range(0, len(iterable), n):
@@ -112,18 +118,32 @@ def calculed_average(Onedicc):
 """
 if '__main__' == __name__:
     ##### PREPARNDO LOS ARCHIVOS #####
-    path_comments = str(pathlib.Path().absolute()) + \
-        '/../..' + config('dataset_path') + 'comments.xml'
-    path_posts = str(pathlib.Path().absolute()) + '/../..' + \
-        config('dataset_path') + 'posts.xml'
+    try:
+        path_comments = str(pathlib.Path().absolute()) + \
+            '/../..' + config('dataset_path') + 'comments.xml'
+        path_posts = str(pathlib.Path().absolute()) + '/../..' + \
+            config('dataset_path') + 'posts.xml'
 
-    tree_comments = ET.parse(path_comments)
-    tree_posts = ET.parse(path_posts)
+        tree_comments = ET.parse(path_comments)
+        tree_posts = ET.parse(path_posts)
+    except FileNotFoundError as e:
+        logger.error(f'averageResponse-No existe el archivo :\n{e.filename}')
+        sys.exit(1)
+    except ET.ParseError as e:
+        logger.error(f'averageResponse-Error al parsear un archivo:\n{e.filename}')
+        logger.error(f'averageResponse-Error: {e}')
+        sys.exit(1)
+    except Exception as e:
+        logger.error(e)
+        sys.exit(1)
 
     chunks_comments = divide_chunks(tree_comments.getroot(), 50)
+    logger.info(f'averageResponse-Division chunks de comentarios listo')
     chunks_posts = divide_chunks(tree_posts.getroot(), 50)
+    logger.info(f'averageResponse-Division de chunks de posts listo')
 
     ##### COMENTARIOS #####
+    logger.info('averageResponse-Procesando comentarios...')
     # llamada a la funcion mapper de comentarios
     comments = list(map(mapped_comments, chunks_comments))
     # agrupar las fechas de comentarios por postId
@@ -132,28 +152,39 @@ if '__main__' == __name__:
     {'pId': [lista de fechas de comentarios],
     'pId': [lista de fechas de comentarios],
     'pId': [lista de fechas de comentarios]}"""
+    logger.info('averageResponse-Comentarios procesados')
 
     ##### POSTS #####
+    logger.info('averageResponse-Procesando posts...')
     # llamada a la funcion mapper de posts
     posts = list(map(mapped_posts, chunks_posts))
     # aplanar la lista de diccionarios
     posts = reduce(lambda x, y: x + y, posts)
+    logger.info('averageResponse-Posts procesados')
 
     ##### COMBINAR LOS POSTS Y COMENTARIOS #####
+    logger.info('averageResponse-Combinando posts y comentarios...')
     # basicamente agregar a los posts la lista de fechas de comentarios
     # si es que tienen comentarios
     def aux_lambda(x): return only_whit_comments(x, comments)
     posts = list(map(aux_lambda, posts))
     # limpiar los post que no tienen comentarios
     posts = list(filter(None, posts))
+    logger.info('averageResponse-Combinacion finalizada')
 
     ##### OBTENER EL PROMEDIO DE TIEMPO DE RESPUESTA POR POST #####
+    logger.info('averageResponse-Obteniendo promedio de tiempo de respuestas...')
     posts = list(map(calculed_average, posts))
 
-    path_download = str(pathlib.Path().absolute()) + '/../..' + \
-        config('files_path') + 'averageResponsePostA.txt'
-    with open(path_download, 'w') as f:
-        for dict in posts:
-            for key, value in dict.items():
-                f.write('PostId: ' + key + ' - avg_comments: ' + value + '\n')
-    print('Done!')
+    try:
+        path_download = str(pathlib.Path().absolute()) + '/../..' + \
+            config('files_path') + 'averageResponsePostA.txt'
+        with open(path_download, 'w') as f:
+            for dict in posts:
+                for key, value in dict.items():
+                    f.write('PostId: ' + key + ' - avg_comments: ' + value + '\n')
+    except Exception as e:
+        logger.error(f'averageResponse-Error al escribir el archivo:\n{e.filename}')
+        logger.error(f'averageResponse-Error: {e}')
+        sys.exit(1)
+    logger.info('averageResponse-Proceso finalizado')
