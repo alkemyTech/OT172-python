@@ -1,22 +1,22 @@
 
 ###################################################################################
-# Dag creado el dia fechadia con la siguiente configuración:
+# Dag creado el dia 2022-04-13 con la siguiente configuración:
 #
-# Ruta de archivos SQL= rutasql
+# Ruta de archivos SQL= /home/juan/Alkemy/OT172-python/airflow/include
 # 
 # Configuraciòn:
 # Default args: 
-#               'owner': 'owner_toreplace',
-#               'depends_on_past': depends_on_past_toreplace,
-#               'email_on_failure': email_on_failure_toreplace,
-#               'email_on_retry': email_on_retry_toreplace,
-#               'retries': retries_toreplace,
-#                retry_delay': retry_delay_toreplace
+#               'owner': ''airflow'',
+#               'depends_on_past': False,
+#               'email_on_failure': False,
+#               'email_on_retry': False,
+#               'retries': 5,
+#                retry_delay': timedelta(seconds=30)
 # 
 # start_date=datetime(startdate_toreplace),
 #                max_active_runs= runs_toreplace,
 #                schedule_interval= scheduler_toreplace,
-#                template_searchpath= rutasql,
+#                template_searchpath= /home/juan/Alkemy/OT172-python/airflow/include,
 #                catchup=False,
 #           
 #########################################################################################
@@ -53,7 +53,7 @@ from functions_Project_1 import *
 # Credentials,  path & table id:
 PG_ID= config('PG_ID', default='')
 S3_ID=config('S3_ID', default='')
-TABLE_ID= dagid_toreplace
+TABLE_ID= 'Uni_Moron'
 BUKET_NAME= config('S3_BUCKET_NAME', default='')
 
 # Function to define logs, using the logging library: https://docs.python.org/3/howto/logging.html
@@ -61,23 +61,23 @@ BUKET_NAME= config('S3_BUCKET_NAME', default='')
 
 # Retries configuration
 default_args = {
-    'owner': owner_toreplace,
-    'depends_on_past': depends_on_past_toreplace,
-    'email_on_failure': email_on_failure_toreplace,
-    'email_on_retry': email_on_retry_toreplace,
-    'retries':retries_toreplace,
-    'retry_delay': retry_delay_toreplace
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries':5,
+    'retry_delay': timedelta(seconds=30)
 }
 
 
 # Dag definition for the ETL process
-with DAG(dagid_toreplace,
-         start_date=datetime(start_date_toreplace),
-         max_active_runs=max_active_runs_toreplace,
-         schedule_interval= schedule_interval_toreplace,
+with DAG('Uni_Moron',
+         start_date=datetime(2020,4,4),
+         max_active_runs=8,
+         schedule_interval= '@hourly',
          default_args=default_args,
-         template_searchpath=template_searchpath_toreplace,
-         catchup=catchup_toreplace,
+         template_searchpath=f'{path_p}/airflow/include',
+         catchup=False,
          ) as dag:
 
 #

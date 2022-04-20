@@ -273,6 +273,7 @@ def transform_df(df, university_id:str):
     # save_data
         df = df[['university', 'career', 'inscription_date', 'first_name',
                 'last_name', 'gender', 'age', 'postal_code', 'location', 'email']]
+
         df.to_csv(f'{path_p}/files/{university_id}.txt', sep='\t')
     return None
 
