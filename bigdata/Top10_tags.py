@@ -106,6 +106,7 @@ def chunk_data(iterable_data, len_of_chunk):
         elif not isinstance(len_of_chunk, int):
             raise logger.error(f'Debe ingresar un número entero {TypeError}')
 
+
 def get_tags_NA_ans(data):
     """
     The function returns, from the input, a dictionary 
@@ -193,7 +194,7 @@ def reduce_counters(data1, data2):
         if not isinstance(data1, dict):
            raise logger.error(f'Debe ingresar un diccionario en el argumento data2 {e}')
 
-     
+
 
 
 def order_scores(data):
@@ -243,3 +244,4 @@ def main(path):
 
 if __name__ == '__main__':
     main('C:/Users/Jsolchaga86/Desktop/Proyectos/Alkemy/OT172-python/bigdata/dataset/Stack Overflow 11-2010/112010 Meta Stack Overflow/posts.xml')
+

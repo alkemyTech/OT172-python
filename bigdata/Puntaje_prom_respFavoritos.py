@@ -26,7 +26,7 @@ from rich.tree import Tree
 from rich import print as rprint
 from art import *
 
-path_p = (pathlib.Path(__file__).parent.absolute()).parent
+
   
 sys.path.append(f'/{path_p}/lib')
 #from mapReduce import *
@@ -95,6 +95,7 @@ def chunk_data(iterable_data, len_of_chunk):
             raise logger.error(f'Debe ingresar un número entero {TypeError}')
 
 
+
 def get_fav_scores(data):
     """
 Args:
@@ -122,7 +123,6 @@ This is to avoid future inconvenience when dividing by
     return data
      
 
-        
 
 
 def reduce_fav_scores(data1, data2):
@@ -168,6 +168,7 @@ def reduce_fav_scores(data1, data2):
            raise logger.error(f'Debe ingresar un diccionario en el argumento data1 {e}')
         if not isinstance(data1, dict):
            raise logger.error(f'Debe ingresar un diccionario en el argumento data2 {e}')
+
 
 def mapper_prom_score(chunck):
     """

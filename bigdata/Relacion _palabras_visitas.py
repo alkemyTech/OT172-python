@@ -6,6 +6,7 @@ import logging
 from statistics import mean
 from time import time
 from tkinter import font
+
 import xml.etree.ElementTree as ET
 from functools import reduce
 import re
@@ -113,7 +114,6 @@ def get_body_views(data):
         except:
             return
    
-
     
 
 
@@ -199,3 +199,4 @@ def main(path):
 
 if __name__ == '__main__':
     main('C:/Users/Jsolchaga86/Desktop/Proyectos/Alkemy/OT172-python/bigdata/dataset/Stack Overflow 11-2010/112010 Meta Stack Overflow/posts.xml')
+
