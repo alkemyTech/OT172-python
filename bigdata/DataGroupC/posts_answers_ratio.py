@@ -7,6 +7,7 @@ ticket: https://alkemy-labs.atlassian.net/browse/PT172-134
 from collections import Counter
 from functools import reduce
 from html.parser import HTMLParser
+import multiprocessing as mp
 import os
 from pathlib import Path
 import re
@@ -14,6 +15,7 @@ import xml.etree.ElementTree as ET
 
 parent_folder = Path(__file__).resolve().parent.parent.parent
 filename = os.path.join(parent_folder,'datasets/posts.xml')
+cpu_count = 3
 
 class BodyHTMLParser(HTMLParser):
     """ Extrae numero de palabras del html de body - posts """
@@ -53,35 +55,54 @@ def word_answer_extractor(row):
         return word_count, int(ans_counts)
     return
 
-def word_answer_reducer(c, tupla):
-    c.update({tupla[0]: tupla[1]})
-    return c
-
-def xml_generator():
+def processfile(filename, start, end):
     """ Retorna los rows del xml """
+    counter = Counter()
+    result = []
     with open(filename, 'r') as handle:
+        handle.seek(start)
+        lines = handle.readlines(end - start)
         parser = ET.XMLPullParser()
-        while True:
-            new_line = handle.readline()
-            if not new_line:
+        for line in lines:
+            if not line:
                 break
-            parser.feed(new_line)
+            parser.feed(line)
             for item in parser.read_events():
                 elem = item[1]
                 if elem.tag == 'row':
-                    yield elem
+                    tags = word_answer_extractor(elem)
+                    if tags:
+                        counter.update({tags[0]: tags[1]})
+    if counter:
+        result.append(counter)
+    return result
 
-def get_row_list(num):
-    gen = xml_generator()
-    lista = []
-    for _ in range(num):
-        next_elem = next(gen)
-        lista.append(next_elem)
-    return lista
+def word_answer_reducer(c1, c2):
+    c1.update(c2)
+    return c1
 
-def xml_map_reduce():
-    vals = get_row_list(8)
-    mapa = map(word_answer_extractor, vals)
-    mapa = list(filter(lambda x: x, mapa))
-    contador = Counter()
-    return reduce(word_answer_reducer, mapa, contador)
+if __name__ == "__main__":
+    # Tomamos chunks de 256 KB
+    filesize = os.path.getsize(filename)
+    split_size = 1024 * 256
+    pool = mp.Pool(cpu_count)
+    cursor = 0
+    results = []
+    with open(filename, 'r') as fh:
+        for chunk in range(filesize // split_size + 1):
+            if cursor + split_size > filesize:
+                end = filesize
+            else:
+                end = cursor + split_size
+            fh.seek(end)
+            fh.readlines()
+            end = fh.tell()
+            proc = pool.apply_async(processfile, args=[filename, cursor, end])
+            results.append(proc)
+            cursor = end
+    pool.close()
+    pool.join()
+    processfile_result = [proc.get() for proc in results]
+    processfile_result = filter(lambda x: x, processfile_result)
+    reduced = reduce(word_answer_reducer, processfile_result)
+    print(reduced[0].most_common(10))
