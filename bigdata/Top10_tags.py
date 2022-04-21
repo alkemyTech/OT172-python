@@ -1,18 +1,3 @@
-from doctest import ELLIPSIS_MARKER
-import xml.etree.ElementTree as ET
-from functools import reduce
-import re
-from typing import Counter
-import pathlib
-import os
-import sys
-import operator
-import pandas as pd
-
-path_p = (pathlib.Path(__file__).parent.absolute())
-
-sys.path.append(f'/{path_p}/lib')
-from mapReduce import *
 ################################################################################################################
 
 # Criterios de aceptación:
@@ -39,6 +24,88 @@ from mapReduce import *
 # A continuación, se repite un nuevo "reduce", que reduce del set total de chunks, a uno solo. Este último
 # pasa por una función de ordenado de los datos y finalmente, se obtiene un DataFrame con los
 # requerimientos del ejercicio
+
+
+from doctest import ELLIPSIS_MARKER
+from genericpath import exists
+from importlib.resources import path
+import logging
+from statistics import mean
+from time import time
+from tkinter import font
+import xml.etree.ElementTree as ET
+from functools import reduce
+import re
+from typing import Counter
+import pathlib
+from os import path
+import sys
+import operator
+import pandas as pd
+import pathlib
+import logging
+import logging.config
+from collections.abc import Iterable
+import time
+from rich.console import Console
+from sympy import root
+from rich.tree import Tree
+from rich import print as rprint
+from art import *
+
+path_p = (pathlib.Path(__file__).parent.absolute()).parent
+  
+sys.path.append(f'/{path_p}/lib')
+
+
+console = Console()
+tasks = [f"task {n}" for n in range(1, 11)]
+
+def task(msj):
+    with console.status("[bold green]Working hard...") as status:
+        console.log(f"{msj} complete")
+        logger.info(msj)
+
+def get_tree():
+
+    tree = Tree("[blue]🗃️ OT172-python")
+    tree.add("[blue]📁 airflow")
+    tree.add("📁 [green]bigdata").add("[green]📁 dataset").add('[green]📁 Stack Overflow 11-2010').add('[green]📁 112010 Meta Stack Overflow').add("📄[red]posts")
+    tree.add("[blue]📁 dataGroupA")
+    tree.add("[blue]📁 data_group_E")
+    tree.add("[blue]📁 files")
+    tree.add("[blue]📁 logger")
+    tree.add("[blue]📁 map_reduce")
+    rprint('\nDirectorio\n')
+    rprint(tree)
+
+
+"""Function to configure the code logs
+Args: relativ path to .log file"""
+log_file_path = (f'{pathlib.Path(__file__).parent }/logging/logging_GB/logging.cfg')
+print(log_file_path)
+logging.config.fileConfig(log_file_path)
+ 
+logger = logging.getLogger('logger')
+
+
+def chunk_data(iterable_data, len_of_chunk):
+    """ 
+    Se divide la data en partes para poder trabajarla
+    arg: iterable: lista de datos obtenida
+         len_of_chunk: cantidad de partes en las que se dividira la lista
+    retunr: Retorna la lista dividida en partes
+    """
+    try:
+        for i in range(0, len(iterable_data), len_of_chunk):
+            yield iterable_data[i:i +len_of_chunk]
+
+    except:
+        if len_of_chunk < 0:
+            raise logger.error(f'El valor de el argumento len_of_chunk debe ser mayor a 0 {ValueError}')
+        elif not isinstance(len_of_chunk, int):
+            raise logger.error(f'Debe ingresar un número entero {TypeError}')
+
 
 def get_tags_NA_ans(data):
     """
@@ -110,12 +177,24 @@ def reduce_counters(data1, data2):
     dictionary  if it is not in 
     the output dictionary.
     """
-    for key, value in data2.items():
-        if key in data1.keys():
-            data1.update({key: data1[key]+value})
-        else:
-            data1.update({key: value})
-    return data1
+    try:
+        for key, value in data2.items():
+                try:
+                    if key in data1.keys():
+                       data1.update({key: data1[key]+value})
+                    else:
+                        data1.update({key: value})
+                except:
+                    if not isinstance(data1[key], int) or not isinstance(value, int):
+                        logger.error(f'Los valores en los diccionarios deben ser del tipo "int" {TypeError}')
+        return (data1)
+    except TypeError as e:
+        if not isinstance(data1, dict):
+           raise logger.error(f'Debe ingresar un diccionario en el argumento data1 {e}')
+        if not isinstance(data1, dict):
+           raise logger.error(f'Debe ingresar un diccionario en el argumento data2 {e}')
+
+
 
 
 def order_scores(data):
@@ -125,17 +204,44 @@ def order_scores(data):
     return sorted((value, key) for (key,value) in data.items())
 
 
-def main():
-    tree = ET.parse(
-        f'{path_p}dataset/112010 Meta Stack Overflow/posts.xml')
-    root = tree.getroot()
-    chunked_data = chunkify(root, 50)
-    tags = list(map(mapper_1, chunked_data))
-    filt_NAns_tags = list(filter(None, tags))
-    tags_mapped = dict(reduce(reduce_counters, filt_NAns_tags))
-    result=list(order_scores(tags_mapped))
-    df=pd.DataFrame(result[0:11], columns={'tag', 'number'})
-    print(df)
+def main(path):
+        file=path.split('/')[-1]
+        start_time = time.time()
+        rprint('[green]------------------------------------------------------------------------------')
+        rprint('[green]------------------------------------------------------------------------------')
+        logger.info('Iniciando ejecución')
+        rprint(f'Cargando datos desde archivo {file}')
+        print('')
+        tree = ET.parse(path)
+        root = tree.getroot()
+        get_tree()
+        print('')
+        task('Dividiendo el dataset...')
+        rprint('[green]-----------------------------------------------------------------------------')
+        print('Iniciando proceso MapReduce')
+        print('')
+        chunked_data = chunk_data(root, 50)
+        task('MapReduce etapa 1: mapper...')
+        tags = list(map(mapper_1, chunked_data))
+        filt_NAns_tags = list(filter(None, tags))
+        task('MapReduce etapa 2: reducer...')
+        tags_mapped = dict(reduce(reduce_counters, filt_NAns_tags))
+        task('MapReduce  finalizado')
+        rprint('[green]-----------------------------------------------------------------------------')
+        task('Obteniendo resultados...')
+        result=list(order_scores(tags_mapped))
+        df=pd.DataFrame(result, columns={'tag', 'number'})
+        print(df[-10:])
+        print('')
+        print('')
+        task(f'[blue]Tiempo de ejecución {time.time() - start_time}')
+        print('')
+        rprint('[green]-----------------------------------------------------------------------------')
+        rprint('[green]-----------------------------------------------------------------------------')
+        tprint('GRACIAS!!!', font='#')
+        rprint('[green]-----------------------------------------------------------------------------')
+        rprint('[green]-----------------------------------------------------------------------------')
 
 if __name__ == '__main__':
-    main()
+    main('C:/Users/Jsolchaga86/Desktop/Proyectos/Alkemy/OT172-python/bigdata/dataset/Stack Overflow 11-2010/112010 Meta Stack Overflow/posts.xml')
+
