@@ -1,0 +1,14 @@
+[2022-04-07 15:09:38,510] {processor.py:163} INFO - Started process (PID=227) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-04-07 15:09:38,511] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-04-07 15:09:38,511] {logging_mixin.py:109} INFO - [2022-04-07 15:09:38,511] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-04-07 15:09:38,534] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-04-07 15:09:38,542] {logging_mixin.py:109} INFO - [2022-04-07 15:09:38,542] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:38,558] {logging_mixin.py:109} INFO - [2022-04-07 15:09:38,558] {dag.py:2937} INFO - Setting next_dagrun for example_sla_dag to 2022-04-07T20:06:00+00:00
+[2022-04-07 15:09:38,933] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.424 seconds
+[2022-04-07 15:11:38,184] {processor.py:163} INFO - Started process (PID=296) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-04-07 15:11:38,204] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-04-07 15:11:38,205] {logging_mixin.py:109} INFO - [2022-04-07 15:11:38,205] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-04-07 15:11:38,245] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-04-07 15:11:38,262] {logging_mixin.py:109} INFO - [2022-04-07 15:11:38,262] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:38,283] {logging_mixin.py:109} INFO - [2022-04-07 15:11:38,283] {dag.py:2937} INFO - Setting next_dagrun for example_sla_dag to 2022-04-07T20:08:00+00:00
+[2022-04-07 15:11:39,767] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 1.587 seconds

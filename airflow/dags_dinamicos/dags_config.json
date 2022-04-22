@@ -1,0 +1,43 @@
+
+
+
+{"Config_1":[{  "owner": "airflow",
+    "depends_on_past": "False",
+    "email_on_failure": "False",
+    "email_on_retry": "False",
+    "retries": "5",
+    "retry_delay": "timedelta(seconds=30)",
+
+    "start_date":"2020,4,4",
+    "max_active_runs": "8",
+    "schedule_interval": "@hourly",
+    "template_searchpath": "f'{path_p}/airflow/include",
+    "catchup":"False"}],
+
+"Config_2":[{  "owner": "airflow",
+        "depends_on_past": "False",
+        "email_on_failure": "False",
+        "email_on_retry": "False",
+        "retries": "5",
+        "retry_delay": "timedelta(seconds=30)",
+    
+        "start_date":"2020,4,4",
+        "max_active_runs": "5",
+        "schedule_interval": "@minutely",
+        "template_searchpath": "f'{path_p}/airflow/include",
+        "catchup":"False"}],
+
+"Config_3":[{  "owner": "airflow",
+    "depends_on_past": "False",
+    "email_on_failure": "False",
+    "email_on_retry": "False",
+    "retries": "1",
+    "retry_delay": "timedelta(seconds=30)",
+
+    "start_date":"2020,4,4",
+    "max_active_runs": "15",
+    "schedule_interval": "@dialy",
+    "template_searchpath": "f'{path_p}/airflow/include",
+    "catchup":"False"}]
+
+}

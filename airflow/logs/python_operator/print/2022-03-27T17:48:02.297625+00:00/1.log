@@ -1,0 +1,54 @@
+[2022-03-27 12:48:08,263] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-27T17:48:02.297625+00:00 [queued]>
+[2022-03-27 12:48:08,271] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-27T17:48:02.297625+00:00 [queued]>
+[2022-03-27 12:48:08,272] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 12:48:08,272] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 12:48:08,272] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 12:48:08,541] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): print> on 2022-03-27 17:48:02.297625+00:00
+[2022-03-27 12:48:08,544] {standard_task_runner.py:52} INFO - Started process 13138 to run task
+[2022-03-27 12:48:08,565] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'print', 'manual__2022-03-27T17:48:02.297625+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmpb36sdoji', '--error-file', '/tmp/tmpgjv2v7uw']
+[2022-03-27 12:48:08,566] {standard_task_runner.py:77} INFO - Job 149: Subtask print
+[2022-03-27 12:48:08,763] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.print manual__2022-03-27T17:48:02.297625+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 12:48:09,069] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=print
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-27T17:48:02.297625+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-27T17:48:02.297625+00:00
+[2022-03-27 12:48:09,077] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-27 12:48:09,722] {dbapi.py:225} INFO - Running statement: -- Task PT172-19
+-- Obtener los datos de las pesonas anotadas en entre las fechas 01/9/2020 al 01/02/2021 para
+-- las siguientes facultades:
+-- Universidad De Buenos Aires
+
+select
+        universidades, carreras, fechas_de_inscripcion, nombres, sexo, fechas_nacimiento, codigos_postales
+from
+        uba_kenedy uk
+where
+        TO_DATE(fechas_de_inscripcion, 'YY-MON-DD') between '2020-09-01' and '2021-02-01'
+        and universidades = 'universidad-de-buenos-aires'
+limit 3
+;
+, parameters: None
+[2022-03-27 12:48:09,871] {dbapi.py:233} INFO - Rows affected: 3
+[2022-03-27 12:48:09,961] {logging_mixin.py:109} INFO - ['_BaseOperator__instantiated', '_BaseOperator__serialized_fields', '__abstractmethods__', '__annotations__', '__class__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lshift__', '__lt__', '__module__', '__ne__', '__new__', '__or__', '__reduce__', '__reduce_ex__', '__repr__', '__rlshift__', '__rrshift__', '__rshift__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_base_operator_shallow_copy_attrs', '_comps', '_dag', '_do_render_template_fields', '_downstream_task_ids', '_inlets', '_lock_for_execution', '_log', '_outlets', '_post_execute_hook', '_pre_execute_hook', '_render_nested_template_fields', '_set_context', '_set_relatives', '_upstream_task_ids', 'add_inlets', 'add_only_new', 'add_outlets', 'autocommit', 'clear', 'dag', 'dag_id', 'database', 'defer', 'depends_on_past', 'deps', 'do_xcom_push', 'doc', 'doc_json', 'doc_md', 'doc_rst', 'doc_yaml', 'downstream_list', 'downstream_task_ids', 'dry_run', 'email', 'email_on_failure', 'email_on_retry', 'end_date', 'execute', 'execution_timeout', 'executor_config', 'extra_links', 'get_direct_relative_ids', 'get_direct_relatives', 'get_extra_links', 'get_flat_relative_ids', 'get_flat_relatives', 'get_inlet_defs', 'get_outlet_defs', 'get_serialized_fields', 'get_task_instances', 'get_template_env', 'global_operator_extra_link_dict', 'has_dag', 'hook', 'inherits_from_dummy_operator', 'inlets', 'is_smart_sensor_compatible', 'label', 'leaves', 'log', 'max_active_tis_per_dag', 'max_retry_delay', 'on_execute_callback', 'on_failure_callback', 'on_kill', 'on_retry_callback', 'on_success_callback', 'operator_extra_link_dict', 'operator_extra_links', 'outlets', 'output', 'owner', 'parameters', 'params', 'pool', 'pool_slots', 'post_execute', 'postgres_conn_id', 'pre_execute', 'prepare_for_execution', 'prepare_template', 'priority_weight', 'priority_weight_total', 'queue', 'render_template', 'render_template_fields', 'resolve_template_files', 'resources', 'retries', 'retry_delay', 'retry_exponential_backoff', 'roots', 'run', 'run_as_user', 'set_downstream', 'set_upstream', 'set_xcomargs_dependencies', 'shallow_copy_attrs', 'sla', 'sql', 'start_date', 'subdag', 'supports_lineage', 'task_id', 'task_type', 'template_ext', 'template_fields', 'template_fields_renderers', 'trigger_rule', 'ui_color', 'ui_fgcolor', 'update_relative', 'upstream_list', 'upstream_task_ids', 'wait_for_downstream', 'weight_rule', 'xcom_pull', 'xcom_push']
+[2022-03-27 12:48:09,961] {python.py:175} INFO - Done. Returned value was: -- Task PT172-19
+-- Obtener los datos de las pesonas anotadas en entre las fechas 01/9/2020 al 01/02/2021 para
+-- las siguientes facultades:
+-- Universidad De Buenos Aires
+
+select
+        universidades, carreras, fechas_de_inscripcion, nombres, sexo, fechas_nacimiento, codigos_postales
+from
+        uba_kenedy uk
+where
+        TO_DATE(fechas_de_inscripcion, 'YY-MON-DD') between '2020-09-01' and '2021-02-01'
+        and universidades = 'universidad-de-buenos-aires'
+limit 3
+;
+
+[2022-03-27 12:48:10,129] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=print, execution_date=20220327T174802, start_date=20220327T174808, end_date=20220327T174810
+[2022-03-27 12:48:10,306] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-27 12:48:10,604] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

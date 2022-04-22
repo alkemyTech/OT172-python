@@ -1,0 +1,74 @@
+[2022-03-27 20:02:30,795] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: retries_cine.uni_cine scheduled__2022-03-28T00:00:00+00:00 [queued]>
+[2022-03-27 20:02:30,807] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: retries_cine.uni_cine scheduled__2022-03-28T00:00:00+00:00 [queued]>
+[2022-03-27 20:02:30,807] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 20:02:30,807] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-03-27 20:02:30,808] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 20:02:31,597] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): uni_cine> on 2022-03-28 00:00:00+00:00
+[2022-03-27 20:02:31,599] {standard_task_runner.py:52} INFO - Started process 201 to run task
+[2022-03-27 20:02:31,604] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'retries_cine', 'uni_cine', 'scheduled__2022-03-28T00:00:00+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/etl_retries_universidad_cine.py', '--cfg-path', '/tmp/tmpdn4g8zwj', '--error-file', '/tmp/tmp6_hj_td8']
+[2022-03-27 20:02:31,605] {standard_task_runner.py:77} INFO - Job 156: Subtask uni_cine
+[2022-03-27 20:02:37,151] {standard_task_runner.py:89} ERROR - Failed to execute job 156 for task uni_cine
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 287, in task_run
+    ti = _get_ti(task, args.execution_date_or_run_id)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 86, in _get_ti
+    dag_run = _get_dag_run(task.dag, exec_date_or_run_id, create_if_necssary, session)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 56, in _get_dag_run
+    dag_run = dag.get_dagrun(run_id=exec_date_or_run_id, session=session)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dag.py", line 1197, in get_dagrun
+    return query.first()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT dag_run.state AS dag_run_state, dag_run.id AS dag_run_id, dag_run.dag_id AS dag_run_dag_id, dag_run.queued_at AS dag_run_queued_at, dag_run.execution_date AS dag_run_execution_date, dag_run.start_date AS dag_run_start_date, dag_run.end_date AS dag_run_end_date, dag_run.run_id AS dag_run_run_id, dag_run.creating_job_id AS dag_run_creating_job_id, dag_run.external_trigger AS dag_run_external_trigger, dag_run.run_type AS dag_run_run_type, dag_run.conf AS dag_run_conf, dag_run.data_interval_start AS dag_run_data_interval_start, dag_run.data_interval_end AS dag_run_data_interval_end, dag_run.last_scheduling_decision AS dag_run_last_scheduling_decision, dag_run.dag_hash AS dag_run_dag_hash 
+FROM dag_run 
+WHERE dag_run.dag_id = ? AND dag_run.run_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('retries_cine', 'scheduled__2022-03-28T00:00:00+00:00', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-03-27 20:02:42,432] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-27 20:02:42,978] {taskinstance.py:1272} INFO - Marking task as UP_FOR_RETRY. dag_id=retries_cine, task_id=uni_cine, execution_date=20220328T000000, start_date=20220328T010230, end_date=20220328T010242
+[2022-03-27 20:02:43,925] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

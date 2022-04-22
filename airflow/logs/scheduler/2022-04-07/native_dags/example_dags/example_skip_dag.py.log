@@ -1,0 +1,14 @@
+[2022-04-07 15:09:26,642] {processor.py:163} INFO - Started process (PID=222) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-04-07 15:09:26,643] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-04-07 15:09:26,644] {logging_mixin.py:109} INFO - [2022-04-07 15:09:26,644] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-04-07 15:09:26,674] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-04-07 15:09:26,689] {logging_mixin.py:109} INFO - [2022-04-07 15:09:26,689] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:26,709] {logging_mixin.py:109} INFO - [2022-04-07 15:09:26,709] {dag.py:2937} INFO - Setting next_dagrun for example_skip_dag to 2022-04-06T20:09:26.709221+00:00
+[2022-04-07 15:09:28,197] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 1.557 seconds
+[2022-04-07 15:11:24,540] {processor.py:163} INFO - Started process (PID=291) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-04-07 15:11:26,185] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-04-07 15:11:26,186] {logging_mixin.py:109} INFO - [2022-04-07 15:11:26,185] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-04-07 15:11:26,207] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-04-07 15:11:26,218] {logging_mixin.py:109} INFO - [2022-04-07 15:11:26,218] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:26,231] {logging_mixin.py:109} INFO - [2022-04-07 15:11:26,230] {dag.py:2937} INFO - Setting next_dagrun for example_skip_dag to 2022-04-06T20:11:26.230434+00:00
+[2022-04-07 15:11:26,602] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 2.063 seconds

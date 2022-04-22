@@ -1,0 +1,384 @@
+[2022-03-27 20:04:01,115] {processor.py:163} INFO - Started process (PID=242) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:04:01,116] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:04:01,117] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,117] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:04:01,146] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:04:01,157] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,157] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:04:01,169] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,169] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:04:01,169] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,169] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:04:01,169] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,169] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:04:01,173] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,173] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:04:01,178] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,178] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:04:01,179] {logging_mixin.py:109} INFO - [2022-03-27 20:04:01,179] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:04:01,996] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.884 seconds
+[2022-03-27 20:05:30,738] {processor.py:163} INFO - Started process (PID=376) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:05:30,741] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:05:30,742] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,741] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:05:30,768] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:05:30,779] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,779] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:05:30,791] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,791] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:05:30,791] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,791] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:05:30,791] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,791] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:05:30,795] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,795] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:05:30,801] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,801] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:05:30,802] {logging_mixin.py:109} INFO - [2022-03-27 20:05:30,802] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:05:32,678] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 1.942 seconds
+[2022-03-27 20:06:29,299] {processor.py:163} INFO - Started process (PID=426) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:06:29,310] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:06:29,310] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,310] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:06:29,337] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:06:29,354] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,354] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:06:29,372] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,372] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:06:29,372] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,372] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:06:29,372] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,372] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:06:29,378] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,378] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:06:29,389] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,388] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:06:29,389] {logging_mixin.py:109} INFO - [2022-03-27 20:06:29,389] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:06:30,374] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 1.078 seconds
+[2022-03-27 20:07:31,499] {processor.py:163} INFO - Started process (PID=476) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:07:31,513] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:07:31,514] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,513] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:07:31,542] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:07:31,553] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,553] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:07:31,566] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,566] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:07:31,566] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,566] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:07:31,566] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,566] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:07:31,571] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,571] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:07:31,578] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,578] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:07:31,578] {logging_mixin.py:109} INFO - [2022-03-27 20:07:31,578] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:07:32,874] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 1.377 seconds
+[2022-03-27 20:08:26,004] {processor.py:163} INFO - Started process (PID=522) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:08:26,006] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:08:26,006] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,006] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:08:26,043] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:08:26,052] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,052] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:08:26,065] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,065] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:08:26,065] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,065] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:08:26,065] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,065] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:08:26,069] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,069] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:08:26,076] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,076] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:08:26,076] {logging_mixin.py:109} INFO - [2022-03-27 20:08:26,076] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:08:26,279] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.278 seconds
+[2022-03-27 20:09:58,204] {processor.py:163} INFO - Started process (PID=589) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:09:58,208] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:09:58,208] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,208] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:09:58,235] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:09:58,246] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,246] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:09:58,259] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,259] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:09:58,259] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,259] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:09:58,259] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,259] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:09:58,264] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,263] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:09:58,270] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,269] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:09:58,270] {logging_mixin.py:109} INFO - [2022-03-27 20:09:58,270] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:09:59,060] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.859 seconds
+[2022-03-27 20:11:07,511] {processor.py:163} INFO - Started process (PID=654) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:11:07,526] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:11:07,527] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,527] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:11:07,559] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:11:07,569] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,569] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:11:07,581] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,581] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:11:07,581] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,581] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:11:07,581] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,581] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:11:07,586] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,586] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:11:07,592] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,592] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:11:07,592] {logging_mixin.py:109} INFO - [2022-03-27 20:11:07,592] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:11:07,837] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.328 seconds
+[2022-03-27 20:12:04,097] {processor.py:163} INFO - Started process (PID=700) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:12:04,105] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:12:04,105] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,105] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:12:04,138] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:12:04,149] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,148] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:12:04,161] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,161] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:12:04,161] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,161] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:12:04,162] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,161] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:12:04,167] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,167] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:12:04,173] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,173] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:12:04,173] {logging_mixin.py:109} INFO - [2022-03-27 20:12:04,173] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:12:04,316] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.222 seconds
+[2022-03-27 20:13:20,413] {processor.py:163} INFO - Started process (PID=754) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:13:20,427] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:13:20,427] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,427] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:13:20,455] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:13:20,465] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,465] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:13:20,477] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,477] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:13:20,477] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,477] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:13:20,477] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,477] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:13:20,482] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,482] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:13:20,488] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,488] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:13:20,488] {logging_mixin.py:109} INFO - [2022-03-27 20:13:20,488] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:13:20,619] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.209 seconds
+[2022-03-27 20:14:18,428] {processor.py:163} INFO - Started process (PID=800) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:14:18,442] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:14:18,443] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,443] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:14:18,473] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:14:18,486] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,486] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:14:18,498] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,498] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:14:18,498] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,498] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:14:18,499] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,499] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:14:18,504] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,503] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:14:18,510] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,510] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:14:18,510] {logging_mixin.py:109} INFO - [2022-03-27 20:14:18,510] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:14:18,654] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.229 seconds
+[2022-03-27 20:15:25,309] {processor.py:163} INFO - Started process (PID=867) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:15:25,315] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:15:25,316] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,316] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:15:25,342] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:15:25,352] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,352] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:15:25,364] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,364] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:15:25,364] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,364] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:15:25,364] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,364] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:15:25,368] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,368] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:15:25,375] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,375] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:15:25,376] {logging_mixin.py:109} INFO - [2022-03-27 20:15:25,375] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:15:25,792] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.486 seconds
+[2022-03-27 20:16:25,424] {processor.py:163} INFO - Started process (PID=918) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:16:25,428] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:16:25,428] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,428] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:16:25,455] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:16:25,465] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,464] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:16:25,477] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,477] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:16:25,478] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,478] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:16:25,478] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,478] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:16:25,482] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,482] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:16:25,490] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,489] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:16:25,490] {logging_mixin.py:109} INFO - [2022-03-27 20:16:25,490] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:16:25,629] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.207 seconds
+[2022-03-27 20:17:34,724] {processor.py:163} INFO - Started process (PID=970) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:17:34,736] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:17:34,736] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,736] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:17:34,764] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:17:34,773] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,773] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:17:34,785] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,784] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:17:34,785] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,785] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:17:34,785] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,785] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:17:34,789] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,789] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:17:34,795] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,795] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:17:34,796] {logging_mixin.py:109} INFO - [2022-03-27 20:17:34,796] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:17:34,933] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.212 seconds
+[2022-03-27 20:18:32,923] {processor.py:163} INFO - Started process (PID=1020) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:18:33,075] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:18:33,076] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,076] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:18:33,102] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:18:33,112] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,112] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:18:33,124] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,124] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:18:33,124] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,124] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:18:33,124] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,124] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:18:33,128] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,128] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:18:33,134] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,134] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:18:33,134] {logging_mixin.py:109} INFO - [2022-03-27 20:18:33,134] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:18:34,588] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 1.667 seconds
+[2022-03-27 20:19:31,252] {processor.py:163} INFO - Started process (PID=1066) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:19:31,284] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:19:31,285] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,285] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:19:31,317] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:19:31,329] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,329] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:19:31,342] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,342] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:19:31,342] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,342] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:19:31,342] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,342] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:19:31,349] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,349] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:19:31,356] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,356] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:19:31,356] {logging_mixin.py:109} INFO - [2022-03-27 20:19:31,356] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:19:31,649] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.399 seconds
+[2022-03-27 20:20:39,073] {processor.py:163} INFO - Started process (PID=1130) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:20:39,097] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:20:39,097] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,097] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:20:39,124] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:20:39,136] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,136] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:20:39,149] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,149] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:20:39,149] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,149] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:20:39,149] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,149] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:20:39,153] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,153] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:20:39,159] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,159] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:20:39,159] {logging_mixin.py:109} INFO - [2022-03-27 20:20:39,159] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:20:39,297] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.226 seconds
+[2022-03-27 20:21:53,454] {processor.py:163} INFO - Started process (PID=1202) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:21:53,464] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:21:53,465] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,464] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:21:53,491] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:21:53,501] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,500] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:21:53,514] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,513] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:21:53,514] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,514] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:21:53,514] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,514] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:21:53,518] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,518] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:21:53,524] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,524] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:21:53,525] {logging_mixin.py:109} INFO - [2022-03-27 20:21:53,525] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:21:53,648] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.196 seconds
+[2022-03-27 20:23:14,727] {processor.py:163} INFO - Started process (PID=1275) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:23:14,730] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:23:14,730] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,730] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:23:14,757] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:23:14,767] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,766] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:23:14,778] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,778] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:23:14,778] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,778] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:23:14,778] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,778] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:23:14,782] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,782] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:23:14,789] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,789] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:23:14,789] {logging_mixin.py:109} INFO - [2022-03-27 20:23:14,789] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:23:14,920] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.196 seconds
+[2022-03-27 20:24:16,342] {processor.py:163} INFO - Started process (PID=1339) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:24:16,357] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:24:16,358] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,358] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:24:16,387] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:24:16,397] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,397] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:24:16,409] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,409] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:24:16,409] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,409] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:24:16,409] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,409] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:24:16,413] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,413] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:24:16,420] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,420] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:24:16,420] {logging_mixin.py:109} INFO - [2022-03-27 20:24:16,420] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:24:16,632] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.293 seconds
+[2022-03-27 20:25:16,987] {processor.py:163} INFO - Started process (PID=1397) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:25:16,990] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:25:16,991] {logging_mixin.py:109} INFO - [2022-03-27 20:25:16,991] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:25:17,017] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:25:17,027] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,027] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:25:17,039] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,039] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:25:17,039] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,039] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:25:17,039] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,039] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:25:17,043] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,043] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:25:17,049] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,049] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:25:17,049] {logging_mixin.py:109} INFO - [2022-03-27 20:25:17,049] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:25:17,185] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.201 seconds
+[2022-03-27 20:26:35,206] {processor.py:163} INFO - Started process (PID=1467) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:26:35,235] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:26:35,236] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,235] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:26:35,267] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:26:35,277] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,277] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:26:35,287] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,287] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:26:35,287] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,287] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:26:35,287] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,287] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:26:35,291] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,291] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:26:35,296] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,296] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:26:35,296] {logging_mixin.py:109} INFO - [2022-03-27 20:26:35,296] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:26:35,467] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.263 seconds
+[2022-03-27 20:27:39,452] {processor.py:163} INFO - Started process (PID=1527) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:27:39,455] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:27:39,456] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,456] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:27:39,486] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:27:39,498] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,498] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:27:39,511] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,511] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:27:39,511] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,511] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:27:39,511] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,511] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:27:39,515] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,515] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:27:39,521] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,521] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:27:39,521] {logging_mixin.py:109} INFO - [2022-03-27 20:27:39,521] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:27:39,650] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.200 seconds
+[2022-03-27 20:29:18,136] {processor.py:163} INFO - Started process (PID=1579) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:29:18,536] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:29:18,536] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,536] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:29:18,563] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:29:18,573] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,573] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:29:18,584] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,584] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:29:18,585] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,585] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:29:18,585] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,585] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:29:18,589] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,589] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:29:18,595] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,595] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:29:18,595] {logging_mixin.py:109} INFO - [2022-03-27 20:29:18,595] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:29:18,830] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.696 seconds
+[2022-03-27 20:48:46,971] {processor.py:163} INFO - Started process (PID=1743) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:48:46,975] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:48:46,976] {logging_mixin.py:109} INFO - [2022-03-27 20:48:46,976] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:48:47,005] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:48:47,016] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,016] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:48:47,028] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,028] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:48:47,029] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,029] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:48:47,029] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,029] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:48:47,033] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,033] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:48:47,039] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,039] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:48:47,040] {logging_mixin.py:109} INFO - [2022-03-27 20:48:47,040] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:48:47,930] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.962 seconds
+[2022-03-27 20:50:18,888] {processor.py:163} INFO - Started process (PID=1801) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:50:18,899] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:50:18,899] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,899] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:50:18,925] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:50:18,936] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,935] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:50:18,947] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,947] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:50:18,947] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,947] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:50:18,947] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,947] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:50:18,951] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,951] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:50:18,957] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,957] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:50:18,957] {logging_mixin.py:109} INFO - [2022-03-27 20:50:18,957] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:50:19,094] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.208 seconds
+[2022-03-27 20:52:30,590] {processor.py:163} INFO - Started process (PID=1938) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:52:30,593] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:52:30,594] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,594] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:52:30,628] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:52:30,639] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,639] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:52:30,653] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,653] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:52:30,654] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,654] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:52:30,654] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,654] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:52:30,658] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,658] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:52:30,664] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,663] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:52:30,664] {logging_mixin.py:109} INFO - [2022-03-27 20:52:30,664] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:52:30,803] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.215 seconds
+[2022-03-27 20:54:25,627] {processor.py:163} INFO - Started process (PID=2056) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:54:25,661] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:54:25,662] {logging_mixin.py:109} INFO - [2022-03-27 20:54:25,662] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:54:27,430] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:54:27,440] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,440] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:54:27,452] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,451] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:54:27,452] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,452] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:54:27,452] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,452] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:54:27,456] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,456] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:54:27,462] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,462] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:54:27,462] {logging_mixin.py:109} INFO - [2022-03-27 20:54:27,462] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:54:27,688] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 2.063 seconds
+[2022-03-27 20:55:18,780] {processor.py:163} INFO - Started process (PID=2126) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:55:18,784] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:55:18,785] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,784] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:55:18,812] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:55:18,822] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,822] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:55:18,834] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,833] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:55:18,834] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,834] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:55:18,834] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,834] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:55:18,840] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,840] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:55:18,849] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,849] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:55:18,850] {logging_mixin.py:109} INFO - [2022-03-27 20:55:18,850] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:55:18,996] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.218 seconds
+[2022-03-27 20:56:10,727] {processor.py:163} INFO - Started process (PID=2184) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:56:10,730] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:56:10,731] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,731] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:56:10,758] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:56:10,767] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,767] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:56:10,779] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,779] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:56:10,779] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,779] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:56:10,779] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,779] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:56:10,783] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,783] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:56:10,790] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,790] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:56:10,791] {logging_mixin.py:109} INFO - [2022-03-27 20:56:10,791] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:56:10,935] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.212 seconds
+[2022-03-27 20:57:15,832] {processor.py:163} INFO - Started process (PID=2243) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:57:15,835] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:57:15,835] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,835] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:57:15,862] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:57:15,872] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,872] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:57:15,889] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,889] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:57:15,889] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,889] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:57:15,890] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,890] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:57:15,894] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,894] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:57:15,902] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,902] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:57:15,902] {logging_mixin.py:109} INFO - [2022-03-27 20:57:15,902] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:57:16,748] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.918 seconds
+[2022-03-27 20:58:16,409] {processor.py:163} INFO - Started process (PID=2301) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:58:16,413] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:58:16,413] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,413] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:58:16,442] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:58:16,452] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,452] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:58:16,464] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,464] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:58:16,464] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,464] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:58:16,464] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,464] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:58:16,468] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,468] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:58:16,474] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,474] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:58:16,474] {logging_mixin.py:109} INFO - [2022-03-27 20:58:16,474] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:58:16,629] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.223 seconds
+[2022-03-27 20:59:17,083] {processor.py:163} INFO - Started process (PID=2351) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:59:17,351] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-03-27 20:59:17,352] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,352] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:59:17,379] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-03-27 20:59:17,389] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,388] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-03-27 20:59:17,401] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,401] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-03-26T00:00:00+00:00
+[2022-03-27 20:59:17,402] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,402] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:59:17,402] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,402] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:59:17,406] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,406] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-27 20:59:17,412] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,412] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-03-27 20:59:17,413] {logging_mixin.py:109} INFO - [2022-03-27 20:59:17,413] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-03-27 20:59:17,601] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.520 seconds

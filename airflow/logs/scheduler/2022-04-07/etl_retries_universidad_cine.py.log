@@ -1,0 +1,14 @@
+[2022-04-07 15:09:01,797] {processor.py:163} INFO - Started process (PID=205) to work on /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py
+[2022-04-07 15:09:01,798] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py for tasks to queue
+[2022-04-07 15:09:01,798] {logging_mixin.py:109} INFO - [2022-04-07 15:09:01,798] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py
+[2022-04-07 15:09:02,228] {processor.py:654} INFO - DAG(s) dict_keys(['retries_cine']) retrieved from /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py
+[2022-04-07 15:09:02,236] {logging_mixin.py:109} INFO - [2022-04-07 15:09:02,236] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:02,250] {logging_mixin.py:109} INFO - [2022-04-07 15:09:02,249] {dag.py:2937} INFO - Setting next_dagrun for retries_cine to 2022-04-07T19:00:00+00:00
+[2022-04-07 15:09:03,677] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py took 1.883 seconds
+[2022-04-07 15:10:41,592] {processor.py:163} INFO - Started process (PID=274) to work on /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py
+[2022-04-07 15:10:41,689] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py for tasks to queue
+[2022-04-07 15:10:41,689] {logging_mixin.py:109} INFO - [2022-04-07 15:10:41,689] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py
+[2022-04-07 15:10:42,180] {processor.py:654} INFO - DAG(s) dict_keys(['retries_cine']) retrieved from /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py
+[2022-04-07 15:10:42,189] {logging_mixin.py:109} INFO - [2022-04-07 15:10:42,188] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:10:42,204] {logging_mixin.py:109} INFO - [2022-04-07 15:10:42,204] {dag.py:2937} INFO - Setting next_dagrun for retries_cine to 2022-04-07T19:00:00+00:00
+[2022-04-07 15:10:43,617] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/etl_retries_universidad_cine.py took 2.039 seconds

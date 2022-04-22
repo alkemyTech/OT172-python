@@ -1,0 +1,62 @@
+default:
+  default_args:
+    owner: "default_owner"
+    start_date: 2022-03-30
+    retries: 1
+    retry_delay_sec: 300
+  concurrency: 1
+  max_active_runs: 1
+  schedule_interval: "0 * * * *"
+
+Et_Universidad_de_Moron:
+  default_args:
+    owner: "custom_owner"
+  description: "ETL dag for university Moron"
+  schedule_interval: "0 * * * *"
+  tasks:
+    extract:
+      operator: airflow.operators.python_operator.PythonOperator
+      python_callable_name: extract
+      python_callable_file: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/lib/extract_universidad_de_rio_cuarto_y_moron.py
+      op_kwargs:
+        query_sql: Universidad_de_Moron.sql
+        university: ET_Universidad_de_Moron.csv
+    process:
+      operator: airflow.operators.python_operator.PythonOperator
+      python_callable_name: normalizar_universidad_de_moron
+      python_callable_file: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/lib/normaliza_universidad_de_moron.py
+      dependencies: [extract]
+    upload:
+      operator: airflow.operators.python_operator.PythonOperator
+      python_callable_name: upload
+      python_callable_file: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/lib/upload_universidad_de_rio_cuarto_y_moron.py
+      op_kwargs:
+        filename: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/files/ET_Universidad_de_Moron.txt
+        key: ET_Universidad_de_Moron.txt
+      dependencies: [process]
+Et_Universidad_de_Rio_Cuarto:
+  default_args:
+    owner: "custom_owner"
+  description: "ETL dag for university Rio Cuarto"
+  schedule_interval: "0 * * * *"
+  tasks:
+    extract:
+      operator: airflow.operators.python_operator.PythonOperator
+      python_callable_name: extract
+      python_callable_file: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/lib/extract_universidad_de_rio_cuarto_y_moron.py
+      op_kwargs:
+        query_sql: Universidad_Nacional_de_Rio_Cuarto.sql
+        university: ET_Universidad_Nacional_de_Rio_Cuarto.csv
+    process:
+      operator: airflow.operators.python_operator.PythonOperator
+      python_callable_name: normalizar_universidad_de_rio_cuarto
+      python_callable_file: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/lib/normaliza_universidad_de_rio_cuarto.py
+      dependencies: [extract]
+    upload:
+      operator: airflow.operators.python_operator.PythonOperator
+      python_callable_name: upload
+      python_callable_file: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/lib/upload_universidad_de_rio_cuarto_y_moron.py
+      op_kwargs:
+        filename: /home/tackel/apache-airflow-aceleracion/airflow/dags/OT172-python/files/ET_Universidad_Nacional_de_Rio_Cuarto.txt
+        key: ET_Universidad_Nacional_de_Rio_Cuarto.txt
+      dependencies: [process]

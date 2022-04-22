@@ -1,0 +1,29 @@
+[2022-04-04 16:27:31,610] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_uni_flores.upload_to_s3 manual__2022-04-04T21:27:25.347565+00:00 [queued]>
+[2022-04-04 16:27:31,623] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_uni_flores.upload_to_s3 manual__2022-04-04T21:27:25.347565+00:00 [queued]>
+[2022-04-04 16:27:31,623] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 16:27:31,623] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-04 16:27:31,623] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 16:27:31,774] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): upload_to_s3> on 2022-04-04 21:27:25.347565+00:00
+[2022-04-04 16:27:31,776] {standard_task_runner.py:52} INFO - Started process 6774 to run task
+[2022-04-04 16:27:31,780] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 's3_uni_flores', 'upload_to_s3', 'manual__2022-04-04T21:27:25.347565+00:00', '--job-id', '358', '--raw', '--subdir', 'DAGS_FOLDER/dag_s3_universidad_de_las_flores.py', '--cfg-path', '/tmp/tmplkt02r2v', '--error-file', '/tmp/tmp3yqtq1fg']
+[2022-04-04 16:27:31,780] {standard_task_runner.py:77} INFO - Job 358: Subtask upload_to_s3
+[2022-04-04 16:27:32,116] {logging_mixin.py:109} INFO - Running <TaskInstance: s3_uni_flores.upload_to_s3 manual__2022-04-04T21:27:25.347565+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-04 16:27:32,511] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=s3_uni_flores
+AIRFLOW_CTX_TASK_ID=upload_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-04T21:27:25.347565+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-04T21:27:25.347565+00:00
+[2022-04-04 16:27:32,517] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-04-04 16:27:33,067] {logging_mixin.py:109} INFO - /home/lowenhard/airflow/files/ET_Univ_DE_Flores.txt ET_Univ_DE_Flores.txt cohorte-marzo-77238c6a
+[2022-04-04 16:27:33,067] {logging_mixin.py:109} INFO - Created Connection
+[2022-04-04 16:27:33,070] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-04-04 16:27:33,088] {logging_mixin.py:109} INFO - Session(region_name=None)
+[2022-04-04 16:27:33,088] {logging_mixin.py:109} INFO - False
+[2022-04-04 16:27:33,088] {dag_s3_universidad_de_las_flores.py:30} INFO - Checking s3 connection
+[2022-04-04 16:27:33,089] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-04 16:27:33,629] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=s3_uni_flores, task_id=upload_to_s3, execution_date=20220404T212725, start_date=20220404T212731, end_date=20220404T212733
+[2022-04-04 16:27:33,801] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-04 16:27:33,823] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

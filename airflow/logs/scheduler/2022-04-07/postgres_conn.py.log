@@ -1,0 +1,14 @@
+[2022-04-07 15:09:04,761] {processor.py:163} INFO - Started process (PID=209) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-04-07 15:09:04,762] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-04-07 15:09:04,762] {logging_mixin.py:109} INFO - [2022-04-07 15:09:04,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-04-07 15:09:05,160] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-04-07 15:09:05,169] {logging_mixin.py:109} INFO - [2022-04-07 15:09:05,168] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:05,182] {logging_mixin.py:109} INFO - [2022-04-07 15:09:05,182] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-04-06T20:09:05.181924+00:00
+[2022-04-07 15:09:06,225] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.465 seconds
+[2022-04-07 15:10:45,103] {processor.py:163} INFO - Started process (PID=278) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-04-07 15:10:45,124] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-04-07 15:10:45,124] {logging_mixin.py:109} INFO - [2022-04-07 15:10:45,124] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-04-07 15:10:45,641] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-04-07 15:10:45,650] {logging_mixin.py:109} INFO - [2022-04-07 15:10:45,650] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:10:45,664] {logging_mixin.py:109} INFO - [2022-04-07 15:10:45,663] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-04-06T20:10:45.663712+00:00
+[2022-04-07 15:10:45,856] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.766 seconds

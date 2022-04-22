@@ -1,0 +1,21 @@
+[2022-04-07 15:08:44,546] {processor.py:163} INFO - Started process (PID=184) to work on /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:08:44,547] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py for tasks to queue
+[2022-04-07 15:08:44,547] {logging_mixin.py:109} INFO - [2022-04-07 15:08:44,547] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:08:45,042] {processor.py:654} INFO - DAG(s) dict_keys(['pandas_python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:08:45,051] {logging_mixin.py:109} INFO - [2022-04-07 15:08:45,051] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:08:45,062] {logging_mixin.py:109} INFO - [2022-04-07 15:08:45,062] {dag.py:2937} INFO - Setting next_dagrun for pandas_python_operator to None
+[2022-04-07 15:08:45,390] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py took 0.846 seconds
+[2022-04-07 15:10:27,429] {processor.py:163} INFO - Started process (PID=253) to work on /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:10:27,435] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py for tasks to queue
+[2022-04-07 15:10:27,436] {logging_mixin.py:109} INFO - [2022-04-07 15:10:27,436] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:10:27,873] {processor.py:654} INFO - DAG(s) dict_keys(['pandas_python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:10:27,882] {logging_mixin.py:109} INFO - [2022-04-07 15:10:27,882] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:10:27,893] {logging_mixin.py:109} INFO - [2022-04-07 15:10:27,893] {dag.py:2937} INFO - Setting next_dagrun for pandas_python_operator to None
+[2022-04-07 15:10:28,634] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py took 1.208 seconds
+[2022-04-07 15:11:55,858] {processor.py:163} INFO - Started process (PID=307) to work on /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:11:55,866] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py for tasks to queue
+[2022-04-07 15:11:55,867] {logging_mixin.py:109} INFO - [2022-04-07 15:11:55,867] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:11:57,421] {processor.py:654} INFO - DAG(s) dict_keys(['pandas_python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py
+[2022-04-07 15:11:57,430] {logging_mixin.py:109} INFO - [2022-04-07 15:11:57,430] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:57,442] {logging_mixin.py:109} INFO - [2022-04-07 15:11:57,442] {dag.py:2937} INFO - Setting next_dagrun for pandas_python_operator to None
+[2022-04-07 15:11:57,759] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria_dag.py took 1.902 seconds

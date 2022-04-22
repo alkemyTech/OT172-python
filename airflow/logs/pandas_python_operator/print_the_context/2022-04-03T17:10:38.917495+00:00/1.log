@@ -1,0 +1,69 @@
+[2022-04-03 12:10:45,510] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: pandas_python_operator.print_the_context manual__2022-04-03T17:10:38.917495+00:00 [queued]>
+[2022-04-03 12:10:45,519] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: pandas_python_operator.print_the_context manual__2022-04-03T17:10:38.917495+00:00 [queued]>
+[2022-04-03 12:10:45,520] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 12:10:45,520] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-03 12:10:45,520] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 12:10:45,704] {taskinstance.py:1264} INFO - Executing <Task(_PythonDecoratedOperator): print_the_context> on 2022-04-03 17:10:38.917495+00:00
+[2022-04-03 12:10:45,706] {standard_task_runner.py:52} INFO - Started process 6023 to run task
+[2022-04-03 12:10:45,711] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'pandas_python_operator', 'print_the_context', 'manual__2022-04-03T17:10:38.917495+00:00', '--job-id', '282', '--raw', '--subdir', 'DAGS_FOLDER/procesar_datos_uni_villa_maria.py', '--cfg-path', '/tmp/tmpj0llhtce', '--error-file', '/tmp/tmpzizidvgh']
+[2022-04-03 12:10:45,711] {standard_task_runner.py:77} INFO - Job 282: Subtask print_the_context
+[2022-04-03 12:10:45,903] {logging_mixin.py:109} INFO - Running <TaskInstance: pandas_python_operator.print_the_context manual__2022-04-03T17:10:38.917495+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-03 12:10:46,262] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pandas_python_operator
+AIRFLOW_CTX_TASK_ID=print_the_context
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-03T17:10:38.917495+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-03T17:10:38.917495+00:00
+[2022-04-03 12:10:46,263] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/procesar_datos_uni_villa_maria.py", line 33, in print_context
+    pprint(kwargs)
+TypeError: 'module' object is not callable
+[2022-04-03 12:10:46,278] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=pandas_python_operator, task_id=print_the_context, execution_date=20220403T171038, start_date=20220403T171045, end_date=20220403T171046
+[2022-04-03 12:10:46,520] {standard_task_runner.py:89} ERROR - Failed to execute job 282 for task print_the_context
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/procesar_datos_uni_villa_maria.py", line 33, in print_context
+    pprint(kwargs)
+TypeError: 'module' object is not callable
+[2022-04-03 12:10:46,567] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-03 12:10:48,052] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

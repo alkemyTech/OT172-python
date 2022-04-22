@@ -1,0 +1,89 @@
+[2022-03-27 07:38:01,799] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-27T12:37:48.303663+00:00 [queued]>
+[2022-03-27 07:38:01,807] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-27T12:37:48.303663+00:00 [queued]>
+[2022-03-27 07:38:01,807] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 07:38:01,807] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 07:38:01,808] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 07:38:01,956] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): print> on 2022-03-27 12:37:48.303663+00:00
+[2022-03-27 07:38:01,959] {standard_task_runner.py:52} INFO - Started process 1290 to run task
+[2022-03-27 07:38:01,962] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'print', 'manual__2022-03-27T12:37:48.303663+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmpqh2qgbs4', '--error-file', '/tmp/tmpwskj_iyc']
+[2022-03-27 07:38:01,963] {standard_task_runner.py:77} INFO - Job 108: Subtask print
+[2022-03-27 07:38:02,148] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.print manual__2022-03-27T12:37:48.303663+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 07:38:02,542] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=print
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-27T12:37:48.303663+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-27T12:37:48.303663+00:00
+[2022-03-27 07:38:02,543] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 226, in factory
+    op = decorated_operator_class(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/python.py", line 58, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 127, in __init__
+    signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/lib/python3.8/inspect.py", line 3025, in bind
+    return self._bind(args, kwargs)
+  File "/usr/lib/python3.8/inspect.py", line 2940, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'data'
+[2022-03-27 07:38:03,143] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=python_operator, task_id=print, execution_date=20220327T123748, start_date=20220327T123801, end_date=20220327T123803
+[2022-03-27 07:38:03,982] {standard_task_runner.py:89} ERROR - Failed to execute job 108 for task print
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 226, in factory
+    op = decorated_operator_class(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/python.py", line 58, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 127, in __init__
+    signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/lib/python3.8/inspect.py", line 3025, in bind
+    return self._bind(args, kwargs)
+  File "/usr/lib/python3.8/inspect.py", line 2940, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'data'
+[2022-03-27 07:38:04,028] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-27 07:38:04,043] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

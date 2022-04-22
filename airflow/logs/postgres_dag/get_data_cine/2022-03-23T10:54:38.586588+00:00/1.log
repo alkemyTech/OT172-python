@@ -1,0 +1,23 @@
+[2022-03-23 05:54:45,046] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_dag.get_data_cine manual__2022-03-23T10:54:38.586588+00:00 [queued]>
+[2022-03-23 05:54:45,052] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_dag.get_data_cine manual__2022-03-23T10:54:38.586588+00:00 [queued]>
+[2022-03-23 05:54:45,053] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 05:54:45,053] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-23 05:54:45,053] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 05:54:45,338] {taskinstance.py:1264} INFO - Executing <Task(_PythonDecoratedOperator): get_data_cine> on 2022-03-23 10:54:38.586588+00:00
+[2022-03-23 05:54:45,340] {standard_task_runner.py:52} INFO - Started process 1178 to run task
+[2022-03-23 05:54:45,345] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'postgres_dag', 'get_data_cine', 'manual__2022-03-23T10:54:38.586588+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/postgres_conn.py', '--cfg-path', '/tmp/tmp5o25irbw', '--error-file', '/tmp/tmp0x7e7hwy']
+[2022-03-23 05:54:45,346] {standard_task_runner.py:77} INFO - Job 21: Subtask get_data_cine
+[2022-03-23 05:54:46,585] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_dag.get_data_cine manual__2022-03-23T10:54:38.586588+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-23 05:54:47,307] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=postgres_dag
+AIRFLOW_CTX_TASK_ID=get_data_cine
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-23T10:54:38.586588+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-23T10:54:38.586588+00:00
+[2022-03-23 05:54:47,313] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-23 05:54:48,555] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-23 05:54:48,565] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=postgres_dag, task_id=get_data_cine, execution_date=20220323T105438, start_date=20220323T105445, end_date=20220323T105448
+[2022-03-23 05:54:50,195] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 05:54:50,428] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

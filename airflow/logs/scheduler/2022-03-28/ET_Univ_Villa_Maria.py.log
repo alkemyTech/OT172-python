@@ -1,0 +1,7 @@
+[2022-03-28 05:36:50,246] {processor.py:163} INFO - Started process (PID=293) to work on /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria.py
+[2022-03-28 05:36:50,247] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria.py for tasks to queue
+[2022-03-28 05:36:50,249] {logging_mixin.py:109} INFO - [2022-03-28 05:36:50,249] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria.py
+[2022-03-28 05:36:50,802] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_villa']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria.py
+[2022-03-28 05:36:50,807] {logging_mixin.py:109} INFO - [2022-03-28 05:36:50,807] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-28 05:36:50,818] {logging_mixin.py:109} INFO - [2022-03-28 05:36:50,818] {dag.py:2937} INFO - Setting next_dagrun for python_operator_villa to 2022-03-27T10:36:50.818103+00:00
+[2022-03-28 05:36:50,977] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Villa_Maria.py took 0.735 seconds

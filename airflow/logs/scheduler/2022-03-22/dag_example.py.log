@@ -1,0 +1,728 @@
+[2022-03-22 05:34:03,884] {processor.py:163} INFO - Started process (PID=145) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:34:03,885] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:34:03,886] {logging_mixin.py:109} INFO - [2022-03-22 05:34:03,886] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:34:03,923] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:34:03,942] {logging_mixin.py:109} INFO - [2022-03-22 05:34:03,942] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:34:03,983] {logging_mixin.py:109} INFO - [2022-03-22 05:34:03,983] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:34:03.982261+00:00
+[2022-03-22 05:34:04,225] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.345 seconds
+[2022-03-22 05:35:14,873] {processor.py:163} INFO - Started process (PID=184) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:35:14,957] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:35:14,958] {logging_mixin.py:109} INFO - [2022-03-22 05:35:14,958] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:35:14,977] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:35:14,986] {logging_mixin.py:109} INFO - [2022-03-22 05:35:14,986] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:35:14,997] {logging_mixin.py:109} INFO - [2022-03-22 05:35:14,997] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:35:14.997462+00:00
+[2022-03-22 05:35:15,475] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.604 seconds
+[2022-03-22 05:35:54,758] {processor.py:163} INFO - Started process (PID=209) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:35:54,787] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:35:54,788] {logging_mixin.py:109} INFO - [2022-03-22 05:35:54,788] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:35:54,806] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:35:54,814] {logging_mixin.py:109} INFO - [2022-03-22 05:35:54,814] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:35:54,825] {logging_mixin.py:109} INFO - [2022-03-22 05:35:54,825] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:35:54.825311+00:00
+[2022-03-22 05:35:56,312] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.556 seconds
+[2022-03-22 05:36:35,425] {processor.py:163} INFO - Started process (PID=236) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:36:35,481] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:36:35,482] {logging_mixin.py:109} INFO - [2022-03-22 05:36:35,482] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:36:35,498] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:36:35,506] {logging_mixin.py:109} INFO - [2022-03-22 05:36:35,506] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:36:35,515] {logging_mixin.py:109} INFO - [2022-03-22 05:36:35,515] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:36:35.515613+00:00
+[2022-03-22 05:36:35,779] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.356 seconds
+[2022-03-22 05:37:27,010] {processor.py:163} INFO - Started process (PID=266) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:37:27,039] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:37:27,040] {logging_mixin.py:109} INFO - [2022-03-22 05:37:27,040] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:37:27,062] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:37:27,075] {logging_mixin.py:109} INFO - [2022-03-22 05:37:27,075] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:37:27,102] {logging_mixin.py:109} INFO - [2022-03-22 05:37:27,102] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:37:27.101680+00:00
+[2022-03-22 05:37:27,527] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.520 seconds
+[2022-03-22 05:37:57,851] {processor.py:163} INFO - Started process (PID=281) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:37:57,852] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:37:57,852] {logging_mixin.py:109} INFO - [2022-03-22 05:37:57,852] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:37:57,872] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:37:57,882] {logging_mixin.py:109} INFO - [2022-03-22 05:37:57,882] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:37:57,893] {logging_mixin.py:109} INFO - [2022-03-22 05:37:57,893] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:37:57.892941+00:00
+[2022-03-22 05:37:58,216] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.368 seconds
+[2022-03-22 05:38:39,653] {processor.py:163} INFO - Started process (PID=300) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:38:39,684] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:38:39,684] {logging_mixin.py:109} INFO - [2022-03-22 05:38:39,684] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:38:40,140] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:38:40,154] {logging_mixin.py:109} INFO - [2022-03-22 05:38:40,153] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:38:40,171] {logging_mixin.py:109} INFO - [2022-03-22 05:38:40,171] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:38:40.171231+00:00
+[2022-03-22 05:38:40,445] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.795 seconds
+[2022-03-22 05:39:15,396] {processor.py:163} INFO - Started process (PID=323) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:39:15,424] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:39:15,425] {logging_mixin.py:109} INFO - [2022-03-22 05:39:15,425] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:39:15,451] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:39:15,464] {logging_mixin.py:109} INFO - [2022-03-22 05:39:15,464] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:39:15,476] {logging_mixin.py:109} INFO - [2022-03-22 05:39:15,476] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:39:15.475878+00:00
+[2022-03-22 05:39:15,661] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.268 seconds
+[2022-03-22 05:39:56,162] {processor.py:163} INFO - Started process (PID=349) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:39:56,343] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:39:56,344] {logging_mixin.py:109} INFO - [2022-03-22 05:39:56,344] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:39:56,387] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:39:56,405] {logging_mixin.py:109} INFO - [2022-03-22 05:39:56,405] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:39:56,433] {logging_mixin.py:109} INFO - [2022-03-22 05:39:56,433] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:39:56.432840+00:00
+[2022-03-22 05:39:56,630] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.474 seconds
+[2022-03-22 05:40:53,638] {processor.py:163} INFO - Started process (PID=383) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:40:53,656] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:40:53,657] {logging_mixin.py:109} INFO - [2022-03-22 05:40:53,657] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:40:53,697] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:40:53,713] {logging_mixin.py:109} INFO - [2022-03-22 05:40:53,713] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:40:53,733] {logging_mixin.py:109} INFO - [2022-03-22 05:40:53,732] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:40:53.732552+00:00
+[2022-03-22 05:40:53,934] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.300 seconds
+[2022-03-22 05:41:44,310] {processor.py:163} INFO - Started process (PID=409) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:41:44,333] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:41:44,333] {logging_mixin.py:109} INFO - [2022-03-22 05:41:44,333] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:41:44,368] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:41:44,383] {logging_mixin.py:109} INFO - [2022-03-22 05:41:44,383] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:41:44,404] {logging_mixin.py:109} INFO - [2022-03-22 05:41:44,404] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:41:44.403710+00:00
+[2022-03-22 05:41:44,581] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.276 seconds
+[2022-03-22 05:42:17,900] {processor.py:163} INFO - Started process (PID=428) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:42:17,902] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:42:17,903] {logging_mixin.py:109} INFO - [2022-03-22 05:42:17,903] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:42:17,945] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:42:17,961] {logging_mixin.py:109} INFO - [2022-03-22 05:42:17,961] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:42:17,979] {logging_mixin.py:109} INFO - [2022-03-22 05:42:17,979] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:42:17.978846+00:00
+[2022-03-22 05:42:18,144] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.248 seconds
+[2022-03-22 05:43:05,348] {processor.py:163} INFO - Started process (PID=458) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:43:05,378] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:43:05,378] {logging_mixin.py:109} INFO - [2022-03-22 05:43:05,378] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:43:05,418] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:43:05,434] {logging_mixin.py:109} INFO - [2022-03-22 05:43:05,434] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:43:05,454] {logging_mixin.py:109} INFO - [2022-03-22 05:43:05,454] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:43:05.454192+00:00
+[2022-03-22 05:43:05,714] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.370 seconds
+[2022-03-22 05:43:54,085] {processor.py:163} INFO - Started process (PID=487) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:43:54,123] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:43:54,123] {logging_mixin.py:109} INFO - [2022-03-22 05:43:54,123] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:43:54,164] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:43:54,180] {logging_mixin.py:109} INFO - [2022-03-22 05:43:54,180] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:43:54,203] {logging_mixin.py:109} INFO - [2022-03-22 05:43:54,202] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:43:54.202278+00:00
+[2022-03-22 05:43:54,458] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.376 seconds
+[2022-03-22 05:44:45,022] {processor.py:163} INFO - Started process (PID=518) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:44:45,137] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:44:45,138] {logging_mixin.py:109} INFO - [2022-03-22 05:44:45,138] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:44:45,162] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:44:45,177] {logging_mixin.py:109} INFO - [2022-03-22 05:44:45,177] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:44:45,197] {logging_mixin.py:109} INFO - [2022-03-22 05:44:45,197] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:44:45.197210+00:00
+[2022-03-22 05:44:46,116] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.097 seconds
+[2022-03-22 05:45:26,464] {processor.py:163} INFO - Started process (PID=544) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:45:26,493] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:45:26,494] {logging_mixin.py:109} INFO - [2022-03-22 05:45:26,494] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:45:26,515] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:45:26,526] {logging_mixin.py:109} INFO - [2022-03-22 05:45:26,526] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:45:26,538] {logging_mixin.py:109} INFO - [2022-03-22 05:45:26,538] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:45:26.538467+00:00
+[2022-03-22 05:45:26,775] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.313 seconds
+[2022-03-22 05:46:07,898] {processor.py:163} INFO - Started process (PID=572) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:46:07,900] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:46:07,900] {logging_mixin.py:109} INFO - [2022-03-22 05:46:07,900] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:46:07,924] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:46:07,934] {logging_mixin.py:109} INFO - [2022-03-22 05:46:07,934] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:46:07,947] {logging_mixin.py:109} INFO - [2022-03-22 05:46:07,947] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:46:07.947101+00:00
+[2022-03-22 05:46:08,315] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.419 seconds
+[2022-03-22 05:46:53,321] {processor.py:163} INFO - Started process (PID=717) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:46:53,338] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:46:53,339] {logging_mixin.py:109} INFO - [2022-03-22 05:46:53,339] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:46:53,359] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:46:53,368] {logging_mixin.py:109} INFO - [2022-03-22 05:46:53,368] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:46:53,381] {logging_mixin.py:109} INFO - [2022-03-22 05:46:53,381] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:46:53.380975+00:00
+[2022-03-22 05:46:53,624] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.305 seconds
+[2022-03-22 05:47:31,390] {processor.py:163} INFO - Started process (PID=760) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:47:31,412] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:47:31,413] {logging_mixin.py:109} INFO - [2022-03-22 05:47:31,413] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:47:31,436] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:47:31,445] {logging_mixin.py:109} INFO - [2022-03-22 05:47:31,445] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:47:31,457] {logging_mixin.py:109} INFO - [2022-03-22 05:47:31,457] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:47:31.457461+00:00
+[2022-03-22 05:47:31,699] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.311 seconds
+[2022-03-22 05:48:03,532] {processor.py:163} INFO - Started process (PID=783) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:48:03,543] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:48:03,544] {logging_mixin.py:109} INFO - [2022-03-22 05:48:03,544] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:48:03,564] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:48:03,573] {logging_mixin.py:109} INFO - [2022-03-22 05:48:03,573] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:48:03,585] {logging_mixin.py:109} INFO - [2022-03-22 05:48:03,585] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:48:03.585477+00:00
+[2022-03-22 05:48:03,760] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.230 seconds
+[2022-03-22 05:48:40,308] {processor.py:163} INFO - Started process (PID=808) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:48:40,323] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:48:40,323] {logging_mixin.py:109} INFO - [2022-03-22 05:48:40,323] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:48:40,344] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:48:40,353] {logging_mixin.py:109} INFO - [2022-03-22 05:48:40,353] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:48:40,367] {logging_mixin.py:109} INFO - [2022-03-22 05:48:40,367] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:48:40.367116+00:00
+[2022-03-22 05:48:40,551] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.246 seconds
+[2022-03-22 05:49:16,459] {processor.py:163} INFO - Started process (PID=833) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:49:16,481] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:49:16,481] {logging_mixin.py:109} INFO - [2022-03-22 05:49:16,481] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:49:16,501] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:49:16,511] {logging_mixin.py:109} INFO - [2022-03-22 05:49:16,511] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:49:16,525] {logging_mixin.py:109} INFO - [2022-03-22 05:49:16,525] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:49:16.524846+00:00
+[2022-03-22 05:49:16,719] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.262 seconds
+[2022-03-22 05:49:57,057] {processor.py:163} INFO - Started process (PID=859) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:49:57,074] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:49:57,074] {logging_mixin.py:109} INFO - [2022-03-22 05:49:57,074] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:49:57,094] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:49:57,103] {logging_mixin.py:109} INFO - [2022-03-22 05:49:57,103] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:49:57,116] {logging_mixin.py:109} INFO - [2022-03-22 05:49:57,116] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:49:57.115978+00:00
+[2022-03-22 05:49:57,317] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.262 seconds
+[2022-03-22 05:50:40,303] {processor.py:163} INFO - Started process (PID=888) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:50:40,341] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:50:40,342] {logging_mixin.py:109} INFO - [2022-03-22 05:50:40,342] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:50:40,366] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:50:40,381] {logging_mixin.py:109} INFO - [2022-03-22 05:50:40,380] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:50:40,399] {logging_mixin.py:109} INFO - [2022-03-22 05:50:40,398] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:50:40.398601+00:00
+[2022-03-22 05:50:41,300] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.999 seconds
+[2022-03-22 05:51:18,850] {processor.py:163} INFO - Started process (PID=914) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:51:18,876] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:51:18,877] {logging_mixin.py:109} INFO - [2022-03-22 05:51:18,877] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:51:18,906] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:51:18,918] {logging_mixin.py:109} INFO - [2022-03-22 05:51:18,918] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:51:18,935] {logging_mixin.py:109} INFO - [2022-03-22 05:51:18,935] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:51:18.935116+00:00
+[2022-03-22 05:51:19,151] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.303 seconds
+[2022-03-22 05:52:14,615] {processor.py:163} INFO - Started process (PID=942) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:52:14,626] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:52:14,627] {logging_mixin.py:109} INFO - [2022-03-22 05:52:14,627] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:52:14,684] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:52:14,727] {logging_mixin.py:109} INFO - [2022-03-22 05:52:14,727] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:52:14,775] {logging_mixin.py:109} INFO - [2022-03-22 05:52:14,774] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:52:14.774555+00:00
+[2022-03-22 05:52:15,010] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.398 seconds
+[2022-03-22 05:52:48,905] {processor.py:163} INFO - Started process (PID=962) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:52:48,908] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:52:48,909] {logging_mixin.py:109} INFO - [2022-03-22 05:52:48,909] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:52:48,956] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:52:48,970] {logging_mixin.py:109} INFO - [2022-03-22 05:52:48,970] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:52:48,995] {logging_mixin.py:109} INFO - [2022-03-22 05:52:48,994] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:52:48.994546+00:00
+[2022-03-22 05:52:49,847] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.945 seconds
+[2022-03-22 05:53:24,080] {processor.py:163} INFO - Started process (PID=987) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:53:24,719] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:53:24,720] {logging_mixin.py:109} INFO - [2022-03-22 05:53:24,720] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:53:24,739] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:53:24,749] {logging_mixin.py:109} INFO - [2022-03-22 05:53:24,748] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:53:24,760] {logging_mixin.py:109} INFO - [2022-03-22 05:53:24,760] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:53:24.760285+00:00
+[2022-03-22 05:53:25,048] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.971 seconds
+[2022-03-22 05:54:14,733] {processor.py:163} INFO - Started process (PID=1008) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:54:14,743] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:54:14,743] {logging_mixin.py:109} INFO - [2022-03-22 05:54:14,743] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:54:14,763] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:54:14,772] {logging_mixin.py:109} INFO - [2022-03-22 05:54:14,772] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:54:14,785] {logging_mixin.py:109} INFO - [2022-03-22 05:54:14,785] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:54:14.784837+00:00
+[2022-03-22 05:54:15,571] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.839 seconds
+[2022-03-22 05:55:03,024] {processor.py:163} INFO - Started process (PID=1028) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:55:03,049] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:55:03,049] {logging_mixin.py:109} INFO - [2022-03-22 05:55:03,049] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:55:03,069] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:55:03,078] {logging_mixin.py:109} INFO - [2022-03-22 05:55:03,078] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:55:03,090] {logging_mixin.py:109} INFO - [2022-03-22 05:55:03,090] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:55:03.089763+00:00
+[2022-03-22 05:55:03,704] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.682 seconds
+[2022-03-22 05:55:46,463] {processor.py:163} INFO - Started process (PID=1049) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:55:46,475] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:55:46,475] {logging_mixin.py:109} INFO - [2022-03-22 05:55:46,475] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:55:46,495] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:55:46,504] {logging_mixin.py:109} INFO - [2022-03-22 05:55:46,504] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:55:46,516] {logging_mixin.py:109} INFO - [2022-03-22 05:55:46,516] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:55:46.515952+00:00
+[2022-03-22 05:55:48,055] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.595 seconds
+[2022-03-22 05:56:34,950] {processor.py:163} INFO - Started process (PID=1068) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:56:34,966] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:56:34,966] {logging_mixin.py:109} INFO - [2022-03-22 05:56:34,966] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:56:34,989] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:56:34,998] {logging_mixin.py:109} INFO - [2022-03-22 05:56:34,998] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:56:35,009] {logging_mixin.py:109} INFO - [2022-03-22 05:56:35,009] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:56:35.009451+00:00
+[2022-03-22 05:56:35,160] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.212 seconds
+[2022-03-22 05:57:12,289] {processor.py:163} INFO - Started process (PID=1089) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:57:12,685] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:57:12,687] {logging_mixin.py:109} INFO - [2022-03-22 05:57:12,687] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:57:12,708] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:57:12,717] {logging_mixin.py:109} INFO - [2022-03-22 05:57:12,717] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:57:12,730] {logging_mixin.py:109} INFO - [2022-03-22 05:57:12,730] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:57:12.729746+00:00
+[2022-03-22 05:57:12,912] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.625 seconds
+[2022-03-22 05:57:53,000] {processor.py:163} INFO - Started process (PID=1107) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:57:53,002] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:57:53,002] {logging_mixin.py:109} INFO - [2022-03-22 05:57:53,002] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:57:53,021] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:57:53,033] {logging_mixin.py:109} INFO - [2022-03-22 05:57:53,033] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:57:53,046] {logging_mixin.py:109} INFO - [2022-03-22 05:57:53,046] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:57:53.046398+00:00
+[2022-03-22 05:57:53,799] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.802 seconds
+[2022-03-22 05:58:43,227] {processor.py:163} INFO - Started process (PID=1127) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:58:43,303] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:58:43,304] {logging_mixin.py:109} INFO - [2022-03-22 05:58:43,304] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:58:43,326] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:58:43,338] {logging_mixin.py:109} INFO - [2022-03-22 05:58:43,337] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:58:43,356] {logging_mixin.py:109} INFO - [2022-03-22 05:58:43,355] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:58:43.355559+00:00
+[2022-03-22 05:58:44,705] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.480 seconds
+[2022-03-22 05:59:30,448] {processor.py:163} INFO - Started process (PID=1149) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:59:30,455] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 05:59:30,456] {logging_mixin.py:109} INFO - [2022-03-22 05:59:30,455] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:59:30,480] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 05:59:30,489] {logging_mixin.py:109} INFO - [2022-03-22 05:59:30,489] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:59:30,501] {logging_mixin.py:109} INFO - [2022-03-22 05:59:30,501] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T10:59:30.500966+00:00
+[2022-03-22 05:59:32,798] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 2.352 seconds
+[2022-03-22 06:00:11,466] {processor.py:163} INFO - Started process (PID=1168) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:00:11,490] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:00:11,491] {logging_mixin.py:109} INFO - [2022-03-22 06:00:11,491] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:00:11,511] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:00:11,521] {logging_mixin.py:109} INFO - [2022-03-22 06:00:11,521] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:00:11,531] {logging_mixin.py:109} INFO - [2022-03-22 06:00:11,531] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:00:11.531442+00:00
+[2022-03-22 06:00:12,644] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.180 seconds
+[2022-03-22 06:00:51,195] {processor.py:163} INFO - Started process (PID=1187) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:00:51,198] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:00:51,198] {logging_mixin.py:109} INFO - [2022-03-22 06:00:51,198] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:00:51,222] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:00:51,231] {logging_mixin.py:109} INFO - [2022-03-22 06:00:51,231] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:00:51,243] {logging_mixin.py:109} INFO - [2022-03-22 06:00:51,243] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:00:51.243417+00:00
+[2022-03-22 06:00:51,968] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.776 seconds
+[2022-03-22 06:01:32,463] {processor.py:163} INFO - Started process (PID=1206) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:01:32,497] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:01:32,497] {logging_mixin.py:109} INFO - [2022-03-22 06:01:32,497] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:01:32,517] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:01:32,529] {logging_mixin.py:109} INFO - [2022-03-22 06:01:32,529] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:01:32,542] {logging_mixin.py:109} INFO - [2022-03-22 06:01:32,542] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:01:32.541993+00:00
+[2022-03-22 06:01:34,398] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.938 seconds
+[2022-03-22 06:02:11,327] {processor.py:163} INFO - Started process (PID=1225) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:02:11,334] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:02:11,334] {logging_mixin.py:109} INFO - [2022-03-22 06:02:11,334] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:02:11,354] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:02:11,363] {logging_mixin.py:109} INFO - [2022-03-22 06:02:11,363] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:02:11,376] {logging_mixin.py:109} INFO - [2022-03-22 06:02:11,376] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:02:11.375824+00:00
+[2022-03-22 06:02:12,074] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.749 seconds
+[2022-03-22 06:02:53,036] {processor.py:163} INFO - Started process (PID=1243) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:02:53,092] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:02:53,092] {logging_mixin.py:109} INFO - [2022-03-22 06:02:53,092] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:02:53,113] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:02:53,122] {logging_mixin.py:109} INFO - [2022-03-22 06:02:53,122] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:02:53,134] {logging_mixin.py:109} INFO - [2022-03-22 06:02:53,134] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:02:53.134480+00:00
+[2022-03-22 06:02:54,014] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.981 seconds
+[2022-03-22 06:03:36,312] {processor.py:163} INFO - Started process (PID=1263) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:03:36,433] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:03:36,433] {logging_mixin.py:109} INFO - [2022-03-22 06:03:36,433] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:03:36,463] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:03:36,479] {logging_mixin.py:109} INFO - [2022-03-22 06:03:36,478] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:03:36,494] {logging_mixin.py:109} INFO - [2022-03-22 06:03:36,494] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:03:36.493807+00:00
+[2022-03-22 06:03:36,756] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.446 seconds
+[2022-03-22 06:04:14,113] {processor.py:163} INFO - Started process (PID=1282) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:04:14,153] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:04:14,153] {logging_mixin.py:109} INFO - [2022-03-22 06:04:14,153] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:04:14,172] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:04:14,182] {logging_mixin.py:109} INFO - [2022-03-22 06:04:14,182] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:04:14,195] {logging_mixin.py:109} INFO - [2022-03-22 06:04:14,195] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:04:14.195108+00:00
+[2022-03-22 06:04:15,933] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.824 seconds
+[2022-03-22 06:04:55,758] {processor.py:163} INFO - Started process (PID=1300) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:04:55,761] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:04:55,762] {logging_mixin.py:109} INFO - [2022-03-22 06:04:55,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:04:55,781] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:04:55,790] {logging_mixin.py:109} INFO - [2022-03-22 06:04:55,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:04:55,802] {logging_mixin.py:109} INFO - [2022-03-22 06:04:55,802] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:04:55.802436+00:00
+[2022-03-22 06:04:56,791] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.035 seconds
+[2022-03-22 06:05:32,143] {processor.py:163} INFO - Started process (PID=1320) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:05:32,146] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:05:32,147] {logging_mixin.py:109} INFO - [2022-03-22 06:05:32,147] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:05:32,166] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:05:32,175] {logging_mixin.py:109} INFO - [2022-03-22 06:05:32,174] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:05:32,190] {logging_mixin.py:109} INFO - [2022-03-22 06:05:32,189] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:05:32.189719+00:00
+[2022-03-22 06:05:32,565] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.425 seconds
+[2022-03-22 06:06:06,674] {processor.py:163} INFO - Started process (PID=1336) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:06:07,549] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:06:07,549] {logging_mixin.py:109} INFO - [2022-03-22 06:06:07,549] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:06:07,568] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:06:07,578] {logging_mixin.py:109} INFO - [2022-03-22 06:06:07,578] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:06:07,589] {logging_mixin.py:109} INFO - [2022-03-22 06:06:07,588] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:06:07.588720+00:00
+[2022-03-22 06:06:07,786] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.115 seconds
+[2022-03-22 06:06:50,408] {processor.py:163} INFO - Started process (PID=1356) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:06:50,599] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:06:50,600] {logging_mixin.py:109} INFO - [2022-03-22 06:06:50,600] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:06:50,620] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:06:50,630] {logging_mixin.py:109} INFO - [2022-03-22 06:06:50,630] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:06:50,642] {logging_mixin.py:109} INFO - [2022-03-22 06:06:50,642] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:06:50.641784+00:00
+[2022-03-22 06:06:51,310] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.904 seconds
+[2022-03-22 06:07:27,371] {processor.py:163} INFO - Started process (PID=1375) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:07:27,565] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:07:27,566] {logging_mixin.py:109} INFO - [2022-03-22 06:07:27,565] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:07:27,596] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:07:27,610] {logging_mixin.py:109} INFO - [2022-03-22 06:07:27,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:07:27,628] {logging_mixin.py:109} INFO - [2022-03-22 06:07:27,628] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:07:27.627955+00:00
+[2022-03-22 06:07:28,572] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.204 seconds
+[2022-03-22 06:08:06,003] {processor.py:163} INFO - Started process (PID=1392) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:08:06,624] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:08:06,625] {logging_mixin.py:109} INFO - [2022-03-22 06:08:06,624] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:08:06,645] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:08:06,655] {logging_mixin.py:109} INFO - [2022-03-22 06:08:06,654] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:08:06,667] {logging_mixin.py:109} INFO - [2022-03-22 06:08:06,667] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:08:06.666612+00:00
+[2022-03-22 06:08:06,818] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.817 seconds
+[2022-03-22 06:08:46,359] {processor.py:163} INFO - Started process (PID=1412) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:08:46,589] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:08:46,590] {logging_mixin.py:109} INFO - [2022-03-22 06:08:46,590] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:08:46,613] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:08:46,623] {logging_mixin.py:109} INFO - [2022-03-22 06:08:46,623] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:08:46,635] {logging_mixin.py:109} INFO - [2022-03-22 06:08:46,635] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:08:46.634782+00:00
+[2022-03-22 06:08:47,391] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.034 seconds
+[2022-03-22 06:09:20,276] {processor.py:163} INFO - Started process (PID=1430) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:09:20,279] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:09:20,279] {logging_mixin.py:109} INFO - [2022-03-22 06:09:20,279] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:09:20,300] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:09:20,311] {logging_mixin.py:109} INFO - [2022-03-22 06:09:20,311] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:09:20,323] {logging_mixin.py:109} INFO - [2022-03-22 06:09:20,323] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:09:20.323049+00:00
+[2022-03-22 06:09:21,072] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.798 seconds
+[2022-03-22 06:09:55,272] {processor.py:163} INFO - Started process (PID=1452) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:09:55,311] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:09:55,312] {logging_mixin.py:109} INFO - [2022-03-22 06:09:55,312] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:09:55,336] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:09:55,347] {logging_mixin.py:109} INFO - [2022-03-22 06:09:55,346] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:09:55,360] {logging_mixin.py:109} INFO - [2022-03-22 06:09:55,360] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:09:55.360221+00:00
+[2022-03-22 06:09:56,338] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.068 seconds
+[2022-03-22 06:10:28,454] {processor.py:163} INFO - Started process (PID=1470) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:10:28,457] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:10:28,457] {logging_mixin.py:109} INFO - [2022-03-22 06:10:28,457] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:10:28,477] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:10:28,487] {logging_mixin.py:109} INFO - [2022-03-22 06:10:28,486] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:10:28,498] {logging_mixin.py:109} INFO - [2022-03-22 06:10:28,498] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:10:28.498148+00:00
+[2022-03-22 06:10:30,477] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 2.026 seconds
+[2022-03-22 06:11:11,935] {processor.py:163} INFO - Started process (PID=1487) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:11:11,957] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:11:11,958] {logging_mixin.py:109} INFO - [2022-03-22 06:11:11,958] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:11:11,978] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:11:11,990] {logging_mixin.py:109} INFO - [2022-03-22 06:11:11,990] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:11:12,002] {logging_mixin.py:109} INFO - [2022-03-22 06:11:12,002] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:11:12.001991+00:00
+[2022-03-22 06:11:13,148] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.215 seconds
+[2022-03-22 06:11:58,494] {processor.py:163} INFO - Started process (PID=1508) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:11:58,504] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:11:58,505] {logging_mixin.py:109} INFO - [2022-03-22 06:11:58,504] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:11:58,523] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:11:58,531] {logging_mixin.py:109} INFO - [2022-03-22 06:11:58,531] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:11:58,544] {logging_mixin.py:109} INFO - [2022-03-22 06:11:58,544] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:11:58.544027+00:00
+[2022-03-22 06:11:58,670] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.179 seconds
+[2022-03-22 06:12:42,547] {processor.py:163} INFO - Started process (PID=1529) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:12:42,754] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:12:42,755] {logging_mixin.py:109} INFO - [2022-03-22 06:12:42,755] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:12:42,776] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:12:42,786] {logging_mixin.py:109} INFO - [2022-03-22 06:12:42,785] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:12:42,800] {logging_mixin.py:109} INFO - [2022-03-22 06:12:42,800] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:12:42.800066+00:00
+[2022-03-22 06:12:43,015] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.470 seconds
+[2022-03-22 06:13:20,793] {processor.py:163} INFO - Started process (PID=1548) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:13:21,827] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:13:21,828] {logging_mixin.py:109} INFO - [2022-03-22 06:13:21,828] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:13:21,851] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:13:21,860] {logging_mixin.py:109} INFO - [2022-03-22 06:13:21,860] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:13:21,872] {logging_mixin.py:109} INFO - [2022-03-22 06:13:21,872] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:13:21.872288+00:00
+[2022-03-22 06:13:22,019] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.229 seconds
+[2022-03-22 06:14:00,058] {processor.py:163} INFO - Started process (PID=1566) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:14:00,064] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:14:00,064] {logging_mixin.py:109} INFO - [2022-03-22 06:14:00,064] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:14:00,087] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:14:00,095] {logging_mixin.py:109} INFO - [2022-03-22 06:14:00,095] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:14:00,106] {logging_mixin.py:109} INFO - [2022-03-22 06:14:00,106] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:14:00.105857+00:00
+[2022-03-22 06:14:00,826] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.772 seconds
+[2022-03-22 06:14:44,649] {processor.py:163} INFO - Started process (PID=1586) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:14:44,660] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:14:44,661] {logging_mixin.py:109} INFO - [2022-03-22 06:14:44,661] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:14:44,679] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:14:44,691] {logging_mixin.py:109} INFO - [2022-03-22 06:14:44,691] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:14:44,703] {logging_mixin.py:109} INFO - [2022-03-22 06:14:44,703] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:14:44.703523+00:00
+[2022-03-22 06:14:45,265] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.618 seconds
+[2022-03-22 06:15:32,490] {processor.py:163} INFO - Started process (PID=1607) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:15:32,539] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:15:32,539] {logging_mixin.py:109} INFO - [2022-03-22 06:15:32,539] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:15:32,558] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:15:32,568] {logging_mixin.py:109} INFO - [2022-03-22 06:15:32,568] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:15:32,580] {logging_mixin.py:109} INFO - [2022-03-22 06:15:32,580] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:15:32.580398+00:00
+[2022-03-22 06:15:33,208] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.721 seconds
+[2022-03-22 06:16:15,242] {processor.py:163} INFO - Started process (PID=1630) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:16:15,283] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:16:15,284] {logging_mixin.py:109} INFO - [2022-03-22 06:16:15,284] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:16:15,302] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:16:15,311] {logging_mixin.py:109} INFO - [2022-03-22 06:16:15,311] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:16:15,324] {logging_mixin.py:109} INFO - [2022-03-22 06:16:15,324] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:16:15.323988+00:00
+[2022-03-22 06:16:17,094] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.854 seconds
+[2022-03-22 06:16:55,823] {processor.py:163} INFO - Started process (PID=1649) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:16:55,873] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:16:55,874] {logging_mixin.py:109} INFO - [2022-03-22 06:16:55,874] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:16:55,898] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:16:55,907] {logging_mixin.py:109} INFO - [2022-03-22 06:16:55,907] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:16:55,923] {logging_mixin.py:109} INFO - [2022-03-22 06:16:55,923] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:16:55.923292+00:00
+[2022-03-22 06:16:56,082] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.261 seconds
+[2022-03-22 06:17:36,430] {processor.py:163} INFO - Started process (PID=1668) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:17:36,467] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:17:36,468] {logging_mixin.py:109} INFO - [2022-03-22 06:17:36,468] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:17:36,491] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:17:36,500] {logging_mixin.py:109} INFO - [2022-03-22 06:17:36,500] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:17:36,512] {logging_mixin.py:109} INFO - [2022-03-22 06:17:36,512] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:17:36.511871+00:00
+[2022-03-22 06:17:37,495] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.067 seconds
+[2022-03-22 06:18:20,026] {processor.py:163} INFO - Started process (PID=1689) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:18:20,029] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:18:20,029] {logging_mixin.py:109} INFO - [2022-03-22 06:18:20,029] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:18:20,053] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:18:20,063] {logging_mixin.py:109} INFO - [2022-03-22 06:18:20,062] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:18:20,076] {logging_mixin.py:109} INFO - [2022-03-22 06:18:20,076] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:18:20.075735+00:00
+[2022-03-22 06:18:21,729] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.706 seconds
+[2022-03-22 06:19:05,477] {processor.py:163} INFO - Started process (PID=1709) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:19:05,496] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:19:05,497] {logging_mixin.py:109} INFO - [2022-03-22 06:19:05,497] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:19:05,527] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:19:05,539] {logging_mixin.py:109} INFO - [2022-03-22 06:19:05,539] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:19:05,555] {logging_mixin.py:109} INFO - [2022-03-22 06:19:05,555] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:19:05.555439+00:00
+[2022-03-22 06:19:05,695] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.221 seconds
+[2022-03-22 06:19:47,960] {processor.py:163} INFO - Started process (PID=1730) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:19:47,974] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:19:47,975] {logging_mixin.py:109} INFO - [2022-03-22 06:19:47,975] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:19:47,996] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:19:48,005] {logging_mixin.py:109} INFO - [2022-03-22 06:19:48,005] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:19:48,021] {logging_mixin.py:109} INFO - [2022-03-22 06:19:48,021] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:19:48.021016+00:00
+[2022-03-22 06:19:48,148] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.190 seconds
+[2022-03-22 06:20:32,464] {processor.py:163} INFO - Started process (PID=1750) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:20:32,473] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:20:32,474] {logging_mixin.py:109} INFO - [2022-03-22 06:20:32,474] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:20:32,497] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:20:32,509] {logging_mixin.py:109} INFO - [2022-03-22 06:20:32,509] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:20:32,523] {logging_mixin.py:109} INFO - [2022-03-22 06:20:32,523] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:20:32.522987+00:00
+[2022-03-22 06:20:33,903] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.442 seconds
+[2022-03-22 06:21:16,133] {processor.py:163} INFO - Started process (PID=1771) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:21:16,139] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:21:16,139] {logging_mixin.py:109} INFO - [2022-03-22 06:21:16,139] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:21:16,160] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:21:16,170] {logging_mixin.py:109} INFO - [2022-03-22 06:21:16,169] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:21:16,182] {logging_mixin.py:109} INFO - [2022-03-22 06:21:16,182] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:21:16.182029+00:00
+[2022-03-22 06:21:16,821] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.690 seconds
+[2022-03-22 06:22:01,732] {processor.py:163} INFO - Started process (PID=1791) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:22:01,761] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:22:01,762] {logging_mixin.py:109} INFO - [2022-03-22 06:22:01,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:22:01,782] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:22:01,791] {logging_mixin.py:109} INFO - [2022-03-22 06:22:01,791] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:22:01,803] {logging_mixin.py:109} INFO - [2022-03-22 06:22:01,803] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:22:01.802738+00:00
+[2022-03-22 06:22:03,435] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.705 seconds
+[2022-03-22 06:22:44,232] {processor.py:163} INFO - Started process (PID=1812) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:22:44,244] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:22:44,245] {logging_mixin.py:109} INFO - [2022-03-22 06:22:44,245] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:22:44,265] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:22:44,276] {logging_mixin.py:109} INFO - [2022-03-22 06:22:44,276] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:22:44,288] {logging_mixin.py:109} INFO - [2022-03-22 06:22:44,288] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:22:44.288253+00:00
+[2022-03-22 06:22:44,515] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.286 seconds
+[2022-03-22 06:23:19,645] {processor.py:163} INFO - Started process (PID=1830) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:23:20,362] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:23:20,363] {logging_mixin.py:109} INFO - [2022-03-22 06:23:20,363] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:23:20,386] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:23:20,396] {logging_mixin.py:109} INFO - [2022-03-22 06:23:20,395] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:23:20,407] {logging_mixin.py:109} INFO - [2022-03-22 06:23:20,407] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:23:20.407290+00:00
+[2022-03-22 06:23:21,259] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.617 seconds
+[2022-03-22 06:23:57,621] {processor.py:163} INFO - Started process (PID=1849) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:23:57,624] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:23:57,624] {logging_mixin.py:109} INFO - [2022-03-22 06:23:57,624] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:23:57,655] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:23:57,669] {logging_mixin.py:109} INFO - [2022-03-22 06:23:57,669] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:23:57,688] {logging_mixin.py:109} INFO - [2022-03-22 06:23:57,688] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:23:57.688262+00:00
+[2022-03-22 06:23:59,149] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.531 seconds
+[2022-03-22 06:24:38,958] {processor.py:163} INFO - Started process (PID=1868) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:24:38,961] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:24:38,962] {logging_mixin.py:109} INFO - [2022-03-22 06:24:38,962] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:24:38,982] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:24:38,991] {logging_mixin.py:109} INFO - [2022-03-22 06:24:38,991] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:24:39,003] {logging_mixin.py:109} INFO - [2022-03-22 06:24:39,003] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:24:39.003505+00:00
+[2022-03-22 06:24:39,388] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.433 seconds
+[2022-03-22 06:25:25,071] {processor.py:163} INFO - Started process (PID=1888) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:25:25,114] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:25:25,114] {logging_mixin.py:109} INFO - [2022-03-22 06:25:25,114] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:25:25,134] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:25:25,143] {logging_mixin.py:109} INFO - [2022-03-22 06:25:25,143] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:25:25,156] {logging_mixin.py:109} INFO - [2022-03-22 06:25:25,155] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:25:25.155674+00:00
+[2022-03-22 06:25:26,023] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.954 seconds
+[2022-03-22 06:26:15,100] {processor.py:163} INFO - Started process (PID=1910) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:26:15,134] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:26:15,134] {logging_mixin.py:109} INFO - [2022-03-22 06:26:15,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:26:15,158] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:26:15,168] {logging_mixin.py:109} INFO - [2022-03-22 06:26:15,168] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:26:15,181] {logging_mixin.py:109} INFO - [2022-03-22 06:26:15,181] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:26:15.180958+00:00
+[2022-03-22 06:26:16,075] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.977 seconds
+[2022-03-22 06:27:13,647] {processor.py:163} INFO - Started process (PID=1934) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:27:13,692] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:27:13,692] {logging_mixin.py:109} INFO - [2022-03-22 06:27:13,692] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:27:13,711] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:27:13,721] {logging_mixin.py:109} INFO - [2022-03-22 06:27:13,720] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:27:13,732] {logging_mixin.py:109} INFO - [2022-03-22 06:27:13,732] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:27:13.731725+00:00
+[2022-03-22 06:27:14,235] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.591 seconds
+[2022-03-22 06:27:58,970] {processor.py:163} INFO - Started process (PID=1956) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:27:59,215] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:27:59,216] {logging_mixin.py:109} INFO - [2022-03-22 06:27:59,216] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:27:59,236] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:27:59,245] {logging_mixin.py:109} INFO - [2022-03-22 06:27:59,245] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:27:59,257] {logging_mixin.py:109} INFO - [2022-03-22 06:27:59,257] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:27:59.257369+00:00
+[2022-03-22 06:27:59,530] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.562 seconds
+[2022-03-22 06:28:38,010] {processor.py:163} INFO - Started process (PID=1976) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:28:38,813] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:28:38,813] {logging_mixin.py:109} INFO - [2022-03-22 06:28:38,813] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:28:38,835] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:28:38,845] {logging_mixin.py:109} INFO - [2022-03-22 06:28:38,845] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:28:38,856] {logging_mixin.py:109} INFO - [2022-03-22 06:28:38,856] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:28:38.856021+00:00
+[2022-03-22 06:28:39,156] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.149 seconds
+[2022-03-22 06:29:17,608] {processor.py:163} INFO - Started process (PID=1995) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:29:17,611] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:29:17,611] {logging_mixin.py:109} INFO - [2022-03-22 06:29:17,611] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:29:17,630] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:29:17,639] {logging_mixin.py:109} INFO - [2022-03-22 06:29:17,639] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:29:17,652] {logging_mixin.py:109} INFO - [2022-03-22 06:29:17,652] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:29:17.651834+00:00
+[2022-03-22 06:29:18,577] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.971 seconds
+[2022-03-22 06:29:56,324] {processor.py:163} INFO - Started process (PID=2014) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:29:56,326] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:29:56,327] {logging_mixin.py:109} INFO - [2022-03-22 06:29:56,327] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:29:56,361] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:29:56,376] {logging_mixin.py:109} INFO - [2022-03-22 06:29:56,375] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:29:56,398] {logging_mixin.py:109} INFO - [2022-03-22 06:29:56,398] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:29:56.398179+00:00
+[2022-03-22 06:29:58,551] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 2.231 seconds
+[2022-03-22 06:30:40,905] {processor.py:163} INFO - Started process (PID=2034) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:30:40,927] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:30:40,928] {logging_mixin.py:109} INFO - [2022-03-22 06:30:40,928] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:30:40,947] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:30:40,958] {logging_mixin.py:109} INFO - [2022-03-22 06:30:40,957] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:30:40,969] {logging_mixin.py:109} INFO - [2022-03-22 06:30:40,969] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:30:40.969336+00:00
+[2022-03-22 06:30:41,162] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.260 seconds
+[2022-03-22 06:31:27,617] {processor.py:163} INFO - Started process (PID=2054) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:31:27,658] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:31:27,658] {logging_mixin.py:109} INFO - [2022-03-22 06:31:27,658] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:31:27,679] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:31:27,690] {logging_mixin.py:109} INFO - [2022-03-22 06:31:27,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:31:27,703] {logging_mixin.py:109} INFO - [2022-03-22 06:31:27,703] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:31:27.703309+00:00
+[2022-03-22 06:31:28,634] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.020 seconds
+[2022-03-22 06:32:08,675] {processor.py:163} INFO - Started process (PID=2075) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:32:08,742] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:32:08,742] {logging_mixin.py:109} INFO - [2022-03-22 06:32:08,742] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:32:08,765] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:32:08,775] {logging_mixin.py:109} INFO - [2022-03-22 06:32:08,774] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:32:08,786] {logging_mixin.py:109} INFO - [2022-03-22 06:32:08,786] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:32:08.786189+00:00
+[2022-03-22 06:32:11,251] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 2.580 seconds
+[2022-03-22 06:32:58,622] {processor.py:163} INFO - Started process (PID=2095) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:32:58,639] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:32:58,640] {logging_mixin.py:109} INFO - [2022-03-22 06:32:58,640] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:32:58,660] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:32:58,671] {logging_mixin.py:109} INFO - [2022-03-22 06:32:58,671] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:32:58,683] {logging_mixin.py:109} INFO - [2022-03-22 06:32:58,682] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:32:58.682606+00:00
+[2022-03-22 06:32:59,278] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.659 seconds
+[2022-03-22 06:33:45,031] {processor.py:163} INFO - Started process (PID=2116) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:33:45,045] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:33:45,046] {logging_mixin.py:109} INFO - [2022-03-22 06:33:45,046] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:33:45,065] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:33:45,074] {logging_mixin.py:109} INFO - [2022-03-22 06:33:45,074] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:33:45,085] {logging_mixin.py:109} INFO - [2022-03-22 06:33:45,085] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:33:45.085157+00:00
+[2022-03-22 06:33:46,506] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.477 seconds
+[2022-03-22 06:34:36,534] {processor.py:163} INFO - Started process (PID=2137) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:34:36,681] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:34:36,682] {logging_mixin.py:109} INFO - [2022-03-22 06:34:36,682] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:34:36,713] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:34:36,725] {logging_mixin.py:109} INFO - [2022-03-22 06:34:36,725] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:34:36,740] {logging_mixin.py:109} INFO - [2022-03-22 06:34:36,740] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:34:36.739729+00:00
+[2022-03-22 06:34:37,938] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.407 seconds
+[2022-03-22 06:35:18,655] {processor.py:163} INFO - Started process (PID=2158) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:35:18,856] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:35:18,857] {logging_mixin.py:109} INFO - [2022-03-22 06:35:18,857] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:35:18,892] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:35:18,903] {logging_mixin.py:109} INFO - [2022-03-22 06:35:18,903] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:35:18,919] {logging_mixin.py:109} INFO - [2022-03-22 06:35:18,919] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:35:18.918931+00:00
+[2022-03-22 06:35:19,666] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.014 seconds
+[2022-03-22 06:35:57,372] {processor.py:163} INFO - Started process (PID=2177) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:35:57,510] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:35:57,510] {logging_mixin.py:109} INFO - [2022-03-22 06:35:57,510] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:35:57,536] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:35:57,548] {logging_mixin.py:109} INFO - [2022-03-22 06:35:57,548] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:35:57,561] {logging_mixin.py:109} INFO - [2022-03-22 06:35:57,561] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:35:57.561057+00:00
+[2022-03-22 06:35:58,170] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.800 seconds
+[2022-03-22 06:36:38,798] {processor.py:163} INFO - Started process (PID=2196) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:36:38,810] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:36:38,811] {logging_mixin.py:109} INFO - [2022-03-22 06:36:38,810] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:36:38,834] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:36:38,844] {logging_mixin.py:109} INFO - [2022-03-22 06:36:38,844] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:36:38,863] {logging_mixin.py:109} INFO - [2022-03-22 06:36:38,863] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:36:38.863165+00:00
+[2022-03-22 06:36:40,265] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.471 seconds
+[2022-03-22 06:37:18,827] {processor.py:163} INFO - Started process (PID=2216) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:37:18,900] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:37:18,901] {logging_mixin.py:109} INFO - [2022-03-22 06:37:18,900] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:37:18,920] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:37:18,930] {logging_mixin.py:109} INFO - [2022-03-22 06:37:18,930] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:37:18,943] {logging_mixin.py:109} INFO - [2022-03-22 06:37:18,943] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:37:18.942757+00:00
+[2022-03-22 06:37:19,278] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.453 seconds
+[2022-03-22 06:37:57,764] {processor.py:163} INFO - Started process (PID=2235) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:37:57,767] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:37:57,768] {logging_mixin.py:109} INFO - [2022-03-22 06:37:57,768] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:37:57,787] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:37:57,795] {logging_mixin.py:109} INFO - [2022-03-22 06:37:57,795] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:37:57,808] {logging_mixin.py:109} INFO - [2022-03-22 06:37:57,807] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:37:57.807570+00:00
+[2022-03-22 06:37:58,511] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.749 seconds
+[2022-03-22 06:38:41,473] {processor.py:163} INFO - Started process (PID=2255) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:38:41,486] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:38:41,487] {logging_mixin.py:109} INFO - [2022-03-22 06:38:41,487] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:38:41,504] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:38:41,513] {logging_mixin.py:109} INFO - [2022-03-22 06:38:41,513] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:38:41,525] {logging_mixin.py:109} INFO - [2022-03-22 06:38:41,525] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:38:41.525005+00:00
+[2022-03-22 06:38:42,680] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.209 seconds
+[2022-03-22 06:39:28,169] {processor.py:163} INFO - Started process (PID=2276) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:39:28,183] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:39:28,184] {logging_mixin.py:109} INFO - [2022-03-22 06:39:28,184] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:39:28,206] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:39:28,215] {logging_mixin.py:109} INFO - [2022-03-22 06:39:28,215] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:39:28,226] {logging_mixin.py:109} INFO - [2022-03-22 06:39:28,226] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:39:28.226302+00:00
+[2022-03-22 06:39:29,180] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.013 seconds
+[2022-03-22 06:40:10,679] {processor.py:163} INFO - Started process (PID=2296) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:40:10,817] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:40:10,818] {logging_mixin.py:109} INFO - [2022-03-22 06:40:10,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:40:10,841] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:40:10,850] {logging_mixin.py:109} INFO - [2022-03-22 06:40:10,850] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:40:10,863] {logging_mixin.py:109} INFO - [2022-03-22 06:40:10,863] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:40:10.863257+00:00
+[2022-03-22 06:40:11,521] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.844 seconds
+[2022-03-22 06:40:58,397] {processor.py:163} INFO - Started process (PID=2316) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:40:59,673] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:40:59,673] {logging_mixin.py:109} INFO - [2022-03-22 06:40:59,673] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:40:59,693] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:40:59,703] {logging_mixin.py:109} INFO - [2022-03-22 06:40:59,703] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:40:59,717] {logging_mixin.py:109} INFO - [2022-03-22 06:40:59,716] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:40:59.716547+00:00
+[2022-03-22 06:40:59,972] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.578 seconds
+[2022-03-22 06:41:44,794] {processor.py:163} INFO - Started process (PID=2338) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:41:44,806] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:41:44,807] {logging_mixin.py:109} INFO - [2022-03-22 06:41:44,807] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:41:44,826] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:41:44,834] {logging_mixin.py:109} INFO - [2022-03-22 06:41:44,834] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:41:44,847] {logging_mixin.py:109} INFO - [2022-03-22 06:41:44,846] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:41:44.846611+00:00
+[2022-03-22 06:41:46,714] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.922 seconds
+[2022-03-22 06:42:27,027] {processor.py:163} INFO - Started process (PID=2358) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:42:27,032] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:42:27,033] {logging_mixin.py:109} INFO - [2022-03-22 06:42:27,033] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:42:27,052] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:42:27,062] {logging_mixin.py:109} INFO - [2022-03-22 06:42:27,062] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:42:27,073] {logging_mixin.py:109} INFO - [2022-03-22 06:42:27,073] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:42:27.073245+00:00
+[2022-03-22 06:42:27,578] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.554 seconds
+[2022-03-22 06:43:02,027] {processor.py:163} INFO - Started process (PID=2376) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:43:02,029] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:43:02,030] {logging_mixin.py:109} INFO - [2022-03-22 06:43:02,030] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:43:02,049] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:43:02,058] {logging_mixin.py:109} INFO - [2022-03-22 06:43:02,058] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:43:02,069] {logging_mixin.py:109} INFO - [2022-03-22 06:43:02,069] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:43:02.069518+00:00
+[2022-03-22 06:43:03,795] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.770 seconds
+[2022-03-22 06:43:41,913] {processor.py:163} INFO - Started process (PID=2394) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:43:41,915] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:43:41,916] {logging_mixin.py:109} INFO - [2022-03-22 06:43:41,916] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:43:41,935] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:43:41,944] {logging_mixin.py:109} INFO - [2022-03-22 06:43:41,944] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:43:41,955] {logging_mixin.py:109} INFO - [2022-03-22 06:43:41,955] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:43:41.955518+00:00
+[2022-03-22 06:43:43,347] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.437 seconds
+[2022-03-22 06:44:25,020] {processor.py:163} INFO - Started process (PID=2423) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:44:25,037] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:44:25,038] {logging_mixin.py:109} INFO - [2022-03-22 06:44:25,038] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:44:25,109] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:44:25,134] {logging_mixin.py:109} INFO - [2022-03-22 06:44:25,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:44:25,174] {logging_mixin.py:109} INFO - [2022-03-22 06:44:25,174] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:44:25.174165+00:00
+[2022-03-22 06:44:26,554] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 1.548 seconds
+[2022-03-22 06:45:12,012] {processor.py:163} INFO - Started process (PID=2443) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:45:12,127] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:45:12,127] {logging_mixin.py:109} INFO - [2022-03-22 06:45:12,127] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:45:12,153] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:45:12,167] {logging_mixin.py:109} INFO - [2022-03-22 06:45:12,167] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:45:12,184] {logging_mixin.py:109} INFO - [2022-03-22 06:45:12,184] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:45:12.184115+00:00
+[2022-03-22 06:45:17,041] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 5.032 seconds
+[2022-03-22 06:46:03,492] {processor.py:163} INFO - Started process (PID=2464) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:46:03,517] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:46:03,518] {logging_mixin.py:109} INFO - [2022-03-22 06:46:03,517] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:46:03,549] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:46:03,566] {logging_mixin.py:109} INFO - [2022-03-22 06:46:03,565] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:46:03,657] {logging_mixin.py:109} INFO - [2022-03-22 06:46:03,657] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:46:03.657503+00:00
+[2022-03-22 06:46:03,853] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.363 seconds
+[2022-03-22 06:46:44,331] {processor.py:163} INFO - Started process (PID=2492) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:46:44,343] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:46:44,344] {logging_mixin.py:109} INFO - [2022-03-22 06:46:44,344] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:46:44,364] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:46:44,374] {logging_mixin.py:109} INFO - [2022-03-22 06:46:44,374] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:46:44,446] {logging_mixin.py:109} INFO - [2022-03-22 06:46:44,445] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:46:44.445562+00:00
+[2022-03-22 06:46:44,584] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.255 seconds
+[2022-03-22 06:47:27,353] {processor.py:163} INFO - Started process (PID=2518) to work on /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:47:27,356] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_example.py for tasks to queue
+[2022-03-22 06:47:27,356] {logging_mixin.py:109} INFO - [2022-03-22 06:47:27,356] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:47:27,376] {processor.py:654} INFO - DAG(s) dict_keys(['dummy_dag']) retrieved from /home/lowenhard/airflow/dags/dag_example.py
+[2022-03-22 06:47:27,450] {logging_mixin.py:109} INFO - [2022-03-22 06:47:27,450] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:47:27,462] {logging_mixin.py:109} INFO - [2022-03-22 06:47:27,461] {dag.py:2937} INFO - Setting next_dagrun for dummy_dag to 2022-03-21T11:47:27.461748+00:00
+[2022-03-22 06:47:28,310] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_example.py took 0.959 seconds

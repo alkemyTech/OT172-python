@@ -1,0 +1,7 @@
+[2022-04-07 15:09:50,285] {processor.py:163} INFO - Started process (PID=232) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2022-04-07 15:09:50,286] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2022-04-07 15:09:50,287] {logging_mixin.py:109} INFO - [2022-04-07 15:09:50,287] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2022-04-07 15:09:50,308] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2022-04-07 15:09:50,317] {logging_mixin.py:109} INFO - [2022-04-07 15:09:50,316] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:50,336] {logging_mixin.py:109} INFO - [2022-04-07 15:09:50,336] {dag.py:2937} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2022-04-07T20:08:00+00:00
+[2022-04-07 15:09:50,986] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.703 seconds

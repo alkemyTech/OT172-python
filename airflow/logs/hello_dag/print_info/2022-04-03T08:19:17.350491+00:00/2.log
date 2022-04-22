@@ -1,0 +1,73 @@
+[2022-04-03 03:20:32,006] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: hello_dag.print_info manual__2022-04-03T08:19:17.350491+00:00 [queued]>
+[2022-04-03 03:20:32,020] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: hello_dag.print_info manual__2022-04-03T08:19:17.350491+00:00 [queued]>
+[2022-04-03 03:20:32,020] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 03:20:32,020] {taskinstance.py:1244} INFO - Starting attempt 2 of 2
+[2022-04-03 03:20:32,020] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 03:20:32,169] {taskinstance.py:1264} INFO - Executing <Task(BashOperator): print_info> on 2022-04-03 08:19:17.350491+00:00
+[2022-04-03 03:20:32,172] {standard_task_runner.py:52} INFO - Started process 1166 to run task
+[2022-04-03 03:20:32,178] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'hello_dag', 'print_info', 'manual__2022-04-03T08:19:17.350491+00:00', '--job-id', '240', '--raw', '--subdir', 'DAGS_FOLDER/dag_example.py', '--cfg-path', '/tmp/tmp5lozzfqs', '--error-file', '/tmp/tmpuqa3hu17']
+[2022-04-03 03:20:32,179] {standard_task_runner.py:77} INFO - Job 240: Subtask print_info
+[2022-04-03 03:20:32,408] {logging_mixin.py:109} INFO - Running <TaskInstance: hello_dag.print_info manual__2022-04-03T08:19:17.350491+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-03 03:20:32,810] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1423, in _execute_task_with_callbacks
+    self.render_templates(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2011, in render_templates
+    self.task.render_template_fields(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1061, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1074, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1113, in render_template
+    return render_template_to_string(template, context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 268, in render_template_to_string
+    return render_template(template, context, native=False)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 263, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/jinja2/runtime.py", line 903, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'MY_NAME' is undefined
+[2022-04-03 03:20:32,820] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=hello_dag, task_id=print_info, execution_date=20220403T081917, start_date=20220403T082032, end_date=20220403T082032
+[2022-04-03 03:20:32,980] {standard_task_runner.py:89} ERROR - Failed to execute job 240 for task print_info
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1423, in _execute_task_with_callbacks
+    self.render_templates(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2011, in render_templates
+    self.task.render_template_fields(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1061, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1074, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1113, in render_template
+    return render_template_to_string(template, context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 268, in render_template_to_string
+    return render_template(template, context, native=False)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/helpers.py", line 263, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/jinja2/runtime.py", line 903, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'MY_NAME' is undefined
+[2022-04-03 03:20:32,992] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-03 03:20:33,182] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

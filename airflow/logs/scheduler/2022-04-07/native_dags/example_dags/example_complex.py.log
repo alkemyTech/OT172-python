@@ -1,0 +1,14 @@
+[2022-04-07 15:09:23,135] {processor.py:163} INFO - Started process (PID=220) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-04-07 15:09:23,136] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-04-07 15:09:23,137] {logging_mixin.py:109} INFO - [2022-04-07 15:09:23,137] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-04-07 15:09:23,169] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-04-07 15:09:23,182] {logging_mixin.py:109} INFO - [2022-04-07 15:09:23,182] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:23,195] {logging_mixin.py:109} INFO - [2022-04-07 15:09:23,195] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-04-07 15:09:23,612] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.480 seconds
+[2022-04-07 15:11:20,924] {processor.py:163} INFO - Started process (PID=289) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-04-07 15:11:20,986] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-04-07 15:11:20,987] {logging_mixin.py:109} INFO - [2022-04-07 15:11:20,986] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-04-07 15:11:21,016] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-04-07 15:11:21,032] {logging_mixin.py:109} INFO - [2022-04-07 15:11:21,032] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:21,044] {logging_mixin.py:109} INFO - [2022-04-07 15:11:21,044] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-04-07 15:11:21,289] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.367 seconds

@@ -1,0 +1,38 @@
+[2022-04-04 16:35:55,897] {processor.py:163} INFO - Started process (PID=7219) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:35:55,898] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py for tasks to queue
+[2022-04-04 16:35:55,900] {logging_mixin.py:109} INFO - [2022-04-04 16:35:55,899] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:35:56,207] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_villa_maria']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:36:00,888] {logging_mixin.py:109} INFO - [2022-04-04 16:36:00,888] {manager.py:496} INFO - Created Permission View: can read on DAG:s3_uni_villa_maria
+[2022-04-04 16:36:02,613] {logging_mixin.py:109} INFO - [2022-04-04 16:36:02,613] {manager.py:496} INFO - Created Permission View: can edit on DAG:s3_uni_villa_maria
+[2022-04-04 16:36:02,614] {logging_mixin.py:109} INFO - [2022-04-04 16:36:02,614] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:36:02,627] {logging_mixin.py:109} INFO - [2022-04-04 16:36:02,627] {dag.py:2417} INFO - Creating ORM DAG for s3_uni_villa_maria
+[2022-04-04 16:36:02,641] {logging_mixin.py:109} INFO - [2022-04-04 16:36:02,641] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_villa_maria to 2022-04-03 00:00:00+00:00
+[2022-04-04 16:36:03,732] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py took 7.837 seconds
+[2022-04-04 16:37:23,885] {processor.py:163} INFO - Started process (PID=7278) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:37:24,024] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py for tasks to queue
+[2022-04-04 16:37:24,025] {logging_mixin.py:109} INFO - [2022-04-04 16:37:24,025] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:37:24,231] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_villa_maria']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:37:24,245] {logging_mixin.py:109} INFO - [2022-04-04 16:37:24,245] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:37:24,267] {logging_mixin.py:109} INFO - [2022-04-04 16:37:24,267] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_villa_maria to 2022-04-03 00:00:00+00:00
+[2022-04-04 16:37:24,409] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py took 0.529 seconds
+[2022-04-04 16:38:37,810] {processor.py:163} INFO - Started process (PID=7336) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:38:37,834] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py for tasks to queue
+[2022-04-04 16:38:37,835] {logging_mixin.py:109} INFO - [2022-04-04 16:38:37,835] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:38:38,079] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_villa_maria']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:38:38,089] {logging_mixin.py:109} INFO - [2022-04-04 16:38:38,089] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:38:38,107] {logging_mixin.py:109} INFO - [2022-04-04 16:38:38,107] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_villa_maria to 2022-04-03 00:00:00+00:00
+[2022-04-04 16:38:39,890] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py took 2.083 seconds
+[2022-04-04 16:43:28,377] {processor.py:163} INFO - Started process (PID=7380) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:43:28,395] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py for tasks to queue
+[2022-04-04 16:43:28,395] {logging_mixin.py:109} INFO - [2022-04-04 16:43:28,395] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:43:28,543] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_villa_maria']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:43:28,553] {logging_mixin.py:109} INFO - [2022-04-04 16:43:28,553] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:43:28,571] {logging_mixin.py:109} INFO - [2022-04-04 16:43:28,570] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_villa_maria to 2022-04-04T00:00:00+00:00
+[2022-04-04 16:43:28,714] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py took 0.345 seconds
+[2022-04-04 16:45:24,130] {processor.py:163} INFO - Started process (PID=7475) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:45:24,146] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py for tasks to queue
+[2022-04-04 16:45:24,147] {logging_mixin.py:109} INFO - [2022-04-04 16:45:24,147] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:45:24,270] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_villa_maria']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py
+[2022-04-04 16:45:24,279] {logging_mixin.py:109} INFO - [2022-04-04 16:45:24,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:45:24,296] {logging_mixin.py:109} INFO - [2022-04-04 16:45:24,296] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_villa_maria to 2022-04-04T00:00:00+00:00
+[2022-04-04 16:45:26,543] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_villa_maria.py took 2.415 seconds

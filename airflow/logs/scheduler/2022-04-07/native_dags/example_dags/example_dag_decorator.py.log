@@ -1,0 +1,14 @@
+[2022-04-07 15:09:17,578] {processor.py:163} INFO - Started process (PID=218) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-07 15:09:17,578] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-07 15:09:17,579] {logging_mixin.py:109} INFO - [2022-04-07 15:09:17,579] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-07 15:09:17,607] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-07 15:09:17,825] {logging_mixin.py:109} INFO - [2022-04-07 15:09:17,825] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:17,837] {logging_mixin.py:109} INFO - [2022-04-07 15:09:17,837] {dag.py:2937} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-07 15:09:18,001] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.425 seconds
+[2022-04-07 15:11:13,657] {processor.py:163} INFO - Started process (PID=287) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-07 15:11:13,687] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-07 15:11:13,687] {logging_mixin.py:109} INFO - [2022-04-07 15:11:13,687] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-07 15:11:13,718] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-07 15:11:13,952] {logging_mixin.py:109} INFO - [2022-04-07 15:11:13,952] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:14,040] {logging_mixin.py:109} INFO - [2022-04-07 15:11:14,040] {dag.py:2937} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-07 15:11:15,420] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.765 seconds

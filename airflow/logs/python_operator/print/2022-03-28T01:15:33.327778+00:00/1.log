@@ -1,0 +1,67 @@
+[2022-03-27 20:15:38,561] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-28T01:15:33.327778+00:00 [queued]>
+[2022-03-27 20:15:38,575] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-28T01:15:33.327778+00:00 [queued]>
+[2022-03-27 20:15:38,575] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 20:15:38,575] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 20:15:38,576] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 20:15:38,848] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): print> on 2022-03-28 01:15:33.327778+00:00
+[2022-03-27 20:15:38,851] {standard_task_runner.py:52} INFO - Started process 881 to run task
+[2022-03-27 20:15:38,856] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'print', 'manual__2022-03-28T01:15:33.327778+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmpgboxxe60', '--error-file', '/tmp/tmpvwz8lrwc']
+[2022-03-27 20:15:38,857] {standard_task_runner.py:77} INFO - Job 162: Subtask print
+[2022-03-27 20:15:39,040] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.print manual__2022-03-28T01:15:33.327778+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 20:15:39,343] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=print
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-28T01:15:33.327778+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-28T01:15:33.327778+00:00
+[2022-03-27 20:15:39,353] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-27 20:15:40,079] {logging_mixin.py:109} INFO - [('universidad-de-buenos-aires', 'actuario-', '20-Sep-24', 'amy-wallace', 'f', '21-Mar-12', '8431'), ('universidad-de-buenos-aires', 'licenciatura-en-gestión-de-agroalimentos', '20-Sep-27', 'angela-hudson', 'f', '05-Feb-21', '3151'), ('universidad-de-buenos-aires', 'medicina', '20-Oct-18', 'jessica-sandoval', 'f', '45-Sep-12', '6601')]
+[2022-03-27 20:15:40,080] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/etl_python_operator.py", line 42, in get_data_uba
+    print(df)
+NameError: name 'df' is not defined
+[2022-03-27 20:15:40,093] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=python_operator, task_id=print, execution_date=20220328T011533, start_date=20220328T011538, end_date=20220328T011540
+[2022-03-27 20:15:40,239] {standard_task_runner.py:89} ERROR - Failed to execute job 162 for task print
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/etl_python_operator.py", line 42, in get_data_uba
+    print(df)
+NameError: name 'df' is not defined
+[2022-03-27 20:15:40,279] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-27 20:15:41,670] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

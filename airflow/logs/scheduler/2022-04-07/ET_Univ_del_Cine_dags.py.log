@@ -1,0 +1,14 @@
+[2022-04-07 15:08:55,957] {processor.py:163} INFO - Started process (PID=197) to work on /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py
+[2022-04-07 15:08:55,958] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py for tasks to queue
+[2022-04-07 15:08:55,959] {logging_mixin.py:109} INFO - [2022-04-07 15:08:55,959] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py
+[2022-04-07 15:08:56,386] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_cine']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py
+[2022-04-07 15:08:56,395] {logging_mixin.py:109} INFO - [2022-04-07 15:08:56,395] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:08:56,406] {logging_mixin.py:109} INFO - [2022-04-07 15:08:56,406] {dag.py:2937} INFO - Setting next_dagrun for python_operator_cine to 2022-04-06T20:08:56.406404+00:00
+[2022-04-07 15:08:57,438] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py took 1.484 seconds
+[2022-04-07 15:10:36,699] {processor.py:163} INFO - Started process (PID=266) to work on /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py
+[2022-04-07 15:10:36,720] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py for tasks to queue
+[2022-04-07 15:10:36,721] {logging_mixin.py:109} INFO - [2022-04-07 15:10:36,721] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py
+[2022-04-07 15:10:37,591] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_cine']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py
+[2022-04-07 15:10:37,614] {logging_mixin.py:109} INFO - [2022-04-07 15:10:37,613] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:10:37,647] {logging_mixin.py:109} INFO - [2022-04-07 15:10:37,646] {dag.py:2937} INFO - Setting next_dagrun for python_operator_cine to 2022-04-06T20:10:37.646457+00:00
+[2022-04-07 15:10:37,979] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py took 1.284 seconds

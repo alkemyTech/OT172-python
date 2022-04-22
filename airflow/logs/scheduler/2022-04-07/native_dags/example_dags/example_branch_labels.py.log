@@ -1,0 +1,7 @@
+[2022-04-07 15:10:08,817] {processor.py:163} INFO - Started process (PID=241) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-04-07 15:10:08,818] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-04-07 15:10:08,818] {logging_mixin.py:109} INFO - [2022-04-07 15:10:08,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-04-07 15:10:08,838] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-04-07 15:10:08,847] {logging_mixin.py:109} INFO - [2022-04-07 15:10:08,847] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:10:08,861] {logging_mixin.py:109} INFO - [2022-04-07 15:10:08,861] {dag.py:2937} INFO - Setting next_dagrun for example_branch_labels to 2022-04-06 00:00:00+00:00
+[2022-04-07 15:10:10,062] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 1.247 seconds
