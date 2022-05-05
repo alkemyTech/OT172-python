@@ -1,0 +1,27 @@
+[2022-04-04 05:29:29,765] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_dag.upload_to_s3 scheduled__2022-04-03T00:00:00+00:00 [queued]>
+[2022-04-04 05:29:29,775] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_dag.upload_to_s3 scheduled__2022-04-03T00:00:00+00:00 [queued]>
+[2022-04-04 05:29:29,775] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 05:29:29,775] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-04 05:29:29,775] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 05:29:29,960] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): upload_to_s3> on 2022-04-03 00:00:00+00:00
+[2022-04-04 05:29:29,963] {standard_task_runner.py:52} INFO - Started process 2911 to run task
+[2022-04-04 05:29:29,970] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 's3_dag', 'upload_to_s3', 'scheduled__2022-04-03T00:00:00+00:00', '--job-id', '342', '--raw', '--subdir', 'DAGS_FOLDER/s3_connection.py', '--cfg-path', '/tmp/tmp1p_u5ot8', '--error-file', '/tmp/tmp176aadby']
+[2022-04-04 05:29:29,970] {standard_task_runner.py:77} INFO - Job 342: Subtask upload_to_s3
+[2022-04-04 05:29:30,165] {logging_mixin.py:109} INFO - Running <TaskInstance: s3_dag.upload_to_s3 scheduled__2022-04-03T00:00:00+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-04 05:29:30,600] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=s3_dag
+AIRFLOW_CTX_TASK_ID=upload_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-03T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-03T00:00:00+00:00
+[2022-04-04 05:29:30,601] {logging_mixin.py:109} INFO - filepath filename cohorte-marzo-77238c6a
+[2022-04-04 05:29:30,601] {logging_mixin.py:109} INFO - Created Connection
+[2022-04-04 05:29:30,608] {base_aws.py:206} INFO - Credentials retrieved from login
+[2022-04-04 05:29:30,622] {logging_mixin.py:109} INFO - Session(region_name=None)
+[2022-04-04 05:29:30,622] {logging_mixin.py:109} INFO - <airflow.providers.amazon.aws.hooks.s3.S3Hook object at 0x7f6145a85a90>
+[2022-04-04 05:29:30,622] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-04 05:29:30,631] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=s3_dag, task_id=upload_to_s3, execution_date=20220403T000000, start_date=20220404T102929, end_date=20220404T102930
+[2022-04-04 05:29:30,947] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-04 05:29:30,961] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

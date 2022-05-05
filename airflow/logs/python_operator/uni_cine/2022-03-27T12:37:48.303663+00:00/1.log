@@ -1,0 +1,24 @@
+[2022-03-27 07:37:54,645] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.uni_cine manual__2022-03-27T12:37:48.303663+00:00 [queued]>
+[2022-03-27 07:37:54,657] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.uni_cine manual__2022-03-27T12:37:48.303663+00:00 [queued]>
+[2022-03-27 07:37:54,657] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 07:37:54,657] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 07:37:54,657] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 07:37:54,799] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): uni_cine> on 2022-03-27 12:37:48.303663+00:00
+[2022-03-27 07:37:54,803] {standard_task_runner.py:52} INFO - Started process 1284 to run task
+[2022-03-27 07:37:54,807] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'uni_cine', 'manual__2022-03-27T12:37:48.303663+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmp_sr5zww7', '--error-file', '/tmp/tmpsqp8y6s1']
+[2022-03-27 07:37:54,807] {standard_task_runner.py:77} INFO - Job 107: Subtask uni_cine
+[2022-03-27 07:37:54,999] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.uni_cine manual__2022-03-27T12:37:48.303663+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 07:37:55,338] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=uni_cine
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-27T12:37:48.303663+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-27T12:37:48.303663+00:00
+[2022-03-27 07:37:55,343] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-27 07:37:55,961] {dbapi.py:225} INFO - Running statement: SELECT universities FROM lat_sociales_cine LIMIT 3;, parameters: None
+[2022-03-27 07:37:56,097] {dbapi.py:233} INFO - Rows affected: 3
+[2022-03-27 07:37:56,176] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=uni_cine, execution_date=20220327T123748, start_date=20220327T123754, end_date=20220327T123756
+[2022-03-27 07:37:56,630] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-27 07:37:56,646] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

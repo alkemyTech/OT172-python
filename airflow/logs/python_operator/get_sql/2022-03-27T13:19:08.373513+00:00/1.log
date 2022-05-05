@@ -1,0 +1,27 @@
+[2022-03-27 08:19:16,069] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.get_sql manual__2022-03-27T13:19:08.373513+00:00 [queued]>
+[2022-03-27 08:19:16,077] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.get_sql manual__2022-03-27T13:19:08.373513+00:00 [queued]>
+[2022-03-27 08:19:16,077] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 08:19:16,077] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 08:19:16,077] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 08:19:16,248] {taskinstance.py:1264} INFO - Executing <Task(_PythonDecoratedOperator): get_sql> on 2022-03-27 13:19:08.373513+00:00
+[2022-03-27 08:19:16,251] {standard_task_runner.py:52} INFO - Started process 2769 to run task
+[2022-03-27 08:19:16,256] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'get_sql', 'manual__2022-03-27T13:19:08.373513+00:00', '--job-id', '112', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmpve3mac78', '--error-file', '/tmp/tmp8py1aal_']
+[2022-03-27 08:19:16,256] {standard_task_runner.py:77} INFO - Job 112: Subtask get_sql
+[2022-03-27 08:19:17,840] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.get_sql manual__2022-03-27T13:19:08.373513+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 08:19:18,310] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=get_sql
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-27T13:19:08.373513+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-27T13:19:08.373513+00:00
+[2022-03-27 08:19:18,315] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-27 08:19:19,015] {logging_mixin.py:109} INFO - [('universidad-de-buenos-aires',), ('universidad-j.-f.-kennedy',)]
+[2022-03-27 08:19:19,028] {logging_mixin.py:109} INFO -                              0
+0  universidad-de-buenos-aires
+1    universidad-j.-f.-kennedy
+[2022-03-27 08:19:19,029] {python.py:175} INFO - Done. Returned value was: [('universidad-de-buenos-aires',), ('universidad-j.-f.-kennedy',)]
+[2022-03-27 08:19:19,914] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=get_sql, execution_date=20220327T131908, start_date=20220327T131916, end_date=20220327T131919
+[2022-03-27 08:19:20,097] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-27 08:19:20,860] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

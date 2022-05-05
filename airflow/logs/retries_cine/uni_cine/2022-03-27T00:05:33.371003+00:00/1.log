@@ -1,0 +1,36 @@
+[2022-03-26 19:05:39,097] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: retries_cine.uni_cine manual__2022-03-27T00:05:33.371003+00:00 [queued]>
+[2022-03-26 19:05:39,104] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: retries_cine.uni_cine manual__2022-03-27T00:05:33.371003+00:00 [queued]>
+[2022-03-26 19:05:39,104] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 19:05:39,104] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-03-26 19:05:39,104] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 19:05:39,257] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): uni_cine> on 2022-03-27 00:05:33.371003+00:00
+[2022-03-26 19:05:39,259] {standard_task_runner.py:52} INFO - Started process 1810 to run task
+[2022-03-26 19:05:39,263] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'retries_cine', 'uni_cine', 'manual__2022-03-27T00:05:33.371003+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/etl_retries_universidad_cine.py', '--cfg-path', '/tmp/tmp7ru_v3pd', '--error-file', '/tmp/tmpvhur5gd1']
+[2022-03-26 19:05:39,264] {standard_task_runner.py:77} INFO - Job 71: Subtask uni_cine
+[2022-03-26 19:05:39,656] {logging_mixin.py:109} INFO - Running <TaskInstance: retries_cine.uni_cine manual__2022-03-27T00:05:33.371003+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-26 19:05:40,067] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=retries_cine
+AIRFLOW_CTX_TASK_ID=uni_cine
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-27T00:05:33.371003+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-27T00:05:33.371003+00:00
+[2022-03-26 19:05:40,071] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-26 19:05:40,727] {dbapi.py:225} INFO - Running statement: -- Task PT172-19
+-- Obtener los datos de las pesonas anotadas en entre las fechas 01/9/2020 al 01/02/2021 para
+-- las siguientes facultades:
+-- Universidad Del Cine
+
+select
+        universities, careers, inscription_dates, names, sexo, birth_dates, locations
+from
+        lat_sociales_cine
+where
+        TO_DATE(inscription_dates, 'DD-MM-YYYY') between '2020-09-01' and '2021-02-01'
+        and universities = 'UNIVERSIDAD-DEL-CINE'
+;, parameters: None
+[2022-03-26 19:05:41,144] {dbapi.py:233} INFO - Rows affected: 1806
+[2022-03-26 19:05:41,405] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=retries_cine, task_id=uni_cine, execution_date=20220327T000533, start_date=20220327T000539, end_date=20220327T000541
+[2022-03-26 19:05:42,696] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 19:05:42,713] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,658 @@
+[2022-03-29 00:12:02,525] {processor.py:163} INFO - Started process (PID=209) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:12:02,526] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 00:12:02,526] {logging_mixin.py:109} INFO - [2022-03-29 00:12:02,526] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:12:02,920] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:12:02,930] {logging_mixin.py:109} INFO - [2022-03-29 00:12:02,930] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:12:02,941] {logging_mixin.py:109} INFO - [2022-03-29 00:12:02,941] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 00:12:04,584] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.062 seconds
+[2022-03-29 00:13:33,975] {processor.py:163} INFO - Started process (PID=263) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:13:33,995] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 00:13:33,996] {logging_mixin.py:109} INFO - [2022-03-29 00:13:33,996] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:13:34,395] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:13:34,405] {logging_mixin.py:109} INFO - [2022-03-29 00:13:34,404] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:13:34,416] {logging_mixin.py:109} INFO - [2022-03-29 00:13:34,416] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 00:13:34,572] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.599 seconds
+[2022-03-29 00:14:22,372] {processor.py:163} INFO - Started process (PID=302) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:14:22,380] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 00:14:22,381] {logging_mixin.py:109} INFO - [2022-03-29 00:14:22,381] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:14:22,781] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:14:22,792] {logging_mixin.py:109} INFO - [2022-03-29 00:14:22,792] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:14:22,806] {logging_mixin.py:109} INFO - [2022-03-29 00:14:22,806] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 00:14:23,377] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.007 seconds
+[2022-03-29 00:15:22,617] {processor.py:163} INFO - Started process (PID=341) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:15:22,626] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 00:15:22,627] {logging_mixin.py:109} INFO - [2022-03-29 00:15:22,626] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:15:22,959] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 00:15:22,965] {logging_mixin.py:109} INFO - [2022-03-29 00:15:22,965] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:15:22,975] {logging_mixin.py:109} INFO - [2022-03-29 00:15:22,975] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 00:15:23,371] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.756 seconds
+[2022-03-29 09:34:25,890] {processor.py:163} INFO - Started process (PID=626) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:34:26,032] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:34:26,033] {logging_mixin.py:109} INFO - [2022-03-29 09:34:26,033] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:34:26,388] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:34:26,396] {logging_mixin.py:109} INFO - [2022-03-29 09:34:26,396] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:34:26,408] {logging_mixin.py:109} INFO - [2022-03-29 09:34:26,407] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:34:26,570] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.683 seconds
+[2022-03-29 09:36:06,182] {processor.py:163} INFO - Started process (PID=686) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:36:06,217] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:36:06,218] {logging_mixin.py:109} INFO - [2022-03-29 09:36:06,218] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:36:06,650] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:36:06,659] {logging_mixin.py:109} INFO - [2022-03-29 09:36:06,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:36:06,674] {logging_mixin.py:109} INFO - [2022-03-29 09:36:06,674] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:36:07,696] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.517 seconds
+[2022-03-29 09:36:59,365] {processor.py:163} INFO - Started process (PID=725) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:36:59,372] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:36:59,372] {logging_mixin.py:109} INFO - [2022-03-29 09:36:59,372] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:36:59,716] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:36:59,725] {logging_mixin.py:109} INFO - [2022-03-29 09:36:59,725] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:36:59,738] {logging_mixin.py:109} INFO - [2022-03-29 09:36:59,738] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:37:00,506] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.143 seconds
+[2022-03-29 09:37:54,027] {processor.py:163} INFO - Started process (PID=839) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:37:54,112] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:37:54,113] {logging_mixin.py:109} INFO - [2022-03-29 09:37:54,113] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:37:54,486] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:37:54,493] {logging_mixin.py:109} INFO - [2022-03-29 09:37:54,493] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:37:54,505] {logging_mixin.py:109} INFO - [2022-03-29 09:37:54,504] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:37:55,178] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.153 seconds
+[2022-03-29 09:38:47,353] {processor.py:163} INFO - Started process (PID=888) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:38:47,361] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:38:47,362] {logging_mixin.py:109} INFO - [2022-03-29 09:38:47,361] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:38:47,726] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:38:47,734] {logging_mixin.py:109} INFO - [2022-03-29 09:38:47,734] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:38:47,745] {logging_mixin.py:109} INFO - [2022-03-29 09:38:47,745] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:38:48,916] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.566 seconds
+[2022-03-29 09:39:47,789] {processor.py:163} INFO - Started process (PID=931) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:39:47,800] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:39:47,801] {logging_mixin.py:109} INFO - [2022-03-29 09:39:47,801] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:39:48,152] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:39:48,158] {logging_mixin.py:109} INFO - [2022-03-29 09:39:48,158] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:39:48,167] {logging_mixin.py:109} INFO - [2022-03-29 09:39:48,167] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:39:49,262] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.476 seconds
+[2022-03-29 09:40:47,414] {processor.py:163} INFO - Started process (PID=977) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:40:47,423] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:40:47,424] {logging_mixin.py:109} INFO - [2022-03-29 09:40:47,423] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:40:47,770] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:40:47,779] {logging_mixin.py:109} INFO - [2022-03-29 09:40:47,778] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:40:47,788] {logging_mixin.py:109} INFO - [2022-03-29 09:40:47,788] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:40:48,608] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.197 seconds
+[2022-03-29 09:41:42,485] {processor.py:163} INFO - Started process (PID=1017) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:41:42,519] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:41:42,519] {logging_mixin.py:109} INFO - [2022-03-29 09:41:42,519] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:41:42,919] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:41:42,927] {logging_mixin.py:109} INFO - [2022-03-29 09:41:42,927] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:41:42,937] {logging_mixin.py:109} INFO - [2022-03-29 09:41:42,937] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:41:43,481] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.998 seconds
+[2022-03-29 09:42:41,475] {processor.py:163} INFO - Started process (PID=1058) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:42:42,264] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:42:42,265] {logging_mixin.py:109} INFO - [2022-03-29 09:42:42,265] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:42:42,624] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:42:42,631] {logging_mixin.py:109} INFO - [2022-03-29 09:42:42,631] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:42:42,641] {logging_mixin.py:109} INFO - [2022-03-29 09:42:42,641] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:42:45,307] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 3.835 seconds
+[2022-03-29 09:43:36,604] {processor.py:163} INFO - Started process (PID=1101) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:43:36,701] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:43:36,702] {logging_mixin.py:109} INFO - [2022-03-29 09:43:36,701] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:43:37,050] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:43:37,058] {logging_mixin.py:109} INFO - [2022-03-29 09:43:37,058] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:43:37,068] {logging_mixin.py:109} INFO - [2022-03-29 09:43:37,068] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:43:37,853] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.251 seconds
+[2022-03-29 09:44:31,922] {processor.py:163} INFO - Started process (PID=1145) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:44:31,937] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:44:31,937] {logging_mixin.py:109} INFO - [2022-03-29 09:44:31,937] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:44:33,623] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:44:33,635] {logging_mixin.py:109} INFO - [2022-03-29 09:44:33,634] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:44:33,649] {logging_mixin.py:109} INFO - [2022-03-29 09:44:33,649] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:44:33,916] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.998 seconds
+[2022-03-29 09:45:17,337] {processor.py:163} INFO - Started process (PID=1188) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:45:17,344] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:45:17,344] {logging_mixin.py:109} INFO - [2022-03-29 09:45:17,344] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:45:17,698] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:45:17,706] {logging_mixin.py:109} INFO - [2022-03-29 09:45:17,706] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:45:17,716] {logging_mixin.py:109} INFO - [2022-03-29 09:45:17,715] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:45:18,311] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.976 seconds
+[2022-03-29 09:46:30,177] {processor.py:163} INFO - Started process (PID=1256) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:46:30,226] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:46:30,226] {logging_mixin.py:109} INFO - [2022-03-29 09:46:30,226] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:46:30,603] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:46:30,611] {logging_mixin.py:109} INFO - [2022-03-29 09:46:30,611] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:46:30,621] {logging_mixin.py:109} INFO - [2022-03-29 09:46:30,621] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:46:32,075] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.901 seconds
+[2022-03-29 09:47:23,266] {processor.py:163} INFO - Started process (PID=1293) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:47:23,280] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:47:23,280] {logging_mixin.py:109} INFO - [2022-03-29 09:47:23,280] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:47:23,622] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:47:23,630] {logging_mixin.py:109} INFO - [2022-03-29 09:47:23,630] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:47:23,640] {logging_mixin.py:109} INFO - [2022-03-29 09:47:23,640] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:47:23,777] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.513 seconds
+[2022-03-29 09:48:05,542] {processor.py:163} INFO - Started process (PID=1337) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:48:05,549] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:48:05,550] {logging_mixin.py:109} INFO - [2022-03-29 09:48:05,550] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:48:05,872] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:48:05,882] {logging_mixin.py:109} INFO - [2022-03-29 09:48:05,882] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:48:05,905] {logging_mixin.py:109} INFO - [2022-03-29 09:48:05,904] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:48:06,049] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.510 seconds
+[2022-03-29 09:49:15,015] {processor.py:163} INFO - Started process (PID=1392) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:49:15,026] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:49:15,026] {logging_mixin.py:109} INFO - [2022-03-29 09:49:15,026] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:49:15,357] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:49:15,368] {logging_mixin.py:109} INFO - [2022-03-29 09:49:15,368] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:49:15,380] {logging_mixin.py:109} INFO - [2022-03-29 09:49:15,380] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:49:15,517] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.505 seconds
+[2022-03-29 09:50:03,450] {processor.py:163} INFO - Started process (PID=1432) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:50:03,463] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:50:03,464] {logging_mixin.py:109} INFO - [2022-03-29 09:50:03,464] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:50:04,137] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:50:04,147] {logging_mixin.py:109} INFO - [2022-03-29 09:50:04,147] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:50:04,158] {logging_mixin.py:109} INFO - [2022-03-29 09:50:04,158] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:50:04,314] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.867 seconds
+[2022-03-29 09:50:49,229] {processor.py:163} INFO - Started process (PID=1472) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:50:49,248] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:50:49,249] {logging_mixin.py:109} INFO - [2022-03-29 09:50:49,249] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:50:49,591] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:50:49,603] {logging_mixin.py:109} INFO - [2022-03-29 09:50:49,602] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:50:49,618] {logging_mixin.py:109} INFO - [2022-03-29 09:50:49,618] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:50:49,762] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.535 seconds
+[2022-03-29 09:51:25,818] {processor.py:163} INFO - Started process (PID=1511) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:51:25,821] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:51:25,821] {logging_mixin.py:109} INFO - [2022-03-29 09:51:25,821] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:51:26,186] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:51:26,195] {logging_mixin.py:109} INFO - [2022-03-29 09:51:26,195] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:51:26,204] {logging_mixin.py:109} INFO - [2022-03-29 09:51:26,204] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:51:26,349] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.534 seconds
+[2022-03-29 09:52:23,641] {processor.py:163} INFO - Started process (PID=1567) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:52:23,654] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:52:23,655] {logging_mixin.py:109} INFO - [2022-03-29 09:52:23,654] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:52:24,255] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:52:24,266] {logging_mixin.py:109} INFO - [2022-03-29 09:52:24,266] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:52:24,286] {logging_mixin.py:109} INFO - [2022-03-29 09:52:24,285] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:52:24,432] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.794 seconds
+[2022-03-29 09:53:12,919] {processor.py:163} INFO - Started process (PID=1616) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:53:12,942] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:53:12,943] {logging_mixin.py:109} INFO - [2022-03-29 09:53:12,943] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:53:13,321] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:53:13,329] {logging_mixin.py:109} INFO - [2022-03-29 09:53:13,329] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:53:13,340] {logging_mixin.py:109} INFO - [2022-03-29 09:53:13,340] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:53:13,468] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.552 seconds
+[2022-03-29 09:53:51,421] {processor.py:163} INFO - Started process (PID=1653) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:53:51,424] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:53:51,424] {logging_mixin.py:109} INFO - [2022-03-29 09:53:51,424] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:53:51,771] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:53:51,784] {logging_mixin.py:109} INFO - [2022-03-29 09:53:51,783] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:53:51,795] {logging_mixin.py:109} INFO - [2022-03-29 09:53:51,795] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:53:51,937] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.519 seconds
+[2022-03-29 09:54:29,641] {processor.py:163} INFO - Started process (PID=1690) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:54:29,647] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:54:29,647] {logging_mixin.py:109} INFO - [2022-03-29 09:54:29,647] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:54:30,024] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:54:30,035] {logging_mixin.py:109} INFO - [2022-03-29 09:54:30,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:54:30,046] {logging_mixin.py:109} INFO - [2022-03-29 09:54:30,046] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:54:32,310] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.673 seconds
+[2022-03-29 09:55:12,222] {processor.py:163} INFO - Started process (PID=1727) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:55:12,225] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:55:12,226] {logging_mixin.py:109} INFO - [2022-03-29 09:55:12,225] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:55:12,569] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:55:12,583] {logging_mixin.py:109} INFO - [2022-03-29 09:55:12,583] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:55:12,601] {logging_mixin.py:109} INFO - [2022-03-29 09:55:12,601] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:55:12,752] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.534 seconds
+[2022-03-29 09:56:07,604] {processor.py:163} INFO - Started process (PID=1785) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:56:07,616] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:56:07,617] {logging_mixin.py:109} INFO - [2022-03-29 09:56:07,617] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:56:07,939] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:56:07,950] {logging_mixin.py:109} INFO - [2022-03-29 09:56:07,949] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:56:07,964] {logging_mixin.py:109} INFO - [2022-03-29 09:56:07,964] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:56:08,174] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.572 seconds
+[2022-03-29 09:57:01,996] {processor.py:163} INFO - Started process (PID=1838) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:57:02,133] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:57:02,134] {logging_mixin.py:109} INFO - [2022-03-29 09:57:02,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:57:02,535] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:57:02,544] {logging_mixin.py:109} INFO - [2022-03-29 09:57:02,543] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:57:02,554] {logging_mixin.py:109} INFO - [2022-03-29 09:57:02,554] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:57:02,696] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.703 seconds
+[2022-03-29 09:57:55,363] {processor.py:163} INFO - Started process (PID=1891) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:57:55,389] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:57:55,390] {logging_mixin.py:109} INFO - [2022-03-29 09:57:55,390] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:57:55,744] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:57:55,756] {logging_mixin.py:109} INFO - [2022-03-29 09:57:55,756] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:57:55,769] {logging_mixin.py:109} INFO - [2022-03-29 09:57:55,769] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:57:55,899] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.538 seconds
+[2022-03-29 09:58:51,862] {processor.py:163} INFO - Started process (PID=1944) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:58:51,864] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 09:58:51,865] {logging_mixin.py:109} INFO - [2022-03-29 09:58:51,865] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:58:52,226] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 09:58:52,237] {logging_mixin.py:109} INFO - [2022-03-29 09:58:52,236] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:58:52,248] {logging_mixin.py:109} INFO - [2022-03-29 09:58:52,248] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 09:58:52,584] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.724 seconds
+[2022-03-29 10:00:01,052] {processor.py:163} INFO - Started process (PID=2002) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:00:01,071] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:00:01,071] {logging_mixin.py:109} INFO - [2022-03-29 10:00:01,071] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:00:01,617] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:00:01,630] {logging_mixin.py:109} INFO - [2022-03-29 10:00:01,629] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:00:01,644] {logging_mixin.py:109} INFO - [2022-03-29 10:00:01,644] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:00:02,246] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.197 seconds
+[2022-03-29 10:00:54,830] {processor.py:163} INFO - Started process (PID=2044) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:00:54,843] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:00:54,843] {logging_mixin.py:109} INFO - [2022-03-29 10:00:54,843] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:00:55,208] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:00:55,220] {logging_mixin.py:109} INFO - [2022-03-29 10:00:55,219] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:00:55,232] {logging_mixin.py:109} INFO - [2022-03-29 10:00:55,232] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:00:56,001] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.175 seconds
+[2022-03-29 10:01:50,862] {processor.py:163} INFO - Started process (PID=2086) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:01:52,044] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:01:52,045] {logging_mixin.py:109} INFO - [2022-03-29 10:01:52,045] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:01:52,409] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:01:52,416] {logging_mixin.py:109} INFO - [2022-03-29 10:01:52,416] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:01:52,427] {logging_mixin.py:109} INFO - [2022-03-29 10:01:52,427] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:01:53,143] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.283 seconds
+[2022-03-29 10:02:46,323] {processor.py:163} INFO - Started process (PID=2129) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:02:46,338] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:02:46,338] {logging_mixin.py:109} INFO - [2022-03-29 10:02:46,338] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:02:46,676] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:02:46,687] {logging_mixin.py:109} INFO - [2022-03-29 10:02:46,686] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:02:46,698] {logging_mixin.py:109} INFO - [2022-03-29 10:02:46,698] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:02:48,599] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.279 seconds
+[2022-03-29 10:03:45,332] {processor.py:163} INFO - Started process (PID=2185) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:03:45,405] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:03:45,405] {logging_mixin.py:109} INFO - [2022-03-29 10:03:45,405] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:03:45,772] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:03:45,785] {logging_mixin.py:109} INFO - [2022-03-29 10:03:45,784] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:03:45,797] {logging_mixin.py:109} INFO - [2022-03-29 10:03:45,797] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:03:46,880] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.550 seconds
+[2022-03-29 10:04:46,274] {processor.py:163} INFO - Started process (PID=2234) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:04:46,277] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:04:46,278] {logging_mixin.py:109} INFO - [2022-03-29 10:04:46,278] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:04:46,602] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:04:46,611] {logging_mixin.py:109} INFO - [2022-03-29 10:04:46,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:04:46,623] {logging_mixin.py:109} INFO - [2022-03-29 10:04:46,622] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:04:46,764] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.493 seconds
+[2022-03-29 10:05:37,919] {processor.py:163} INFO - Started process (PID=2280) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:05:37,996] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:05:37,997] {logging_mixin.py:109} INFO - [2022-03-29 10:05:37,997] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:05:38,330] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:05:38,340] {logging_mixin.py:109} INFO - [2022-03-29 10:05:38,339] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:05:38,352] {logging_mixin.py:109} INFO - [2022-03-29 10:05:38,352] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:05:39,113] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.198 seconds
+[2022-03-29 10:06:17,350] {processor.py:163} INFO - Started process (PID=2320) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:06:17,354] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:06:17,355] {logging_mixin.py:109} INFO - [2022-03-29 10:06:17,355] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:06:17,678] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:06:17,689] {logging_mixin.py:109} INFO - [2022-03-29 10:06:17,689] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:06:17,706] {logging_mixin.py:109} INFO - [2022-03-29 10:06:17,706] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:06:17,877] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.531 seconds
+[2022-03-29 10:07:10,804] {processor.py:163} INFO - Started process (PID=2372) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:07:10,808] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:07:10,809] {logging_mixin.py:109} INFO - [2022-03-29 10:07:10,809] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:07:11,163] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:07:11,177] {logging_mixin.py:109} INFO - [2022-03-29 10:07:11,176] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:07:11,188] {logging_mixin.py:109} INFO - [2022-03-29 10:07:11,187] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:07:11,335] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.534 seconds
+[2022-03-29 10:08:00,599] {processor.py:163} INFO - Started process (PID=2424) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:08:00,616] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:08:00,616] {logging_mixin.py:109} INFO - [2022-03-29 10:08:00,616] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:08:01,027] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:08:01,036] {logging_mixin.py:109} INFO - [2022-03-29 10:08:01,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:08:01,050] {logging_mixin.py:109} INFO - [2022-03-29 10:08:01,050] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:08:01,760] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.163 seconds
+[2022-03-29 10:09:03,048] {processor.py:163} INFO - Started process (PID=2488) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:09:03,061] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:09:03,061] {logging_mixin.py:109} INFO - [2022-03-29 10:09:03,061] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:09:03,425] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:09:03,435] {logging_mixin.py:109} INFO - [2022-03-29 10:09:03,435] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:09:03,448] {logging_mixin.py:109} INFO - [2022-03-29 10:09:03,448] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:09:03,602] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.557 seconds
+[2022-03-29 10:10:04,258] {processor.py:163} INFO - Started process (PID=2544) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:10:04,293] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:10:04,294] {logging_mixin.py:109} INFO - [2022-03-29 10:10:04,294] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:10:04,651] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:10:04,660] {logging_mixin.py:109} INFO - [2022-03-29 10:10:04,660] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:10:04,672] {logging_mixin.py:109} INFO - [2022-03-29 10:10:04,671] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:10:05,499] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.245 seconds
+[2022-03-29 10:11:32,217] {processor.py:163} INFO - Started process (PID=2608) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:11:32,230] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:11:32,231] {logging_mixin.py:109} INFO - [2022-03-29 10:11:32,231] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:11:32,589] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:11:32,600] {logging_mixin.py:109} INFO - [2022-03-29 10:11:32,599] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:11:32,611] {logging_mixin.py:109} INFO - [2022-03-29 10:11:32,611] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:11:33,169] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.954 seconds
+[2022-03-29 10:12:30,296] {processor.py:163} INFO - Started process (PID=2658) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:12:31,212] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:12:31,213] {logging_mixin.py:109} INFO - [2022-03-29 10:12:31,213] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:12:31,570] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:12:31,577] {logging_mixin.py:109} INFO - [2022-03-29 10:12:31,577] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:12:31,586] {logging_mixin.py:109} INFO - [2022-03-29 10:12:31,586] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:12:31,827] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.534 seconds
+[2022-03-29 10:13:12,263] {processor.py:163} INFO - Started process (PID=2707) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:13:12,266] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:13:12,267] {logging_mixin.py:109} INFO - [2022-03-29 10:13:12,267] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:13:12,600] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:13:12,611] {logging_mixin.py:109} INFO - [2022-03-29 10:13:12,611] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:13:12,621] {logging_mixin.py:109} INFO - [2022-03-29 10:13:12,621] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:13:12,850] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.589 seconds
+[2022-03-29 10:14:25,113] {processor.py:163} INFO - Started process (PID=2771) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:14:25,127] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:14:25,127] {logging_mixin.py:109} INFO - [2022-03-29 10:14:25,127] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:14:25,535] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:14:25,544] {logging_mixin.py:109} INFO - [2022-03-29 10:14:25,544] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:14:25,558] {logging_mixin.py:109} INFO - [2022-03-29 10:14:25,558] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:14:27,096] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.986 seconds
+[2022-03-29 10:15:21,004] {processor.py:163} INFO - Started process (PID=2822) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:15:22,411] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:15:22,412] {logging_mixin.py:109} INFO - [2022-03-29 10:15:22,412] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:15:22,791] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:15:22,802] {logging_mixin.py:109} INFO - [2022-03-29 10:15:22,802] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:15:22,817] {logging_mixin.py:109} INFO - [2022-03-29 10:15:22,817] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:15:22,976] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.975 seconds
+[2022-03-29 10:16:03,295] {processor.py:163} INFO - Started process (PID=2860) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:16:03,298] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:16:03,299] {logging_mixin.py:109} INFO - [2022-03-29 10:16:03,299] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:16:03,700] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:16:03,710] {logging_mixin.py:109} INFO - [2022-03-29 10:16:03,710] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:16:03,725] {logging_mixin.py:109} INFO - [2022-03-29 10:16:03,724] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:16:03,880] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.587 seconds
+[2022-03-29 10:16:51,649] {processor.py:163} INFO - Started process (PID=2910) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:16:51,672] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:16:51,673] {logging_mixin.py:109} INFO - [2022-03-29 10:16:51,672] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:16:51,989] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:16:52,000] {logging_mixin.py:109} INFO - [2022-03-29 10:16:52,000] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:16:52,014] {logging_mixin.py:109} INFO - [2022-03-29 10:16:52,014] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:16:52,662] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.015 seconds
+[2022-03-29 10:17:45,497] {processor.py:163} INFO - Started process (PID=2949) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:17:45,512] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:17:45,513] {logging_mixin.py:109} INFO - [2022-03-29 10:17:45,513] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:17:45,843] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:17:45,854] {logging_mixin.py:109} INFO - [2022-03-29 10:17:45,853] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:17:45,864] {logging_mixin.py:109} INFO - [2022-03-29 10:17:45,864] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:17:47,197] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.702 seconds
+[2022-03-29 10:18:43,013] {processor.py:163} INFO - Started process (PID=3003) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:18:43,030] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:18:43,030] {logging_mixin.py:109} INFO - [2022-03-29 10:18:43,030] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:18:43,360] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:18:43,373] {logging_mixin.py:109} INFO - [2022-03-29 10:18:43,373] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:18:43,390] {logging_mixin.py:109} INFO - [2022-03-29 10:18:43,389] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:18:43,539] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.528 seconds
+[2022-03-29 10:19:29,139] {processor.py:163} INFO - Started process (PID=3053) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:19:29,149] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:19:29,150] {logging_mixin.py:109} INFO - [2022-03-29 10:19:29,150] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:19:29,459] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:19:29,469] {logging_mixin.py:109} INFO - [2022-03-29 10:19:29,468] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:19:29,481] {logging_mixin.py:109} INFO - [2022-03-29 10:19:29,481] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:19:29,909] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.774 seconds
+[2022-03-29 10:20:19,343] {processor.py:163} INFO - Started process (PID=3100) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:20:19,453] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:20:19,453] {logging_mixin.py:109} INFO - [2022-03-29 10:20:19,453] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:20:19,783] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:20:19,794] {logging_mixin.py:109} INFO - [2022-03-29 10:20:19,793] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:20:19,807] {logging_mixin.py:109} INFO - [2022-03-29 10:20:19,807] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:20:21,382] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.043 seconds
+[2022-03-29 10:21:13,814] {processor.py:163} INFO - Started process (PID=3152) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:21:13,924] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:21:13,925] {logging_mixin.py:109} INFO - [2022-03-29 10:21:13,925] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:21:14,260] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:21:15,207] {logging_mixin.py:109} INFO - [2022-03-29 10:21:15,206] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:21:15,219] {logging_mixin.py:109} INFO - [2022-03-29 10:21:15,218] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:21:15,376] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.564 seconds
+[2022-03-29 10:22:08,296] {processor.py:163} INFO - Started process (PID=3198) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:22:08,342] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:22:08,343] {logging_mixin.py:109} INFO - [2022-03-29 10:22:08,343] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:22:08,662] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:22:08,671] {logging_mixin.py:109} INFO - [2022-03-29 10:22:08,671] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:22:08,688] {logging_mixin.py:109} INFO - [2022-03-29 10:22:08,687] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:22:10,029] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.737 seconds
+[2022-03-29 10:22:52,799] {processor.py:163} INFO - Started process (PID=3245) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:22:52,806] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:22:52,806] {logging_mixin.py:109} INFO - [2022-03-29 10:22:52,806] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:22:53,190] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:22:53,199] {logging_mixin.py:109} INFO - [2022-03-29 10:22:53,199] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:22:53,217] {logging_mixin.py:109} INFO - [2022-03-29 10:22:53,217] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:22:53,351] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.554 seconds
+[2022-03-29 10:23:50,222] {processor.py:163} INFO - Started process (PID=3299) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:23:50,231] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:23:50,231] {logging_mixin.py:109} INFO - [2022-03-29 10:23:50,231] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:23:50,643] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:23:50,657] {logging_mixin.py:109} INFO - [2022-03-29 10:23:50,657] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:23:50,668] {logging_mixin.py:109} INFO - [2022-03-29 10:23:50,667] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:23:50,879] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.660 seconds
+[2022-03-29 10:24:45,004] {processor.py:163} INFO - Started process (PID=3352) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:24:45,032] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:24:45,033] {logging_mixin.py:109} INFO - [2022-03-29 10:24:45,033] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:24:45,733] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:24:45,752] {logging_mixin.py:109} INFO - [2022-03-29 10:24:45,751] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:24:45,772] {logging_mixin.py:109} INFO - [2022-03-29 10:24:45,772] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:24:46,000] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.998 seconds
+[2022-03-29 10:25:48,893] {processor.py:163} INFO - Started process (PID=3409) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:25:48,994] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:25:48,995] {logging_mixin.py:109} INFO - [2022-03-29 10:25:48,994] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:25:49,358] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:25:49,370] {logging_mixin.py:109} INFO - [2022-03-29 10:25:49,369] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:25:49,382] {logging_mixin.py:109} INFO - [2022-03-29 10:25:49,382] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:25:50,048] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.158 seconds
+[2022-03-29 10:26:48,305] {processor.py:163} INFO - Started process (PID=3463) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:26:48,307] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:26:48,307] {logging_mixin.py:109} INFO - [2022-03-29 10:26:48,307] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:26:48,630] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:26:48,640] {logging_mixin.py:109} INFO - [2022-03-29 10:26:48,640] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:26:48,653] {logging_mixin.py:109} INFO - [2022-03-29 10:26:48,653] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:26:48,793] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.490 seconds
+[2022-03-29 10:27:46,777] {processor.py:163} INFO - Started process (PID=3517) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:27:46,787] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:27:46,788] {logging_mixin.py:109} INFO - [2022-03-29 10:27:46,788] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:27:47,127] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:27:47,143] {logging_mixin.py:109} INFO - [2022-03-29 10:27:47,142] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:27:47,160] {logging_mixin.py:109} INFO - [2022-03-29 10:27:47,160] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:27:47,333] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.558 seconds
+[2022-03-29 10:28:40,735] {processor.py:163} INFO - Started process (PID=3569) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:28:40,738] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:28:40,739] {logging_mixin.py:109} INFO - [2022-03-29 10:28:40,738] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:28:41,088] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:28:41,097] {logging_mixin.py:109} INFO - [2022-03-29 10:28:41,097] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:28:41,106] {logging_mixin.py:109} INFO - [2022-03-29 10:28:41,106] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:28:41,243] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.510 seconds
+[2022-03-29 10:29:29,407] {processor.py:163} INFO - Started process (PID=3618) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:29:29,417] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:29:29,417] {logging_mixin.py:109} INFO - [2022-03-29 10:29:29,417] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:29:29,759] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:29:29,768] {logging_mixin.py:109} INFO - [2022-03-29 10:29:29,768] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:29:29,778] {logging_mixin.py:109} INFO - [2022-03-29 10:29:29,778] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:29:29,928] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.524 seconds
+[2022-03-29 10:30:23,971] {processor.py:163} INFO - Started process (PID=3669) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:30:24,067] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:30:24,070] {logging_mixin.py:109} INFO - [2022-03-29 10:30:24,070] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:30:25,061] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:30:25,068] {logging_mixin.py:109} INFO - [2022-03-29 10:30:25,068] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:30:25,079] {logging_mixin.py:109} INFO - [2022-03-29 10:30:25,079] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:30:25,212] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.243 seconds
+[2022-03-29 10:31:06,730] {processor.py:163} INFO - Started process (PID=3705) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:31:06,740] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:31:06,741] {logging_mixin.py:109} INFO - [2022-03-29 10:31:06,740] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:31:07,095] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:31:07,106] {logging_mixin.py:109} INFO - [2022-03-29 10:31:07,105] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:31:07,118] {logging_mixin.py:109} INFO - [2022-03-29 10:31:07,118] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:31:08,842] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.114 seconds
+[2022-03-29 10:31:48,382] {processor.py:163} INFO - Started process (PID=3744) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:31:48,389] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:31:48,389] {logging_mixin.py:109} INFO - [2022-03-29 10:31:48,389] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:31:48,796] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:31:48,810] {logging_mixin.py:109} INFO - [2022-03-29 10:31:48,810] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:31:49,006] {logging_mixin.py:109} INFO - [2022-03-29 10:31:49,006] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:31:49,209] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.831 seconds
+[2022-03-29 10:32:47,389] {processor.py:163} INFO - Started process (PID=3798) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:32:47,438] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:32:47,438] {logging_mixin.py:109} INFO - [2022-03-29 10:32:47,438] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:32:47,770] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:32:47,781] {logging_mixin.py:109} INFO - [2022-03-29 10:32:47,780] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:32:47,792] {logging_mixin.py:109} INFO - [2022-03-29 10:32:47,792] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:32:48,294] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.907 seconds
+[2022-03-29 10:33:50,704] {processor.py:163} INFO - Started process (PID=3852) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:33:50,748] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:33:50,748] {logging_mixin.py:109} INFO - [2022-03-29 10:33:50,748] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:33:51,154] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:33:51,165] {logging_mixin.py:109} INFO - [2022-03-29 10:33:51,165] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:33:51,178] {logging_mixin.py:109} INFO - [2022-03-29 10:33:51,178] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:33:51,322] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.621 seconds
+[2022-03-29 10:34:31,433] {processor.py:163} INFO - Started process (PID=3886) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:34:31,436] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 10:34:31,436] {logging_mixin.py:109} INFO - [2022-03-29 10:34:31,436] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:34:31,763] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 10:34:31,774] {logging_mixin.py:109} INFO - [2022-03-29 10:34:31,773] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:34:31,786] {logging_mixin.py:109} INFO - [2022-03-29 10:34:31,786] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 10:34:31,916] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.487 seconds
+[2022-03-29 15:21:40,449] {processor.py:163} INFO - Started process (PID=352) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:21:40,523] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:21:40,524] {logging_mixin.py:109} INFO - [2022-03-29 15:21:40,524] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:21:41,148] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:21:41,159] {logging_mixin.py:109} INFO - [2022-03-29 15:21:41,159] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:21:41,175] {logging_mixin.py:109} INFO - [2022-03-29 15:21:41,175] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:21:42,946] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.501 seconds
+[2022-03-29 15:23:08,712] {processor.py:163} INFO - Started process (PID=468) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:23:08,722] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:23:08,722] {logging_mixin.py:109} INFO - [2022-03-29 15:23:08,722] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:23:09,139] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:23:09,148] {logging_mixin.py:109} INFO - [2022-03-29 15:23:09,148] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:23:09,160] {logging_mixin.py:109} INFO - [2022-03-29 15:23:09,160] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:23:09,744] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.034 seconds
+[2022-03-29 15:24:06,610] {processor.py:163} INFO - Started process (PID=505) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:24:06,828] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:24:06,828] {logging_mixin.py:109} INFO - [2022-03-29 15:24:06,828] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:24:07,189] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:24:07,195] {logging_mixin.py:109} INFO - [2022-03-29 15:24:07,195] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:24:07,206] {logging_mixin.py:109} INFO - [2022-03-29 15:24:07,205] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:24:07,679] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.072 seconds
+[2022-03-29 15:25:01,600] {processor.py:163} INFO - Started process (PID=546) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:25:01,901] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:25:01,901] {logging_mixin.py:109} INFO - [2022-03-29 15:25:01,901] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:25:02,352] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:25:02,359] {logging_mixin.py:109} INFO - [2022-03-29 15:25:02,359] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:25:02,371] {logging_mixin.py:109} INFO - [2022-03-29 15:25:02,371] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:25:02,673] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.077 seconds
+[2022-03-29 15:26:17,576] {processor.py:163} INFO - Started process (PID=591) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:26:18,032] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:26:18,070] {logging_mixin.py:109} INFO - [2022-03-29 15:26:18,070] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:26:19,108] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:26:19,118] {logging_mixin.py:109} INFO - [2022-03-29 15:26:19,117] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:26:19,132] {logging_mixin.py:109} INFO - [2022-03-29 15:26:19,132] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:26:19,451] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.877 seconds
+[2022-03-29 15:27:45,168] {processor.py:163} INFO - Started process (PID=644) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:27:45,409] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:27:45,409] {logging_mixin.py:109} INFO - [2022-03-29 15:27:45,409] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:27:45,777] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:27:45,786] {logging_mixin.py:109} INFO - [2022-03-29 15:27:45,785] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:27:45,795] {logging_mixin.py:109} INFO - [2022-03-29 15:27:45,795] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:27:46,061] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.896 seconds
+[2022-03-29 15:28:49,194] {processor.py:163} INFO - Started process (PID=688) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:28:49,265] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:28:49,266] {logging_mixin.py:109} INFO - [2022-03-29 15:28:49,266] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:28:49,658] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:28:49,665] {logging_mixin.py:109} INFO - [2022-03-29 15:28:49,665] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:28:49,675] {logging_mixin.py:109} INFO - [2022-03-29 15:28:49,675] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:28:50,602] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.411 seconds
+[2022-03-29 15:29:55,060] {processor.py:163} INFO - Started process (PID=741) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:29:56,320] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:29:56,322] {logging_mixin.py:109} INFO - [2022-03-29 15:29:56,322] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:29:56,764] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:29:56,772] {logging_mixin.py:109} INFO - [2022-03-29 15:29:56,772] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:29:56,781] {logging_mixin.py:109} INFO - [2022-03-29 15:29:56,781] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:29:57,381] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.324 seconds
+[2022-03-29 15:31:07,949] {processor.py:163} INFO - Started process (PID=786) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:31:07,998] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:31:07,999] {logging_mixin.py:109} INFO - [2022-03-29 15:31:07,999] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:31:08,385] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:31:08,395] {logging_mixin.py:109} INFO - [2022-03-29 15:31:08,394] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:31:08,406] {logging_mixin.py:109} INFO - [2022-03-29 15:31:08,406] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:31:08,882] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.935 seconds
+[2022-03-29 15:32:04,907] {processor.py:163} INFO - Started process (PID=827) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:32:04,910] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:32:04,911] {logging_mixin.py:109} INFO - [2022-03-29 15:32:04,911] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:32:05,291] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:32:05,297] {logging_mixin.py:109} INFO - [2022-03-29 15:32:05,297] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:32:05,307] {logging_mixin.py:109} INFO - [2022-03-29 15:32:05,307] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:32:05,726] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.822 seconds
+[2022-03-29 15:33:11,896] {processor.py:163} INFO - Started process (PID=873) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:33:11,913] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:33:11,913] {logging_mixin.py:109} INFO - [2022-03-29 15:33:11,913] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:33:12,272] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:33:12,281] {logging_mixin.py:109} INFO - [2022-03-29 15:33:12,281] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:33:12,294] {logging_mixin.py:109} INFO - [2022-03-29 15:33:12,294] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:33:12,676] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.782 seconds
+[2022-03-29 15:34:16,122] {processor.py:163} INFO - Started process (PID=928) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:34:16,238] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:34:16,239] {logging_mixin.py:109} INFO - [2022-03-29 15:34:16,239] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:34:16,626] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:34:16,634] {logging_mixin.py:109} INFO - [2022-03-29 15:34:16,634] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:34:16,644] {logging_mixin.py:109} INFO - [2022-03-29 15:34:16,643] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:34:18,420] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.301 seconds
+[2022-03-29 15:35:08,080] {processor.py:163} INFO - Started process (PID=973) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:35:08,464] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:35:08,465] {logging_mixin.py:109} INFO - [2022-03-29 15:35:08,465] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:35:09,025] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:35:09,037] {logging_mixin.py:109} INFO - [2022-03-29 15:35:09,037] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:35:09,052] {logging_mixin.py:109} INFO - [2022-03-29 15:35:09,052] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:35:09,575] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.498 seconds
+[2022-03-29 15:36:11,390] {processor.py:163} INFO - Started process (PID=1014) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:36:11,419] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:36:11,420] {logging_mixin.py:109} INFO - [2022-03-29 15:36:11,420] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:36:11,808] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:36:11,819] {logging_mixin.py:109} INFO - [2022-03-29 15:36:11,819] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:36:11,830] {logging_mixin.py:109} INFO - [2022-03-29 15:36:11,829] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:36:12,842] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.454 seconds
+[2022-03-29 15:37:11,934] {processor.py:163} INFO - Started process (PID=1067) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:37:11,947] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:37:11,947] {logging_mixin.py:109} INFO - [2022-03-29 15:37:11,947] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:37:12,268] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:37:12,279] {logging_mixin.py:109} INFO - [2022-03-29 15:37:12,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:37:12,292] {logging_mixin.py:109} INFO - [2022-03-29 15:37:12,291] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:37:13,806] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.874 seconds
+[2022-03-29 15:38:24,376] {processor.py:163} INFO - Started process (PID=1126) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:38:24,396] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:38:24,396] {logging_mixin.py:109} INFO - [2022-03-29 15:38:24,396] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:38:24,846] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:38:24,864] {logging_mixin.py:109} INFO - [2022-03-29 15:38:24,862] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:38:24,922] {logging_mixin.py:109} INFO - [2022-03-29 15:38:24,922] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:38:25,130] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.757 seconds
+[2022-03-29 15:39:34,478] {processor.py:163} INFO - Started process (PID=1177) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:39:34,521] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:39:34,522] {logging_mixin.py:109} INFO - [2022-03-29 15:39:34,522] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:39:34,922] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:39:34,932] {logging_mixin.py:109} INFO - [2022-03-29 15:39:34,932] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:39:34,946] {logging_mixin.py:109} INFO - [2022-03-29 15:39:34,946] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:39:36,995] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 2.520 seconds
+[2022-03-29 15:40:48,774] {processor.py:163} INFO - Started process (PID=1235) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:40:48,890] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:40:48,890] {logging_mixin.py:109} INFO - [2022-03-29 15:40:48,890] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:40:49,267] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:40:49,278] {logging_mixin.py:109} INFO - [2022-03-29 15:40:49,277] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:40:49,289] {logging_mixin.py:109} INFO - [2022-03-29 15:40:49,289] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:40:50,559] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.787 seconds
+[2022-03-29 15:41:43,493] {processor.py:163} INFO - Started process (PID=1302) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:41:43,645] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:41:43,647] {logging_mixin.py:109} INFO - [2022-03-29 15:41:43,647] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:41:44,962] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:41:44,970] {logging_mixin.py:109} INFO - [2022-03-29 15:41:44,970] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:41:44,982] {logging_mixin.py:109} INFO - [2022-03-29 15:41:44,982] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:41:45,174] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 1.684 seconds
+[2022-03-29 15:42:35,852] {processor.py:163} INFO - Started process (PID=1358) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:42:35,864] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:42:35,865] {logging_mixin.py:109} INFO - [2022-03-29 15:42:35,865] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:42:36,189] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:42:36,381] {logging_mixin.py:109} INFO - [2022-03-29 15:42:36,381] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:42:36,401] {logging_mixin.py:109} INFO - [2022-03-29 15:42:36,401] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:42:36,522] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.673 seconds
+[2022-03-29 15:43:33,672] {processor.py:163} INFO - Started process (PID=1424) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:43:33,688] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:43:33,689] {logging_mixin.py:109} INFO - [2022-03-29 15:43:33,688] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:43:34,053] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:43:34,062] {logging_mixin.py:109} INFO - [2022-03-29 15:43:34,062] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:43:34,078] {logging_mixin.py:109} INFO - [2022-03-29 15:43:34,077] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:43:34,305] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.635 seconds
+[2022-03-29 15:44:16,898] {processor.py:163} INFO - Started process (PID=1468) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:44:16,918] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:44:16,919] {logging_mixin.py:109} INFO - [2022-03-29 15:44:16,919] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:44:17,241] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:44:17,252] {logging_mixin.py:109} INFO - [2022-03-29 15:44:17,252] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:44:17,265] {logging_mixin.py:109} INFO - [2022-03-29 15:44:17,265] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:44:17,430] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.533 seconds
+[2022-03-29 15:45:12,061] {processor.py:163} INFO - Started process (PID=1522) to work on /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:45:12,074] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/postgres_conn.py for tasks to queue
+[2022-03-29 15:45:12,074] {logging_mixin.py:109} INFO - [2022-03-29 15:45:12,074] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:45:12,389] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_dag']) retrieved from /home/lowenhard/airflow/dags/postgres_conn.py
+[2022-03-29 15:45:12,399] {logging_mixin.py:109} INFO - [2022-03-29 15:45:12,399] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:45:12,412] {logging_mixin.py:109} INFO - [2022-03-29 15:45:12,412] {dag.py:2937} INFO - Setting next_dagrun for postgres_dag to 2022-03-29T05:10:41.508357+00:00
+[2022-03-29 15:45:12,579] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/postgres_conn.py took 0.521 seconds

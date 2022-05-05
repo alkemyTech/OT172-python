@@ -1,0 +1,24 @@
+[2022-03-27 20:16:49,348] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-28T01:16:44.685733+00:00 [queued]>
+[2022-03-27 20:16:49,355] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-28T01:16:44.685733+00:00 [queued]>
+[2022-03-27 20:16:49,355] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 20:16:49,355] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 20:16:49,355] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 20:16:49,541] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): print> on 2022-03-28 01:16:44.685733+00:00
+[2022-03-27 20:16:49,543] {standard_task_runner.py:52} INFO - Started process 942 to run task
+[2022-03-27 20:16:49,547] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'print', 'manual__2022-03-28T01:16:44.685733+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmpgis0fqff', '--error-file', '/tmp/tmpreqici41']
+[2022-03-27 20:16:49,548] {standard_task_runner.py:77} INFO - Job 163: Subtask print
+[2022-03-27 20:16:49,716] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.print manual__2022-03-28T01:16:44.685733+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 20:16:50,036] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=print
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-28T01:16:44.685733+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-28T01:16:44.685733+00:00
+[2022-03-27 20:16:50,047] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-27 20:16:50,812] {logging_mixin.py:109} INFO - [('universidad-de-buenos-aires', 'actuario-', '20-Sep-24', 'amy-wallace', 'f', '21-Mar-12', '8431'), ('universidad-de-buenos-aires', 'licenciatura-en-gestión-de-agroalimentos', '20-Sep-27', 'angela-hudson', 'f', '05-Feb-21', '3151'), ('universidad-de-buenos-aires', 'medicina', '20-Oct-18', 'jessica-sandoval', 'f', '45-Sep-12', '6601')]
+[2022-03-27 20:16:50,813] {python.py:175} INFO - Done. Returned value was: [('universidad-de-buenos-aires', 'actuario-', '20-Sep-24', 'amy-wallace', 'f', '21-Mar-12', '8431'), ('universidad-de-buenos-aires', 'licenciatura-en-gestión-de-agroalimentos', '20-Sep-27', 'angela-hudson', 'f', '05-Feb-21', '3151'), ('universidad-de-buenos-aires', 'medicina', '20-Oct-18', 'jessica-sandoval', 'f', '45-Sep-12', '6601')]
+[2022-03-27 20:16:50,989] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=print, execution_date=20220328T011644, start_date=20220328T011649, end_date=20220328T011650
+[2022-03-27 20:16:51,130] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-27 20:16:51,308] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,38 @@
+[2022-03-27 11:51:57,788] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-27T16:51:49.656811+00:00 [queued]>
+[2022-03-27 11:51:57,798] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator.print manual__2022-03-27T16:51:49.656811+00:00 [queued]>
+[2022-03-27 11:51:57,798] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 11:51:57,798] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-27 11:51:57,798] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-27 11:51:58,711] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): print> on 2022-03-27 16:51:49.656811+00:00
+[2022-03-27 11:51:58,715] {standard_task_runner.py:52} INFO - Started process 10620 to run task
+[2022-03-27 11:51:58,727] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator', 'print', 'manual__2022-03-27T16:51:49.656811+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/etl_python_operator.py', '--cfg-path', '/tmp/tmpuqccey2r', '--error-file', '/tmp/tmpztev0nnu']
+[2022-03-27 11:51:58,728] {standard_task_runner.py:77} INFO - Job 140: Subtask print
+[2022-03-27 11:51:59,030] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator.print manual__2022-03-27T16:51:49.656811+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-27 11:51:59,801] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator
+AIRFLOW_CTX_TASK_ID=print
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-27T16:51:49.656811+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-27T16:51:49.656811+00:00
+[2022-03-27 11:52:00,039] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-27 11:52:00,632] {dbapi.py:225} INFO - Running statement: -- Task PT172-19
+-- Obtener los datos de las pesonas anotadas en entre las fechas 01/9/2020 al 01/02/2021 para
+-- las siguientes facultades:
+-- Universidad De Buenos Aires
+
+select
+        universidades, carreras, fechas_de_inscripcion, nombres, sexo, fechas_nacimiento, codigos_postales
+from
+        uba_kenedy uk
+where
+        TO_DATE(fechas_de_inscripcion, 'YY-MON-DD') between '2020-09-01' and '2021-02-01'
+        and universidades = 'universidad-de-buenos-aires'
+;
+, parameters: None
+[2022-03-27 11:52:01,068] {dbapi.py:233} INFO - Rows affected: 1844
+[2022-03-27 11:52:01,141] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-27 11:52:01,148] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=print, execution_date=20220327T165149, start_date=20220327T165157, end_date=20220327T165201
+[2022-03-27 11:52:01,389] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-27 11:52:01,879] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

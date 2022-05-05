@@ -1,0 +1,462 @@
+[2022-03-22 05:34:32,120] {processor.py:163} INFO - Started process (PID=158) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:34:32,132] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:34:32,132] {logging_mixin.py:109} INFO - [2022-03-22 05:34:32,132] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:34:32,390] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:34:32,468] {logging_mixin.py:109} INFO - [2022-03-22 05:34:32,467] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:34:32,557] {logging_mixin.py:109} INFO - [2022-03-22 05:34:32,557] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:34:33,558] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.442 seconds
+[2022-03-22 05:35:27,078] {processor.py:163} INFO - Started process (PID=191) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:35:27,101] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:35:27,102] {logging_mixin.py:109} INFO - [2022-03-22 05:35:27,102] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:35:27,130] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:35:27,142] {logging_mixin.py:109} INFO - [2022-03-22 05:35:27,142] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:35:27,154] {logging_mixin.py:109} INFO - [2022-03-22 05:35:27,154] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:35:27,343] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.267 seconds
+[2022-03-22 05:36:17,599] {processor.py:163} INFO - Started process (PID=224) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:36:17,633] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:36:17,633] {logging_mixin.py:109} INFO - [2022-03-22 05:36:17,633] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:36:17,656] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:36:17,669] {logging_mixin.py:109} INFO - [2022-03-22 05:36:17,669] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:36:17,680] {logging_mixin.py:109} INFO - [2022-03-22 05:36:17,679] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:36:17,992] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.396 seconds
+[2022-03-22 05:37:01,860] {processor.py:163} INFO - Started process (PID=250) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:37:01,879] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:37:01,880] {logging_mixin.py:109} INFO - [2022-03-22 05:37:01,879] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:37:01,945] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:37:01,983] {logging_mixin.py:109} INFO - [2022-03-22 05:37:01,983] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:37:02,004] {logging_mixin.py:109} INFO - [2022-03-22 05:37:02,004] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:37:02,259] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.403 seconds
+[2022-03-22 05:38:00,513] {processor.py:163} INFO - Started process (PID=283) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:38:00,694] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:38:00,695] {logging_mixin.py:109} INFO - [2022-03-22 05:38:00,694] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:38:00,724] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:38:00,745] {logging_mixin.py:109} INFO - [2022-03-22 05:38:00,744] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:38:00,761] {logging_mixin.py:109} INFO - [2022-03-22 05:38:00,760] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:38:01,005] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.495 seconds
+[2022-03-22 05:38:52,159] {processor.py:163} INFO - Started process (PID=307) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:38:52,181] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:38:52,182] {logging_mixin.py:109} INFO - [2022-03-22 05:38:52,182] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:38:52,213] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:38:52,227] {logging_mixin.py:109} INFO - [2022-03-22 05:38:52,227] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:38:52,239] {logging_mixin.py:109} INFO - [2022-03-22 05:38:52,239] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:38:52,491] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.335 seconds
+[2022-03-22 05:39:42,293] {processor.py:163} INFO - Started process (PID=340) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:39:42,321] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:39:42,322] {logging_mixin.py:109} INFO - [2022-03-22 05:39:42,321] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:39:42,355] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:39:42,370] {logging_mixin.py:109} INFO - [2022-03-22 05:39:42,370] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:39:42,382] {logging_mixin.py:109} INFO - [2022-03-22 05:39:42,382] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:39:42,598] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.307 seconds
+[2022-03-22 05:40:31,708] {processor.py:163} INFO - Started process (PID=367) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:40:31,738] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:40:31,739] {logging_mixin.py:109} INFO - [2022-03-22 05:40:31,739] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:40:31,784] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:40:31,809] {logging_mixin.py:109} INFO - [2022-03-22 05:40:31,809] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:40:31,835] {logging_mixin.py:109} INFO - [2022-03-22 05:40:31,835] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:40:32,117] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.413 seconds
+[2022-03-22 05:41:19,194] {processor.py:163} INFO - Started process (PID=399) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:41:19,220] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:41:19,221] {logging_mixin.py:109} INFO - [2022-03-22 05:41:19,221] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:41:19,267] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:41:19,292] {logging_mixin.py:109} INFO - [2022-03-22 05:41:19,292] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:41:19,314] {logging_mixin.py:109} INFO - [2022-03-22 05:41:19,314] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:41:19,562] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.371 seconds
+[2022-03-22 05:42:26,847] {processor.py:163} INFO - Started process (PID=434) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:42:26,867] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:42:26,868] {logging_mixin.py:109} INFO - [2022-03-22 05:42:26,868] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:42:26,916] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:42:26,941] {logging_mixin.py:109} INFO - [2022-03-22 05:42:26,939] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:42:26,962] {logging_mixin.py:109} INFO - [2022-03-22 05:42:26,962] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:42:27,196] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.353 seconds
+[2022-03-22 05:43:15,343] {processor.py:163} INFO - Started process (PID=464) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:43:15,369] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:43:15,370] {logging_mixin.py:109} INFO - [2022-03-22 05:43:15,370] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:43:15,410] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:43:15,428] {logging_mixin.py:109} INFO - [2022-03-22 05:43:15,428] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:43:15,443] {logging_mixin.py:109} INFO - [2022-03-22 05:43:15,443] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:43:15,660] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.322 seconds
+[2022-03-22 05:44:03,544] {processor.py:163} INFO - Started process (PID=493) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:44:03,564] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:44:03,565] {logging_mixin.py:109} INFO - [2022-03-22 05:44:03,565] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:44:03,594] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:44:03,609] {logging_mixin.py:109} INFO - [2022-03-22 05:44:03,609] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:44:03,621] {logging_mixin.py:109} INFO - [2022-03-22 05:44:03,621] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:44:03,905] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.364 seconds
+[2022-03-22 05:44:54,063] {processor.py:163} INFO - Started process (PID=524) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:44:54,105] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:44:54,106] {logging_mixin.py:109} INFO - [2022-03-22 05:44:54,106] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:44:54,133] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:44:54,148] {logging_mixin.py:109} INFO - [2022-03-22 05:44:54,147] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:44:54,160] {logging_mixin.py:109} INFO - [2022-03-22 05:44:54,160] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:44:54,364] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.304 seconds
+[2022-03-22 05:45:35,490] {processor.py:163} INFO - Started process (PID=550) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:45:35,514] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:45:35,515] {logging_mixin.py:109} INFO - [2022-03-22 05:45:35,515] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:45:35,541] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:45:35,555] {logging_mixin.py:109} INFO - [2022-03-22 05:45:35,554] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:45:35,567] {logging_mixin.py:109} INFO - [2022-03-22 05:45:35,567] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:45:35,799] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.311 seconds
+[2022-03-22 05:46:18,621] {processor.py:163} INFO - Started process (PID=578) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:46:18,623] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:46:18,624] {logging_mixin.py:109} INFO - [2022-03-22 05:46:18,624] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:46:18,693] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:46:18,732] {logging_mixin.py:109} INFO - [2022-03-22 05:46:18,731] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:46:18,752] {logging_mixin.py:109} INFO - [2022-03-22 05:46:18,752] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:46:19,129] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.510 seconds
+[2022-03-22 05:47:02,341] {processor.py:163} INFO - Started process (PID=732) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:47:02,366] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:47:02,366] {logging_mixin.py:109} INFO - [2022-03-22 05:47:02,366] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:47:02,392] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:47:02,406] {logging_mixin.py:109} INFO - [2022-03-22 05:47:02,406] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:47:02,419] {logging_mixin.py:109} INFO - [2022-03-22 05:47:02,419] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:47:03,255] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.916 seconds
+[2022-03-22 05:47:50,500] {processor.py:163} INFO - Started process (PID=774) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:47:50,528] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:47:50,528] {logging_mixin.py:109} INFO - [2022-03-22 05:47:50,528] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:47:50,554] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:47:50,569] {logging_mixin.py:109} INFO - [2022-03-22 05:47:50,569] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:47:50,581] {logging_mixin.py:109} INFO - [2022-03-22 05:47:50,581] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:47:50,762] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.265 seconds
+[2022-03-22 05:48:29,109] {processor.py:163} INFO - Started process (PID=800) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:48:29,124] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:48:29,124] {logging_mixin.py:109} INFO - [2022-03-22 05:48:29,124] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:48:29,150] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:48:29,166] {logging_mixin.py:109} INFO - [2022-03-22 05:48:29,166] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:48:29,178] {logging_mixin.py:109} INFO - [2022-03-22 05:48:29,178] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:48:29,356] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.249 seconds
+[2022-03-22 05:49:19,151] {processor.py:163} INFO - Started process (PID=835) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:49:19,185] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:49:19,185] {logging_mixin.py:109} INFO - [2022-03-22 05:49:19,185] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:49:19,246] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:49:19,285] {logging_mixin.py:109} INFO - [2022-03-22 05:49:19,283] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:49:19,314] {logging_mixin.py:109} INFO - [2022-03-22 05:49:19,314] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:49:19,566] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.417 seconds
+[2022-03-22 05:50:00,057] {processor.py:163} INFO - Started process (PID=861) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:50:00,636] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:50:00,637] {logging_mixin.py:109} INFO - [2022-03-22 05:50:00,637] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:50:00,666] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:50:00,689] {logging_mixin.py:109} INFO - [2022-03-22 05:50:00,689] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:50:00,703] {logging_mixin.py:109} INFO - [2022-03-22 05:50:00,703] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:50:00,909] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.855 seconds
+[2022-03-22 05:50:42,851] {processor.py:163} INFO - Started process (PID=890) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:50:42,879] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:50:42,880] {logging_mixin.py:109} INFO - [2022-03-22 05:50:42,880] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:50:42,907] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:50:42,921] {logging_mixin.py:109} INFO - [2022-03-22 05:50:42,921] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:50:42,933] {logging_mixin.py:109} INFO - [2022-03-22 05:50:42,933] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:50:43,133] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.284 seconds
+[2022-03-22 05:51:21,634] {processor.py:163} INFO - Started process (PID=916) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:51:21,663] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:51:21,664] {logging_mixin.py:109} INFO - [2022-03-22 05:51:21,664] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:51:21,690] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:51:21,707] {logging_mixin.py:109} INFO - [2022-03-22 05:51:21,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:51:21,719] {logging_mixin.py:109} INFO - [2022-03-22 05:51:21,719] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:51:22,121] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.490 seconds
+[2022-03-22 05:52:19,490] {processor.py:163} INFO - Started process (PID=945) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:52:19,512] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:52:19,512] {logging_mixin.py:109} INFO - [2022-03-22 05:52:19,512] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:52:19,593] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:52:19,632] {logging_mixin.py:109} INFO - [2022-03-22 05:52:19,623] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:52:19,660] {logging_mixin.py:109} INFO - [2022-03-22 05:52:19,660] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:52:19,828] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.341 seconds
+[2022-03-22 05:53:30,268] {processor.py:163} INFO - Started process (PID=990) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:53:30,278] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:53:30,279] {logging_mixin.py:109} INFO - [2022-03-22 05:53:30,279] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:53:30,305] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:53:30,319] {logging_mixin.py:109} INFO - [2022-03-22 05:53:30,319] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:53:30,331] {logging_mixin.py:109} INFO - [2022-03-22 05:53:30,331] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:53:32,696] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 2.430 seconds
+[2022-03-22 05:54:30,157] {processor.py:163} INFO - Started process (PID=1015) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:54:30,412] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:54:30,412] {logging_mixin.py:109} INFO - [2022-03-22 05:54:30,412] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:54:30,438] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:54:30,452] {logging_mixin.py:109} INFO - [2022-03-22 05:54:30,452] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:54:30,465] {logging_mixin.py:109} INFO - [2022-03-22 05:54:30,465] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:54:32,055] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.901 seconds
+[2022-03-22 05:55:15,671] {processor.py:163} INFO - Started process (PID=1035) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:55:15,674] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:55:15,675] {logging_mixin.py:109} INFO - [2022-03-22 05:55:15,674] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:55:15,704] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:55:15,718] {logging_mixin.py:109} INFO - [2022-03-22 05:55:15,718] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:55:15,731] {logging_mixin.py:109} INFO - [2022-03-22 05:55:15,731] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:55:16,982] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.314 seconds
+[2022-03-22 05:56:47,587] {processor.py:163} INFO - Started process (PID=1075) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:56:47,782] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:56:47,782] {logging_mixin.py:109} INFO - [2022-03-22 05:56:47,782] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:56:47,806] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:56:47,827] {logging_mixin.py:109} INFO - [2022-03-22 05:56:47,827] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:56:47,842] {logging_mixin.py:109} INFO - [2022-03-22 05:56:47,842] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:56:49,204] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.619 seconds
+[2022-03-22 05:58:07,637] {processor.py:163} INFO - Started process (PID=1113) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:58:07,874] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:58:07,874] {logging_mixin.py:109} INFO - [2022-03-22 05:58:07,874] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:58:07,901] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:58:07,917] {logging_mixin.py:109} INFO - [2022-03-22 05:58:07,916] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:58:07,929] {logging_mixin.py:109} INFO - [2022-03-22 05:58:07,928] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:58:09,401] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.767 seconds
+[2022-03-22 05:58:59,911] {processor.py:163} INFO - Started process (PID=1134) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:58:59,937] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 05:58:59,937] {logging_mixin.py:109} INFO - [2022-03-22 05:58:59,937] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:58:59,963] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 05:58:59,976] {logging_mixin.py:109} INFO - [2022-03-22 05:58:59,975] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 05:58:59,988] {logging_mixin.py:109} INFO - [2022-03-22 05:58:59,988] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 05:59:00,917] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.009 seconds
+[2022-03-22 06:00:21,339] {processor.py:163} INFO - Started process (PID=1173) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:00:21,550] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:00:21,551] {logging_mixin.py:109} INFO - [2022-03-22 06:00:21,551] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:00:21,611] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:00:21,626] {logging_mixin.py:109} INFO - [2022-03-22 06:00:21,626] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:00:21,637] {logging_mixin.py:109} INFO - [2022-03-22 06:00:21,637] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:00:23,151] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.814 seconds
+[2022-03-22 06:01:43,906] {processor.py:163} INFO - Started process (PID=1211) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:01:43,922] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:01:43,922] {logging_mixin.py:109} INFO - [2022-03-22 06:01:43,922] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:01:43,948] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:01:43,962] {logging_mixin.py:109} INFO - [2022-03-22 06:01:43,962] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:01:43,975] {logging_mixin.py:109} INFO - [2022-03-22 06:01:43,974] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:01:44,106] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.203 seconds
+[2022-03-22 06:03:05,871] {processor.py:163} INFO - Started process (PID=1249) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:03:05,900] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:03:05,900] {logging_mixin.py:109} INFO - [2022-03-22 06:03:05,900] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:03:05,943] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:03:05,966] {logging_mixin.py:109} INFO - [2022-03-22 06:03:05,966] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:03:05,984] {logging_mixin.py:109} INFO - [2022-03-22 06:03:05,984] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:03:06,522] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.657 seconds
+[2022-03-22 06:04:23,733] {processor.py:163} INFO - Started process (PID=1286) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:04:23,777] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:04:23,778] {logging_mixin.py:109} INFO - [2022-03-22 06:04:23,778] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:04:23,803] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:04:23,817] {logging_mixin.py:109} INFO - [2022-03-22 06:04:23,817] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:04:23,829] {logging_mixin.py:109} INFO - [2022-03-22 06:04:23,828] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:04:23,970] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.240 seconds
+[2022-03-22 06:05:10,195] {processor.py:163} INFO - Started process (PID=1307) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:05:10,198] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:05:10,198] {logging_mixin.py:109} INFO - [2022-03-22 06:05:10,198] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:05:10,227] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:05:10,240] {logging_mixin.py:109} INFO - [2022-03-22 06:05:10,240] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:05:10,254] {logging_mixin.py:109} INFO - [2022-03-22 06:05:10,254] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:05:10,774] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.582 seconds
+[2022-03-22 06:06:22,483] {processor.py:163} INFO - Started process (PID=1343) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:06:22,580] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:06:22,581] {logging_mixin.py:109} INFO - [2022-03-22 06:06:22,581] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:06:22,606] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:06:22,619] {logging_mixin.py:109} INFO - [2022-03-22 06:06:22,619] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:06:22,631] {logging_mixin.py:109} INFO - [2022-03-22 06:06:22,631] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:06:24,290] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.808 seconds
+[2022-03-22 06:07:35,995] {processor.py:163} INFO - Started process (PID=1379) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:07:36,024] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:07:36,025] {logging_mixin.py:109} INFO - [2022-03-22 06:07:36,025] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:07:36,057] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:07:36,073] {logging_mixin.py:109} INFO - [2022-03-22 06:07:36,073] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:07:36,085] {logging_mixin.py:109} INFO - [2022-03-22 06:07:36,085] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:07:36,292] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.300 seconds
+[2022-03-22 06:08:55,787] {processor.py:163} INFO - Started process (PID=1417) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:08:55,798] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:08:55,799] {logging_mixin.py:109} INFO - [2022-03-22 06:08:55,799] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:08:55,824] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:08:55,837] {logging_mixin.py:109} INFO - [2022-03-22 06:08:55,837] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:08:55,849] {logging_mixin.py:109} INFO - [2022-03-22 06:08:55,848] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:08:56,190] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.405 seconds
+[2022-03-22 06:10:03,956] {processor.py:163} INFO - Started process (PID=1457) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:10:04,083] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:10:04,084] {logging_mixin.py:109} INFO - [2022-03-22 06:10:04,084] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:10:04,143] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:10:04,166] {logging_mixin.py:109} INFO - [2022-03-22 06:10:04,166] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:10:04,186] {logging_mixin.py:109} INFO - [2022-03-22 06:10:04,185] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:10:04,330] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.377 seconds
+[2022-03-22 06:11:25,237] {processor.py:163} INFO - Started process (PID=1494) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:11:25,240] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:11:25,240] {logging_mixin.py:109} INFO - [2022-03-22 06:11:25,240] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:11:25,264] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:11:25,278] {logging_mixin.py:109} INFO - [2022-03-22 06:11:25,278] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:11:25,292] {logging_mixin.py:109} INFO - [2022-03-22 06:11:25,292] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:11:25,569] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.335 seconds
+[2022-03-22 06:12:12,211] {processor.py:163} INFO - Started process (PID=1515) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:12:12,935] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:12:12,936] {logging_mixin.py:109} INFO - [2022-03-22 06:12:12,936] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:12:12,966] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:12:12,983] {logging_mixin.py:109} INFO - [2022-03-22 06:12:12,983] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:12:12,998] {logging_mixin.py:109} INFO - [2022-03-22 06:12:12,998] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:12:13,985] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.778 seconds
+[2022-03-22 06:13:30,004] {processor.py:163} INFO - Started process (PID=1552) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:13:30,033] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:13:30,033] {logging_mixin.py:109} INFO - [2022-03-22 06:13:30,033] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:13:30,058] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:13:30,075] {logging_mixin.py:109} INFO - [2022-03-22 06:13:30,075] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:13:30,087] {logging_mixin.py:109} INFO - [2022-03-22 06:13:30,087] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:13:30,361] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.359 seconds
+[2022-03-22 06:14:58,137] {processor.py:163} INFO - Started process (PID=1592) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:14:58,282] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:14:58,282] {logging_mixin.py:109} INFO - [2022-03-22 06:14:58,282] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:14:58,309] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:14:58,322] {logging_mixin.py:109} INFO - [2022-03-22 06:14:58,322] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:14:58,333] {logging_mixin.py:109} INFO - [2022-03-22 06:14:58,333] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:14:59,966] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.831 seconds
+[2022-03-22 06:15:47,059] {processor.py:163} INFO - Started process (PID=1616) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:15:47,267] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:15:47,268] {logging_mixin.py:109} INFO - [2022-03-22 06:15:47,268] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:15:47,296] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:15:47,310] {logging_mixin.py:109} INFO - [2022-03-22 06:15:47,310] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:15:47,322] {logging_mixin.py:109} INFO - [2022-03-22 06:15:47,322] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:15:48,160] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.103 seconds
+[2022-03-22 06:17:02,756] {processor.py:163} INFO - Started process (PID=1654) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:17:02,773] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:17:02,774] {logging_mixin.py:109} INFO - [2022-03-22 06:17:02,774] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:17:02,800] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:17:02,812] {logging_mixin.py:109} INFO - [2022-03-22 06:17:02,812] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:17:02,825] {logging_mixin.py:109} INFO - [2022-03-22 06:17:02,825] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:17:04,362] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.610 seconds
+[2022-03-22 06:18:34,033] {processor.py:163} INFO - Started process (PID=1695) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:18:34,043] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:18:34,043] {logging_mixin.py:109} INFO - [2022-03-22 06:18:34,043] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:18:34,068] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:18:34,081] {logging_mixin.py:109} INFO - [2022-03-22 06:18:34,081] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:18:34,092] {logging_mixin.py:109} INFO - [2022-03-22 06:18:34,092] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:18:34,837] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.807 seconds
+[2022-03-22 06:20:00,732] {processor.py:163} INFO - Started process (PID=1736) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:20:00,742] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:20:00,742] {logging_mixin.py:109} INFO - [2022-03-22 06:20:00,742] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:20:00,778] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:20:00,794] {logging_mixin.py:109} INFO - [2022-03-22 06:20:00,794] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:20:00,811] {logging_mixin.py:109} INFO - [2022-03-22 06:20:00,811] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:20:01,272] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.544 seconds
+[2022-03-22 06:21:29,316] {processor.py:163} INFO - Started process (PID=1777) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:21:30,032] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:21:30,032] {logging_mixin.py:109} INFO - [2022-03-22 06:21:30,032] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:21:30,062] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:21:30,075] {logging_mixin.py:109} INFO - [2022-03-22 06:21:30,075] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:21:30,088] {logging_mixin.py:109} INFO - [2022-03-22 06:21:30,088] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:21:30,253] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.939 seconds
+[2022-03-22 06:22:52,482] {processor.py:163} INFO - Started process (PID=1816) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:22:52,601] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:22:52,601] {logging_mixin.py:109} INFO - [2022-03-22 06:22:52,601] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:22:52,631] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:22:52,653] {logging_mixin.py:109} INFO - [2022-03-22 06:22:52,653] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:22:52,670] {logging_mixin.py:109} INFO - [2022-03-22 06:22:52,670] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:22:53,852] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.372 seconds
+[2022-03-22 06:24:08,560] {processor.py:163} INFO - Started process (PID=1854) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:24:08,724] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:24:08,725] {logging_mixin.py:109} INFO - [2022-03-22 06:24:08,724] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:24:08,751] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:24:08,764] {logging_mixin.py:109} INFO - [2022-03-22 06:24:08,764] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:24:08,776] {logging_mixin.py:109} INFO - [2022-03-22 06:24:08,776] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:24:09,728] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.170 seconds
+[2022-03-22 06:25:37,145] {processor.py:163} INFO - Started process (PID=1895) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:25:37,348] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:25:37,348] {logging_mixin.py:109} INFO - [2022-03-22 06:25:37,348] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:25:37,375] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:25:37,389] {logging_mixin.py:109} INFO - [2022-03-22 06:25:37,389] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:25:37,402] {logging_mixin.py:109} INFO - [2022-03-22 06:25:37,402] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:25:38,255] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.113 seconds
+[2022-03-22 06:26:31,957] {processor.py:163} INFO - Started process (PID=1917) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:26:31,970] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:26:31,970] {logging_mixin.py:109} INFO - [2022-03-22 06:26:31,970] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:26:31,995] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:26:32,008] {logging_mixin.py:109} INFO - [2022-03-22 06:26:32,008] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:26:32,020] {logging_mixin.py:109} INFO - [2022-03-22 06:26:32,020] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:26:33,699] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.744 seconds
+[2022-03-22 06:27:26,797] {processor.py:163} INFO - Started process (PID=1941) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:27:26,918] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:27:26,918] {logging_mixin.py:109} INFO - [2022-03-22 06:27:26,918] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:27:26,947] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:27:26,961] {logging_mixin.py:109} INFO - [2022-03-22 06:27:26,961] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:27:26,980] {logging_mixin.py:109} INFO - [2022-03-22 06:27:26,980] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:27:28,308] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.514 seconds
+[2022-03-22 06:28:47,492] {processor.py:163} INFO - Started process (PID=1980) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:28:47,538] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:28:47,539] {logging_mixin.py:109} INFO - [2022-03-22 06:28:47,539] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:28:47,564] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:28:47,576] {logging_mixin.py:109} INFO - [2022-03-22 06:28:47,576] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:28:47,588] {logging_mixin.py:109} INFO - [2022-03-22 06:28:47,588] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:28:48,989] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.500 seconds
+[2022-03-22 06:30:08,034] {processor.py:163} INFO - Started process (PID=2019) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:30:08,214] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:30:08,214] {logging_mixin.py:109} INFO - [2022-03-22 06:30:08,214] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:30:08,239] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:30:08,253] {logging_mixin.py:109} INFO - [2022-03-22 06:30:08,252] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:30:08,267] {logging_mixin.py:109} INFO - [2022-03-22 06:30:08,267] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:30:09,927] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.896 seconds
+[2022-03-22 06:31:38,237] {processor.py:163} INFO - Started process (PID=2060) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:31:38,361] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:31:38,362] {logging_mixin.py:109} INFO - [2022-03-22 06:31:38,362] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:31:38,387] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:31:38,400] {logging_mixin.py:109} INFO - [2022-03-22 06:31:38,400] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:31:38,412] {logging_mixin.py:109} INFO - [2022-03-22 06:31:38,412] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:31:39,427] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.193 seconds
+[2022-03-22 06:33:12,103] {processor.py:163} INFO - Started process (PID=2101) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:33:12,116] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:33:12,117] {logging_mixin.py:109} INFO - [2022-03-22 06:33:12,117] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:33:12,144] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:33:12,156] {logging_mixin.py:109} INFO - [2022-03-22 06:33:12,156] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:33:12,169] {logging_mixin.py:109} INFO - [2022-03-22 06:33:12,169] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:33:12,813] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.713 seconds
+[2022-03-22 06:34:02,061] {processor.py:163} INFO - Started process (PID=2123) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:34:02,084] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:34:02,084] {logging_mixin.py:109} INFO - [2022-03-22 06:34:02,084] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:34:02,119] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:34:02,133] {logging_mixin.py:109} INFO - [2022-03-22 06:34:02,133] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:34:02,145] {logging_mixin.py:109} INFO - [2022-03-22 06:34:02,145] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:34:04,302] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 2.243 seconds
+[2022-03-22 06:35:28,497] {processor.py:163} INFO - Started process (PID=2163) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:35:28,583] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:35:28,584] {logging_mixin.py:109} INFO - [2022-03-22 06:35:28,583] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:35:28,609] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:35:28,626] {logging_mixin.py:109} INFO - [2022-03-22 06:35:28,626] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:35:28,639] {logging_mixin.py:109} INFO - [2022-03-22 06:35:28,639] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:35:29,233] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.738 seconds
+[2022-03-22 06:36:50,036] {processor.py:163} INFO - Started process (PID=2202) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:36:50,052] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:36:50,052] {logging_mixin.py:109} INFO - [2022-03-22 06:36:50,052] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:36:50,076] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:36:50,089] {logging_mixin.py:109} INFO - [2022-03-22 06:36:50,089] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:36:50,101] {logging_mixin.py:109} INFO - [2022-03-22 06:36:50,101] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:36:50,237] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.204 seconds
+[2022-03-22 06:38:09,707] {processor.py:163} INFO - Started process (PID=2241) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:38:09,818] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:38:09,818] {logging_mixin.py:109} INFO - [2022-03-22 06:38:09,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:38:09,844] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:38:09,857] {logging_mixin.py:109} INFO - [2022-03-22 06:38:09,857] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:38:09,868] {logging_mixin.py:109} INFO - [2022-03-22 06:38:09,868] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:38:10,189] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.484 seconds
+[2022-03-22 06:39:40,620] {processor.py:163} INFO - Started process (PID=2282) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:39:41,445] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:39:41,445] {logging_mixin.py:109} INFO - [2022-03-22 06:39:41,445] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:39:41,471] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:39:41,484] {logging_mixin.py:109} INFO - [2022-03-22 06:39:41,484] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:39:41,495] {logging_mixin.py:109} INFO - [2022-03-22 06:39:41,495] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:39:41,635] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.018 seconds
+[2022-03-22 06:41:13,192] {processor.py:163} INFO - Started process (PID=2323) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:41:13,214] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:41:13,214] {logging_mixin.py:109} INFO - [2022-03-22 06:41:13,214] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:41:13,240] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:41:13,252] {logging_mixin.py:109} INFO - [2022-03-22 06:41:13,252] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:41:13,263] {logging_mixin.py:109} INFO - [2022-03-22 06:41:13,263] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:41:14,907] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.717 seconds
+[2022-03-22 06:42:32,511] {processor.py:163} INFO - Started process (PID=2361) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:42:32,514] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:42:32,515] {logging_mixin.py:109} INFO - [2022-03-22 06:42:32,515] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:42:32,542] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:42:32,555] {logging_mixin.py:109} INFO - [2022-03-22 06:42:32,555] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:42:32,568] {logging_mixin.py:109} INFO - [2022-03-22 06:42:32,568] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:42:33,184] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.675 seconds
+[2022-03-22 06:43:54,074] {processor.py:163} INFO - Started process (PID=2400) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:43:54,285] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:43:54,285] {logging_mixin.py:109} INFO - [2022-03-22 06:43:54,285] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:43:54,312] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:43:54,324] {logging_mixin.py:109} INFO - [2022-03-22 06:43:54,324] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:43:54,337] {logging_mixin.py:109} INFO - [2022-03-22 06:43:54,337] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:43:55,851] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 1.780 seconds
+[2022-03-22 06:45:30,526] {processor.py:163} INFO - Started process (PID=2449) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:45:30,712] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:45:30,713] {logging_mixin.py:109} INFO - [2022-03-22 06:45:30,713] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:45:30,743] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:45:30,818] {logging_mixin.py:109} INFO - [2022-03-22 06:45:30,818] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:45:30,829] {logging_mixin.py:109} INFO - [2022-03-22 06:45:30,829] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:45:31,448] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.924 seconds
+[2022-03-22 06:46:56,089] {processor.py:163} INFO - Started process (PID=2498) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:46:56,278] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-03-22 06:46:56,279] {logging_mixin.py:109} INFO - [2022-03-22 06:46:56,279] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:46:56,359] {processor.py:654} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-03-22 06:46:56,369] {logging_mixin.py:109} INFO - [2022-03-22 06:46:56,369] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-22 06:46:56,377] {logging_mixin.py:109} INFO - [2022-03-22 06:46:56,377] {dag.py:2937} INFO - Setting next_dagrun for example_complex to None
+[2022-03-22 06:46:56,589] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.503 seconds

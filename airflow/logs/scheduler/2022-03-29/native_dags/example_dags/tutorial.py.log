@@ -1,0 +1,455 @@
+[2022-03-29 00:12:32,806] {processor.py:163} INFO - Started process (PID=225) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:12:32,807] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 00:12:32,807] {logging_mixin.py:109} INFO - [2022-03-29 00:12:32,807] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:12:32,826] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:12:32,835] {logging_mixin.py:109} INFO - [2022-03-29 00:12:32,835] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:12:32,847] {logging_mixin.py:109} INFO - [2022-03-29 00:12:32,847] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T05:12:32.846891+00:00
+[2022-03-29 00:12:34,522] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.718 seconds
+[2022-03-29 00:14:00,667] {processor.py:163} INFO - Started process (PID=279) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:14:00,718] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 00:14:00,719] {logging_mixin.py:109} INFO - [2022-03-29 00:14:00,719] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:14:00,744] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:14:00,754] {logging_mixin.py:109} INFO - [2022-03-29 00:14:00,754] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:14:00,766] {logging_mixin.py:109} INFO - [2022-03-29 00:14:00,766] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T05:14:00.765804+00:00
+[2022-03-29 00:14:00,909] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.244 seconds
+[2022-03-29 00:15:47,762] {processor.py:163} INFO - Started process (PID=357) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:15:47,765] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 00:15:47,766] {logging_mixin.py:109} INFO - [2022-03-29 00:15:47,766] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:15:47,790] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 00:15:47,799] {logging_mixin.py:109} INFO - [2022-03-29 00:15:47,799] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:15:47,812] {logging_mixin.py:109} INFO - [2022-03-29 00:15:47,812] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T05:15:47.812102+00:00
+[2022-03-29 00:15:48,462] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.703 seconds
+[2022-03-29 09:35:10,142] {processor.py:163} INFO - Started process (PID=648) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:35:10,377] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:35:10,379] {logging_mixin.py:109} INFO - [2022-03-29 09:35:10,378] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:35:10,405] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:35:10,417] {logging_mixin.py:109} INFO - [2022-03-29 09:35:10,417] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:35:10,432] {logging_mixin.py:109} INFO - [2022-03-29 09:35:10,432] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:35:10.431692+00:00
+[2022-03-29 09:35:11,991] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.852 seconds
+[2022-03-29 09:36:36,303] {processor.py:163} INFO - Started process (PID=702) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:36:36,502] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:36:36,504] {logging_mixin.py:109} INFO - [2022-03-29 09:36:36,503] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:36:36,531] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:36:36,544] {logging_mixin.py:109} INFO - [2022-03-29 09:36:36,544] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:36:36,557] {logging_mixin.py:109} INFO - [2022-03-29 09:36:36,557] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:36:36.557567+00:00
+[2022-03-29 09:36:37,388] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.087 seconds
+[2022-03-29 09:38:20,160] {processor.py:163} INFO - Started process (PID=861) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:38:20,162] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:38:20,162] {logging_mixin.py:109} INFO - [2022-03-29 09:38:20,162] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:38:20,181] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:38:20,190] {logging_mixin.py:109} INFO - [2022-03-29 09:38:20,190] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:38:20,202] {logging_mixin.py:109} INFO - [2022-03-29 09:38:20,202] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:38:20.201867+00:00
+[2022-03-29 09:38:21,469] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.312 seconds
+[2022-03-29 09:40:20,069] {processor.py:163} INFO - Started process (PID=953) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:40:20,071] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:40:20,071] {logging_mixin.py:109} INFO - [2022-03-29 09:40:20,071] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:40:20,090] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:40:20,099] {logging_mixin.py:109} INFO - [2022-03-29 09:40:20,099] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:40:20,111] {logging_mixin.py:109} INFO - [2022-03-29 09:40:20,111] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:40:20.111328+00:00
+[2022-03-29 09:40:20,252] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.184 seconds
+[2022-03-29 09:42:13,182] {processor.py:163} INFO - Started process (PID=1033) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:42:13,185] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:42:13,186] {logging_mixin.py:109} INFO - [2022-03-29 09:42:13,186] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:42:13,204] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:42:13,213] {logging_mixin.py:109} INFO - [2022-03-29 09:42:13,213] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:42:13,225] {logging_mixin.py:109} INFO - [2022-03-29 09:42:13,225] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:42:13.225516+00:00
+[2022-03-29 09:42:13,387] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.208 seconds
+[2022-03-29 09:44:02,765] {processor.py:163} INFO - Started process (PID=1118) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:44:02,768] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:44:02,769] {logging_mixin.py:109} INFO - [2022-03-29 09:44:02,769] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:44:02,788] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:44:02,797] {logging_mixin.py:109} INFO - [2022-03-29 09:44:02,797] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:44:02,809] {logging_mixin.py:109} INFO - [2022-03-29 09:44:02,808] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:44:02.808652+00:00
+[2022-03-29 09:44:03,496] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.734 seconds
+[2022-03-29 09:45:29,957] {processor.py:163} INFO - Started process (PID=1200) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:45:29,961] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:45:29,961] {logging_mixin.py:109} INFO - [2022-03-29 09:45:29,961] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:45:29,982] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:45:29,991] {logging_mixin.py:109} INFO - [2022-03-29 09:45:29,991] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:45:30,003] {logging_mixin.py:109} INFO - [2022-03-29 09:45:30,003] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:45:30.002776+00:00
+[2022-03-29 09:45:30,627] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.673 seconds
+[2022-03-29 09:46:51,738] {processor.py:163} INFO - Started process (PID=1268) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:46:51,741] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:46:51,741] {logging_mixin.py:109} INFO - [2022-03-29 09:46:51,741] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:46:51,761] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:46:51,770] {logging_mixin.py:109} INFO - [2022-03-29 09:46:51,770] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:46:51,782] {logging_mixin.py:109} INFO - [2022-03-29 09:46:51,782] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:46:51.782188+00:00
+[2022-03-29 09:46:51,941] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.207 seconds
+[2022-03-29 09:48:14,582] {processor.py:163} INFO - Started process (PID=1345) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:48:14,602] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:48:14,603] {logging_mixin.py:109} INFO - [2022-03-29 09:48:14,603] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:48:14,641] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:48:14,650] {logging_mixin.py:109} INFO - [2022-03-29 09:48:14,649] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:48:14,663] {logging_mixin.py:109} INFO - [2022-03-29 09:48:14,663] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:48:14.663159+00:00
+[2022-03-29 09:48:14,807] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.227 seconds
+[2022-03-29 09:49:34,989] {processor.py:163} INFO - Started process (PID=1407) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:49:35,084] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:49:35,085] {logging_mixin.py:109} INFO - [2022-03-29 09:49:35,085] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:49:35,109] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:49:35,118] {logging_mixin.py:109} INFO - [2022-03-29 09:49:35,118] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:49:35,130] {logging_mixin.py:109} INFO - [2022-03-29 09:49:35,130] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:49:35.129848+00:00
+[2022-03-29 09:49:35,278] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.291 seconds
+[2022-03-29 09:51:06,304] {processor.py:163} INFO - Started process (PID=1485) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:51:07,444] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:51:07,444] {logging_mixin.py:109} INFO - [2022-03-29 09:51:07,444] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:51:07,646] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:51:07,657] {logging_mixin.py:109} INFO - [2022-03-29 09:51:07,657] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:51:07,672] {logging_mixin.py:109} INFO - [2022-03-29 09:51:07,672] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:51:07.672141+00:00
+[2022-03-29 09:51:07,898] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.596 seconds
+[2022-03-29 09:52:09,316] {processor.py:163} INFO - Started process (PID=1554) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:52:09,319] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:52:09,320] {logging_mixin.py:109} INFO - [2022-03-29 09:52:09,320] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:52:09,338] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:52:09,347] {logging_mixin.py:109} INFO - [2022-03-29 09:52:09,347] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:52:09,358] {logging_mixin.py:109} INFO - [2022-03-29 09:52:09,358] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:52:09.358117+00:00
+[2022-03-29 09:52:09,543] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.230 seconds
+[2022-03-29 09:53:01,285] {processor.py:163} INFO - Started process (PID=1606) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:53:01,296] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:53:01,296] {logging_mixin.py:109} INFO - [2022-03-29 09:53:01,296] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:53:01,320] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:53:01,329] {logging_mixin.py:109} INFO - [2022-03-29 09:53:01,329] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:53:01,340] {logging_mixin.py:109} INFO - [2022-03-29 09:53:01,340] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:53:01.339919+00:00
+[2022-03-29 09:53:01,566] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.284 seconds
+[2022-03-29 09:54:04,478] {processor.py:163} INFO - Started process (PID=1665) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:54:04,492] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:54:04,492] {logging_mixin.py:109} INFO - [2022-03-29 09:54:04,492] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:54:04,512] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:54:04,521] {logging_mixin.py:109} INFO - [2022-03-29 09:54:04,521] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:54:04,536] {logging_mixin.py:109} INFO - [2022-03-29 09:54:04,536] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:54:04.535887+00:00
+[2022-03-29 09:54:04,699] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.223 seconds
+[2022-03-29 09:55:24,752] {processor.py:163} INFO - Started process (PID=1740) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:55:24,767] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:55:24,768] {logging_mixin.py:109} INFO - [2022-03-29 09:55:24,768] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:55:24,787] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:55:24,796] {logging_mixin.py:109} INFO - [2022-03-29 09:55:24,796] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:55:24,806] {logging_mixin.py:109} INFO - [2022-03-29 09:55:24,806] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:55:24.805879+00:00
+[2022-03-29 09:55:24,963] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.213 seconds
+[2022-03-29 09:56:21,423] {processor.py:163} INFO - Started process (PID=1799) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:56:21,431] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:56:21,431] {logging_mixin.py:109} INFO - [2022-03-29 09:56:21,431] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:56:21,451] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:56:21,460] {logging_mixin.py:109} INFO - [2022-03-29 09:56:21,460] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:56:21,473] {logging_mixin.py:109} INFO - [2022-03-29 09:56:21,473] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:56:21.473534+00:00
+[2022-03-29 09:56:21,616] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.195 seconds
+[2022-03-29 09:57:15,488] {processor.py:163} INFO - Started process (PID=1851) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:57:15,501] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:57:15,502] {logging_mixin.py:109} INFO - [2022-03-29 09:57:15,502] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:57:15,520] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:57:15,529] {logging_mixin.py:109} INFO - [2022-03-29 09:57:15,529] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:57:15,542] {logging_mixin.py:109} INFO - [2022-03-29 09:57:15,542] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:57:15.542257+00:00
+[2022-03-29 09:57:15,687] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.202 seconds
+[2022-03-29 09:58:10,071] {processor.py:163} INFO - Started process (PID=1904) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:58:10,080] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:58:10,081] {logging_mixin.py:109} INFO - [2022-03-29 09:58:10,081] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:58:10,100] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:58:10,109] {logging_mixin.py:109} INFO - [2022-03-29 09:58:10,109] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:58:10,121] {logging_mixin.py:109} INFO - [2022-03-29 09:58:10,121] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:58:10.120930+00:00
+[2022-03-29 09:58:10,279] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.211 seconds
+[2022-03-29 09:59:07,976] {processor.py:163} INFO - Started process (PID=1957) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:59:08,317] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 09:59:08,318] {logging_mixin.py:109} INFO - [2022-03-29 09:59:08,318] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:59:08,382] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 09:59:08,400] {logging_mixin.py:109} INFO - [2022-03-29 09:59:08,400] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:59:08,418] {logging_mixin.py:109} INFO - [2022-03-29 09:59:08,418] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T14:59:08.418377+00:00
+[2022-03-29 09:59:08,674] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.702 seconds
+[2022-03-29 10:00:38,792] {processor.py:163} INFO - Started process (PID=2023) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:00:38,802] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:00:38,802] {logging_mixin.py:109} INFO - [2022-03-29 10:00:38,802] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:00:38,823] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:00:38,831] {logging_mixin.py:109} INFO - [2022-03-29 10:00:38,831] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:00:38,843] {logging_mixin.py:109} INFO - [2022-03-29 10:00:38,843] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:00:38.843219+00:00
+[2022-03-29 10:00:39,052] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.264 seconds
+[2022-03-29 10:02:18,462] {processor.py:163} INFO - Started process (PID=2104) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:02:18,478] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:02:18,479] {logging_mixin.py:109} INFO - [2022-03-29 10:02:18,479] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:02:18,499] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:02:18,508] {logging_mixin.py:109} INFO - [2022-03-29 10:02:18,508] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:02:18,520] {logging_mixin.py:109} INFO - [2022-03-29 10:02:18,520] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:02:18.520020+00:00
+[2022-03-29 10:02:19,430] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.970 seconds
+[2022-03-29 10:03:33,099] {processor.py:163} INFO - Started process (PID=2177) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:03:33,102] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:03:33,103] {logging_mixin.py:109} INFO - [2022-03-29 10:03:33,103] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:03:33,123] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:03:33,133] {logging_mixin.py:109} INFO - [2022-03-29 10:03:33,133] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:03:33,144] {logging_mixin.py:109} INFO - [2022-03-29 10:03:33,144] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:03:33.144413+00:00
+[2022-03-29 10:03:33,269] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.172 seconds
+[2022-03-29 10:05:07,390] {processor.py:163} INFO - Started process (PID=2249) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:05:07,393] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:05:07,394] {logging_mixin.py:109} INFO - [2022-03-29 10:05:07,393] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:05:07,414] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:05:07,423] {logging_mixin.py:109} INFO - [2022-03-29 10:05:07,423] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:05:07,434] {logging_mixin.py:109} INFO - [2022-03-29 10:05:07,434] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:05:07.434423+00:00
+[2022-03-29 10:05:07,654] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.267 seconds
+[2022-03-29 10:06:24,869] {processor.py:163} INFO - Started process (PID=2328) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:06:24,871] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:06:24,872] {logging_mixin.py:109} INFO - [2022-03-29 10:06:24,872] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:06:24,891] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:06:24,900] {logging_mixin.py:109} INFO - [2022-03-29 10:06:24,900] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:06:24,912] {logging_mixin.py:109} INFO - [2022-03-29 10:06:24,912] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:06:24.911890+00:00
+[2022-03-29 10:06:25,058] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.193 seconds
+[2022-03-29 10:07:17,644] {processor.py:163} INFO - Started process (PID=2380) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:07:17,647] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:07:17,647] {logging_mixin.py:109} INFO - [2022-03-29 10:07:17,647] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:07:17,665] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:07:17,675] {logging_mixin.py:109} INFO - [2022-03-29 10:07:17,675] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:07:17,686] {logging_mixin.py:109} INFO - [2022-03-29 10:07:17,686] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:07:17.686189+00:00
+[2022-03-29 10:07:17,820] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.179 seconds
+[2022-03-29 10:08:10,531] {processor.py:163} INFO - Started process (PID=2432) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:08:10,541] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:08:10,542] {logging_mixin.py:109} INFO - [2022-03-29 10:08:10,541] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:08:10,562] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:08:10,572] {logging_mixin.py:109} INFO - [2022-03-29 10:08:10,572] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:08:10,585] {logging_mixin.py:109} INFO - [2022-03-29 10:08:10,584] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:08:10.584532+00:00
+[2022-03-29 10:08:12,326] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.797 seconds
+[2022-03-29 10:09:13,119] {processor.py:163} INFO - Started process (PID=2501) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:09:13,127] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:09:13,128] {logging_mixin.py:109} INFO - [2022-03-29 10:09:13,128] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:09:13,147] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:09:13,156] {logging_mixin.py:109} INFO - [2022-03-29 10:09:13,156] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:09:13,167] {logging_mixin.py:109} INFO - [2022-03-29 10:09:13,167] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:09:13.167300+00:00
+[2022-03-29 10:09:13,314] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.198 seconds
+[2022-03-29 10:10:17,131] {processor.py:163} INFO - Started process (PID=2556) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:10:17,147] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:10:17,148] {logging_mixin.py:109} INFO - [2022-03-29 10:10:17,148] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:10:17,167] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:10:17,176] {logging_mixin.py:109} INFO - [2022-03-29 10:10:17,176] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:10:17,187] {logging_mixin.py:109} INFO - [2022-03-29 10:10:17,187] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:10:17.187609+00:00
+[2022-03-29 10:10:17,338] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.210 seconds
+[2022-03-29 10:12:01,202] {processor.py:163} INFO - Started process (PID=2624) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:12:01,205] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:12:01,206] {logging_mixin.py:109} INFO - [2022-03-29 10:12:01,206] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:12:01,225] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:12:01,234] {logging_mixin.py:109} INFO - [2022-03-29 10:12:01,234] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:12:01,246] {logging_mixin.py:109} INFO - [2022-03-29 10:12:01,246] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:12:01.245915+00:00
+[2022-03-29 10:12:01,398] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.199 seconds
+[2022-03-29 10:13:24,091] {processor.py:163} INFO - Started process (PID=2717) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:13:24,101] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:13:24,101] {logging_mixin.py:109} INFO - [2022-03-29 10:13:24,101] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:13:24,120] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:13:24,129] {logging_mixin.py:109} INFO - [2022-03-29 10:13:24,129] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:13:24,141] {logging_mixin.py:109} INFO - [2022-03-29 10:13:24,141] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:13:24.141361+00:00
+[2022-03-29 10:13:24,274] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.187 seconds
+[2022-03-29 10:14:57,248] {processor.py:163} INFO - Started process (PID=2794) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:14:57,259] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:14:57,260] {logging_mixin.py:109} INFO - [2022-03-29 10:14:57,259] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:14:57,281] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:14:57,290] {logging_mixin.py:109} INFO - [2022-03-29 10:14:57,290] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:14:57,302] {logging_mixin.py:109} INFO - [2022-03-29 10:14:57,302] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:14:57.302052+00:00
+[2022-03-29 10:14:57,475] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.230 seconds
+[2022-03-29 10:16:21,507] {processor.py:163} INFO - Started process (PID=2879) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:16:21,542] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:16:21,546] {logging_mixin.py:109} INFO - [2022-03-29 10:16:21,545] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:16:23,302] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:16:23,311] {logging_mixin.py:109} INFO - [2022-03-29 10:16:23,311] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:16:23,327] {logging_mixin.py:109} INFO - [2022-03-29 10:16:23,327] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:16:23.327216+00:00
+[2022-03-29 10:16:23,461] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.957 seconds
+[2022-03-29 10:18:14,355] {processor.py:163} INFO - Started process (PID=2966) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:18:14,469] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:18:14,469] {logging_mixin.py:109} INFO - [2022-03-29 10:18:14,469] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:18:14,488] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:18:14,497] {logging_mixin.py:109} INFO - [2022-03-29 10:18:14,497] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:18:14,509] {logging_mixin.py:109} INFO - [2022-03-29 10:18:14,509] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:18:14.509228+00:00
+[2022-03-29 10:18:14,852] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.499 seconds
+[2022-03-29 10:19:52,365] {processor.py:163} INFO - Started process (PID=3069) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:19:52,372] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:19:52,373] {logging_mixin.py:109} INFO - [2022-03-29 10:19:52,373] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:19:52,392] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:19:52,402] {logging_mixin.py:109} INFO - [2022-03-29 10:19:52,401] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:19:52,414] {logging_mixin.py:109} INFO - [2022-03-29 10:19:52,414] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:19:52.414385+00:00
+[2022-03-29 10:19:52,730] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.368 seconds
+[2022-03-29 10:21:38,446] {processor.py:163} INFO - Started process (PID=3168) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:21:38,451] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:21:38,451] {logging_mixin.py:109} INFO - [2022-03-29 10:21:38,451] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:21:38,471] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:21:38,480] {logging_mixin.py:109} INFO - [2022-03-29 10:21:38,480] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:21:38,491] {logging_mixin.py:109} INFO - [2022-03-29 10:21:38,491] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:21:38.491585+00:00
+[2022-03-29 10:21:38,692] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.248 seconds
+[2022-03-29 10:23:02,687] {processor.py:163} INFO - Started process (PID=3255) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:23:02,690] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:23:02,691] {logging_mixin.py:109} INFO - [2022-03-29 10:23:02,691] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:23:02,712] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:23:02,726] {logging_mixin.py:109} INFO - [2022-03-29 10:23:02,725] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:23:02,739] {logging_mixin.py:109} INFO - [2022-03-29 10:23:02,739] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:23:02.739072+00:00
+[2022-03-29 10:23:02,926] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.241 seconds
+[2022-03-29 10:23:59,902] {processor.py:163} INFO - Started process (PID=3309) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:23:59,910] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:23:59,911] {logging_mixin.py:109} INFO - [2022-03-29 10:23:59,911] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:23:59,950] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:23:59,995] {logging_mixin.py:109} INFO - [2022-03-29 10:23:59,994] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:24:00,020] {logging_mixin.py:109} INFO - [2022-03-29 10:24:00,020] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:24:00.020211+00:00
+[2022-03-29 10:24:00,155] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.255 seconds
+[2022-03-29 10:24:58,394] {processor.py:163} INFO - Started process (PID=3362) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:24:58,416] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:24:58,417] {logging_mixin.py:109} INFO - [2022-03-29 10:24:58,417] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:24:58,585] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:24:58,607] {logging_mixin.py:109} INFO - [2022-03-29 10:24:58,607] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:24:58,633] {logging_mixin.py:109} INFO - [2022-03-29 10:24:58,633] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:24:58.632663+00:00
+[2022-03-29 10:24:58,811] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.420 seconds
+[2022-03-29 10:26:02,405] {processor.py:163} INFO - Started process (PID=3419) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:26:02,413] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:26:02,413] {logging_mixin.py:109} INFO - [2022-03-29 10:26:02,413] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:26:02,432] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:26:02,441] {logging_mixin.py:109} INFO - [2022-03-29 10:26:02,440] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:26:02,452] {logging_mixin.py:109} INFO - [2022-03-29 10:26:02,452] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:26:02.452449+00:00
+[2022-03-29 10:26:02,589] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.186 seconds
+[2022-03-29 10:27:00,090] {processor.py:163} INFO - Started process (PID=3473) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:27:00,107] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:27:00,108] {logging_mixin.py:109} INFO - [2022-03-29 10:27:00,108] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:27:00,128] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:27:00,138] {logging_mixin.py:109} INFO - [2022-03-29 10:27:00,137] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:27:00,150] {logging_mixin.py:109} INFO - [2022-03-29 10:27:00,150] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:27:00.149821+00:00
+[2022-03-29 10:27:00,287] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.199 seconds
+[2022-03-29 10:27:57,858] {processor.py:163} INFO - Started process (PID=3527) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:27:57,873] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:27:57,873] {logging_mixin.py:109} INFO - [2022-03-29 10:27:57,873] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:27:57,893] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:27:57,901] {logging_mixin.py:109} INFO - [2022-03-29 10:27:57,901] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:27:57,913] {logging_mixin.py:109} INFO - [2022-03-29 10:27:57,913] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:27:57.913406+00:00
+[2022-03-29 10:27:58,057] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.202 seconds
+[2022-03-29 10:28:51,016] {processor.py:163} INFO - Started process (PID=3579) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:28:51,020] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:28:51,020] {logging_mixin.py:109} INFO - [2022-03-29 10:28:51,020] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:28:51,046] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:28:51,055] {logging_mixin.py:109} INFO - [2022-03-29 10:28:51,055] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:28:51,067] {logging_mixin.py:109} INFO - [2022-03-29 10:28:51,067] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:28:51.067048+00:00
+[2022-03-29 10:28:51,208] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.195 seconds
+[2022-03-29 10:29:40,262] {processor.py:163} INFO - Started process (PID=3628) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:29:40,279] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:29:40,279] {logging_mixin.py:109} INFO - [2022-03-29 10:29:40,279] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:29:40,298] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:29:40,307] {logging_mixin.py:109} INFO - [2022-03-29 10:29:40,307] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:29:40,319] {logging_mixin.py:109} INFO - [2022-03-29 10:29:40,319] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:29:40.319377+00:00
+[2022-03-29 10:29:40,447] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.188 seconds
+[2022-03-29 10:30:39,209] {processor.py:163} INFO - Started process (PID=3679) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:30:39,233] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:30:39,234] {logging_mixin.py:109} INFO - [2022-03-29 10:30:39,234] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:30:39,253] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:30:39,262] {logging_mixin.py:109} INFO - [2022-03-29 10:30:39,262] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:30:39,274] {logging_mixin.py:109} INFO - [2022-03-29 10:30:39,274] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:30:39.274060+00:00
+[2022-03-29 10:30:39,578] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.371 seconds
+[2022-03-29 10:31:59,858] {processor.py:163} INFO - Started process (PID=3754) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:31:59,879] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:31:59,882] {logging_mixin.py:109} INFO - [2022-03-29 10:31:59,882] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:32:00,251] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:32:00,261] {logging_mixin.py:109} INFO - [2022-03-29 10:32:00,260] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:32:00,274] {logging_mixin.py:109} INFO - [2022-03-29 10:32:00,273] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:32:00.273587+00:00
+[2022-03-29 10:32:00,447] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.602 seconds
+[2022-03-29 10:32:58,767] {processor.py:163} INFO - Started process (PID=3808) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:32:59,134] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:32:59,134] {logging_mixin.py:109} INFO - [2022-03-29 10:32:59,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:32:59,154] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:32:59,163] {logging_mixin.py:109} INFO - [2022-03-29 10:32:59,163] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:32:59,174] {logging_mixin.py:109} INFO - [2022-03-29 10:32:59,174] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:32:59.174403+00:00
+[2022-03-29 10:32:59,306] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.541 seconds
+[2022-03-29 10:34:08,147] {processor.py:163} INFO - Started process (PID=3862) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:34:08,458] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 10:34:08,458] {logging_mixin.py:109} INFO - [2022-03-29 10:34:08,458] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:34:08,495] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 10:34:08,520] {logging_mixin.py:109} INFO - [2022-03-29 10:34:08,520] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:34:08,553] {logging_mixin.py:109} INFO - [2022-03-29 10:34:08,551] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T15:34:08.551368+00:00
+[2022-03-29 10:34:08,805] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.661 seconds
+[2022-03-29 15:22:14,948] {processor.py:163} INFO - Started process (PID=433) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:22:16,196] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:22:16,197] {logging_mixin.py:109} INFO - [2022-03-29 15:22:16,197] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:22:17,353] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:22:17,364] {logging_mixin.py:109} INFO - [2022-03-29 15:22:17,364] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:22:17,383] {logging_mixin.py:109} INFO - [2022-03-29 15:22:17,382] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:22:17.382433+00:00
+[2022-03-29 15:22:17,520] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 2.576 seconds
+[2022-03-29 15:23:43,333] {processor.py:163} INFO - Started process (PID=485) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:23:43,348] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:23:43,348] {logging_mixin.py:109} INFO - [2022-03-29 15:23:43,348] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:23:43,368] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:23:43,377] {logging_mixin.py:109} INFO - [2022-03-29 15:23:43,377] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:23:43,388] {logging_mixin.py:109} INFO - [2022-03-29 15:23:43,388] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:23:43.388421+00:00
+[2022-03-29 15:23:43,688] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.357 seconds
+[2022-03-29 15:25:39,836] {processor.py:163} INFO - Started process (PID=562) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:25:40,803] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:25:40,803] {logging_mixin.py:109} INFO - [2022-03-29 15:25:40,803] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:25:40,835] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:25:41,477] {logging_mixin.py:109} INFO - [2022-03-29 15:25:41,477] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:25:41,489] {logging_mixin.py:109} INFO - [2022-03-29 15:25:41,489] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:25:41.488850+00:00
+[2022-03-29 15:25:41,677] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.843 seconds
+[2022-03-29 15:28:09,734] {processor.py:163} INFO - Started process (PID=660) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:28:09,776] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:28:09,777] {logging_mixin.py:109} INFO - [2022-03-29 15:28:09,777] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:28:09,802] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:28:09,813] {logging_mixin.py:109} INFO - [2022-03-29 15:28:09,813] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:28:09,830] {logging_mixin.py:109} INFO - [2022-03-29 15:28:09,830] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:28:09.829967+00:00
+[2022-03-29 15:28:10,591] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.860 seconds
+[2022-03-29 15:30:32,151] {processor.py:163} INFO - Started process (PID=755) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:30:32,168] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:30:32,169] {logging_mixin.py:109} INFO - [2022-03-29 15:30:32,169] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:30:32,188] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:30:32,197] {logging_mixin.py:109} INFO - [2022-03-29 15:30:32,197] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:30:32,209] {logging_mixin.py:109} INFO - [2022-03-29 15:30:32,209] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:30:32.209437+00:00
+[2022-03-29 15:30:32,858] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.710 seconds
+[2022-03-29 15:32:18,580] {processor.py:163} INFO - Started process (PID=839) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:32:18,589] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:32:18,590] {logging_mixin.py:109} INFO - [2022-03-29 15:32:18,590] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:32:18,624] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:32:18,636] {logging_mixin.py:109} INFO - [2022-03-29 15:32:18,636] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:32:18,653] {logging_mixin.py:109} INFO - [2022-03-29 15:32:18,653] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:32:18.653402+00:00
+[2022-03-29 15:32:18,895] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.318 seconds
+[2022-03-29 15:33:40,036] {processor.py:163} INFO - Started process (PID=889) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:33:40,046] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:33:40,047] {logging_mixin.py:109} INFO - [2022-03-29 15:33:40,047] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:33:40,074] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:33:40,089] {logging_mixin.py:109} INFO - [2022-03-29 15:33:40,089] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:33:40,105] {logging_mixin.py:109} INFO - [2022-03-29 15:33:40,105] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:33:40.104918+00:00
+[2022-03-29 15:33:40,234] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.201 seconds
+[2022-03-29 15:35:26,689] {processor.py:163} INFO - Started process (PID=984) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:35:26,711] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:35:26,712] {logging_mixin.py:109} INFO - [2022-03-29 15:35:26,712] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:35:26,736] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:35:26,745] {logging_mixin.py:109} INFO - [2022-03-29 15:35:26,744] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:35:26,757] {logging_mixin.py:109} INFO - [2022-03-29 15:35:26,757] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:35:26.756945+00:00
+[2022-03-29 15:35:27,552] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.865 seconds
+[2022-03-29 15:36:39,259] {processor.py:163} INFO - Started process (PID=1033) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:36:39,380] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:36:39,381] {logging_mixin.py:109} INFO - [2022-03-29 15:36:39,381] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:36:39,405] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:36:39,412] {logging_mixin.py:109} INFO - [2022-03-29 15:36:39,412] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:36:39,422] {logging_mixin.py:109} INFO - [2022-03-29 15:36:39,422] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:36:39.421866+00:00
+[2022-03-29 15:36:41,166] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 1.910 seconds
+[2022-03-29 15:38:43,636] {processor.py:163} INFO - Started process (PID=1140) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:38:43,655] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:38:43,656] {logging_mixin.py:109} INFO - [2022-03-29 15:38:43,656] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:38:43,678] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:38:43,688] {logging_mixin.py:109} INFO - [2022-03-29 15:38:43,688] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:38:43,701] {logging_mixin.py:109} INFO - [2022-03-29 15:38:43,701] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:38:43.700796+00:00
+[2022-03-29 15:38:43,838] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.204 seconds
+[2022-03-29 15:40:07,223] {processor.py:163} INFO - Started process (PID=1193) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:40:07,226] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:40:07,226] {logging_mixin.py:109} INFO - [2022-03-29 15:40:07,226] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:40:07,246] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:40:07,255] {logging_mixin.py:109} INFO - [2022-03-29 15:40:07,255] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:40:07,267] {logging_mixin.py:109} INFO - [2022-03-29 15:40:07,267] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:40:07.266738+00:00
+[2022-03-29 15:40:08,129] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.908 seconds
+[2022-03-29 15:42:00,373] {processor.py:163} INFO - Started process (PID=1315) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:42:01,102] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:42:01,103] {logging_mixin.py:109} INFO - [2022-03-29 15:42:01,103] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:42:01,125] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:42:01,134] {logging_mixin.py:109} INFO - [2022-03-29 15:42:01,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:42:01,148] {logging_mixin.py:109} INFO - [2022-03-29 15:42:01,148] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:42:01.147864+00:00
+[2022-03-29 15:42:01,288] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.918 seconds
+[2022-03-29 15:43:14,532] {processor.py:163} INFO - Started process (PID=1409) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:43:14,548] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:43:14,549] {logging_mixin.py:109} INFO - [2022-03-29 15:43:14,549] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:43:14,705] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:43:14,716] {logging_mixin.py:109} INFO - [2022-03-29 15:43:14,716] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:43:14,728] {logging_mixin.py:109} INFO - [2022-03-29 15:43:14,728] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:43:14.728475+00:00
+[2022-03-29 15:43:14,880] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.349 seconds
+[2022-03-29 15:44:25,331] {processor.py:163} INFO - Started process (PID=1477) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:44:25,335] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:44:25,336] {logging_mixin.py:109} INFO - [2022-03-29 15:44:25,336] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:44:25,355] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:44:25,366] {logging_mixin.py:109} INFO - [2022-03-29 15:44:25,365] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:44:25,379] {logging_mixin.py:109} INFO - [2022-03-29 15:44:25,379] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:44:25.378751+00:00
+[2022-03-29 15:44:25,732] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.403 seconds
+[2022-03-29 15:45:19,745] {processor.py:163} INFO - Started process (PID=1531) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:45:19,761] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-03-29 15:45:19,762] {logging_mixin.py:109} INFO - [2022-03-29 15:45:19,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:45:19,782] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-03-29 15:45:19,791] {logging_mixin.py:109} INFO - [2022-03-29 15:45:19,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:45:19,803] {logging_mixin.py:109} INFO - [2022-03-29 15:45:19,803] {dag.py:2937} INFO - Setting next_dagrun for tutorial to 2022-03-28T20:45:19.803513+00:00
+[2022-03-29 15:45:19,966] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.225 seconds

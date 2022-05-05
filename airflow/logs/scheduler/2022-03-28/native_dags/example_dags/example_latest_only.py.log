@@ -1,0 +1,259 @@
+[2022-03-27 20:03:38,666] {processor.py:163} INFO - Started process (PID=231) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:03:38,667] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:03:38,668] {logging_mixin.py:109} INFO - [2022-03-27 20:03:38,668] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:03:38,686] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:03:38,695] {logging_mixin.py:109} INFO - [2022-03-27 20:03:38,695] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:03:38,706] {logging_mixin.py:109} INFO - [2022-03-27 20:03:38,706] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:03:38.706352+00:00
+[2022-03-27 20:03:40,836] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 2.171 seconds
+[2022-03-27 20:04:50,666] {processor.py:163} INFO - Started process (PID=351) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:04:50,765] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:04:50,766] {logging_mixin.py:109} INFO - [2022-03-27 20:04:50,766] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:04:50,789] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:04:50,798] {logging_mixin.py:109} INFO - [2022-03-27 20:04:50,798] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:04:50,809] {logging_mixin.py:109} INFO - [2022-03-27 20:04:50,809] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:04:50.809297+00:00
+[2022-03-27 20:04:51,076] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.412 seconds
+[2022-03-27 20:06:12,729] {processor.py:163} INFO - Started process (PID=411) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:06:12,731] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:06:12,732] {logging_mixin.py:109} INFO - [2022-03-27 20:06:12,732] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:06:12,754] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:06:12,765] {logging_mixin.py:109} INFO - [2022-03-27 20:06:12,765] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:06:12,780] {logging_mixin.py:109} INFO - [2022-03-27 20:06:12,780] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:06:12.780356+00:00
+[2022-03-27 20:06:12,959] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.233 seconds
+[2022-03-27 20:07:15,796] {processor.py:163} INFO - Started process (PID=457) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:07:15,799] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:07:15,800] {logging_mixin.py:109} INFO - [2022-03-27 20:07:15,800] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:07:15,819] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:07:15,828] {logging_mixin.py:109} INFO - [2022-03-27 20:07:15,828] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:07:15,839] {logging_mixin.py:109} INFO - [2022-03-27 20:07:15,839] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:07:15.839352+00:00
+[2022-03-27 20:07:15,985] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.192 seconds
+[2022-03-27 20:08:11,084] {processor.py:163} INFO - Started process (PID=511) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:08:11,087] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:08:11,088] {logging_mixin.py:109} INFO - [2022-03-27 20:08:11,088] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:08:11,106] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:08:11,115] {logging_mixin.py:109} INFO - [2022-03-27 20:08:11,114] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:08:11,126] {logging_mixin.py:109} INFO - [2022-03-27 20:08:11,126] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:08:11.125992+00:00
+[2022-03-27 20:08:11,334] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.252 seconds
+[2022-03-27 20:09:42,924] {processor.py:163} INFO - Started process (PID=578) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:09:42,927] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:09:42,927] {logging_mixin.py:109} INFO - [2022-03-27 20:09:42,927] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:09:42,946] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:09:42,955] {logging_mixin.py:109} INFO - [2022-03-27 20:09:42,955] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:09:42,967] {logging_mixin.py:109} INFO - [2022-03-27 20:09:42,967] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:09:42.966702+00:00
+[2022-03-27 20:09:43,863] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.942 seconds
+[2022-03-27 20:10:34,870] {processor.py:163} INFO - Started process (PID=624) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:10:34,884] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:10:34,885] {logging_mixin.py:109} INFO - [2022-03-27 20:10:34,884] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:10:34,903] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:10:34,911] {logging_mixin.py:109} INFO - [2022-03-27 20:10:34,911] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:10:34,924] {logging_mixin.py:109} INFO - [2022-03-27 20:10:34,924] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:10:34.923912+00:00
+[2022-03-27 20:10:35,078] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.210 seconds
+[2022-03-27 20:11:23,004] {processor.py:163} INFO - Started process (PID=663) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:11:23,145] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:11:23,146] {logging_mixin.py:109} INFO - [2022-03-27 20:11:23,146] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:11:23,167] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:11:23,179] {logging_mixin.py:109} INFO - [2022-03-27 20:11:23,179] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:11:23,199] {logging_mixin.py:109} INFO - [2022-03-27 20:11:23,199] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:11:23.199542+00:00
+[2022-03-27 20:11:23,530] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.528 seconds
+[2022-03-27 20:12:26,439] {processor.py:163} INFO - Started process (PID=714) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:12:26,683] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:12:26,683] {logging_mixin.py:109} INFO - [2022-03-27 20:12:26,683] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:12:26,887] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:12:26,898] {logging_mixin.py:109} INFO - [2022-03-27 20:12:26,898] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:12:26,912] {logging_mixin.py:109} INFO - [2022-03-27 20:12:26,912] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:12:26.912328+00:00
+[2022-03-27 20:12:27,057] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.620 seconds
+[2022-03-27 20:13:31,551] {processor.py:163} INFO - Started process (PID=768) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:13:31,554] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:13:31,555] {logging_mixin.py:109} INFO - [2022-03-27 20:13:31,555] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:13:31,576] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:13:31,585] {logging_mixin.py:109} INFO - [2022-03-27 20:13:31,584] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:13:31,596] {logging_mixin.py:109} INFO - [2022-03-27 20:13:31,596] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:13:31.595957+00:00
+[2022-03-27 20:13:31,733] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.185 seconds
+[2022-03-27 20:14:28,208] {processor.py:163} INFO - Started process (PID=817) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:14:28,210] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:14:28,211] {logging_mixin.py:109} INFO - [2022-03-27 20:14:28,211] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:14:28,242] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:14:28,251] {logging_mixin.py:109} INFO - [2022-03-27 20:14:28,251] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:14:28,264] {logging_mixin.py:109} INFO - [2022-03-27 20:14:28,264] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:14:28.264477+00:00
+[2022-03-27 20:14:29,320] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.116 seconds
+[2022-03-27 20:15:15,038] {processor.py:163} INFO - Started process (PID=859) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:15:15,049] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:15:15,050] {logging_mixin.py:109} INFO - [2022-03-27 20:15:15,050] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:15:15,068] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:15:15,076] {logging_mixin.py:109} INFO - [2022-03-27 20:15:15,076] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:15:15,088] {logging_mixin.py:109} INFO - [2022-03-27 20:15:15,087] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:15:15.087634+00:00
+[2022-03-27 20:15:15,223] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.189 seconds
+[2022-03-27 20:16:10,577] {processor.py:163} INFO - Started process (PID=907) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:16:10,580] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:16:10,580] {logging_mixin.py:109} INFO - [2022-03-27 20:16:10,580] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:16:10,603] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:16:10,613] {logging_mixin.py:109} INFO - [2022-03-27 20:16:10,613] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:16:10,625] {logging_mixin.py:109} INFO - [2022-03-27 20:16:10,625] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:16:10.624793+00:00
+[2022-03-27 20:16:10,765] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.190 seconds
+[2022-03-27 20:17:15,237] {processor.py:163} INFO - Started process (PID=959) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:17:15,248] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:17:15,248] {logging_mixin.py:109} INFO - [2022-03-27 20:17:15,248] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:17:15,267] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:17:15,277] {logging_mixin.py:109} INFO - [2022-03-27 20:17:15,276] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:17:15,290] {logging_mixin.py:109} INFO - [2022-03-27 20:17:15,290] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:17:15.290112+00:00
+[2022-03-27 20:17:16,037] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.802 seconds
+[2022-03-27 20:18:16,142] {processor.py:163} INFO - Started process (PID=1009) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:18:16,150] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:18:16,151] {logging_mixin.py:109} INFO - [2022-03-27 20:18:16,151] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:18:16,169] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:18:16,178] {logging_mixin.py:109} INFO - [2022-03-27 20:18:16,178] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:18:16,189] {logging_mixin.py:109} INFO - [2022-03-27 20:18:16,189] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:18:16.189461+00:00
+[2022-03-27 20:18:16,346] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.207 seconds
+[2022-03-27 20:19:11,961] {processor.py:163} INFO - Started process (PID=1055) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:19:11,967] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:19:11,968] {logging_mixin.py:109} INFO - [2022-03-27 20:19:11,968] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:19:11,986] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:19:11,995] {logging_mixin.py:109} INFO - [2022-03-27 20:19:11,995] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:19:12,006] {logging_mixin.py:109} INFO - [2022-03-27 20:19:12,006] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:19:12.006157+00:00
+[2022-03-27 20:19:12,148] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.189 seconds
+[2022-03-27 20:20:06,215] {processor.py:163} INFO - Started process (PID=1099) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:20:06,238] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:20:06,238] {logging_mixin.py:109} INFO - [2022-03-27 20:20:06,238] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:20:06,257] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:20:06,265] {logging_mixin.py:109} INFO - [2022-03-27 20:20:06,265] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:20:06,277] {logging_mixin.py:109} INFO - [2022-03-27 20:20:06,277] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:20:06.277021+00:00
+[2022-03-27 20:20:06,481] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.268 seconds
+[2022-03-27 20:20:47,360] {processor.py:163} INFO - Started process (PID=1139) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:20:47,362] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:20:47,363] {logging_mixin.py:109} INFO - [2022-03-27 20:20:47,363] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:20:47,381] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:20:47,389] {logging_mixin.py:109} INFO - [2022-03-27 20:20:47,389] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:20:47,400] {logging_mixin.py:109} INFO - [2022-03-27 20:20:47,400] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:20:47.400487+00:00
+[2022-03-27 20:20:47,560] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.203 seconds
+[2022-03-27 20:21:42,618] {processor.py:163} INFO - Started process (PID=1188) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:21:42,629] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:21:42,630] {logging_mixin.py:109} INFO - [2022-03-27 20:21:42,630] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:21:42,650] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:21:42,660] {logging_mixin.py:109} INFO - [2022-03-27 20:21:42,660] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:21:42,674] {logging_mixin.py:109} INFO - [2022-03-27 20:21:42,673] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:21:42.673626+00:00
+[2022-03-27 20:21:42,816] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.201 seconds
+[2022-03-27 20:23:05,377] {processor.py:163} INFO - Started process (PID=1266) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:23:05,380] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:23:05,381] {logging_mixin.py:109} INFO - [2022-03-27 20:23:05,381] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:23:05,399] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:23:05,408] {logging_mixin.py:109} INFO - [2022-03-27 20:23:05,408] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:23:05,419] {logging_mixin.py:109} INFO - [2022-03-27 20:23:05,419] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:23:05.419299+00:00
+[2022-03-27 20:23:05,567] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.193 seconds
+[2022-03-27 20:23:54,095] {processor.py:163} INFO - Started process (PID=1315) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:23:54,098] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:23:54,099] {logging_mixin.py:109} INFO - [2022-03-27 20:23:54,099] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:23:54,119] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:23:54,127] {logging_mixin.py:109} INFO - [2022-03-27 20:23:54,127] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:23:54,140] {logging_mixin.py:109} INFO - [2022-03-27 20:23:54,140] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:23:54.139969+00:00
+[2022-03-27 20:23:54,278] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.185 seconds
+[2022-03-27 20:24:52,810] {processor.py:163} INFO - Started process (PID=1379) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:24:52,818] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:24:52,818] {logging_mixin.py:109} INFO - [2022-03-27 20:24:52,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:24:52,837] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:24:52,845] {logging_mixin.py:109} INFO - [2022-03-27 20:24:52,845] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:24:52,856] {logging_mixin.py:109} INFO - [2022-03-27 20:24:52,856] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:24:52.856270+00:00
+[2022-03-27 20:24:52,999] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.191 seconds
+[2022-03-27 20:25:54,317] {processor.py:163} INFO - Started process (PID=1433) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:25:54,320] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:25:54,320] {logging_mixin.py:109} INFO - [2022-03-27 20:25:54,320] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:25:54,338] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:25:54,346] {logging_mixin.py:109} INFO - [2022-03-27 20:25:54,346] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:25:54,359] {logging_mixin.py:109} INFO - [2022-03-27 20:25:54,358] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:25:54.358688+00:00
+[2022-03-27 20:25:55,824] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.511 seconds
+[2022-03-27 20:26:55,595] {processor.py:163} INFO - Started process (PID=1491) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:26:55,699] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:26:55,700] {logging_mixin.py:109} INFO - [2022-03-27 20:26:55,700] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:26:55,721] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:26:55,730] {logging_mixin.py:109} INFO - [2022-03-27 20:26:55,730] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:26:55,741] {logging_mixin.py:109} INFO - [2022-03-27 20:26:55,741] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:26:55.741213+00:00
+[2022-03-27 20:26:56,218] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.626 seconds
+[2022-03-27 20:27:58,234] {processor.py:163} INFO - Started process (PID=1537) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:27:58,440] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:27:58,441] {logging_mixin.py:109} INFO - [2022-03-27 20:27:58,440] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:27:58,476] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:27:58,494] {logging_mixin.py:109} INFO - [2022-03-27 20:27:58,494] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:27:58,519] {logging_mixin.py:109} INFO - [2022-03-27 20:27:58,519] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:27:58.519452+00:00
+[2022-03-27 20:28:00,262] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 2.031 seconds
+[2022-03-27 20:29:09,283] {processor.py:163} INFO - Started process (PID=1574) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:29:09,413] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:29:09,414] {logging_mixin.py:109} INFO - [2022-03-27 20:29:09,414] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:29:09,433] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:29:09,441] {logging_mixin.py:109} INFO - [2022-03-27 20:29:09,441] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:29:09,453] {logging_mixin.py:109} INFO - [2022-03-27 20:29:09,453] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:29:09.452841+00:00
+[2022-03-27 20:29:10,749] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.468 seconds
+[2022-03-27 20:48:26,035] {processor.py:163} INFO - Started process (PID=1732) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:48:26,038] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:48:26,039] {logging_mixin.py:109} INFO - [2022-03-27 20:48:26,039] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:48:26,059] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:48:26,068] {logging_mixin.py:109} INFO - [2022-03-27 20:48:26,068] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:48:26,079] {logging_mixin.py:109} INFO - [2022-03-27 20:48:26,079] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:48:26.079444+00:00
+[2022-03-27 20:48:26,227] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.195 seconds
+[2022-03-27 20:50:04,130] {processor.py:163} INFO - Started process (PID=1790) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:50:04,143] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:50:04,143] {logging_mixin.py:109} INFO - [2022-03-27 20:50:04,143] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:50:04,162] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:50:04,171] {logging_mixin.py:109} INFO - [2022-03-27 20:50:04,171] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:50:04,183] {logging_mixin.py:109} INFO - [2022-03-27 20:50:04,183] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:50:04.183141+00:00
+[2022-03-27 20:50:04,730] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.603 seconds
+[2022-03-27 20:51:02,732] {processor.py:163} INFO - Started process (PID=1842) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:51:02,741] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:51:02,741] {logging_mixin.py:109} INFO - [2022-03-27 20:51:02,741] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:51:02,762] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:51:02,771] {logging_mixin.py:109} INFO - [2022-03-27 20:51:02,771] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:51:02,784] {logging_mixin.py:109} INFO - [2022-03-27 20:51:02,784] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:51:02.783753+00:00
+[2022-03-27 20:51:04,656] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.927 seconds
+[2022-03-27 20:51:59,765] {processor.py:163} INFO - Started process (PID=1915) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:51:59,768] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:51:59,768] {logging_mixin.py:109} INFO - [2022-03-27 20:51:59,768] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:51:59,787] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:51:59,796] {logging_mixin.py:109} INFO - [2022-03-27 20:51:59,796] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:51:59,809] {logging_mixin.py:109} INFO - [2022-03-27 20:51:59,809] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:51:59.809115+00:00
+[2022-03-27 20:52:00,106] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.345 seconds
+[2022-03-27 20:53:33,241] {processor.py:163} INFO - Started process (PID=2001) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:53:33,252] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:53:33,253] {logging_mixin.py:109} INFO - [2022-03-27 20:53:33,253] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:53:33,272] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:53:33,282] {logging_mixin.py:109} INFO - [2022-03-27 20:53:33,282] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:53:33,295] {logging_mixin.py:109} INFO - [2022-03-27 20:53:33,295] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:53:33.295538+00:00
+[2022-03-27 20:53:33,453] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.214 seconds
+[2022-03-27 20:54:57,607] {processor.py:163} INFO - Started process (PID=2104) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:54:57,618] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:54:57,619] {logging_mixin.py:109} INFO - [2022-03-27 20:54:57,619] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:54:57,640] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:54:57,648] {logging_mixin.py:109} INFO - [2022-03-27 20:54:57,648] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:54:57,661] {logging_mixin.py:109} INFO - [2022-03-27 20:54:57,660] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:54:57.660657+00:00
+[2022-03-27 20:54:57,796] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.192 seconds
+[2022-03-27 20:55:48,185] {processor.py:163} INFO - Started process (PID=2166) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:55:48,192] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:55:48,193] {logging_mixin.py:109} INFO - [2022-03-27 20:55:48,192] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:55:48,213] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:55:48,221] {logging_mixin.py:109} INFO - [2022-03-27 20:55:48,221] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:55:48,233] {logging_mixin.py:109} INFO - [2022-03-27 20:55:48,233] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:55:48.232773+00:00
+[2022-03-27 20:55:48,372] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.189 seconds
+[2022-03-27 20:56:59,141] {processor.py:163} INFO - Started process (PID=2228) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:56:59,151] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:56:59,152] {logging_mixin.py:109} INFO - [2022-03-27 20:56:59,152] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:56:59,176] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:56:59,184] {logging_mixin.py:109} INFO - [2022-03-27 20:56:59,184] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:56:59,196] {logging_mixin.py:109} INFO - [2022-03-27 20:56:59,195] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:56:59.195685+00:00
+[2022-03-27 20:56:59,341] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.203 seconds
+[2022-03-27 20:57:57,932] {processor.py:163} INFO - Started process (PID=2290) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:57:57,965] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:57:57,965] {logging_mixin.py:109} INFO - [2022-03-27 20:57:57,965] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:57:57,986] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:57:57,995] {logging_mixin.py:109} INFO - [2022-03-27 20:57:57,995] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:57:58,009] {logging_mixin.py:109} INFO - [2022-03-27 20:57:58,009] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:57:58.008950+00:00
+[2022-03-27 20:57:58,145] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.215 seconds
+[2022-03-27 20:58:58,347] {processor.py:163} INFO - Started process (PID=2340) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:58:58,350] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-27 20:58:58,351] {logging_mixin.py:109} INFO - [2022-03-27 20:58:58,351] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:58:58,373] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-27 20:58:58,382] {logging_mixin.py:109} INFO - [2022-03-27 20:58:58,382] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:58:58,394] {logging_mixin.py:109} INFO - [2022-03-27 20:58:58,394] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-27T21:58:58.394106+00:00
+[2022-03-27 20:58:58,778] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.433 seconds
+[2022-03-28 05:38:06,428] {processor.py:163} INFO - Started process (PID=362) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-28 05:38:06,495] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-03-28 05:38:06,495] {logging_mixin.py:109} INFO - [2022-03-28 05:38:06,495] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-28 05:38:06,522] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-03-28 05:38:06,530] {logging_mixin.py:109} INFO - [2022-03-28 05:38:06,530] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-28 05:38:06,542] {logging_mixin.py:109} INFO - [2022-03-28 05:38:06,542] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2022-03-28T06:38:06.542089+00:00
+[2022-03-28 05:38:07,182] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.756 seconds

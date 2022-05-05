@@ -1,0 +1,99 @@
+[2022-04-03 22:28:52,766] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator_univ_flores.dataframe_task manual__2022-04-04T03:28:27.408976+00:00 [queued]>
+[2022-04-03 22:28:52,774] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator_univ_flores.dataframe_task manual__2022-04-04T03:28:27.408976+00:00 [queued]>
+[2022-04-03 22:28:52,774] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 22:28:52,774] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-03 22:28:52,774] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 22:28:52,911] {taskinstance.py:1264} INFO - Executing <Task(_PythonDecoratedOperator): dataframe_task> on 2022-04-04 03:28:27.408976+00:00
+[2022-04-03 22:28:52,913] {standard_task_runner.py:52} INFO - Started process 3017 to run task
+[2022-04-03 22:28:52,917] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator_univ_flores', 'dataframe_task', 'manual__2022-04-04T03:28:27.408976+00:00', '--job-id', '327', '--raw', '--subdir', 'DAGS_FOLDER/ET_Univ_De_Flores_dag.py', '--cfg-path', '/tmp/tmpzxn5qe08', '--error-file', '/tmp/tmpxtmqtyde']
+[2022-04-03 22:28:52,917] {standard_task_runner.py:77} INFO - Job 327: Subtask dataframe_task
+[2022-04-03 22:28:53,084] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator_univ_flores.dataframe_task manual__2022-04-04T03:28:27.408976+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-03 22:28:53,429] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator_univ_flores
+AIRFLOW_CTX_TASK_ID=dataframe_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-04T03:28:27.408976+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-04T03:28:27.408976+00:00
+[2022-04-03 22:28:53,729] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 90, in dataframe_task
+    process_dataframe()
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 65, in process_dataframe
+    df['age'] = df['age'].apply(get_age)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/series.py", line 4433, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/apply.py", line 1082, in apply
+    return self.apply_standard()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/apply.py", line 1137, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas/_libs/lib.pyx", line 2870, in pandas._libs.lib.map_infer
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 64, in <lambda>
+    get_age = lambda x: (today - datetime.strptime(x, '%d-%b-%y')).days // 365
+  File "/usr/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '1922-03-18' does not match format '%d-%b-%y'
+[2022-04-03 22:28:54,039] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=python_operator_univ_flores, task_id=dataframe_task, execution_date=20220404T032827, start_date=20220404T032852, end_date=20220404T032854
+[2022-04-03 22:28:54,193] {standard_task_runner.py:89} ERROR - Failed to execute job 327 for task dataframe_task
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 90, in dataframe_task
+    process_dataframe()
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 65, in process_dataframe
+    df['age'] = df['age'].apply(get_age)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/series.py", line 4433, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/apply.py", line 1082, in apply
+    return self.apply_standard()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/apply.py", line 1137, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas/_libs/lib.pyx", line 2870, in pandas._libs.lib.map_infer
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 64, in <lambda>
+    get_age = lambda x: (today - datetime.strptime(x, '%d-%b-%y')).days // 365
+  File "/usr/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '1922-03-18' does not match format '%d-%b-%y'
+[2022-04-03 22:28:54,216] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-03 22:28:54,433] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,318 @@
+[2022-04-04 16:39:08,391] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_uni_villa_maria.upload_to_s3 manual__2022-04-04T21:38:46.286453+00:00 [queued]>
+[2022-04-04 16:39:08,423] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_uni_villa_maria.upload_to_s3 manual__2022-04-04T21:38:46.286453+00:00 [queued]>
+[2022-04-04 16:39:08,423] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 16:39:08,423] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-04 16:39:08,423] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 16:39:09,418] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): upload_to_s3> on 2022-04-04 21:38:46.286453+00:00
+[2022-04-04 16:39:09,421] {standard_task_runner.py:52} INFO - Started process 7356 to run task
+[2022-04-04 16:39:09,424] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 's3_uni_villa_maria', 'upload_to_s3', 'manual__2022-04-04T21:38:46.286453+00:00', '--job-id', '361', '--raw', '--subdir', 'DAGS_FOLDER/dag_s3_universidad_villa_maria.py', '--cfg-path', '/tmp/tmptxbawv42', '--error-file', '/tmp/tmpubk5ksa2']
+[2022-04-04 16:39:09,425] {standard_task_runner.py:77} INFO - Job 361: Subtask upload_to_s3
+[2022-04-04 16:39:13,355] {logging_mixin.py:109} INFO - Running <TaskInstance: s3_uni_villa_maria.upload_to_s3 manual__2022-04-04T21:38:46.286453+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-04 16:39:16,555] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=s3_uni_villa_maria
+AIRFLOW_CTX_TASK_ID=upload_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-04T21:38:46.286453+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-04T21:38:46.286453+00:00
+[2022-04-04 16:39:16,561] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-04-04 16:39:17,092] {logging_mixin.py:109} INFO - /home/lowenhard/airflow/files/ET_Univ_Villa_Maria.txt ET_Univ_Villa_Maria.txt cohorte-marzo-77238c6a
+[2022-04-04 16:39:17,092] {logging_mixin.py:109} INFO - Created Connection
+[2022-04-04 16:39:22,110] {connection.py:404} ERROR - Unable to retrieve connection from secrets backend (MetastoreBackend). Checking subsequent secrets backend.
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/connection.py", line 400, in get_connection_from_secrets
+    conn = secrets_backend.get_connection(conn_id=conn_id)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/secrets/metastore.py", line 36, in get_connection
+    conn = session.query(Connection).filter(Connection.conn_id == conn_id).first()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT connection.password AS connection_password, connection.extra AS connection_extra, connection.id AS connection_id, connection.conn_id AS connection_conn_id, connection.conn_type AS connection_conn_type, connection.description AS connection_description, connection.host AS connection_host, connection.schema AS connection_schema, connection.login AS connection_login, connection.port AS connection_port, connection.is_encrypted AS connection_is_encrypted, connection.is_extra_encrypted AS connection_is_extra_encrypted 
+FROM connection 
+WHERE connection.conn_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('s3-connection', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-04-04 16:39:22,884] {base_aws.py:447} WARNING - Unable to use Airflow Connection for credentials.
+[2022-04-04 16:39:22,897] {logging_mixin.py:109} INFO - Session(region_name=None)
+[2022-04-04 16:39:22,898] {logging_mixin.py:109} INFO - False
+[2022-04-04 16:39:22,898] {dag_s3_universidad_villa_maria.py:30} INFO - Checking s3 connection: False
+[2022-04-04 16:39:22,899] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-04 16:39:24,661] {base_job.py:231} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/jobs/base_job.py", line 203, in heartbeat
+    session.merge(self)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2166, in merge
+    return self._merge(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2244, in _merge
+    merged = self.query(mapper.class_).get(key[1])
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 1018, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 1135, in _get_impl
+    return db_load_fn(self, primary_key_identity)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/loading.py", line 286, in load_on_pk_identity
+    return q.one()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT job.id AS job_id, job.dag_id AS job_dag_id, job.state AS job_state, job.job_type AS job_job_type, job.start_date AS job_start_date, job.end_date AS job_end_date, job.latest_heartbeat AS job_latest_heartbeat, job.executor_class AS job_executor_class, job.hostname AS job_hostname, job.unixname AS job_unixname 
+FROM job 
+WHERE job.id = ? AND job.job_type IN (?)]
+[parameters: (361, 'LocalTaskJob')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-04-04 16:39:28,342] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1336, in _run_raw_task
+    self.refresh_from_db(lock_for_update=True, session=session)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 728, in refresh_from_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 730, in refresh_from_db
+    ti: Optional[TaskInstance] = qry.with_for_update().first()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT task_instance.try_number AS task_instance_try_number, task_instance.task_id AS task_instance_task_id, task_instance.dag_id AS task_instance_dag_id, task_instance.run_id AS task_instance_run_id, task_instance.start_date AS task_instance_start_date, task_instance.end_date AS task_instance_end_date, task_instance.duration AS task_instance_duration, task_instance.state AS task_instance_state, task_instance.max_tries AS task_instance_max_tries, task_instance.hostname AS task_instance_hostname, task_instance.unixname AS task_instance_unixname, task_instance.job_id AS task_instance_job_id, task_instance.pool AS task_instance_pool, task_instance.pool_slots AS task_instance_pool_slots, task_instance.queue AS task_instance_queue, task_instance.priority_weight AS task_instance_priority_weight, task_instance.operator AS task_instance_operator, task_instance.queued_dttm AS task_instance_queued_dttm, task_instance.queued_by_job_id AS task_instance_queued_by_job_id, task_instance.pid AS task_instance_pid, task_instance.executor_config AS task_instance_executor_config, task_instance.external_executor_id AS task_instance_external_executor_id, task_instance.trigger_id AS task_instance_trigger_id, task_instance.trigger_timeout AS task_instance_trigger_timeout, task_instance.next_method AS task_instance_next_method, task_instance.next_kwargs AS task_instance_next_kwargs, dag_run_1.state AS dag_run_1_state, dag_run_1.id AS dag_run_1_id, dag_run_1.dag_id AS dag_run_1_dag_id, dag_run_1.queued_at AS dag_run_1_queued_at, dag_run_1.execution_date AS dag_run_1_execution_date, dag_run_1.start_date AS dag_run_1_start_date, dag_run_1.end_date AS dag_run_1_end_date, dag_run_1.run_id AS dag_run_1_run_id, dag_run_1.creating_job_id AS dag_run_1_creating_job_id, dag_run_1.external_trigger AS dag_run_1_external_trigger, dag_run_1.run_type AS dag_run_1_run_type, dag_run_1.conf AS dag_run_1_conf, dag_run_1.data_interval_start AS dag_run_1_data_interval_start, dag_run_1.data_interval_end AS dag_run_1_data_interval_end, dag_run_1.last_scheduling_decision AS dag_run_1_last_scheduling_decision, dag_run_1.dag_hash AS dag_run_1_dag_hash 
+FROM task_instance JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id 
+WHERE task_instance.dag_id = ? AND task_instance.task_id = ? AND task_instance.run_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('s3_uni_villa_maria', 'upload_to_s3', 'manual__2022-04-04T21:38:46.286453+00:00', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-04-04 16:39:29,248] {standard_task_runner.py:89} ERROR - Failed to execute job 361 for task upload_to_s3
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1336, in _run_raw_task
+    self.refresh_from_db(lock_for_update=True, session=session)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 728, in refresh_from_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 730, in refresh_from_db
+    ti: Optional[TaskInstance] = qry.with_for_update().first()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT task_instance.try_number AS task_instance_try_number, task_instance.task_id AS task_instance_task_id, task_instance.dag_id AS task_instance_dag_id, task_instance.run_id AS task_instance_run_id, task_instance.start_date AS task_instance_start_date, task_instance.end_date AS task_instance_end_date, task_instance.duration AS task_instance_duration, task_instance.state AS task_instance_state, task_instance.max_tries AS task_instance_max_tries, task_instance.hostname AS task_instance_hostname, task_instance.unixname AS task_instance_unixname, task_instance.job_id AS task_instance_job_id, task_instance.pool AS task_instance_pool, task_instance.pool_slots AS task_instance_pool_slots, task_instance.queue AS task_instance_queue, task_instance.priority_weight AS task_instance_priority_weight, task_instance.operator AS task_instance_operator, task_instance.queued_dttm AS task_instance_queued_dttm, task_instance.queued_by_job_id AS task_instance_queued_by_job_id, task_instance.pid AS task_instance_pid, task_instance.executor_config AS task_instance_executor_config, task_instance.external_executor_id AS task_instance_external_executor_id, task_instance.trigger_id AS task_instance_trigger_id, task_instance.trigger_timeout AS task_instance_trigger_timeout, task_instance.next_method AS task_instance_next_method, task_instance.next_kwargs AS task_instance_next_kwargs, dag_run_1.state AS dag_run_1_state, dag_run_1.id AS dag_run_1_id, dag_run_1.dag_id AS dag_run_1_dag_id, dag_run_1.queued_at AS dag_run_1_queued_at, dag_run_1.execution_date AS dag_run_1_execution_date, dag_run_1.start_date AS dag_run_1_start_date, dag_run_1.end_date AS dag_run_1_end_date, dag_run_1.run_id AS dag_run_1_run_id, dag_run_1.creating_job_id AS dag_run_1_creating_job_id, dag_run_1.external_trigger AS dag_run_1_external_trigger, dag_run_1.run_type AS dag_run_1_run_type, dag_run_1.conf AS dag_run_1_conf, dag_run_1.data_interval_start AS dag_run_1_data_interval_start, dag_run_1.data_interval_end AS dag_run_1_data_interval_end, dag_run_1.last_scheduling_decision AS dag_run_1_last_scheduling_decision, dag_run_1.dag_hash AS dag_run_1_dag_hash 
+FROM task_instance JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id 
+WHERE task_instance.dag_id = ? AND task_instance.task_id = ? AND task_instance.run_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('s3_uni_villa_maria', 'upload_to_s3', 'manual__2022-04-04T21:38:46.286453+00:00', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1391, in _run_raw_task
+    self.handle_failure(e, test_mode, error_file=error_file, session=session)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1726, in handle_failure
+    self.refresh_from_db(session)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 732, in refresh_from_db
+    ti = qry.first()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT task_instance.try_number AS task_instance_try_number, task_instance.task_id AS task_instance_task_id, task_instance.dag_id AS task_instance_dag_id, task_instance.run_id AS task_instance_run_id, task_instance.start_date AS task_instance_start_date, task_instance.end_date AS task_instance_end_date, task_instance.duration AS task_instance_duration, task_instance.state AS task_instance_state, task_instance.max_tries AS task_instance_max_tries, task_instance.hostname AS task_instance_hostname, task_instance.unixname AS task_instance_unixname, task_instance.job_id AS task_instance_job_id, task_instance.pool AS task_instance_pool, task_instance.pool_slots AS task_instance_pool_slots, task_instance.queue AS task_instance_queue, task_instance.priority_weight AS task_instance_priority_weight, task_instance.operator AS task_instance_operator, task_instance.queued_dttm AS task_instance_queued_dttm, task_instance.queued_by_job_id AS task_instance_queued_by_job_id, task_instance.pid AS task_instance_pid, task_instance.executor_config AS task_instance_executor_config, task_instance.external_executor_id AS task_instance_external_executor_id, task_instance.trigger_id AS task_instance_trigger_id, task_instance.trigger_timeout AS task_instance_trigger_timeout, task_instance.next_method AS task_instance_next_method, task_instance.next_kwargs AS task_instance_next_kwargs, dag_run_1.state AS dag_run_1_state, dag_run_1.id AS dag_run_1_id, dag_run_1.dag_id AS dag_run_1_dag_id, dag_run_1.queued_at AS dag_run_1_queued_at, dag_run_1.execution_date AS dag_run_1_execution_date, dag_run_1.start_date AS dag_run_1_start_date, dag_run_1.end_date AS dag_run_1_end_date, dag_run_1.run_id AS dag_run_1_run_id, dag_run_1.creating_job_id AS dag_run_1_creating_job_id, dag_run_1.external_trigger AS dag_run_1_external_trigger, dag_run_1.run_type AS dag_run_1_run_type, dag_run_1.conf AS dag_run_1_conf, dag_run_1.data_interval_start AS dag_run_1_data_interval_start, dag_run_1.data_interval_end AS dag_run_1_data_interval_end, dag_run_1.last_scheduling_decision AS dag_run_1_last_scheduling_decision, dag_run_1.dag_hash AS dag_run_1_dag_hash 
+FROM task_instance JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id 
+WHERE task_instance.dag_id = ? AND task_instance.task_id = ? AND task_instance.run_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('s3_uni_villa_maria', 'upload_to_s3', 'manual__2022-04-04T21:38:46.286453+00:00', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-04-04 16:39:29,277] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-04 16:39:29,627] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=s3_uni_villa_maria, task_id=upload_to_s3, execution_date=20220404T213846, start_date=20220404T213908, end_date=20220404T213929
+[2022-04-04 16:39:30,192] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,29 @@
+[2022-04-04 16:43:36,251] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_uni_villa_maria.upload_to_s3 manual__2022-04-04T21:40:47.368523+00:00 [queued]>
+[2022-04-04 16:43:36,343] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_uni_villa_maria.upload_to_s3 manual__2022-04-04T21:40:47.368523+00:00 [queued]>
+[2022-04-04 16:43:36,344] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 16:43:36,344] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-04 16:43:36,344] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-04 16:43:37,004] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): upload_to_s3> on 2022-04-04 21:40:47.368523+00:00
+[2022-04-04 16:43:37,008] {standard_task_runner.py:52} INFO - Started process 7402 to run task
+[2022-04-04 16:43:37,024] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 's3_uni_villa_maria', 'upload_to_s3', 'manual__2022-04-04T21:40:47.368523+00:00', '--job-id', '364', '--raw', '--subdir', 'DAGS_FOLDER/dag_s3_universidad_villa_maria.py', '--cfg-path', '/tmp/tmplvddqlzp', '--error-file', '/tmp/tmpbydd9ml8']
+[2022-04-04 16:43:37,025] {standard_task_runner.py:77} INFO - Job 364: Subtask upload_to_s3
+[2022-04-04 16:43:37,329] {logging_mixin.py:109} INFO - Running <TaskInstance: s3_uni_villa_maria.upload_to_s3 manual__2022-04-04T21:40:47.368523+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-04 16:43:37,813] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=s3_uni_villa_maria
+AIRFLOW_CTX_TASK_ID=upload_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-04T21:40:47.368523+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-04T21:40:47.368523+00:00
+[2022-04-04 16:43:37,832] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-04-04 16:43:38,529] {logging_mixin.py:109} INFO - /home/lowenhard/airflow/files/ET_Univ_Villa_Maria.txt ET_Univ_Villa_Maria.txt cohorte-marzo-77238c6a
+[2022-04-04 16:43:38,529] {logging_mixin.py:109} INFO - Created Connection
+[2022-04-04 16:43:38,548] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-04-04 16:43:38,588] {logging_mixin.py:109} INFO - Session(region_name=None)
+[2022-04-04 16:43:38,589] {logging_mixin.py:109} INFO - False
+[2022-04-04 16:43:38,589] {dag_s3_universidad_villa_maria.py:30} INFO - Checking s3 connection: False
+[2022-04-04 16:43:38,591] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-04 16:43:38,612] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=s3_uni_villa_maria, task_id=upload_to_s3, execution_date=20220404T214047, start_date=20220404T214336, end_date=20220404T214338
+[2022-04-04 16:43:38,834] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-04 16:43:38,879] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

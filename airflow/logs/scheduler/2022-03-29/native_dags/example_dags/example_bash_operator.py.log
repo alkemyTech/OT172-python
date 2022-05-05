@@ -1,0 +1,385 @@
+[2022-03-29 00:13:18,576] {processor.py:163} INFO - Started process (PID=245) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 00:13:18,576] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 00:13:18,577] {logging_mixin.py:109} INFO - [2022-03-29 00:13:18,577] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 00:13:18,599] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 00:13:18,608] {logging_mixin.py:109} INFO - [2022-03-29 00:13:18,608] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:13:18,622] {logging_mixin.py:109} INFO - [2022-03-29 00:13:18,621] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 00:13:18,904] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.331 seconds
+[2022-03-29 00:15:03,897] {processor.py:163} INFO - Started process (PID=323) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 00:15:05,547] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 00:15:05,548] {logging_mixin.py:109} INFO - [2022-03-29 00:15:05,547] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 00:15:05,570] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 00:15:05,579] {logging_mixin.py:109} INFO - [2022-03-29 00:15:05,579] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:15:05,592] {logging_mixin.py:109} INFO - [2022-03-29 00:15:05,592] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 00:15:05,754] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.860 seconds
+[2022-03-29 09:35:52,206] {processor.py:163} INFO - Started process (PID=668) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:35:52,209] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:35:52,210] {logging_mixin.py:109} INFO - [2022-03-29 09:35:52,210] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:35:52,233] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:35:52,242] {logging_mixin.py:109} INFO - [2022-03-29 09:35:52,241] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:35:52,256] {logging_mixin.py:109} INFO - [2022-03-29 09:35:52,256] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:35:52,992] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.789 seconds
+[2022-03-29 09:37:36,324] {processor.py:163} INFO - Started process (PID=814) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:37:36,336] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:37:36,336] {logging_mixin.py:109} INFO - [2022-03-29 09:37:36,336] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:37:36,358] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:37:36,368] {logging_mixin.py:109} INFO - [2022-03-29 09:37:36,367] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:37:36,381] {logging_mixin.py:109} INFO - [2022-03-29 09:37:36,381] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:37:38,041] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.719 seconds
+[2022-03-29 09:39:29,584] {processor.py:163} INFO - Started process (PID=911) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:39:29,610] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:39:29,611] {logging_mixin.py:109} INFO - [2022-03-29 09:39:29,611] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:39:29,646] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:39:29,658] {logging_mixin.py:109} INFO - [2022-03-29 09:39:29,657] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:39:29,675] {logging_mixin.py:109} INFO - [2022-03-29 09:39:29,675] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:39:29,903] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.321 seconds
+[2022-03-29 09:41:29,420] {processor.py:163} INFO - Started process (PID=999) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:41:29,423] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:41:29,424] {logging_mixin.py:109} INFO - [2022-03-29 09:41:29,424] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:41:29,445] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:41:29,454] {logging_mixin.py:109} INFO - [2022-03-29 09:41:29,454] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:41:29,467] {logging_mixin.py:109} INFO - [2022-03-29 09:41:29,467] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:41:29,670] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.253 seconds
+[2022-03-29 09:43:22,784] {processor.py:163} INFO - Started process (PID=1083) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:43:22,808] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:43:22,809] {logging_mixin.py:109} INFO - [2022-03-29 09:43:22,809] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:43:22,839] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:43:22,851] {logging_mixin.py:109} INFO - [2022-03-29 09:43:22,851] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:43:22,868] {logging_mixin.py:109} INFO - [2022-03-29 09:43:22,867] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:43:23,187] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.405 seconds
+[2022-03-29 09:45:07,934] {processor.py:163} INFO - Started process (PID=1169) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:45:07,938] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:45:07,939] {logging_mixin.py:109} INFO - [2022-03-29 09:45:07,939] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:45:07,966] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:45:07,975] {logging_mixin.py:109} INFO - [2022-03-29 09:45:07,975] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:45:07,989] {logging_mixin.py:109} INFO - [2022-03-29 09:45:07,989] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:45:08,208] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.277 seconds
+[2022-03-29 09:46:16,830] {processor.py:163} INFO - Started process (PID=1237) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:46:16,834] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:46:16,835] {logging_mixin.py:109} INFO - [2022-03-29 09:46:16,835] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:46:16,991] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:46:17,000] {logging_mixin.py:109} INFO - [2022-03-29 09:46:17,000] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:46:17,013] {logging_mixin.py:109} INFO - [2022-03-29 09:46:17,013] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:46:17,155] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.327 seconds
+[2022-03-29 09:47:54,541] {processor.py:163} INFO - Started process (PID=1318) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:47:54,740] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:47:54,741] {logging_mixin.py:109} INFO - [2022-03-29 09:47:54,741] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:47:54,763] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:47:54,773] {logging_mixin.py:109} INFO - [2022-03-29 09:47:54,773] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:47:54,786] {logging_mixin.py:109} INFO - [2022-03-29 09:47:54,786] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:47:55,002] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.463 seconds
+[2022-03-29 09:49:05,813] {processor.py:163} INFO - Started process (PID=1374) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:49:06,461] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:49:06,461] {logging_mixin.py:109} INFO - [2022-03-29 09:49:06,461] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:49:06,486] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:49:06,495] {logging_mixin.py:109} INFO - [2022-03-29 09:49:06,495] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:49:06,509] {logging_mixin.py:109} INFO - [2022-03-29 09:49:06,509] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:49:06,716] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.906 seconds
+[2022-03-29 09:50:39,959] {processor.py:163} INFO - Started process (PID=1453) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:50:39,962] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:50:39,962] {logging_mixin.py:109} INFO - [2022-03-29 09:50:39,962] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:50:39,984] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:50:39,994] {logging_mixin.py:109} INFO - [2022-03-29 09:50:39,994] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:50:40,007] {logging_mixin.py:109} INFO - [2022-03-29 09:50:40,007] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:50:40,238] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.281 seconds
+[2022-03-29 09:51:51,490] {processor.py:163} INFO - Started process (PID=1532) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:51:51,561] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:51:51,561] {logging_mixin.py:109} INFO - [2022-03-29 09:51:51,561] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:51:51,772] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:51:51,781] {logging_mixin.py:109} INFO - [2022-03-29 09:51:51,781] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:51:51,798] {logging_mixin.py:109} INFO - [2022-03-29 09:51:51,798] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:51:51,996] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.509 seconds
+[2022-03-29 09:53:06,805] {processor.py:163} INFO - Started process (PID=1610) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:53:06,867] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:53:06,867] {logging_mixin.py:109} INFO - [2022-03-29 09:53:06,867] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:53:06,890] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:53:06,899] {logging_mixin.py:109} INFO - [2022-03-29 09:53:06,899] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:53:06,912] {logging_mixin.py:109} INFO - [2022-03-29 09:53:06,912] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:53:07,850] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.047 seconds
+[2022-03-29 09:54:16,209] {processor.py:163} INFO - Started process (PID=1672) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:54:16,230] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:54:16,231] {logging_mixin.py:109} INFO - [2022-03-29 09:54:16,231] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:54:16,262] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:54:16,274] {logging_mixin.py:109} INFO - [2022-03-29 09:54:16,273] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:54:16,291] {logging_mixin.py:109} INFO - [2022-03-29 09:54:16,291] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:54:17,010] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.803 seconds
+[2022-03-29 09:55:34,312] {processor.py:163} INFO - Started process (PID=1749) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:55:34,319] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:55:34,319] {logging_mixin.py:109} INFO - [2022-03-29 09:55:34,319] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:55:34,345] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:55:34,356] {logging_mixin.py:109} INFO - [2022-03-29 09:55:34,356] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:55:34,370] {logging_mixin.py:109} INFO - [2022-03-29 09:55:34,370] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:55:34,580] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.270 seconds
+[2022-03-29 09:56:52,226] {processor.py:163} INFO - Started process (PID=1820) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:56:52,260] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:56:52,260] {logging_mixin.py:109} INFO - [2022-03-29 09:56:52,260] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:56:52,286] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:56:52,295] {logging_mixin.py:109} INFO - [2022-03-29 09:56:52,295] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:56:52,309] {logging_mixin.py:109} INFO - [2022-03-29 09:56:52,309] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:56:52,450] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.225 seconds
+[2022-03-29 09:58:14,365] {processor.py:163} INFO - Started process (PID=1907) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:58:14,424] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:58:14,425] {logging_mixin.py:109} INFO - [2022-03-29 09:58:14,425] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:58:14,447] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:58:14,457] {logging_mixin.py:109} INFO - [2022-03-29 09:58:14,457] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:58:14,470] {logging_mixin.py:109} INFO - [2022-03-29 09:58:14,470] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:58:14,762] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.399 seconds
+[2022-03-29 09:59:49,252] {processor.py:163} INFO - Started process (PID=1984) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:59:49,263] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 09:59:49,263] {logging_mixin.py:109} INFO - [2022-03-29 09:59:49,263] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:59:49,299] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 09:59:49,310] {logging_mixin.py:109} INFO - [2022-03-29 09:59:49,310] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:59:49,326] {logging_mixin.py:109} INFO - [2022-03-29 09:59:49,326] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:59:49,521] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.274 seconds
+[2022-03-29 10:01:33,781] {processor.py:163} INFO - Started process (PID=2066) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:01:35,814] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:01:35,843] {logging_mixin.py:109} INFO - [2022-03-29 10:01:35,843] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:01:36,097] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:01:36,107] {logging_mixin.py:109} INFO - [2022-03-29 10:01:36,106] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:01:36,119] {logging_mixin.py:109} INFO - [2022-03-29 10:01:36,119] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:01:36,262] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 2.483 seconds
+[2022-03-29 10:03:15,185] {processor.py:163} INFO - Started process (PID=2152) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:03:15,188] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:03:15,189] {logging_mixin.py:109} INFO - [2022-03-29 10:03:15,189] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:03:15,214] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:03:15,223] {logging_mixin.py:109} INFO - [2022-03-29 10:03:15,223] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:03:15,236] {logging_mixin.py:109} INFO - [2022-03-29 10:03:15,236] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:03:15,367] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.185 seconds
+[2022-03-29 10:05:21,386] {processor.py:163} INFO - Started process (PID=2257) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:05:21,473] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:05:21,474] {logging_mixin.py:109} INFO - [2022-03-29 10:05:21,474] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:05:21,507] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:05:21,518] {logging_mixin.py:109} INFO - [2022-03-29 10:05:21,518] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:05:21,533] {logging_mixin.py:109} INFO - [2022-03-29 10:05:21,533] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:05:22,931] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.548 seconds
+[2022-03-29 10:06:35,849] {processor.py:163} INFO - Started process (PID=2336) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:06:35,852] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:06:35,853] {logging_mixin.py:109} INFO - [2022-03-29 10:06:35,853] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:06:35,875] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:06:35,884] {logging_mixin.py:109} INFO - [2022-03-29 10:06:35,884] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:06:35,897] {logging_mixin.py:109} INFO - [2022-03-29 10:06:35,897] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:06:36,046] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.199 seconds
+[2022-03-29 10:07:50,762] {processor.py:163} INFO - Started process (PID=2406) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:07:50,765] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:07:50,765] {logging_mixin.py:109} INFO - [2022-03-29 10:07:50,765] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:07:50,790] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:07:50,798] {logging_mixin.py:109} INFO - [2022-03-29 10:07:50,798] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:07:50,812] {logging_mixin.py:109} INFO - [2022-03-29 10:07:50,812] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:07:50,946] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.187 seconds
+[2022-03-29 10:08:54,588] {processor.py:163} INFO - Started process (PID=2466) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:08:54,601] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:08:54,602] {logging_mixin.py:109} INFO - [2022-03-29 10:08:54,602] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:08:54,857] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:08:54,866] {logging_mixin.py:109} INFO - [2022-03-29 10:08:54,866] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:08:54,879] {logging_mixin.py:109} INFO - [2022-03-29 10:08:54,879] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:08:55,015] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.429 seconds
+[2022-03-29 10:09:57,969] {processor.py:163} INFO - Started process (PID=2527) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:09:58,059] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:09:58,060] {logging_mixin.py:109} INFO - [2022-03-29 10:09:58,060] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:09:58,089] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:09:58,099] {logging_mixin.py:109} INFO - [2022-03-29 10:09:58,099] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:09:58,114] {logging_mixin.py:109} INFO - [2022-03-29 10:09:58,114] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:09:58,332] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.365 seconds
+[2022-03-29 10:11:08,732] {processor.py:163} INFO - Started process (PID=2585) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:11:08,735] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:11:08,736] {logging_mixin.py:109} INFO - [2022-03-29 10:11:08,735] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:11:09,410] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:11:09,420] {logging_mixin.py:109} INFO - [2022-03-29 10:11:09,420] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:11:09,433] {logging_mixin.py:109} INFO - [2022-03-29 10:11:09,433] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:11:09,686] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.959 seconds
+[2022-03-29 10:13:03,868] {processor.py:163} INFO - Started process (PID=2689) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:13:03,912] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:13:03,912] {logging_mixin.py:109} INFO - [2022-03-29 10:13:03,912] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:13:03,935] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:13:03,944] {logging_mixin.py:109} INFO - [2022-03-29 10:13:03,944] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:13:03,958] {logging_mixin.py:109} INFO - [2022-03-29 10:13:03,958] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:13:04,093] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.228 seconds
+[2022-03-29 10:14:16,670] {processor.py:163} INFO - Started process (PID=2754) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:14:16,697] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:14:16,698] {logging_mixin.py:109} INFO - [2022-03-29 10:14:16,698] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:14:16,723] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:14:16,736] {logging_mixin.py:109} INFO - [2022-03-29 10:14:16,736] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:14:16,752] {logging_mixin.py:109} INFO - [2022-03-29 10:14:16,752] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:14:16,926] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.259 seconds
+[2022-03-29 10:15:53,512] {processor.py:163} INFO - Started process (PID=2843) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:15:54,052] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:15:54,052] {logging_mixin.py:109} INFO - [2022-03-29 10:15:54,052] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:15:54,256] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:15:54,266] {logging_mixin.py:109} INFO - [2022-03-29 10:15:54,265] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:15:54,281] {logging_mixin.py:109} INFO - [2022-03-29 10:15:54,281] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:15:54,455] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.945 seconds
+[2022-03-29 10:17:30,344] {processor.py:163} INFO - Started process (PID=2932) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:17:30,353] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:17:30,353] {logging_mixin.py:109} INFO - [2022-03-29 10:17:30,353] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:17:30,377] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:17:30,394] {logging_mixin.py:109} INFO - [2022-03-29 10:17:30,394] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:17:30,418] {logging_mixin.py:109} INFO - [2022-03-29 10:17:30,418] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:17:32,136] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.793 seconds
+[2022-03-29 10:19:18,940] {processor.py:163} INFO - Started process (PID=3034) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:19:18,943] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:19:18,943] {logging_mixin.py:109} INFO - [2022-03-29 10:19:18,943] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:19:18,964] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:19:18,973] {logging_mixin.py:109} INFO - [2022-03-29 10:19:18,973] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:19:18,986] {logging_mixin.py:109} INFO - [2022-03-29 10:19:18,986] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:19:19,128] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.190 seconds
+[2022-03-29 10:21:03,516] {processor.py:163} INFO - Started process (PID=3134) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:21:03,519] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:21:03,520] {logging_mixin.py:109} INFO - [2022-03-29 10:21:03,520] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:21:03,544] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:21:03,553] {logging_mixin.py:109} INFO - [2022-03-29 10:21:03,553] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:21:03,567] {logging_mixin.py:109} INFO - [2022-03-29 10:21:03,567] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:21:04,648] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.136 seconds
+[2022-03-29 10:22:45,043] {processor.py:163} INFO - Started process (PID=3223) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:22:45,046] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:22:45,046] {logging_mixin.py:109} INFO - [2022-03-29 10:22:45,046] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:22:45,067] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:22:45,076] {logging_mixin.py:109} INFO - [2022-03-29 10:22:45,076] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:22:45,089] {logging_mixin.py:109} INFO - [2022-03-29 10:22:45,089] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:22:45,240] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.200 seconds
+[2022-03-29 10:23:43,430] {processor.py:163} INFO - Started process (PID=3286) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:23:43,433] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:23:43,434] {logging_mixin.py:109} INFO - [2022-03-29 10:23:43,434] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:23:43,456] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:23:43,469] {logging_mixin.py:109} INFO - [2022-03-29 10:23:43,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:23:43,489] {logging_mixin.py:109} INFO - [2022-03-29 10:23:43,489] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:23:43,672] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.245 seconds
+[2022-03-29 10:25:07,647] {processor.py:163} INFO - Started process (PID=3369) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:25:07,655] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:25:07,655] {logging_mixin.py:109} INFO - [2022-03-29 10:25:07,655] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:25:07,680] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:25:07,690] {logging_mixin.py:109} INFO - [2022-03-29 10:25:07,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:25:07,705] {logging_mixin.py:109} INFO - [2022-03-29 10:25:07,705] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:25:07,919] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.274 seconds
+[2022-03-29 10:26:13,265] {processor.py:163} INFO - Started process (PID=3426) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:26:13,277] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:26:13,277] {logging_mixin.py:109} INFO - [2022-03-29 10:26:13,277] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:26:13,299] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:26:13,311] {logging_mixin.py:109} INFO - [2022-03-29 10:26:13,311] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:26:13,326] {logging_mixin.py:109} INFO - [2022-03-29 10:26:13,326] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:26:13,471] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.209 seconds
+[2022-03-29 10:27:11,872] {processor.py:163} INFO - Started process (PID=3480) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:27:11,883] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:27:11,884] {logging_mixin.py:109} INFO - [2022-03-29 10:27:11,884] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:27:11,906] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:27:11,915] {logging_mixin.py:109} INFO - [2022-03-29 10:27:11,915] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:27:11,930] {logging_mixin.py:109} INFO - [2022-03-29 10:27:11,929] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:27:12,739] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.869 seconds
+[2022-03-29 10:28:09,633] {processor.py:163} INFO - Started process (PID=3534) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:28:09,642] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:28:09,643] {logging_mixin.py:109} INFO - [2022-03-29 10:28:09,643] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:28:09,664] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:28:09,673] {logging_mixin.py:109} INFO - [2022-03-29 10:28:09,673] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:28:09,688] {logging_mixin.py:109} INFO - [2022-03-29 10:28:09,688] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:28:09,817] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.187 seconds
+[2022-03-29 10:29:23,007] {processor.py:163} INFO - Started process (PID=3609) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:29:23,019] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:29:23,019] {logging_mixin.py:109} INFO - [2022-03-29 10:29:23,019] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:29:23,274] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:29:23,284] {logging_mixin.py:109} INFO - [2022-03-29 10:29:23,284] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:29:23,299] {logging_mixin.py:109} INFO - [2022-03-29 10:29:23,298] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:29:23,455] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.450 seconds
+[2022-03-29 10:30:54,434] {processor.py:163} INFO - Started process (PID=3688) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:30:54,448] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:30:54,449] {logging_mixin.py:109} INFO - [2022-03-29 10:30:54,449] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:30:54,473] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:30:54,482] {logging_mixin.py:109} INFO - [2022-03-29 10:30:54,482] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:30:54,495] {logging_mixin.py:109} INFO - [2022-03-29 10:30:54,495] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:30:55,781] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.349 seconds
+[2022-03-29 10:32:10,790] {processor.py:163} INFO - Started process (PID=3763) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:32:10,808] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:32:10,809] {logging_mixin.py:109} INFO - [2022-03-29 10:32:10,809] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:32:10,832] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:32:10,842] {logging_mixin.py:109} INFO - [2022-03-29 10:32:10,842] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:32:10,856] {logging_mixin.py:109} INFO - [2022-03-29 10:32:10,856] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:32:11,001] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.214 seconds
+[2022-03-29 10:33:36,181] {processor.py:163} INFO - Started process (PID=3834) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:33:36,190] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 10:33:36,192] {logging_mixin.py:109} INFO - [2022-03-29 10:33:36,191] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:33:36,253] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 10:33:36,280] {logging_mixin.py:109} INFO - [2022-03-29 10:33:36,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:33:36,335] {logging_mixin.py:109} INFO - [2022-03-29 10:33:36,335] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:33:36,606] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.428 seconds
+[2022-03-29 15:22:58,600] {processor.py:163} INFO - Started process (PID=453) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:22:58,659] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:22:58,660] {logging_mixin.py:109} INFO - [2022-03-29 15:22:58,660] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:22:58,683] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:22:58,699] {logging_mixin.py:109} INFO - [2022-03-29 15:22:58,699] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:22:58,720] {logging_mixin.py:109} INFO - [2022-03-29 15:22:58,720] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:22:59,581] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.984 seconds
+[2022-03-29 15:24:47,420] {processor.py:163} INFO - Started process (PID=528) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:24:47,427] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:24:47,427] {logging_mixin.py:109} INFO - [2022-03-29 15:24:47,427] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:24:47,450] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:24:47,459] {logging_mixin.py:109} INFO - [2022-03-29 15:24:47,459] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:24:47,473] {logging_mixin.py:109} INFO - [2022-03-29 15:24:47,473] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:24:47,858] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.442 seconds
+[2022-03-29 15:27:19,466] {processor.py:163} INFO - Started process (PID=620) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:27:19,536] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:27:19,536] {logging_mixin.py:109} INFO - [2022-03-29 15:27:19,536] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:27:19,561] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:27:19,575] {logging_mixin.py:109} INFO - [2022-03-29 15:27:19,575] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:27:19,593] {logging_mixin.py:109} INFO - [2022-03-29 15:27:19,593] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:27:19,786] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.323 seconds
+[2022-03-29 15:29:40,409] {processor.py:163} INFO - Started process (PID=723) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:29:41,350] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:29:41,351] {logging_mixin.py:109} INFO - [2022-03-29 15:29:41,350] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:29:41,606] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:29:41,615] {logging_mixin.py:109} INFO - [2022-03-29 15:29:41,615] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:29:41,630] {logging_mixin.py:109} INFO - [2022-03-29 15:29:41,629] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:29:41,809] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.402 seconds
+[2022-03-29 15:31:48,806] {processor.py:163} INFO - Started process (PID=809) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:31:48,830] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:31:48,830] {logging_mixin.py:109} INFO - [2022-03-29 15:31:48,830] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:31:48,854] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:31:48,864] {logging_mixin.py:109} INFO - [2022-03-29 15:31:48,864] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:31:48,878] {logging_mixin.py:109} INFO - [2022-03-29 15:31:48,878] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:31:49,205] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.404 seconds
+[2022-03-29 15:34:01,556] {processor.py:163} INFO - Started process (PID=904) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:34:01,569] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:34:01,570] {logging_mixin.py:109} INFO - [2022-03-29 15:34:01,570] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:34:01,934] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:34:01,944] {logging_mixin.py:109} INFO - [2022-03-29 15:34:01,944] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:34:01,960] {logging_mixin.py:109} INFO - [2022-03-29 15:34:01,959] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:34:02,880] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.327 seconds
+[2022-03-29 15:35:52,934] {processor.py:163} INFO - Started process (PID=996) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:35:52,953] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:35:52,954] {logging_mixin.py:109} INFO - [2022-03-29 15:35:52,954] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:35:52,976] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:35:52,985] {logging_mixin.py:109} INFO - [2022-03-29 15:35:52,985] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:35:52,999] {logging_mixin.py:109} INFO - [2022-03-29 15:35:52,999] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:35:54,481] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.550 seconds
+[2022-03-29 15:37:55,334] {processor.py:163} INFO - Started process (PID=1102) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:37:55,336] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:37:55,337] {logging_mixin.py:109} INFO - [2022-03-29 15:37:55,337] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:37:55,365] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:37:55,374] {logging_mixin.py:109} INFO - [2022-03-29 15:37:55,374] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:37:55,387] {logging_mixin.py:109} INFO - [2022-03-29 15:37:55,387] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:37:55,531] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.200 seconds
+[2022-03-29 15:40:32,092] {processor.py:163} INFO - Started process (PID=1214) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:40:32,096] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:40:32,097] {logging_mixin.py:109} INFO - [2022-03-29 15:40:32,097] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:40:32,121] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:40:32,130] {logging_mixin.py:109} INFO - [2022-03-29 15:40:32,130] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:40:32,146] {logging_mixin.py:109} INFO - [2022-03-29 15:40:32,145] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:40:32,913] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.823 seconds
+[2022-03-29 15:42:23,916] {processor.py:163} INFO - Started process (PID=1330) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:42:25,496] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:42:25,496] {logging_mixin.py:109} INFO - [2022-03-29 15:42:25,496] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:42:25,850] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:42:25,859] {logging_mixin.py:109} INFO - [2022-03-29 15:42:25,859] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:42:25,872] {logging_mixin.py:109} INFO - [2022-03-29 15:42:25,872] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:42:26,024] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 2.111 seconds
+[2022-03-29 15:43:29,769] {processor.py:163} INFO - Started process (PID=1422) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:43:29,772] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:43:29,772] {logging_mixin.py:109} INFO - [2022-03-29 15:43:29,772] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:43:29,794] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:43:29,805] {logging_mixin.py:109} INFO - [2022-03-29 15:43:29,805] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:43:29,820] {logging_mixin.py:109} INFO - [2022-03-29 15:43:29,820] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:43:30,868] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 1.101 seconds
+[2022-03-29 15:44:41,483] {processor.py:163} INFO - Started process (PID=1490) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:44:41,485] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-03-29 15:44:41,486] {logging_mixin.py:109} INFO - [2022-03-29 15:44:41,486] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:44:41,515] {processor.py:654} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-03-29 15:44:41,524] {logging_mixin.py:109} INFO - [2022-03-29 15:44:41,524] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:44:41,538] {logging_mixin.py:109} INFO - [2022-03-29 15:44:41,538] {dag.py:2937} INFO - Setting next_dagrun for example_bash_operator to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:44:41,672] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py took 0.193 seconds

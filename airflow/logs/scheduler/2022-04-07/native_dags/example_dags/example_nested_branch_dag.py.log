@@ -1,0 +1,14 @@
+[2022-04-07 15:09:42,005] {processor.py:163} INFO - Started process (PID=229) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-04-07 15:09:42,006] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-04-07 15:09:42,006] {logging_mixin.py:109} INFO - [2022-04-07 15:09:42,006] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-04-07 15:09:42,030] {processor.py:654} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-04-07 15:09:42,045] {logging_mixin.py:109} INFO - [2022-04-07 15:09:42,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:09:42,059] {logging_mixin.py:109} INFO - [2022-04-07 15:09:42,059] {dag.py:2937} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-04-06 00:00:00+00:00
+[2022-04-07 15:09:43,602] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py took 1.599 seconds
+[2022-04-07 15:11:41,695] {processor.py:163} INFO - Started process (PID=298) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-04-07 15:11:41,711] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-04-07 15:11:41,712] {logging_mixin.py:109} INFO - [2022-04-07 15:11:41,712] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-04-07 15:11:41,746] {processor.py:654} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-04-07 15:11:41,757] {logging_mixin.py:109} INFO - [2022-04-07 15:11:41,757] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:41,773] {logging_mixin.py:109} INFO - [2022-04-07 15:11:41,773] {dag.py:2937} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-04-06 00:00:00+00:00
+[2022-04-07 15:11:42,758] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py took 1.066 seconds

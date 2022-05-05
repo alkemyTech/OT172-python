@@ -1,0 +1,22 @@
+[2022-04-03 12:21:47,127] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: pandas_python_operator.sleep_for_4 manual__2022-04-03T17:21:10.895533+00:00 [queued]>
+[2022-04-03 12:21:47,135] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: pandas_python_operator.sleep_for_4 manual__2022-04-03T17:21:10.895533+00:00 [queued]>
+[2022-04-03 12:21:47,135] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 12:21:47,135] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-04-03 12:21:47,135] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-03 12:21:47,338] {taskinstance.py:1264} INFO - Executing <Task(_PythonDecoratedOperator): sleep_for_4> on 2022-04-03 17:21:10.895533+00:00
+[2022-04-03 12:21:47,340] {standard_task_runner.py:52} INFO - Started process 6562 to run task
+[2022-04-03 12:21:47,344] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'pandas_python_operator', 'sleep_for_4', 'manual__2022-04-03T17:21:10.895533+00:00', '--job-id', '296', '--raw', '--subdir', 'DAGS_FOLDER/procesar_datos_uni_villa_maria.py', '--cfg-path', '/tmp/tmpxmxdy5d9', '--error-file', '/tmp/tmpio6cpvbc']
+[2022-04-03 12:21:47,345] {standard_task_runner.py:77} INFO - Job 296: Subtask sleep_for_4
+[2022-04-03 12:21:47,800] {logging_mixin.py:109} INFO - Running <TaskInstance: pandas_python_operator.sleep_for_4 manual__2022-04-03T17:21:10.895533+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-04-03 12:21:48,241] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pandas_python_operator
+AIRFLOW_CTX_TASK_ID=sleep_for_4
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-03T17:21:10.895533+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-03T17:21:10.895533+00:00
+[2022-04-03 12:21:48,643] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-03 12:21:48,651] {taskinstance.py:1272} INFO - Marking task as SUCCESS. dag_id=pandas_python_operator, task_id=sleep_for_4, execution_date=20220403T172110, start_date=20220403T172147, end_date=20220403T172148
+[2022-04-03 12:21:49,488] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-03 12:21:49,507] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

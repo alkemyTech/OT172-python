@@ -1,0 +1,12 @@
+[2022-04-07 15:09:58,822] {processor.py:163} INFO - Started process (PID=236) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-04-07 15:09:58,823] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-04-07 15:09:58,823] {logging_mixin.py:109} INFO - [2022-04-07 15:09:58,823] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-04-07 15:09:59,990] {processor.py:654} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-04-07 15:10:00,006] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,006] {dag.py:2398} INFO - Sync 3 DAGs
+[2022-04-07 15:10:00,022] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,022] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2022-04-05T00:00:00+00:00
+[2022-04-07 15:10:00,022] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,022] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-04-07 15:10:00,023] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,023] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-04-07 15:10:00,028] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,028] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-04-07 15:10:00,035] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,035] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2022-04-07 15:10:00,035] {logging_mixin.py:109} INFO - [2022-04-07 15:10:00,035] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2022-04-07 15:10:00,217] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 1.398 seconds

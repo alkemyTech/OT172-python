@@ -1,0 +1,493 @@
+[2022-03-23 05:21:01,575] {processor.py:163} INFO - Started process (PID=155) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:21:01,577] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:21:01,578] {logging_mixin.py:109} INFO - [2022-03-23 05:21:01,577] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:21:01,587] {logging_mixin.py:109} INFO - [2022-03-23 05:21:01,587] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:21:01,598] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:21:01,939] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.367 seconds
+[2022-03-23 05:22:38,277] {processor.py:163} INFO - Started process (PID=196) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:22:39,625] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:22:39,626] {logging_mixin.py:109} INFO - [2022-03-23 05:22:39,626] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:22:39,634] {logging_mixin.py:109} INFO - [2022-03-23 05:22:39,633] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:22:39,643] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:22:39,788] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.513 seconds
+[2022-03-23 05:23:38,577] {processor.py:163} INFO - Started process (PID=219) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:23:38,592] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:23:38,593] {logging_mixin.py:109} INFO - [2022-03-23 05:23:38,593] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:23:38,599] {logging_mixin.py:109} INFO - [2022-03-23 05:23:38,599] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:23:38,606] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:23:38,804] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.230 seconds
+[2022-03-23 05:24:28,092] {processor.py:163} INFO - Started process (PID=243) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:24:28,220] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:24:28,220] {logging_mixin.py:109} INFO - [2022-03-23 05:24:28,220] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:24:28,230] {logging_mixin.py:109} INFO - [2022-03-23 05:24:28,230] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:24:28,236] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:24:29,770] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.680 seconds
+[2022-03-23 05:25:11,205] {processor.py:163} INFO - Started process (PID=339) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:25:12,303] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:25:12,304] {logging_mixin.py:109} INFO - [2022-03-23 05:25:12,304] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:25:12,315] {logging_mixin.py:109} INFO - [2022-03-23 05:25:12,314] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:25:12,506] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:25:12,722] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.519 seconds
+[2022-03-23 05:25:55,889] {processor.py:163} INFO - Started process (PID=364) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:25:55,903] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:25:55,904] {logging_mixin.py:109} INFO - [2022-03-23 05:25:55,904] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:25:55,915] {logging_mixin.py:109} INFO - [2022-03-23 05:25:55,914] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:25:55,922] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:25:56,070] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.182 seconds
+[2022-03-23 05:26:42,913] {processor.py:163} INFO - Started process (PID=385) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:26:42,955] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:26:42,956] {logging_mixin.py:109} INFO - [2022-03-23 05:26:42,955] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:26:42,966] {logging_mixin.py:109} INFO - [2022-03-23 05:26:42,965] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:26:42,973] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:26:44,047] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.137 seconds
+[2022-03-23 05:27:26,101] {processor.py:163} INFO - Started process (PID=410) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:27:26,244] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:27:26,245] {logging_mixin.py:109} INFO - [2022-03-23 05:27:26,245] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:27:26,255] {logging_mixin.py:109} INFO - [2022-03-23 05:27:26,255] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:27:26,261] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:27:27,828] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.729 seconds
+[2022-03-23 05:28:15,526] {processor.py:163} INFO - Started process (PID=431) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:28:15,538] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:28:15,538] {logging_mixin.py:109} INFO - [2022-03-23 05:28:15,538] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:28:15,546] {logging_mixin.py:109} INFO - [2022-03-23 05:28:15,545] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:28:15,554] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:28:19,182] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 3.658 seconds
+[2022-03-23 05:28:52,496] {processor.py:163} INFO - Started process (PID=455) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:28:52,732] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:28:52,732] {logging_mixin.py:109} INFO - [2022-03-23 05:28:52,732] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:28:52,745] {logging_mixin.py:109} INFO - [2022-03-23 05:28:52,743] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:28:52,759] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:28:53,719] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.225 seconds
+[2022-03-23 05:30:04,361] {processor.py:163} INFO - Started process (PID=497) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:30:04,378] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:30:04,378] {logging_mixin.py:109} INFO - [2022-03-23 05:30:04,378] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:30:04,385] {logging_mixin.py:109} INFO - [2022-03-23 05:30:04,385] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:30:04,392] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:30:04,940] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.581 seconds
+[2022-03-23 05:30:51,392] {processor.py:163} INFO - Started process (PID=517) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:30:51,394] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:30:51,394] {logging_mixin.py:109} INFO - [2022-03-23 05:30:51,394] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:30:51,402] {logging_mixin.py:109} INFO - [2022-03-23 05:30:51,401] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:30:52,043] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:30:52,357] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.969 seconds
+[2022-03-23 05:31:44,469] {processor.py:163} INFO - Started process (PID=542) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:31:44,477] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:31:44,478] {logging_mixin.py:109} INFO - [2022-03-23 05:31:44,478] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:31:44,484] {logging_mixin.py:109} INFO - [2022-03-23 05:31:44,484] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:31:44,491] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:31:45,677] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.210 seconds
+[2022-03-23 05:32:26,207] {processor.py:163} INFO - Started process (PID=562) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:32:26,236] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:32:26,237] {logging_mixin.py:109} INFO - [2022-03-23 05:32:26,237] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:32:26,245] {logging_mixin.py:109} INFO - [2022-03-23 05:32:26,244] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:32:26,252] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:32:26,970] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.765 seconds
+[2022-03-23 05:33:10,420] {processor.py:163} INFO - Started process (PID=583) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:33:10,582] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:33:10,583] {logging_mixin.py:109} INFO - [2022-03-23 05:33:10,583] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:33:10,594] {logging_mixin.py:109} INFO - [2022-03-23 05:33:10,593] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:33:10,605] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:33:11,154] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.737 seconds
+[2022-03-23 05:34:01,923] {processor.py:163} INFO - Started process (PID=606) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:34:01,962] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:34:01,962] {logging_mixin.py:109} INFO - [2022-03-23 05:34:01,962] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:34:01,969] {logging_mixin.py:109} INFO - [2022-03-23 05:34:01,969] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:34:01,976] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:34:02,278] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.358 seconds
+[2022-03-23 05:34:49,821] {processor.py:163} INFO - Started process (PID=628) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:34:49,832] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:34:49,833] {logging_mixin.py:109} INFO - [2022-03-23 05:34:49,833] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:34:49,844] {logging_mixin.py:109} INFO - [2022-03-23 05:34:49,844] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:34:49,851] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:34:50,663] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.845 seconds
+[2022-03-23 05:35:32,552] {processor.py:163} INFO - Started process (PID=649) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:35:32,558] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:35:32,559] {logging_mixin.py:109} INFO - [2022-03-23 05:35:32,559] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:35:32,568] {logging_mixin.py:109} INFO - [2022-03-23 05:35:32,567] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:35:32,575] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:35:34,110] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.560 seconds
+[2022-03-23 05:36:17,150] {processor.py:163} INFO - Started process (PID=669) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:36:17,402] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:36:17,403] {logging_mixin.py:109} INFO - [2022-03-23 05:36:17,403] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:36:17,413] {logging_mixin.py:109} INFO - [2022-03-23 05:36:17,412] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:36:17,419] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:36:18,091] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.944 seconds
+[2022-03-23 05:37:12,260] {processor.py:163} INFO - Started process (PID=693) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:37:12,374] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:37:12,375] {logging_mixin.py:109} INFO - [2022-03-23 05:37:12,375] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:37:12,384] {logging_mixin.py:109} INFO - [2022-03-23 05:37:12,383] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/dummy_conn.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/dummy_conn.py", line 5, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-03-23 05:37:12,391] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:37:13,910] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.652 seconds
+[2022-03-23 05:38:06,651] {processor.py:163} INFO - Started process (PID=723) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:38:07,200] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:38:07,201] {logging_mixin.py:109} INFO - [2022-03-23 05:38:07,201] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:38:07,267] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:38:10,295] {logging_mixin.py:109} INFO - [2022-03-23 05:38:10,294] {manager.py:496} INFO - Created Permission View: can edit on DAG:Etl
+[2022-03-23 05:38:11,245] {logging_mixin.py:109} INFO - [2022-03-23 05:38:11,245] {manager.py:496} INFO - Created Permission View: can read on DAG:Etl
+[2022-03-23 05:38:11,245] {logging_mixin.py:109} INFO - [2022-03-23 05:38:11,245] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:38:11,258] {logging_mixin.py:109} INFO - [2022-03-23 05:38:11,258] {dag.py:2417} INFO - Creating ORM DAG for Etl
+[2022-03-23 05:38:11,273] {logging_mixin.py:109} INFO - [2022-03-23 05:38:11,273] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:38:12,143] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 5.496 seconds
+[2022-03-23 05:40:12,528] {processor.py:163} INFO - Started process (PID=750) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:40:12,568] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:40:12,569] {logging_mixin.py:109} INFO - [2022-03-23 05:40:12,569] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:40:12,608] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:40:12,617] {logging_mixin.py:109} INFO - [2022-03-23 05:40:12,617] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:40:12,631] {logging_mixin.py:109} INFO - [2022-03-23 05:40:12,630] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:40:13,149] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.623 seconds
+[2022-03-23 05:41:31,935] {processor.py:163} INFO - Started process (PID=791) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:41:32,091] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:41:32,092] {logging_mixin.py:109} INFO - [2022-03-23 05:41:32,092] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:41:32,133] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:41:32,142] {logging_mixin.py:109} INFO - [2022-03-23 05:41:32,142] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:41:32,156] {logging_mixin.py:109} INFO - [2022-03-23 05:41:32,155] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:41:32,339] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.406 seconds
+[2022-03-23 05:42:23,152] {processor.py:163} INFO - Started process (PID=820) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:42:23,162] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:42:23,163] {logging_mixin.py:109} INFO - [2022-03-23 05:42:23,163] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:42:23,199] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:42:23,207] {logging_mixin.py:109} INFO - [2022-03-23 05:42:23,207] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:42:23,221] {logging_mixin.py:109} INFO - [2022-03-23 05:42:23,221] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:42:24,933] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.783 seconds
+[2022-03-23 05:43:07,767] {processor.py:163} INFO - Started process (PID=852) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:43:07,893] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:43:07,894] {logging_mixin.py:109} INFO - [2022-03-23 05:43:07,894] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:43:07,932] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:43:07,942] {logging_mixin.py:109} INFO - [2022-03-23 05:43:07,941] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:43:07,956] {logging_mixin.py:109} INFO - [2022-03-23 05:43:07,956] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:43:08,175] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.410 seconds
+[2022-03-23 05:43:44,694] {processor.py:163} INFO - Started process (PID=871) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:43:44,700] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:43:44,701] {logging_mixin.py:109} INFO - [2022-03-23 05:43:44,701] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:43:44,734] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:43:44,744] {logging_mixin.py:109} INFO - [2022-03-23 05:43:44,744] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:43:44,755] {logging_mixin.py:109} INFO - [2022-03-23 05:43:44,755] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:43:46,420] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.728 seconds
+[2022-03-23 05:44:24,798] {processor.py:163} INFO - Started process (PID=892) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:44:24,849] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:44:24,849] {logging_mixin.py:109} INFO - [2022-03-23 05:44:24,849] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:44:24,909] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:44:24,918] {logging_mixin.py:109} INFO - [2022-03-23 05:44:24,918] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:44:24,930] {logging_mixin.py:109} INFO - [2022-03-23 05:44:24,930] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:44:26,363] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.568 seconds
+[2022-03-23 05:45:06,052] {processor.py:163} INFO - Started process (PID=912) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:45:06,064] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:45:06,064] {logging_mixin.py:109} INFO - [2022-03-23 05:45:06,064] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:45:06,105] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:45:06,117] {logging_mixin.py:109} INFO - [2022-03-23 05:45:06,116] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:45:06,131] {logging_mixin.py:109} INFO - [2022-03-23 05:45:06,131] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:45:06,275] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.225 seconds
+[2022-03-23 05:45:52,279] {processor.py:163} INFO - Started process (PID=932) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:45:52,449] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:45:52,449] {logging_mixin.py:109} INFO - [2022-03-23 05:45:52,449] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:45:52,503] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:45:52,510] {logging_mixin.py:109} INFO - [2022-03-23 05:45:52,510] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:45:52,521] {logging_mixin.py:109} INFO - [2022-03-23 05:45:52,521] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:45:53,409] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.133 seconds
+[2022-03-23 05:46:48,427] {processor.py:163} INFO - Started process (PID=955) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:46:48,622] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:46:48,623] {logging_mixin.py:109} INFO - [2022-03-23 05:46:48,623] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:46:49,701] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:46:49,715] {logging_mixin.py:109} INFO - [2022-03-23 05:46:49,715] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:46:49,738] {logging_mixin.py:109} INFO - [2022-03-23 05:46:49,738] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:46:50,033] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.608 seconds
+[2022-03-23 05:47:40,456] {processor.py:163} INFO - Started process (PID=978) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:47:40,493] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:47:40,494] {logging_mixin.py:109} INFO - [2022-03-23 05:47:40,494] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:47:40,534] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:47:40,542] {logging_mixin.py:109} INFO - [2022-03-23 05:47:40,541] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:47:40,555] {logging_mixin.py:109} INFO - [2022-03-23 05:47:40,555] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:47:42,450] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.997 seconds
+[2022-03-23 05:48:20,926] {processor.py:163} INFO - Started process (PID=999) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:48:21,571] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:48:21,666] {logging_mixin.py:109} INFO - [2022-03-23 05:48:21,665] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:48:22,141] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:48:22,154] {logging_mixin.py:109} INFO - [2022-03-23 05:48:22,154] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:48:22,168] {logging_mixin.py:109} INFO - [2022-03-23 05:48:22,168] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:48:22,383] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.460 seconds
+[2022-03-23 05:49:09,906] {processor.py:163} INFO - Started process (PID=1020) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:49:09,928] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:49:09,928] {logging_mixin.py:109} INFO - [2022-03-23 05:49:09,928] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:49:09,967] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:49:09,975] {logging_mixin.py:109} INFO - [2022-03-23 05:49:09,975] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:49:09,990] {logging_mixin.py:109} INFO - [2022-03-23 05:49:09,990] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:49:12,268] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 2.365 seconds
+[2022-03-23 05:49:32,027] {processor.py:163} INFO - Started process (PID=1038) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:49:32,028] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:49:32,028] {logging_mixin.py:109} INFO - [2022-03-23 05:49:32,028] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:49:32,063] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:49:32,074] {logging_mixin.py:109} INFO - [2022-03-23 05:49:32,073] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:49:32,088] {logging_mixin.py:109} INFO - [2022-03-23 05:49:32,088] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:49:33,062] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.037 seconds
+[2022-03-23 05:50:52,291] {processor.py:163} INFO - Started process (PID=1079) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:50:53,153] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:50:53,154] {logging_mixin.py:109} INFO - [2022-03-23 05:50:53,154] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:50:53,421] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:50:53,438] {logging_mixin.py:109} INFO - [2022-03-23 05:50:53,437] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:50:53,467] {logging_mixin.py:109} INFO - [2022-03-23 05:50:53,466] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:50:53,710] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.422 seconds
+[2022-03-23 05:51:47,992] {processor.py:163} INFO - Started process (PID=1101) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:51:48,097] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:51:48,098] {logging_mixin.py:109} INFO - [2022-03-23 05:51:48,098] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:51:48,182] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:51:48,196] {logging_mixin.py:109} INFO - [2022-03-23 05:51:48,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:51:48,215] {logging_mixin.py:109} INFO - [2022-03-23 05:51:48,215] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:51:49,683] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.694 seconds
+[2022-03-23 05:52:50,740] {processor.py:163} INFO - Started process (PID=1125) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:52:50,945] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:52:50,946] {logging_mixin.py:109} INFO - [2022-03-23 05:52:50,946] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:52:51,420] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:52:51,431] {logging_mixin.py:109} INFO - [2022-03-23 05:52:51,431] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:52:51,443] {logging_mixin.py:109} INFO - [2022-03-23 05:52:51,443] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:52:51,626] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.889 seconds
+[2022-03-23 05:53:47,101] {processor.py:163} INFO - Started process (PID=1148) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:53:47,112] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:53:47,113] {logging_mixin.py:109} INFO - [2022-03-23 05:53:47,113] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:53:47,150] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:53:47,160] {logging_mixin.py:109} INFO - [2022-03-23 05:53:47,160] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:53:47,176] {logging_mixin.py:109} INFO - [2022-03-23 05:53:47,176] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:53:47,358] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.259 seconds
+[2022-03-23 05:54:31,629] {processor.py:163} INFO - Started process (PID=1172) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:54:31,636] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:54:31,637] {logging_mixin.py:109} INFO - [2022-03-23 05:54:31,637] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:54:31,676] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:54:31,685] {logging_mixin.py:109} INFO - [2022-03-23 05:54:31,685] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:54:31,699] {logging_mixin.py:109} INFO - [2022-03-23 05:54:31,699] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:54:32,377] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.751 seconds
+[2022-03-23 05:55:38,300] {processor.py:163} INFO - Started process (PID=1196) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:55:38,309] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:55:38,311] {logging_mixin.py:109} INFO - [2022-03-23 05:55:38,310] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:55:38,366] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:55:38,379] {logging_mixin.py:109} INFO - [2022-03-23 05:55:38,379] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:55:38,400] {logging_mixin.py:109} INFO - [2022-03-23 05:55:38,399] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:55:38,622] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.326 seconds
+[2022-03-23 05:56:25,614] {processor.py:163} INFO - Started process (PID=1219) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:56:25,632] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:56:25,633] {logging_mixin.py:109} INFO - [2022-03-23 05:56:25,633] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:56:25,671] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:56:25,680] {logging_mixin.py:109} INFO - [2022-03-23 05:56:25,680] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:56:25,694] {logging_mixin.py:109} INFO - [2022-03-23 05:56:25,694] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:56:26,534] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.922 seconds
+[2022-03-23 05:57:11,619] {processor.py:163} INFO - Started process (PID=1239) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:57:11,645] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:57:11,647] {logging_mixin.py:109} INFO - [2022-03-23 05:57:11,646] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:57:11,686] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:57:11,695] {logging_mixin.py:109} INFO - [2022-03-23 05:57:11,695] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:57:11,711] {logging_mixin.py:109} INFO - [2022-03-23 05:57:11,710] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:57:11,997] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.380 seconds
+[2022-03-23 05:57:53,625] {processor.py:163} INFO - Started process (PID=1261) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:57:53,660] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:57:53,661] {logging_mixin.py:109} INFO - [2022-03-23 05:57:53,661] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:57:53,701] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:57:53,709] {logging_mixin.py:109} INFO - [2022-03-23 05:57:53,709] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:57:53,722] {logging_mixin.py:109} INFO - [2022-03-23 05:57:53,721] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:57:55,096] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.473 seconds
+[2022-03-23 05:58:38,098] {processor.py:163} INFO - Started process (PID=1281) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:58:38,117] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:58:38,118] {logging_mixin.py:109} INFO - [2022-03-23 05:58:38,118] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:58:38,232] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:58:38,249] {logging_mixin.py:109} INFO - [2022-03-23 05:58:38,249] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:58:38,270] {logging_mixin.py:109} INFO - [2022-03-23 05:58:38,270] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:58:38,499] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.404 seconds
+[2022-03-23 05:59:26,935] {processor.py:163} INFO - Started process (PID=1301) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:59:27,021] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 05:59:27,021] {logging_mixin.py:109} INFO - [2022-03-23 05:59:27,021] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:59:27,066] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 05:59:27,075] {logging_mixin.py:109} INFO - [2022-03-23 05:59:27,075] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 05:59:27,091] {logging_mixin.py:109} INFO - [2022-03-23 05:59:27,091] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 05:59:27,471] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.538 seconds
+[2022-03-23 06:00:14,421] {processor.py:163} INFO - Started process (PID=1323) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:00:14,618] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 06:00:14,619] {logging_mixin.py:109} INFO - [2022-03-23 06:00:14,619] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:00:14,653] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:00:14,661] {logging_mixin.py:109} INFO - [2022-03-23 06:00:14,661] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 06:00:14,674] {logging_mixin.py:109} INFO - [2022-03-23 06:00:14,674] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 06:00:16,139] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.721 seconds
+[2022-03-23 06:00:58,430] {processor.py:163} INFO - Started process (PID=1345) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:00:58,513] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 06:00:58,513] {logging_mixin.py:109} INFO - [2022-03-23 06:00:58,513] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:00:58,563] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:00:58,573] {logging_mixin.py:109} INFO - [2022-03-23 06:00:58,573] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 06:00:58,589] {logging_mixin.py:109} INFO - [2022-03-23 06:00:58,589] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 06:01:00,453] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 2.026 seconds
+[2022-03-23 06:01:43,495] {processor.py:163} INFO - Started process (PID=1365) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:01:43,849] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 06:01:43,850] {logging_mixin.py:109} INFO - [2022-03-23 06:01:43,850] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:01:45,025] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:01:45,035] {logging_mixin.py:109} INFO - [2022-03-23 06:01:45,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 06:01:45,048] {logging_mixin.py:109} INFO - [2022-03-23 06:01:45,048] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 06:01:45,348] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.856 seconds
+[2022-03-23 06:02:29,710] {processor.py:163} INFO - Started process (PID=1387) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:02:29,807] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 06:02:29,808] {logging_mixin.py:109} INFO - [2022-03-23 06:02:29,808] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:02:29,846] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:02:29,854] {logging_mixin.py:109} INFO - [2022-03-23 06:02:29,854] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 06:02:29,868] {logging_mixin.py:109} INFO - [2022-03-23 06:02:29,867] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 06:02:30,115] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.408 seconds
+[2022-03-23 06:03:11,072] {processor.py:163} INFO - Started process (PID=1408) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:03:11,086] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-23 06:03:11,087] {logging_mixin.py:109} INFO - [2022-03-23 06:03:11,087] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:03:11,123] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-23 06:03:11,131] {logging_mixin.py:109} INFO - [2022-03-23 06:03:11,131] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-23 06:03:11,143] {logging_mixin.py:109} INFO - [2022-03-23 06:03:11,143] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-22 00:00:00+00:00
+[2022-03-23 06:03:11,828] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.758 seconds

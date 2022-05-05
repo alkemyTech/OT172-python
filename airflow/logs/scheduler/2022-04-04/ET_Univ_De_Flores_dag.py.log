@@ -1,0 +1,1301 @@
+[2022-04-03 21:58:16,688] {processor.py:163} INFO - Started process (PID=1233) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 21:58:16,689] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 21:58:16,689] {logging_mixin.py:109} INFO - [2022-04-03 21:58:16,689] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 21:58:17,170] {processor.py:654} INFO - DAG(s) dict_keys(['pandas_python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 21:58:17,174] {logging_mixin.py:109} INFO - [2022-04-03 21:58:17,173] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 21:58:17,184] {logging_mixin.py:109} INFO - [2022-04-03 21:58:17,184] {dag.py:2937} INFO - Setting next_dagrun for pandas_python_operator to None
+[2022-04-03 21:58:17,532] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.847 seconds
+[2022-04-03 21:59:45,550] {processor.py:163} INFO - Started process (PID=1318) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 21:59:46,414] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 21:59:46,414] {logging_mixin.py:109} INFO - [2022-04-03 21:59:46,414] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 21:59:46,826] {processor.py:654} INFO - DAG(s) dict_keys(['pandas_python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 21:59:46,834] {logging_mixin.py:109} INFO - [2022-04-03 21:59:46,833] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 21:59:46,844] {logging_mixin.py:109} INFO - [2022-04-03 21:59:46,844] {dag.py:2937} INFO - Setting next_dagrun for pandas_python_operator to None
+[2022-04-03 21:59:47,015] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.468 seconds
+[2022-04-03 22:00:54,522] {processor.py:163} INFO - Started process (PID=1368) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:00:55,115] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:00:55,116] {logging_mixin.py:109} INFO - [2022-04-03 22:00:55,116] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:00:55,537] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:00:55,714] {logging_mixin.py:109} INFO - [2022-04-03 22:00:55,714] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:00:55,723] {logging_mixin.py:109} INFO - [2022-04-03 22:00:55,723] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:00:56,562] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.043 seconds
+[2022-04-03 22:01:56,227] {processor.py:163} INFO - Started process (PID=1421) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:01:56,303] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:01:56,304] {logging_mixin.py:109} INFO - [2022-04-03 22:01:56,304] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:01:56,975] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:01:56,983] {logging_mixin.py:109} INFO - [2022-04-03 22:01:56,983] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:01:56,993] {logging_mixin.py:109} INFO - [2022-04-03 22:01:56,993] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:01:57,565] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.351 seconds
+[2022-04-03 22:02:38,815] {processor.py:163} INFO - Started process (PID=1471) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:02:38,945] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:02:38,946] {logging_mixin.py:109} INFO - [2022-04-03 22:02:38,946] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:02:39,383] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:02:39,574] {logging_mixin.py:109} INFO - [2022-04-03 22:02:39,573] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:02:39,592] {logging_mixin.py:109} INFO - [2022-04-03 22:02:39,592] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:02:39,816] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.004 seconds
+[2022-04-03 22:03:21,394] {processor.py:163} INFO - Started process (PID=1508) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:03:21,410] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:03:21,411] {logging_mixin.py:109} INFO - [2022-04-03 22:03:21,411] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:03:21,811] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:03:21,819] {logging_mixin.py:109} INFO - [2022-04-03 22:03:21,819] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:03:21,830] {logging_mixin.py:109} INFO - [2022-04-03 22:03:21,829] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:03:21,977] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.585 seconds
+[2022-04-03 22:03:59,559] {processor.py:163} INFO - Started process (PID=1555) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:03:59,562] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:03:59,562] {logging_mixin.py:109} INFO - [2022-04-03 22:03:59,562] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:04:00,046] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:04:00,205] {logging_mixin.py:109} INFO - [2022-04-03 22:04:00,205] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:04:00,213] {logging_mixin.py:109} INFO - [2022-04-03 22:04:00,213] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:04:00,978] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.423 seconds
+[2022-04-03 22:05:00,856] {processor.py:163} INFO - Started process (PID=1621) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:05:00,875] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:05:00,875] {logging_mixin.py:109} INFO - [2022-04-03 22:05:00,875] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:05:00,878] {logging_mixin.py:109} INFO - [2022-04-03 22:05:00,877] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:05:00,885] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:05:01,036] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.184 seconds
+[2022-04-03 22:05:57,232] {processor.py:163} INFO - Started process (PID=1699) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:05:57,245] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:05:57,245] {logging_mixin.py:109} INFO - [2022-04-03 22:05:57,245] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:05:57,247] {logging_mixin.py:109} INFO - [2022-04-03 22:05:57,246] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:05:57,289] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:05:57,429] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.200 seconds
+[2022-04-03 22:06:29,079] {processor.py:163} INFO - Started process (PID=1733) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:06:29,081] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:06:29,081] {logging_mixin.py:109} INFO - [2022-04-03 22:06:29,081] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:06:29,083] {logging_mixin.py:109} INFO - [2022-04-03 22:06:29,083] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:06:29,091] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:06:29,501] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.425 seconds
+[2022-04-03 22:07:01,039] {processor.py:163} INFO - Started process (PID=1767) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:07:01,058] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:07:01,059] {logging_mixin.py:109} INFO - [2022-04-03 22:07:01,059] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:07:01,061] {logging_mixin.py:109} INFO - [2022-04-03 22:07:01,060] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:07:01,068] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:07:01,204] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.167 seconds
+[2022-04-03 22:07:58,864] {processor.py:163} INFO - Started process (PID=1829) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:07:58,866] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:07:58,867] {logging_mixin.py:109} INFO - [2022-04-03 22:07:58,867] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:07:58,868] {logging_mixin.py:109} INFO - [2022-04-03 22:07:58,868] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:07:58,876] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:07:59,221] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.360 seconds
+[2022-04-03 22:08:31,812] {processor.py:163} INFO - Started process (PID=1860) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:08:31,813] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:08:31,814] {logging_mixin.py:109} INFO - [2022-04-03 22:08:31,814] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:08:31,815] {logging_mixin.py:109} INFO - [2022-04-03 22:08:31,815] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:08:31,822] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:08:32,891] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.081 seconds
+[2022-04-03 22:09:05,117] {processor.py:163} INFO - Started process (PID=1893) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:09:05,121] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:09:05,121] {logging_mixin.py:109} INFO - [2022-04-03 22:09:05,121] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:09:05,123] {logging_mixin.py:109} INFO - [2022-04-03 22:09:05,123] {dagbag.py:334} ERROR - Failed to import: /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py", line 40
+    ['university', 'career', 'inscription_date', 'gender', 'age', 'postal_code', 'location', 'email']
+    ^
+IndentationError: unexpected indent
+[2022-04-03 22:09:05,130] {processor.py:656} WARNING - No viable dags retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:09:05,266] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.151 seconds
+[2022-04-03 22:09:35,720] {processor.py:163} INFO - Started process (PID=1929) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:09:35,720] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:09:35,721] {logging_mixin.py:109} INFO - [2022-04-03 22:09:35,721] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:09:36,136] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:09:36,311] {logging_mixin.py:109} INFO - [2022-04-03 22:09:36,311] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:09:36,321] {logging_mixin.py:109} INFO - [2022-04-03 22:09:36,321] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:09:36,594] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.876 seconds
+[2022-04-03 22:10:44,060] {processor.py:163} INFO - Started process (PID=1995) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:10:44,190] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:10:44,190] {logging_mixin.py:109} INFO - [2022-04-03 22:10:44,190] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:10:44,639] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:10:44,782] {logging_mixin.py:109} INFO - [2022-04-03 22:10:44,781] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:10:44,792] {logging_mixin.py:109} INFO - [2022-04-03 22:10:44,792] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:10:45,072] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.014 seconds
+[2022-04-03 22:11:32,790] {processor.py:163} INFO - Started process (PID=2045) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:11:32,806] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:11:32,807] {logging_mixin.py:109} INFO - [2022-04-03 22:11:32,806] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:11:33,176] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:11:33,183] {logging_mixin.py:109} INFO - [2022-04-03 22:11:33,183] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:11:33,191] {logging_mixin.py:109} INFO - [2022-04-03 22:11:33,191] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:11:33,327] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.547 seconds
+[2022-04-03 22:12:10,497] {processor.py:163} INFO - Started process (PID=2094) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:12:10,513] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:12:10,514] {logging_mixin.py:109} INFO - [2022-04-03 22:12:10,514] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:12:10,895] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:12:11,052] {logging_mixin.py:109} INFO - [2022-04-03 22:12:11,052] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:12:11,063] {logging_mixin.py:109} INFO - [2022-04-03 22:12:11,062] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:12:11,225] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.730 seconds
+[2022-04-03 22:12:46,061] {processor.py:163} INFO - Started process (PID=2128) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:12:46,065] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:12:46,066] {logging_mixin.py:109} INFO - [2022-04-03 22:12:46,066] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:12:46,645] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:12:46,656] {logging_mixin.py:109} INFO - [2022-04-03 22:12:46,656] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:12:46,669] {logging_mixin.py:109} INFO - [2022-04-03 22:12:46,669] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:12:46,889] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.832 seconds
+[2022-04-03 22:14:02,300] {processor.py:163} INFO - Started process (PID=2184) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:14:02,554] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:14:02,555] {logging_mixin.py:109} INFO - [2022-04-03 22:14:02,555] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:14:03,011] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:14:03,020] {logging_mixin.py:109} INFO - [2022-04-03 22:14:03,019] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:14:03,032] {logging_mixin.py:109} INFO - [2022-04-03 22:14:03,032] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:14:03,548] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.251 seconds
+[2022-04-03 22:15:12,826] {processor.py:163} INFO - Started process (PID=2237) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:15:12,867] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:15:12,868] {logging_mixin.py:109} INFO - [2022-04-03 22:15:12,868] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:15:13,299] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:15:13,477] {logging_mixin.py:109} INFO - [2022-04-03 22:15:13,477] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:15:13,487] {logging_mixin.py:109} INFO - [2022-04-03 22:15:13,487] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:15:15,026] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.203 seconds
+[2022-04-03 22:16:15,557] {processor.py:163} INFO - Started process (PID=2291) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:16:15,575] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:16:15,576] {logging_mixin.py:109} INFO - [2022-04-03 22:16:15,576] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:16:16,003] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:16:16,011] {logging_mixin.py:109} INFO - [2022-04-03 22:16:16,010] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:16:16,020] {logging_mixin.py:109} INFO - [2022-04-03 22:16:16,020] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:16:16,174] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.619 seconds
+[2022-04-03 22:16:58,060] {processor.py:163} INFO - Started process (PID=2343) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:16:59,357] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:16:59,357] {logging_mixin.py:109} INFO - [2022-04-03 22:16:59,357] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:16:59,756] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:16:59,917] {logging_mixin.py:109} INFO - [2022-04-03 22:16:59,917] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:16:59,928] {logging_mixin.py:109} INFO - [2022-04-03 22:16:59,928] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:17:01,679] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 3.621 seconds
+[2022-04-03 22:17:52,699] {processor.py:163} INFO - Started process (PID=2397) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:17:52,717] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:17:52,718] {logging_mixin.py:109} INFO - [2022-04-03 22:17:52,718] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:17:53,438] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:17:53,450] {logging_mixin.py:109} INFO - [2022-04-03 22:17:53,450] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:17:53,465] {logging_mixin.py:109} INFO - [2022-04-03 22:17:53,465] {dag.py:2937} INFO - Setting next_dagrun for python_operator_flores to None
+[2022-04-03 22:17:54,223] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.526 seconds
+[2022-04-03 22:19:22,113] {processor.py:163} INFO - Started process (PID=2459) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:19:22,129] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:19:22,130] {logging_mixin.py:109} INFO - [2022-04-03 22:19:22,130] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:19:22,656] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:19:23,514] {logging_mixin.py:109} INFO - [2022-04-03 22:19:23,514] {manager.py:496} INFO - Created Permission View: can edit on DAG:python_operator_univ_flores
+[2022-04-03 22:19:24,290] {logging_mixin.py:109} INFO - [2022-04-03 22:19:24,290] {manager.py:496} INFO - Created Permission View: can read on DAG:python_operator_univ_flores
+[2022-04-03 22:19:24,291] {logging_mixin.py:109} INFO - [2022-04-03 22:19:24,290] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:19:24,300] {logging_mixin.py:109} INFO - [2022-04-03 22:19:24,300] {dag.py:2417} INFO - Creating ORM DAG for python_operator_univ_flores
+[2022-04-03 22:19:24,310] {logging_mixin.py:109} INFO - [2022-04-03 22:19:24,309] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:19:24,462] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.352 seconds
+[2022-04-03 22:20:29,841] {processor.py:163} INFO - Started process (PID=2526) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:20:29,856] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:20:29,857] {logging_mixin.py:109} INFO - [2022-04-03 22:20:29,857] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:20:30,370] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:20:30,379] {logging_mixin.py:109} INFO - [2022-04-03 22:20:30,379] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:20:30,391] {logging_mixin.py:109} INFO - [2022-04-03 22:20:30,391] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:20:31,864] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.026 seconds
+[2022-04-03 22:21:04,759] {processor.py:163} INFO - Started process (PID=2571) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:21:04,766] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:21:04,766] {logging_mixin.py:109} INFO - [2022-04-03 22:21:04,766] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:21:05,688] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:21:05,703] {logging_mixin.py:109} INFO - [2022-04-03 22:21:05,703] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:21:05,722] {logging_mixin.py:109} INFO - [2022-04-03 22:21:05,722] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:21:05,868] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.112 seconds
+[2022-04-03 22:21:42,093] {processor.py:163} INFO - Started process (PID=2600) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:21:42,104] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:21:42,105] {logging_mixin.py:109} INFO - [2022-04-03 22:21:42,105] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:21:42,659] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:21:42,671] {logging_mixin.py:109} INFO - [2022-04-03 22:21:42,671] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:21:42,686] {logging_mixin.py:109} INFO - [2022-04-03 22:21:42,686] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:21:42,837] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.748 seconds
+[2022-04-03 22:22:16,188] {processor.py:163} INFO - Started process (PID=2650) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:22:16,195] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:22:16,196] {logging_mixin.py:109} INFO - [2022-04-03 22:22:16,196] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:22:16,607] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:22:16,613] {logging_mixin.py:109} INFO - [2022-04-03 22:22:16,613] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:22:16,622] {logging_mixin.py:109} INFO - [2022-04-03 22:22:16,622] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:22:16,775] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.590 seconds
+[2022-04-03 22:23:17,306] {processor.py:163} INFO - Started process (PID=2716) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:23:17,316] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:23:17,316] {logging_mixin.py:109} INFO - [2022-04-03 22:23:17,316] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:23:17,711] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:23:17,718] {logging_mixin.py:109} INFO - [2022-04-03 22:23:17,717] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:23:17,728] {logging_mixin.py:109} INFO - [2022-04-03 22:23:17,728] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:23:17,930] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.626 seconds
+[2022-04-03 22:24:13,349] {processor.py:163} INFO - Started process (PID=2781) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:24:13,354] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:24:13,355] {logging_mixin.py:109} INFO - [2022-04-03 22:24:13,355] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:24:13,801] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:24:13,809] {logging_mixin.py:109} INFO - [2022-04-03 22:24:13,809] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:24:13,822] {logging_mixin.py:109} INFO - [2022-04-03 22:24:13,822] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:24:13,959] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.613 seconds
+[2022-04-03 22:25:13,703] {processor.py:163} INFO - Started process (PID=2847) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:25:13,728] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:25:13,729] {logging_mixin.py:109} INFO - [2022-04-03 22:25:13,729] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:25:14,125] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:25:14,133] {logging_mixin.py:109} INFO - [2022-04-03 22:25:14,133] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:25:14,142] {logging_mixin.py:109} INFO - [2022-04-03 22:25:14,142] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:25:14,279] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.578 seconds
+[2022-04-03 22:25:44,724] {processor.py:163} INFO - Started process (PID=2875) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:25:44,733] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:25:44,734] {logging_mixin.py:109} INFO - [2022-04-03 22:25:44,734] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:25:45,210] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:25:45,226] {logging_mixin.py:109} INFO - [2022-04-03 22:25:45,225] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:25:45,236] {logging_mixin.py:109} INFO - [2022-04-03 22:25:45,236] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:25:45,393] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.674 seconds
+[2022-04-03 22:26:17,179] {processor.py:163} INFO - Started process (PID=2917) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:26:17,323] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:26:17,324] {logging_mixin.py:109} INFO - [2022-04-03 22:26:17,324] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:26:17,944] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:26:19,738] {logging_mixin.py:109} INFO - [2022-04-03 22:26:19,738] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:26:19,762] {logging_mixin.py:109} INFO - [2022-04-03 22:26:19,762] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:26:20,292] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 3.116 seconds
+[2022-04-03 22:27:35,311] {processor.py:163} INFO - Started process (PID=2957) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:27:35,319] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:27:35,320] {logging_mixin.py:109} INFO - [2022-04-03 22:27:35,320] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:27:35,830] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:27:35,839] {logging_mixin.py:109} INFO - [2022-04-03 22:27:35,839] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:27:35,851] {logging_mixin.py:109} INFO - [2022-04-03 22:27:35,851] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:27:37,325] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.018 seconds
+[2022-04-03 22:29:12,785] {processor.py:163} INFO - Started process (PID=3026) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:29:12,937] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:29:12,938] {logging_mixin.py:109} INFO - [2022-04-03 22:29:12,938] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:29:13,400] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:29:13,406] {logging_mixin.py:109} INFO - [2022-04-03 22:29:13,406] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:29:13,418] {logging_mixin.py:109} INFO - [2022-04-03 22:29:13,418] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:29:14,980] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.197 seconds
+[2022-04-03 22:30:43,480] {processor.py:163} INFO - Started process (PID=3096) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:30:43,490] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:30:43,491] {logging_mixin.py:109} INFO - [2022-04-03 22:30:43,491] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:30:43,916] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:30:43,923] {logging_mixin.py:109} INFO - [2022-04-03 22:30:43,923] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:30:43,933] {logging_mixin.py:109} INFO - [2022-04-03 22:30:43,933] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:30:45,268] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.791 seconds
+[2022-04-03 22:31:46,112] {processor.py:163} INFO - Started process (PID=3148) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:31:47,548] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:31:47,549] {logging_mixin.py:109} INFO - [2022-04-03 22:31:47,549] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:31:48,052] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:31:48,061] {logging_mixin.py:109} INFO - [2022-04-03 22:31:48,061] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:31:48,072] {logging_mixin.py:109} INFO - [2022-04-03 22:31:48,072] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:31:48,240] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.130 seconds
+[2022-04-03 22:33:07,639] {processor.py:163} INFO - Started process (PID=3212) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:33:08,032] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:33:08,090] {logging_mixin.py:109} INFO - [2022-04-03 22:33:08,089] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:33:08,527] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:33:08,540] {logging_mixin.py:109} INFO - [2022-04-03 22:33:08,539] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:33:08,555] {logging_mixin.py:109} INFO - [2022-04-03 22:33:08,555] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:33:08,842] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.205 seconds
+[2022-04-03 22:34:15,071] {processor.py:163} INFO - Started process (PID=3266) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:34:15,195] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:34:15,195] {logging_mixin.py:109} INFO - [2022-04-03 22:34:15,195] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:34:15,631] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:34:15,638] {logging_mixin.py:109} INFO - [2022-04-03 22:34:15,638] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:34:15,647] {logging_mixin.py:109} INFO - [2022-04-03 22:34:15,647] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:34:15,950] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.881 seconds
+[2022-04-03 22:35:37,857] {processor.py:163} INFO - Started process (PID=3333) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:35:37,864] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:35:37,865] {logging_mixin.py:109} INFO - [2022-04-03 22:35:37,865] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:35:38,427] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:35:38,439] {logging_mixin.py:109} INFO - [2022-04-03 22:35:38,439] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:35:38,453] {logging_mixin.py:109} INFO - [2022-04-03 22:35:38,453] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:35:39,622] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.769 seconds
+[2022-04-03 22:37:24,141] {processor.py:163} INFO - Started process (PID=3404) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:37:24,648] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:37:24,649] {logging_mixin.py:109} INFO - [2022-04-03 22:37:24,649] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:37:25,134] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:37:25,146] {logging_mixin.py:109} INFO - [2022-04-03 22:37:25,146] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:37:25,163] {logging_mixin.py:109} INFO - [2022-04-03 22:37:25,162] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:37:26,223] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.086 seconds
+[2022-04-03 22:38:39,855] {processor.py:163} INFO - Started process (PID=3458) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:38:39,872] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:38:39,873] {logging_mixin.py:109} INFO - [2022-04-03 22:38:39,873] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:38:40,320] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:38:40,330] {logging_mixin.py:109} INFO - [2022-04-03 22:38:40,329] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:38:40,342] {logging_mixin.py:109} INFO - [2022-04-03 22:38:40,342] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:38:41,192] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.340 seconds
+[2022-04-03 22:40:11,708] {processor.py:163} INFO - Started process (PID=3523) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:40:11,730] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:40:11,731] {logging_mixin.py:109} INFO - [2022-04-03 22:40:11,731] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:40:12,133] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:40:12,141] {logging_mixin.py:109} INFO - [2022-04-03 22:40:12,140] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:40:12,149] {logging_mixin.py:109} INFO - [2022-04-03 22:40:12,149] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:40:13,514] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.808 seconds
+[2022-04-03 22:41:10,507] {processor.py:163} INFO - Started process (PID=3575) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:41:10,534] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:41:10,535] {logging_mixin.py:109} INFO - [2022-04-03 22:41:10,535] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:41:11,004] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:41:11,016] {logging_mixin.py:109} INFO - [2022-04-03 22:41:11,016] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:41:11,031] {logging_mixin.py:109} INFO - [2022-04-03 22:41:11,031] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:41:11,218] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.713 seconds
+[2022-04-03 22:42:06,001] {processor.py:163} INFO - Started process (PID=3625) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:42:06,200] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:42:06,201] {logging_mixin.py:109} INFO - [2022-04-03 22:42:06,201] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:42:06,589] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:42:06,597] {logging_mixin.py:109} INFO - [2022-04-03 22:42:06,597] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:42:06,607] {logging_mixin.py:109} INFO - [2022-04-03 22:42:06,607] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:42:07,459] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.462 seconds
+[2022-04-03 22:43:09,526] {processor.py:163} INFO - Started process (PID=3677) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:43:09,537] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-03 22:43:09,537] {logging_mixin.py:109} INFO - [2022-04-03 22:43:09,537] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:43:09,967] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-03 22:43:09,973] {logging_mixin.py:109} INFO - [2022-04-03 22:43:09,973] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 22:43:09,984] {logging_mixin.py:109} INFO - [2022-04-03 22:43:09,984] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-03 22:43:10,629] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.104 seconds
+[2022-04-04 04:34:56,432] {processor.py:163} INFO - Started process (PID=240) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:34:56,450] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:34:56,450] {logging_mixin.py:109} INFO - [2022-04-04 04:34:56,450] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:34:57,083] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:34:57,093] {logging_mixin.py:109} INFO - [2022-04-04 04:34:57,093] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:34:57,120] {logging_mixin.py:109} INFO - [2022-04-04 04:34:57,120] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:34:57,557] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.128 seconds
+[2022-04-04 04:36:38,287] {processor.py:163} INFO - Started process (PID=329) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:36:38,313] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:36:38,316] {logging_mixin.py:109} INFO - [2022-04-04 04:36:38,316] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:36:40,028] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:36:40,043] {logging_mixin.py:109} INFO - [2022-04-04 04:36:40,043] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:36:40,055] {logging_mixin.py:109} INFO - [2022-04-04 04:36:40,055] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:36:40,275] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.991 seconds
+[2022-04-04 04:37:35,719] {processor.py:163} INFO - Started process (PID=381) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:37:36,068] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:37:36,069] {logging_mixin.py:109} INFO - [2022-04-04 04:37:36,069] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:37:36,665] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:37:36,674] {logging_mixin.py:109} INFO - [2022-04-04 04:37:36,673] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:37:36,685] {logging_mixin.py:109} INFO - [2022-04-04 04:37:36,685] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:37:37,394] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.677 seconds
+[2022-04-04 04:38:35,256] {processor.py:163} INFO - Started process (PID=431) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:38:35,270] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:38:35,271] {logging_mixin.py:109} INFO - [2022-04-04 04:38:35,271] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:38:35,737] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:38:35,745] {logging_mixin.py:109} INFO - [2022-04-04 04:38:35,745] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:38:35,757] {logging_mixin.py:109} INFO - [2022-04-04 04:38:35,756] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:38:36,024] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.771 seconds
+[2022-04-04 04:40:11,996] {processor.py:163} INFO - Started process (PID=470) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:40:12,040] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:40:12,041] {logging_mixin.py:109} INFO - [2022-04-04 04:40:12,041] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:40:12,887] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:40:12,899] {logging_mixin.py:109} INFO - [2022-04-04 04:40:12,898] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:40:12,919] {logging_mixin.py:109} INFO - [2022-04-04 04:40:12,919] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:40:13,187] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.195 seconds
+[2022-04-04 04:41:40,108] {processor.py:163} INFO - Started process (PID=554) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:41:40,155] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:41:40,155] {logging_mixin.py:109} INFO - [2022-04-04 04:41:40,155] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:41:40,648] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:41:40,657] {logging_mixin.py:109} INFO - [2022-04-04 04:41:40,657] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:41:40,668] {logging_mixin.py:109} INFO - [2022-04-04 04:41:40,668] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:41:41,009] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.903 seconds
+[2022-04-04 04:42:42,819] {processor.py:163} INFO - Started process (PID=605) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:42:42,844] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:42:42,844] {logging_mixin.py:109} INFO - [2022-04-04 04:42:42,844] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:42:43,445] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:42:43,465] {logging_mixin.py:109} INFO - [2022-04-04 04:42:43,464] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:42:43,498] {logging_mixin.py:109} INFO - [2022-04-04 04:42:43,498] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:42:43,731] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.915 seconds
+[2022-04-04 04:43:46,012] {processor.py:163} INFO - Started process (PID=658) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:43:46,374] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:43:46,375] {logging_mixin.py:109} INFO - [2022-04-04 04:43:46,375] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:43:46,874] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:43:46,885] {logging_mixin.py:109} INFO - [2022-04-04 04:43:46,884] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:43:46,896] {logging_mixin.py:109} INFO - [2022-04-04 04:43:46,896] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:43:49,115] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 3.105 seconds
+[2022-04-04 04:44:43,838] {processor.py:163} INFO - Started process (PID=717) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:44:43,889] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:44:43,889] {logging_mixin.py:109} INFO - [2022-04-04 04:44:43,889] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:44:44,413] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:44:44,422] {logging_mixin.py:109} INFO - [2022-04-04 04:44:44,421] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:44:44,436] {logging_mixin.py:109} INFO - [2022-04-04 04:44:44,436] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:44:44,588] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.751 seconds
+[2022-04-04 04:45:43,129] {processor.py:163} INFO - Started process (PID=767) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:45:43,154] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:45:43,155] {logging_mixin.py:109} INFO - [2022-04-04 04:45:43,155] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:45:43,637] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:45:43,645] {logging_mixin.py:109} INFO - [2022-04-04 04:45:43,645] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:45:43,656] {logging_mixin.py:109} INFO - [2022-04-04 04:45:43,656] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:45:44,404] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.278 seconds
+[2022-04-04 04:46:45,154] {processor.py:163} INFO - Started process (PID=818) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:46:45,474] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:46:45,475] {logging_mixin.py:109} INFO - [2022-04-04 04:46:45,475] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:46:46,027] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:46:46,060] {logging_mixin.py:109} INFO - [2022-04-04 04:46:46,060] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:46:46,076] {logging_mixin.py:109} INFO - [2022-04-04 04:46:46,076] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:46:46,251] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.100 seconds
+[2022-04-04 04:47:49,022] {processor.py:163} INFO - Started process (PID=870) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:47:49,141] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:47:49,142] {logging_mixin.py:109} INFO - [2022-04-04 04:47:49,142] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:47:49,618] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:47:49,628] {logging_mixin.py:109} INFO - [2022-04-04 04:47:49,627] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:47:49,638] {logging_mixin.py:109} INFO - [2022-04-04 04:47:49,638] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:47:49,826] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.806 seconds
+[2022-04-04 04:48:45,205] {processor.py:163} INFO - Started process (PID=922) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:48:45,286] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:48:45,287] {logging_mixin.py:109} INFO - [2022-04-04 04:48:45,287] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:48:45,803] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:48:45,812] {logging_mixin.py:109} INFO - [2022-04-04 04:48:45,812] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:48:45,825] {logging_mixin.py:109} INFO - [2022-04-04 04:48:45,825] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:48:46,299] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.097 seconds
+[2022-04-04 04:49:35,254] {processor.py:163} INFO - Started process (PID=971) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:49:35,288] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:49:35,289] {logging_mixin.py:109} INFO - [2022-04-04 04:49:35,289] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:49:36,720] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:49:36,735] {logging_mixin.py:109} INFO - [2022-04-04 04:49:36,734] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:49:36,753] {logging_mixin.py:109} INFO - [2022-04-04 04:49:36,752] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:49:38,196] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.946 seconds
+[2022-04-04 04:50:34,642] {processor.py:163} INFO - Started process (PID=1017) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:50:34,670] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:50:34,671] {logging_mixin.py:109} INFO - [2022-04-04 04:50:34,671] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:50:35,752] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:50:35,764] {logging_mixin.py:109} INFO - [2022-04-04 04:50:35,763] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:50:35,775] {logging_mixin.py:109} INFO - [2022-04-04 04:50:35,775] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:50:35,939] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.301 seconds
+[2022-04-04 04:51:38,892] {processor.py:163} INFO - Started process (PID=1070) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:51:39,679] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:51:39,680] {logging_mixin.py:109} INFO - [2022-04-04 04:51:39,680] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:51:40,275] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:51:40,287] {logging_mixin.py:109} INFO - [2022-04-04 04:51:40,287] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:51:40,305] {logging_mixin.py:109} INFO - [2022-04-04 04:51:40,305] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:51:40,615] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.726 seconds
+[2022-04-04 04:52:40,694] {processor.py:163} INFO - Started process (PID=1121) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:52:40,716] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:52:40,716] {logging_mixin.py:109} INFO - [2022-04-04 04:52:40,716] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:52:41,298] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:52:41,309] {logging_mixin.py:109} INFO - [2022-04-04 04:52:41,308] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:52:41,321] {logging_mixin.py:109} INFO - [2022-04-04 04:52:41,321] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:52:41,503] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.811 seconds
+[2022-04-04 04:53:40,545] {processor.py:163} INFO - Started process (PID=1172) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:53:40,693] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:53:40,693] {logging_mixin.py:109} INFO - [2022-04-04 04:53:40,693] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:53:41,241] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:53:41,250] {logging_mixin.py:109} INFO - [2022-04-04 04:53:41,250] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:53:41,261] {logging_mixin.py:109} INFO - [2022-04-04 04:53:41,261] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:53:41,947] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.404 seconds
+[2022-04-04 04:54:40,899] {processor.py:163} INFO - Started process (PID=1222) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:54:40,918] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:54:40,919] {logging_mixin.py:109} INFO - [2022-04-04 04:54:40,919] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:54:41,427] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:54:41,435] {logging_mixin.py:109} INFO - [2022-04-04 04:54:41,435] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:54:41,450] {logging_mixin.py:109} INFO - [2022-04-04 04:54:41,449] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:54:41,597] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.700 seconds
+[2022-04-04 04:55:44,832] {processor.py:163} INFO - Started process (PID=1273) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:55:44,845] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:55:44,846] {logging_mixin.py:109} INFO - [2022-04-04 04:55:44,846] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:55:45,353] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:55:45,364] {logging_mixin.py:109} INFO - [2022-04-04 04:55:45,364] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:55:45,380] {logging_mixin.py:109} INFO - [2022-04-04 04:55:45,380] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:55:45,597] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.767 seconds
+[2022-04-04 04:56:50,790] {processor.py:163} INFO - Started process (PID=1329) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:56:51,041] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:56:51,042] {logging_mixin.py:109} INFO - [2022-04-04 04:56:51,042] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:56:51,549] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:56:51,563] {logging_mixin.py:109} INFO - [2022-04-04 04:56:51,562] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:56:51,575] {logging_mixin.py:109} INFO - [2022-04-04 04:56:51,574] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:56:52,581] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.793 seconds
+[2022-04-04 04:58:05,008] {processor.py:163} INFO - Started process (PID=1383) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:58:05,149] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:58:05,150] {logging_mixin.py:109} INFO - [2022-04-04 04:58:05,150] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:58:05,630] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:58:05,639] {logging_mixin.py:109} INFO - [2022-04-04 04:58:05,639] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:58:05,652] {logging_mixin.py:109} INFO - [2022-04-04 04:58:05,651] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:58:07,039] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.037 seconds
+[2022-04-04 04:59:15,734] {processor.py:163} INFO - Started process (PID=1435) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:59:15,762] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 04:59:15,763] {logging_mixin.py:109} INFO - [2022-04-04 04:59:15,763] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:59:16,208] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 04:59:16,218] {logging_mixin.py:109} INFO - [2022-04-04 04:59:16,218] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 04:59:16,246] {logging_mixin.py:109} INFO - [2022-04-04 04:59:16,245] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 04:59:16,774] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.043 seconds
+[2022-04-04 05:00:33,515] {processor.py:163} INFO - Started process (PID=1495) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:00:33,609] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:00:33,610] {logging_mixin.py:109} INFO - [2022-04-04 05:00:33,610] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:00:34,178] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:00:34,189] {logging_mixin.py:109} INFO - [2022-04-04 05:00:34,189] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:00:34,204] {logging_mixin.py:109} INFO - [2022-04-04 05:00:34,203] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:00:35,500] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.986 seconds
+[2022-04-04 05:01:45,996] {processor.py:163} INFO - Started process (PID=1549) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:01:46,018] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:01:46,019] {logging_mixin.py:109} INFO - [2022-04-04 05:01:46,019] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:01:46,479] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:01:46,488] {logging_mixin.py:109} INFO - [2022-04-04 05:01:46,487] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:01:46,499] {logging_mixin.py:109} INFO - [2022-04-04 05:01:46,499] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:01:47,570] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.578 seconds
+[2022-04-04 05:02:56,038] {processor.py:163} INFO - Started process (PID=1603) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:02:56,227] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:02:56,227] {logging_mixin.py:109} INFO - [2022-04-04 05:02:56,227] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:02:56,733] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:02:56,742] {logging_mixin.py:109} INFO - [2022-04-04 05:02:56,742] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:02:56,755] {logging_mixin.py:109} INFO - [2022-04-04 05:02:56,755] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:02:57,240] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.206 seconds
+[2022-04-04 05:04:02,709] {processor.py:163} INFO - Started process (PID=1656) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:04:02,735] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:04:02,736] {logging_mixin.py:109} INFO - [2022-04-04 05:04:02,735] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:04:03,323] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:04:03,337] {logging_mixin.py:109} INFO - [2022-04-04 05:04:03,336] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:04:03,352] {logging_mixin.py:109} INFO - [2022-04-04 05:04:03,352] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:04:04,577] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.871 seconds
+[2022-04-04 05:05:11,110] {processor.py:163} INFO - Started process (PID=1710) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:05:11,125] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:05:11,126] {logging_mixin.py:109} INFO - [2022-04-04 05:05:11,126] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:05:11,595] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:05:11,604] {logging_mixin.py:109} INFO - [2022-04-04 05:05:11,604] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:05:11,617] {logging_mixin.py:109} INFO - [2022-04-04 05:05:11,617] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:05:13,496] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.389 seconds
+[2022-04-04 05:06:10,454] {processor.py:163} INFO - Started process (PID=1761) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:06:10,472] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:06:10,472] {logging_mixin.py:109} INFO - [2022-04-04 05:06:10,472] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:06:10,962] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:06:10,972] {logging_mixin.py:109} INFO - [2022-04-04 05:06:10,971] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:06:10,992] {logging_mixin.py:109} INFO - [2022-04-04 05:06:10,992] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:06:11,644] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.192 seconds
+[2022-04-04 05:07:14,767] {processor.py:163} INFO - Started process (PID=1814) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:07:15,805] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:07:15,908] {logging_mixin.py:109} INFO - [2022-04-04 05:07:15,907] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:07:16,444] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:07:16,457] {logging_mixin.py:109} INFO - [2022-04-04 05:07:16,457] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:07:16,482] {logging_mixin.py:109} INFO - [2022-04-04 05:07:16,482] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:07:17,420] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.655 seconds
+[2022-04-04 05:08:29,651] {processor.py:163} INFO - Started process (PID=1866) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:08:29,678] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:08:29,679] {logging_mixin.py:109} INFO - [2022-04-04 05:08:29,679] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:08:31,016] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:08:31,060] {logging_mixin.py:109} INFO - [2022-04-04 05:08:31,051] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:08:31,108] {logging_mixin.py:109} INFO - [2022-04-04 05:08:31,108] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:08:31,322] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.675 seconds
+[2022-04-04 05:09:42,974] {processor.py:163} INFO - Started process (PID=1922) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:09:42,996] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:09:42,997] {logging_mixin.py:109} INFO - [2022-04-04 05:09:42,996] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:09:43,521] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:09:43,538] {logging_mixin.py:109} INFO - [2022-04-04 05:09:43,537] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:09:43,555] {logging_mixin.py:109} INFO - [2022-04-04 05:09:43,555] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:09:43,797] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.825 seconds
+[2022-04-04 05:10:41,416] {processor.py:163} INFO - Started process (PID=1973) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:10:41,654] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:10:41,655] {logging_mixin.py:109} INFO - [2022-04-04 05:10:41,655] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:10:42,338] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:10:42,350] {logging_mixin.py:109} INFO - [2022-04-04 05:10:42,350] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:10:42,372] {logging_mixin.py:109} INFO - [2022-04-04 05:10:42,372] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:10:42,531] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.118 seconds
+[2022-04-04 05:11:47,092] {processor.py:163} INFO - Started process (PID=2027) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:11:48,449] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:11:48,450] {logging_mixin.py:109} INFO - [2022-04-04 05:11:48,450] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:11:49,055] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:11:49,064] {logging_mixin.py:109} INFO - [2022-04-04 05:11:49,064] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:11:49,080] {logging_mixin.py:109} INFO - [2022-04-04 05:11:49,080] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:11:50,042] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.953 seconds
+[2022-04-04 05:12:54,157] {processor.py:163} INFO - Started process (PID=2077) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:12:54,166] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:12:54,167] {logging_mixin.py:109} INFO - [2022-04-04 05:12:54,167] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:12:54,661] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:12:54,668] {logging_mixin.py:109} INFO - [2022-04-04 05:12:54,668] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:12:54,683] {logging_mixin.py:109} INFO - [2022-04-04 05:12:54,682] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:12:55,756] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.603 seconds
+[2022-04-04 05:14:04,000] {processor.py:163} INFO - Started process (PID=2132) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:14:04,101] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:14:04,102] {logging_mixin.py:109} INFO - [2022-04-04 05:14:04,101] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:14:04,629] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:14:04,637] {logging_mixin.py:109} INFO - [2022-04-04 05:14:04,637] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:14:04,654] {logging_mixin.py:109} INFO - [2022-04-04 05:14:04,653] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:14:05,442] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.446 seconds
+[2022-04-04 05:15:13,380] {processor.py:163} INFO - Started process (PID=2184) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:15:13,445] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:15:13,446] {logging_mixin.py:109} INFO - [2022-04-04 05:15:13,446] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:15:14,605] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:15:14,622] {logging_mixin.py:109} INFO - [2022-04-04 05:15:14,621] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:15:14,645] {logging_mixin.py:109} INFO - [2022-04-04 05:15:14,645] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:15:14,812] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.438 seconds
+[2022-04-04 05:16:33,774] {processor.py:163} INFO - Started process (PID=2240) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:16:33,894] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:16:33,895] {logging_mixin.py:109} INFO - [2022-04-04 05:16:33,895] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:16:34,512] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:16:34,520] {logging_mixin.py:109} INFO - [2022-04-04 05:16:34,519] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:16:34,529] {logging_mixin.py:109} INFO - [2022-04-04 05:16:34,529] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:16:35,188] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.417 seconds
+[2022-04-04 05:17:45,621] {processor.py:163} INFO - Started process (PID=2293) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:17:45,742] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:17:45,743] {logging_mixin.py:109} INFO - [2022-04-04 05:17:45,743] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:17:46,137] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:17:46,144] {logging_mixin.py:109} INFO - [2022-04-04 05:17:46,144] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:17:46,155] {logging_mixin.py:109} INFO - [2022-04-04 05:17:46,155] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:17:47,128] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.509 seconds
+[2022-04-04 05:18:44,394] {processor.py:163} INFO - Started process (PID=2347) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:18:44,412] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:18:44,412] {logging_mixin.py:109} INFO - [2022-04-04 05:18:44,412] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:18:45,157] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:18:45,165] {logging_mixin.py:109} INFO - [2022-04-04 05:18:45,165] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:18:45,175] {logging_mixin.py:109} INFO - [2022-04-04 05:18:45,175] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:18:45,397] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.008 seconds
+[2022-04-04 05:19:34,590] {processor.py:163} INFO - Started process (PID=2397) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:19:34,598] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:19:34,599] {logging_mixin.py:109} INFO - [2022-04-04 05:19:34,599] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:19:35,025] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:19:35,035] {logging_mixin.py:109} INFO - [2022-04-04 05:19:35,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:19:35,046] {logging_mixin.py:109} INFO - [2022-04-04 05:19:35,046] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:19:37,073] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.486 seconds
+[2022-04-04 05:20:29,267] {processor.py:163} INFO - Started process (PID=2448) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:20:29,331] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:20:29,332] {logging_mixin.py:109} INFO - [2022-04-04 05:20:29,331] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:20:29,707] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:20:29,717] {logging_mixin.py:109} INFO - [2022-04-04 05:20:29,716] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:20:29,727] {logging_mixin.py:109} INFO - [2022-04-04 05:20:29,727] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:20:30,787] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.522 seconds
+[2022-04-04 05:21:33,435] {processor.py:163} INFO - Started process (PID=2501) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:21:33,482] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:21:33,483] {logging_mixin.py:109} INFO - [2022-04-04 05:21:33,483] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:21:33,883] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:21:33,890] {logging_mixin.py:109} INFO - [2022-04-04 05:21:33,890] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:21:33,898] {logging_mixin.py:109} INFO - [2022-04-04 05:21:33,898] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:21:34,366] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.933 seconds
+[2022-04-04 05:22:32,998] {processor.py:163} INFO - Started process (PID=2555) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:22:33,005] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:22:33,006] {logging_mixin.py:109} INFO - [2022-04-04 05:22:33,006] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:22:33,540] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:22:33,549] {logging_mixin.py:109} INFO - [2022-04-04 05:22:33,549] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:22:33,566] {logging_mixin.py:109} INFO - [2022-04-04 05:22:33,566] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:22:34,187] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.191 seconds
+[2022-04-04 05:23:39,928] {processor.py:163} INFO - Started process (PID=2607) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:23:40,051] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:23:40,052] {logging_mixin.py:109} INFO - [2022-04-04 05:23:40,052] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:23:40,451] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:23:40,459] {logging_mixin.py:109} INFO - [2022-04-04 05:23:40,459] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:23:40,469] {logging_mixin.py:109} INFO - [2022-04-04 05:23:40,469] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:23:40,997] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.071 seconds
+[2022-04-04 05:24:38,368] {processor.py:163} INFO - Started process (PID=2659) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:24:38,415] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:24:38,416] {logging_mixin.py:109} INFO - [2022-04-04 05:24:38,416] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:24:38,806] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:24:38,814] {logging_mixin.py:109} INFO - [2022-04-04 05:24:38,813] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:24:38,823] {logging_mixin.py:109} INFO - [2022-04-04 05:24:38,823] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:24:39,076] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.710 seconds
+[2022-04-04 05:25:38,696] {processor.py:163} INFO - Started process (PID=2711) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:25:40,137] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:25:40,138] {logging_mixin.py:109} INFO - [2022-04-04 05:25:40,138] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:25:40,594] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:25:40,603] {logging_mixin.py:109} INFO - [2022-04-04 05:25:40,603] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:25:40,614] {logging_mixin.py:109} INFO - [2022-04-04 05:25:40,614] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:25:41,390] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.697 seconds
+[2022-04-04 05:26:45,811] {processor.py:163} INFO - Started process (PID=2764) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:26:45,817] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:26:45,817] {logging_mixin.py:109} INFO - [2022-04-04 05:26:45,817] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:26:46,199] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:26:46,206] {logging_mixin.py:109} INFO - [2022-04-04 05:26:46,206] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:26:46,216] {logging_mixin.py:109} INFO - [2022-04-04 05:26:46,216] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:26:46,428] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.620 seconds
+[2022-04-04 05:27:53,367] {processor.py:163} INFO - Started process (PID=2818) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:27:53,517] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:27:53,517] {logging_mixin.py:109} INFO - [2022-04-04 05:27:53,517] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:27:53,942] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:27:53,950] {logging_mixin.py:109} INFO - [2022-04-04 05:27:53,949] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:27:53,960] {logging_mixin.py:109} INFO - [2022-04-04 05:27:53,960] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:27:54,217] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.854 seconds
+[2022-04-04 05:28:51,788] {processor.py:163} INFO - Started process (PID=2871) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:28:51,805] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:28:51,805] {logging_mixin.py:109} INFO - [2022-04-04 05:28:51,805] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:28:52,189] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:28:52,196] {logging_mixin.py:109} INFO - [2022-04-04 05:28:52,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:28:52,205] {logging_mixin.py:109} INFO - [2022-04-04 05:28:52,205] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:28:53,683] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.897 seconds
+[2022-04-04 05:30:11,700] {processor.py:163} INFO - Started process (PID=2929) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:30:11,840] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:30:11,841] {logging_mixin.py:109} INFO - [2022-04-04 05:30:11,841] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:30:12,216] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:30:12,222] {logging_mixin.py:109} INFO - [2022-04-04 05:30:12,222] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 05:30:12,231] {logging_mixin.py:109} INFO - [2022-04-04 05:30:12,231] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 05:30:13,151] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.453 seconds
+[2022-04-04 05:31:18,660] {processor.py:163} INFO - Started process (PID=2983) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 05:31:18,680] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 05:31:18,681] {logging_mixin.py:109} INFO - [2022-04-04 05:31:18,681] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:24:35,764] {processor.py:163} INFO - Started process (PID=3010) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:24:35,849] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 07:24:35,849] {logging_mixin.py:109} INFO - [2022-04-04 07:24:35,849] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:24:36,363] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:24:36,371] {logging_mixin.py:109} INFO - [2022-04-04 07:24:36,371] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 07:24:36,384] {logging_mixin.py:109} INFO - [2022-04-04 07:24:36,384] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 07:24:37,008] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.247 seconds
+[2022-04-04 07:25:45,207] {processor.py:163} INFO - Started process (PID=3074) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:25:45,389] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 07:25:45,390] {logging_mixin.py:109} INFO - [2022-04-04 07:25:45,390] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:25:45,883] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:25:45,891] {logging_mixin.py:109} INFO - [2022-04-04 07:25:45,891] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 07:25:45,900] {logging_mixin.py:109} INFO - [2022-04-04 07:25:45,900] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 07:25:46,252] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.048 seconds
+[2022-04-04 07:27:40,103] {processor.py:163} INFO - Started process (PID=3144) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:27:40,904] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 07:27:40,905] {logging_mixin.py:109} INFO - [2022-04-04 07:27:40,905] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:27:41,320] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 07:27:41,330] {logging_mixin.py:109} INFO - [2022-04-04 07:27:41,330] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 07:27:41,348] {logging_mixin.py:109} INFO - [2022-04-04 07:27:41,348] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 07:27:41,828] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.728 seconds
+[2022-04-04 15:28:58,033] {processor.py:163} INFO - Started process (PID=3524) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:28:58,215] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:28:58,216] {logging_mixin.py:109} INFO - [2022-04-04 15:28:58,216] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:28:59,003] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:28:59,015] {logging_mixin.py:109} INFO - [2022-04-04 15:28:59,014] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:28:59,027] {logging_mixin.py:109} INFO - [2022-04-04 15:28:59,027] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:28:59,180] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.150 seconds
+[2022-04-04 15:30:43,526] {processor.py:163} INFO - Started process (PID=3609) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:30:43,562] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:30:43,563] {logging_mixin.py:109} INFO - [2022-04-04 15:30:43,563] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:30:44,085] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:30:44,094] {logging_mixin.py:109} INFO - [2022-04-04 15:30:44,093] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:30:44,106] {logging_mixin.py:109} INFO - [2022-04-04 15:30:44,105] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:30:44,429] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.907 seconds
+[2022-04-04 15:32:06,879] {processor.py:163} INFO - Started process (PID=3667) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:32:06,922] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:32:06,923] {logging_mixin.py:109} INFO - [2022-04-04 15:32:06,922] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:32:07,441] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:32:07,453] {logging_mixin.py:109} INFO - [2022-04-04 15:32:07,453] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:32:07,469] {logging_mixin.py:109} INFO - [2022-04-04 15:32:07,469] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:32:07,706] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.831 seconds
+[2022-04-04 15:33:16,445] {processor.py:163} INFO - Started process (PID=3722) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:33:17,700] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:33:17,701] {logging_mixin.py:109} INFO - [2022-04-04 15:33:17,701] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:33:18,366] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:33:18,387] {logging_mixin.py:109} INFO - [2022-04-04 15:33:18,387] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:33:18,406] {logging_mixin.py:109} INFO - [2022-04-04 15:33:18,406] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:33:18,686] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.244 seconds
+[2022-04-04 15:34:24,340] {processor.py:163} INFO - Started process (PID=3782) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:34:24,412] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:34:24,413] {logging_mixin.py:109} INFO - [2022-04-04 15:34:24,413] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:34:24,938] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:34:24,947] {logging_mixin.py:109} INFO - [2022-04-04 15:34:24,947] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:34:24,966] {logging_mixin.py:109} INFO - [2022-04-04 15:34:24,966] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:34:25,133] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.797 seconds
+[2022-04-04 15:35:25,297] {processor.py:163} INFO - Started process (PID=3839) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:35:25,332] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:35:25,333] {logging_mixin.py:109} INFO - [2022-04-04 15:35:25,333] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:35:25,846] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:35:25,854] {logging_mixin.py:109} INFO - [2022-04-04 15:35:25,854] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:35:25,866] {logging_mixin.py:109} INFO - [2022-04-04 15:35:25,866] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:35:26,240] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.946 seconds
+[2022-04-04 15:36:34,469] {processor.py:163} INFO - Started process (PID=3895) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:36:34,707] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:36:34,724] {logging_mixin.py:109} INFO - [2022-04-04 15:36:34,724] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:36:36,370] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:36:36,385] {logging_mixin.py:109} INFO - [2022-04-04 15:36:36,384] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:36:36,536] {logging_mixin.py:109} INFO - [2022-04-04 15:36:36,536] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:36:36,684] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.221 seconds
+[2022-04-04 15:37:45,012] {processor.py:163} INFO - Started process (PID=3963) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:37:45,029] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:37:45,030] {logging_mixin.py:109} INFO - [2022-04-04 15:37:45,030] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:37:45,571] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:37:45,582] {logging_mixin.py:109} INFO - [2022-04-04 15:37:45,582] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:37:45,596] {logging_mixin.py:109} INFO - [2022-04-04 15:37:45,596] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:37:46,594] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.585 seconds
+[2022-04-04 15:38:53,951] {processor.py:163} INFO - Started process (PID=4017) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:38:54,043] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:38:54,044] {logging_mixin.py:109} INFO - [2022-04-04 15:38:54,044] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:38:54,699] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:38:54,709] {logging_mixin.py:109} INFO - [2022-04-04 15:38:54,709] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:38:54,726] {logging_mixin.py:109} INFO - [2022-04-04 15:38:54,726] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:38:56,270] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.322 seconds
+[2022-04-04 15:39:56,082] {processor.py:163} INFO - Started process (PID=4079) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:39:56,116] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:39:56,117] {logging_mixin.py:109} INFO - [2022-04-04 15:39:56,117] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:39:56,853] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:39:56,866] {logging_mixin.py:109} INFO - [2022-04-04 15:39:56,866] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:39:56,879] {logging_mixin.py:109} INFO - [2022-04-04 15:39:56,879] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:39:57,050] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.971 seconds
+[2022-04-04 15:41:47,011] {processor.py:163} INFO - Started process (PID=4165) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:41:47,219] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:41:47,219] {logging_mixin.py:109} INFO - [2022-04-04 15:41:47,219] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:41:47,743] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:41:47,758] {logging_mixin.py:109} INFO - [2022-04-04 15:41:47,758] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:41:47,777] {logging_mixin.py:109} INFO - [2022-04-04 15:41:47,777] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:41:48,167] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.159 seconds
+[2022-04-04 15:43:22,104] {processor.py:163} INFO - Started process (PID=4229) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:43:22,297] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:43:22,298] {logging_mixin.py:109} INFO - [2022-04-04 15:43:22,298] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:43:22,932] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:43:22,944] {logging_mixin.py:109} INFO - [2022-04-04 15:43:22,944] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:43:22,956] {logging_mixin.py:109} INFO - [2022-04-04 15:43:22,956] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:43:23,189] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.088 seconds
+[2022-04-04 15:44:40,624] {processor.py:163} INFO - Started process (PID=4285) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:44:40,638] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:44:40,639] {logging_mixin.py:109} INFO - [2022-04-04 15:44:40,639] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:44:41,234] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:44:41,256] {logging_mixin.py:109} INFO - [2022-04-04 15:44:41,256] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:44:41,275] {logging_mixin.py:109} INFO - [2022-04-04 15:44:41,275] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:44:42,221] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.601 seconds
+[2022-04-04 15:46:02,385] {processor.py:163} INFO - Started process (PID=4339) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:46:02,540] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:46:02,541] {logging_mixin.py:109} INFO - [2022-04-04 15:46:02,541] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:46:03,087] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:46:03,095] {logging_mixin.py:109} INFO - [2022-04-04 15:46:03,095] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:46:03,107] {logging_mixin.py:109} INFO - [2022-04-04 15:46:03,107] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:46:04,249] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.867 seconds
+[2022-04-04 15:47:17,092] {processor.py:163} INFO - Started process (PID=4406) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:47:17,233] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:47:17,234] {logging_mixin.py:109} INFO - [2022-04-04 15:47:17,234] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:47:17,779] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:47:17,788] {logging_mixin.py:109} INFO - [2022-04-04 15:47:17,788] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:47:17,804] {logging_mixin.py:109} INFO - [2022-04-04 15:47:17,803] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:47:18,159] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.071 seconds
+[2022-04-04 15:48:31,400] {processor.py:163} INFO - Started process (PID=4460) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:48:31,423] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:48:31,423] {logging_mixin.py:109} INFO - [2022-04-04 15:48:31,423] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:48:31,987] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:48:31,996] {logging_mixin.py:109} INFO - [2022-04-04 15:48:31,996] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:48:32,011] {logging_mixin.py:109} INFO - [2022-04-04 15:48:32,011] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:48:32,632] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.235 seconds
+[2022-04-04 15:49:39,916] {processor.py:163} INFO - Started process (PID=4514) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:49:39,931] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:49:39,931] {logging_mixin.py:109} INFO - [2022-04-04 15:49:39,931] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:49:40,434] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:49:40,442] {logging_mixin.py:109} INFO - [2022-04-04 15:49:40,442] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:49:40,460] {logging_mixin.py:109} INFO - [2022-04-04 15:49:40,460] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:49:41,914] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.001 seconds
+[2022-04-04 15:50:53,303] {processor.py:163} INFO - Started process (PID=4568) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:50:53,384] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:50:53,384] {logging_mixin.py:109} INFO - [2022-04-04 15:50:53,384] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:50:53,798] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:50:53,807] {logging_mixin.py:109} INFO - [2022-04-04 15:50:53,807] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:50:53,818] {logging_mixin.py:109} INFO - [2022-04-04 15:50:53,818] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:50:54,665] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.365 seconds
+[2022-04-04 15:52:06,244] {processor.py:163} INFO - Started process (PID=4624) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:52:06,302] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:52:06,303] {logging_mixin.py:109} INFO - [2022-04-04 15:52:06,303] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:52:06,711] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:52:06,718] {logging_mixin.py:109} INFO - [2022-04-04 15:52:06,717] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:52:06,727] {logging_mixin.py:109} INFO - [2022-04-04 15:52:06,727] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:52:06,876] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.634 seconds
+[2022-04-04 15:52:49,811] {processor.py:163} INFO - Started process (PID=4676) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:52:49,817] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:52:49,818] {logging_mixin.py:109} INFO - [2022-04-04 15:52:49,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:52:50,185] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:52:50,192] {logging_mixin.py:109} INFO - [2022-04-04 15:52:50,192] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:52:50,203] {logging_mixin.py:109} INFO - [2022-04-04 15:52:50,203] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:52:50,382] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.574 seconds
+[2022-04-04 15:53:32,313] {processor.py:163} INFO - Started process (PID=4715) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:53:32,359] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:53:32,360] {logging_mixin.py:109} INFO - [2022-04-04 15:53:32,360] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:53:32,746] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:53:32,758] {logging_mixin.py:109} INFO - [2022-04-04 15:53:32,757] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:53:32,772] {logging_mixin.py:109} INFO - [2022-04-04 15:53:32,772] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:53:33,896] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.586 seconds
+[2022-04-04 15:54:21,884] {processor.py:163} INFO - Started process (PID=4767) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:54:21,898] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:54:21,898] {logging_mixin.py:109} INFO - [2022-04-04 15:54:21,898] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:54:22,476] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:54:22,486] {logging_mixin.py:109} INFO - [2022-04-04 15:54:22,486] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:54:22,496] {logging_mixin.py:109} INFO - [2022-04-04 15:54:22,496] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:54:22,636] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.754 seconds
+[2022-04-04 15:54:59,187] {processor.py:163} INFO - Started process (PID=4814) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:55:00,711] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:55:00,716] {logging_mixin.py:109} INFO - [2022-04-04 15:55:00,715] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:55:01,099] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:55:01,107] {logging_mixin.py:109} INFO - [2022-04-04 15:55:01,106] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:55:01,115] {logging_mixin.py:109} INFO - [2022-04-04 15:55:01,115] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:55:01,238] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.053 seconds
+[2022-04-04 15:55:38,722] {processor.py:163} INFO - Started process (PID=4849) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:55:38,737] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:55:38,737] {logging_mixin.py:109} INFO - [2022-04-04 15:55:38,737] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:55:39,131] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:55:39,138] {logging_mixin.py:109} INFO - [2022-04-04 15:55:39,138] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:55:39,147] {logging_mixin.py:109} INFO - [2022-04-04 15:55:39,147] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:55:39,290] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.570 seconds
+[2022-04-04 15:56:21,086] {processor.py:163} INFO - Started process (PID=4896) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:56:21,089] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:56:21,089] {logging_mixin.py:109} INFO - [2022-04-04 15:56:21,089] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:56:21,447] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:56:21,455] {logging_mixin.py:109} INFO - [2022-04-04 15:56:21,455] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:56:21,464] {logging_mixin.py:109} INFO - [2022-04-04 15:56:21,464] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:56:21,612] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.528 seconds
+[2022-04-04 15:56:56,419] {processor.py:163} INFO - Started process (PID=4936) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:56:56,434] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:56:56,434] {logging_mixin.py:109} INFO - [2022-04-04 15:56:56,434] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:56:56,828] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:56:56,836] {logging_mixin.py:109} INFO - [2022-04-04 15:56:56,836] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:56:56,847] {logging_mixin.py:109} INFO - [2022-04-04 15:56:56,847] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:56:56,992] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.575 seconds
+[2022-04-04 15:58:06,757] {processor.py:163} INFO - Started process (PID=5006) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:58:06,764] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:58:06,765] {logging_mixin.py:109} INFO - [2022-04-04 15:58:06,765] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:58:07,141] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:58:07,148] {logging_mixin.py:109} INFO - [2022-04-04 15:58:07,148] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:58:07,158] {logging_mixin.py:109} INFO - [2022-04-04 15:58:07,158] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:58:07,303] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.549 seconds
+[2022-04-04 15:58:40,993] {processor.py:163} INFO - Started process (PID=5049) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:58:41,554] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:58:41,555] {logging_mixin.py:109} INFO - [2022-04-04 15:58:41,555] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:58:42,121] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:58:42,130] {logging_mixin.py:109} INFO - [2022-04-04 15:58:42,130] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:58:42,140] {logging_mixin.py:109} INFO - [2022-04-04 15:58:42,140] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:58:42,293] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.303 seconds
+[2022-04-04 15:59:17,383] {processor.py:163} INFO - Started process (PID=5084) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:59:17,387] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:59:17,388] {logging_mixin.py:109} INFO - [2022-04-04 15:59:17,387] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:59:17,853] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:59:17,860] {logging_mixin.py:109} INFO - [2022-04-04 15:59:17,860] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:59:17,871] {logging_mixin.py:109} INFO - [2022-04-04 15:59:17,871] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:59:18,005] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.625 seconds
+[2022-04-04 15:59:50,984] {processor.py:163} INFO - Started process (PID=5127) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:59:50,988] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 15:59:50,988] {logging_mixin.py:109} INFO - [2022-04-04 15:59:50,988] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:59:51,389] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 15:59:51,398] {logging_mixin.py:109} INFO - [2022-04-04 15:59:51,398] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 15:59:51,413] {logging_mixin.py:109} INFO - [2022-04-04 15:59:51,412] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 15:59:51,561] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.580 seconds
+[2022-04-04 16:00:53,859] {processor.py:163} INFO - Started process (PID=5196) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:00:53,870] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:00:53,870] {logging_mixin.py:109} INFO - [2022-04-04 16:00:53,870] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:00:54,248] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:00:54,256] {logging_mixin.py:109} INFO - [2022-04-04 16:00:54,255] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:00:54,267] {logging_mixin.py:109} INFO - [2022-04-04 16:00:54,267] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:00:54,406] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.549 seconds
+[2022-04-04 16:01:28,022] {processor.py:163} INFO - Started process (PID=5236) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:01:28,035] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:01:28,036] {logging_mixin.py:109} INFO - [2022-04-04 16:01:28,036] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:01:28,460] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:01:28,469] {logging_mixin.py:109} INFO - [2022-04-04 16:01:28,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:01:28,481] {logging_mixin.py:109} INFO - [2022-04-04 16:01:28,481] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:01:28,612] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.593 seconds
+[2022-04-04 16:02:09,962] {processor.py:163} INFO - Started process (PID=5277) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:02:09,971] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:02:09,972] {logging_mixin.py:109} INFO - [2022-04-04 16:02:09,972] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:02:10,361] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:02:10,369] {logging_mixin.py:109} INFO - [2022-04-04 16:02:10,369] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:02:10,378] {logging_mixin.py:109} INFO - [2022-04-04 16:02:10,378] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:02:10,842] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.884 seconds
+[2022-04-04 16:02:46,656] {processor.py:163} INFO - Started process (PID=5327) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:02:46,659] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:02:46,660] {logging_mixin.py:109} INFO - [2022-04-04 16:02:46,660] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:02:47,041] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:02:47,048] {logging_mixin.py:109} INFO - [2022-04-04 16:02:47,048] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:02:47,057] {logging_mixin.py:109} INFO - [2022-04-04 16:02:47,057] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:02:47,200] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.547 seconds
+[2022-04-04 16:03:46,202] {processor.py:163} INFO - Started process (PID=5408) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:03:46,337] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:03:46,338] {logging_mixin.py:109} INFO - [2022-04-04 16:03:46,338] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:03:46,709] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:03:46,715] {logging_mixin.py:109} INFO - [2022-04-04 16:03:46,715] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:03:46,728] {logging_mixin.py:109} INFO - [2022-04-04 16:03:46,728] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:03:46,969] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.770 seconds
+[2022-04-04 16:04:50,000] {processor.py:163} INFO - Started process (PID=5478) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:04:50,019] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:04:50,020] {logging_mixin.py:109} INFO - [2022-04-04 16:04:50,020] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:04:50,415] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:04:50,421] {logging_mixin.py:109} INFO - [2022-04-04 16:04:50,421] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:04:50,430] {logging_mixin.py:109} INFO - [2022-04-04 16:04:50,430] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:04:50,598] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.601 seconds
+[2022-04-04 16:05:52,500] {processor.py:163} INFO - Started process (PID=5547) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:05:52,506] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:05:52,507] {logging_mixin.py:109} INFO - [2022-04-04 16:05:52,507] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:05:52,948] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:05:52,956] {logging_mixin.py:109} INFO - [2022-04-04 16:05:52,956] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:05:52,967] {logging_mixin.py:109} INFO - [2022-04-04 16:05:52,967] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:05:53,274] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.776 seconds
+[2022-04-04 16:06:29,390] {processor.py:163} INFO - Started process (PID=5585) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:06:29,405] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:06:29,405] {logging_mixin.py:109} INFO - [2022-04-04 16:06:29,405] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:06:29,808] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:06:29,816] {logging_mixin.py:109} INFO - [2022-04-04 16:06:29,815] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:06:29,824] {logging_mixin.py:109} INFO - [2022-04-04 16:06:29,824] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:06:29,962] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.574 seconds
+[2022-04-04 16:07:20,320] {processor.py:163} INFO - Started process (PID=5631) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:07:20,328] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:07:20,328] {logging_mixin.py:109} INFO - [2022-04-04 16:07:20,328] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:07:20,701] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:07:20,708] {logging_mixin.py:109} INFO - [2022-04-04 16:07:20,708] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:07:20,717] {logging_mixin.py:109} INFO - [2022-04-04 16:07:20,717] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:07:22,523] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.205 seconds
+[2022-04-04 16:08:04,142] {processor.py:163} INFO - Started process (PID=5683) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:08:04,283] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:08:04,284] {logging_mixin.py:109} INFO - [2022-04-04 16:08:04,284] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:08:04,675] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:08:04,682] {logging_mixin.py:109} INFO - [2022-04-04 16:08:04,682] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:08:04,691] {logging_mixin.py:109} INFO - [2022-04-04 16:08:04,691] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:08:04,893] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.755 seconds
+[2022-04-04 16:08:42,086] {processor.py:163} INFO - Started process (PID=5718) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:08:42,092] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:08:42,093] {logging_mixin.py:109} INFO - [2022-04-04 16:08:42,093] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:08:42,473] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:08:42,482] {logging_mixin.py:109} INFO - [2022-04-04 16:08:42,481] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:08:42,492] {logging_mixin.py:109} INFO - [2022-04-04 16:08:42,491] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:08:43,453] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.369 seconds
+[2022-04-04 16:09:33,753] {processor.py:163} INFO - Started process (PID=5764) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:09:34,090] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:09:34,091] {logging_mixin.py:109} INFO - [2022-04-04 16:09:34,091] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:09:34,529] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:09:34,537] {logging_mixin.py:109} INFO - [2022-04-04 16:09:34,536] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:09:34,547] {logging_mixin.py:109} INFO - [2022-04-04 16:09:34,547] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:09:34,688] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.937 seconds
+[2022-04-04 16:10:15,837] {processor.py:163} INFO - Started process (PID=5817) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:10:16,504] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:10:16,505] {logging_mixin.py:109} INFO - [2022-04-04 16:10:16,505] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:10:16,946] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:10:16,953] {logging_mixin.py:109} INFO - [2022-04-04 16:10:16,953] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:10:16,963] {logging_mixin.py:109} INFO - [2022-04-04 16:10:16,963] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:10:17,088] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.252 seconds
+[2022-04-04 16:10:52,953] {processor.py:163} INFO - Started process (PID=5855) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:10:52,956] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:10:52,956] {logging_mixin.py:109} INFO - [2022-04-04 16:10:52,956] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:10:53,335] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:10:53,527] {logging_mixin.py:109} INFO - [2022-04-04 16:10:53,527] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:10:53,538] {logging_mixin.py:109} INFO - [2022-04-04 16:10:53,538] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:10:53,687] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.737 seconds
+[2022-04-04 16:11:28,209] {processor.py:163} INFO - Started process (PID=5895) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:11:28,211] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:11:28,212] {logging_mixin.py:109} INFO - [2022-04-04 16:11:28,211] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:11:28,596] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:11:28,605] {logging_mixin.py:109} INFO - [2022-04-04 16:11:28,604] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:11:28,615] {logging_mixin.py:109} INFO - [2022-04-04 16:11:28,615] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:11:28,738] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.531 seconds
+[2022-04-04 16:12:10,216] {processor.py:163} INFO - Started process (PID=5933) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:12:10,223] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:12:10,223] {logging_mixin.py:109} INFO - [2022-04-04 16:12:10,223] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:12:10,829] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:12:10,840] {logging_mixin.py:109} INFO - [2022-04-04 16:12:10,839] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:12:10,855] {logging_mixin.py:109} INFO - [2022-04-04 16:12:10,855] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:12:11,705] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.492 seconds
+[2022-04-04 16:12:54,360] {processor.py:163} INFO - Started process (PID=5986) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:12:54,372] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:12:54,373] {logging_mixin.py:109} INFO - [2022-04-04 16:12:54,373] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:12:54,792] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:12:54,799] {logging_mixin.py:109} INFO - [2022-04-04 16:12:54,799] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:12:54,809] {logging_mixin.py:109} INFO - [2022-04-04 16:12:54,809] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:12:54,950] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.594 seconds
+[2022-04-04 16:13:29,935] {processor.py:163} INFO - Started process (PID=6028) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:13:29,948] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:13:29,948] {logging_mixin.py:109} INFO - [2022-04-04 16:13:29,948] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:13:30,318] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:13:30,325] {logging_mixin.py:109} INFO - [2022-04-04 16:13:30,324] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:13:30,333] {logging_mixin.py:109} INFO - [2022-04-04 16:13:30,333] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:13:30,575] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.642 seconds
+[2022-04-04 16:14:57,634] {processor.py:163} INFO - Started process (PID=6101) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:14:57,981] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:14:57,982] {logging_mixin.py:109} INFO - [2022-04-04 16:14:57,982] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:14:58,404] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:14:58,412] {logging_mixin.py:109} INFO - [2022-04-04 16:14:58,412] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:14:58,424] {logging_mixin.py:109} INFO - [2022-04-04 16:14:58,424] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:15:00,516] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.885 seconds
+[2022-04-04 16:16:04,032] {processor.py:163} INFO - Started process (PID=6154) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:16:04,193] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:16:04,194] {logging_mixin.py:109} INFO - [2022-04-04 16:16:04,194] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:16:04,576] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:16:04,582] {logging_mixin.py:109} INFO - [2022-04-04 16:16:04,582] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:16:04,592] {logging_mixin.py:109} INFO - [2022-04-04 16:16:04,591] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:16:06,056] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.027 seconds
+[2022-04-04 16:17:01,988] {processor.py:163} INFO - Started process (PID=6207) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:17:02,005] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:17:02,005] {logging_mixin.py:109} INFO - [2022-04-04 16:17:02,005] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:17:02,404] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:17:02,412] {logging_mixin.py:109} INFO - [2022-04-04 16:17:02,412] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:17:02,421] {logging_mixin.py:109} INFO - [2022-04-04 16:17:02,421] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:17:02,566] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.581 seconds
+[2022-04-04 16:17:45,718] {processor.py:163} INFO - Started process (PID=6260) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:17:45,727] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:17:45,728] {logging_mixin.py:109} INFO - [2022-04-04 16:17:45,728] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:17:46,129] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:17:46,137] {logging_mixin.py:109} INFO - [2022-04-04 16:17:46,137] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:17:46,146] {logging_mixin.py:109} INFO - [2022-04-04 16:17:46,146] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:17:46,291] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.577 seconds
+[2022-04-04 16:18:22,451] {processor.py:163} INFO - Started process (PID=6292) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:18:22,454] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:18:22,455] {logging_mixin.py:109} INFO - [2022-04-04 16:18:22,455] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:18:22,897] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:18:22,904] {logging_mixin.py:109} INFO - [2022-04-04 16:18:22,904] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:18:22,914] {logging_mixin.py:109} INFO - [2022-04-04 16:18:22,914] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:18:23,718] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.269 seconds
+[2022-04-04 16:19:02,807] {processor.py:163} INFO - Started process (PID=6343) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:19:02,841] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:19:02,841] {logging_mixin.py:109} INFO - [2022-04-04 16:19:02,841] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:19:03,278] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:19:03,285] {logging_mixin.py:109} INFO - [2022-04-04 16:19:03,285] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:19:03,297] {logging_mixin.py:109} INFO - [2022-04-04 16:19:03,296] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:19:03,543] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.739 seconds
+[2022-04-04 16:19:39,564] {processor.py:163} INFO - Started process (PID=6379) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:19:39,566] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:19:39,567] {logging_mixin.py:109} INFO - [2022-04-04 16:19:39,566] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:19:40,037] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:19:40,045] {logging_mixin.py:109} INFO - [2022-04-04 16:19:40,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:19:40,055] {logging_mixin.py:109} INFO - [2022-04-04 16:19:40,055] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:19:40,281] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.719 seconds
+[2022-04-04 16:20:31,094] {processor.py:163} INFO - Started process (PID=6424) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:20:31,097] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:20:31,098] {logging_mixin.py:109} INFO - [2022-04-04 16:20:31,098] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:20:31,534] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:20:31,543] {logging_mixin.py:109} INFO - [2022-04-04 16:20:31,543] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:20:31,553] {logging_mixin.py:109} INFO - [2022-04-04 16:20:31,553] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:20:31,697] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.606 seconds
+[2022-04-04 16:21:29,576] {processor.py:163} INFO - Started process (PID=6476) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:21:29,589] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:21:29,590] {logging_mixin.py:109} INFO - [2022-04-04 16:21:29,590] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:21:30,010] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:21:30,016] {logging_mixin.py:109} INFO - [2022-04-04 16:21:30,016] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:21:30,027] {logging_mixin.py:109} INFO - [2022-04-04 16:21:30,027] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:21:30,567] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.995 seconds
+[2022-04-04 16:22:37,484] {processor.py:163} INFO - Started process (PID=6528) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:22:37,571] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:22:37,573] {logging_mixin.py:109} INFO - [2022-04-04 16:22:37,573] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:22:38,948] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:22:38,957] {logging_mixin.py:109} INFO - [2022-04-04 16:22:38,957] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:22:38,967] {logging_mixin.py:109} INFO - [2022-04-04 16:22:38,967] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:22:39,193] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.711 seconds
+[2022-04-04 16:23:44,272] {processor.py:163} INFO - Started process (PID=6584) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:23:44,279] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:23:44,280] {logging_mixin.py:109} INFO - [2022-04-04 16:23:44,280] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:23:44,663] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:23:44,670] {logging_mixin.py:109} INFO - [2022-04-04 16:23:44,670] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:23:44,680] {logging_mixin.py:109} INFO - [2022-04-04 16:23:44,680] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:23:44,880] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.610 seconds
+[2022-04-04 16:24:46,849] {processor.py:163} INFO - Started process (PID=6636) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:24:46,894] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:24:46,895] {logging_mixin.py:109} INFO - [2022-04-04 16:24:46,895] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:24:47,359] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:24:47,369] {logging_mixin.py:109} INFO - [2022-04-04 16:24:47,368] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:24:47,380] {logging_mixin.py:109} INFO - [2022-04-04 16:24:47,379] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:24:47,919] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.073 seconds
+[2022-04-04 16:25:50,700] {processor.py:163} INFO - Started process (PID=6690) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:25:50,748] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:25:50,749] {logging_mixin.py:109} INFO - [2022-04-04 16:25:50,749] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:25:51,328] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:25:51,338] {logging_mixin.py:109} INFO - [2022-04-04 16:25:51,337] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:25:51,348] {logging_mixin.py:109} INFO - [2022-04-04 16:25:51,348] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:25:52,166] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.469 seconds
+[2022-04-04 16:27:10,740] {processor.py:163} INFO - Started process (PID=6747) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:27:10,815] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:27:10,816] {logging_mixin.py:109} INFO - [2022-04-04 16:27:10,816] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:27:11,196] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:27:11,204] {logging_mixin.py:109} INFO - [2022-04-04 16:27:11,204] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:27:11,213] {logging_mixin.py:109} INFO - [2022-04-04 16:27:11,212] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:27:12,837] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.101 seconds
+[2022-04-04 16:28:24,643] {processor.py:163} INFO - Started process (PID=6805) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:28:24,671] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:28:24,671] {logging_mixin.py:109} INFO - [2022-04-04 16:28:24,671] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:28:25,035] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:28:25,043] {logging_mixin.py:109} INFO - [2022-04-04 16:28:25,043] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:28:25,052] {logging_mixin.py:109} INFO - [2022-04-04 16:28:25,052] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:28:26,249] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.609 seconds
+[2022-04-04 16:29:44,852] {processor.py:163} INFO - Started process (PID=6869) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:29:44,870] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:29:44,871] {logging_mixin.py:109} INFO - [2022-04-04 16:29:44,871] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:29:45,326] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:29:45,336] {logging_mixin.py:109} INFO - [2022-04-04 16:29:45,336] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:29:45,347] {logging_mixin.py:109} INFO - [2022-04-04 16:29:45,347] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:29:46,972] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.122 seconds
+[2022-04-04 16:30:51,661] {processor.py:163} INFO - Started process (PID=6930) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:30:52,306] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:30:52,306] {logging_mixin.py:109} INFO - [2022-04-04 16:30:52,306] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:30:52,753] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:30:52,762] {logging_mixin.py:109} INFO - [2022-04-04 16:30:52,762] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:30:52,772] {logging_mixin.py:109} INFO - [2022-04-04 16:30:52,772] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:30:52,896] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.238 seconds
+[2022-04-04 16:31:53,536] {processor.py:163} INFO - Started process (PID=6994) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:31:53,559] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:31:53,560] {logging_mixin.py:109} INFO - [2022-04-04 16:31:53,560] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:31:55,529] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:31:55,539] {logging_mixin.py:109} INFO - [2022-04-04 16:31:55,539] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:31:55,550] {logging_mixin.py:109} INFO - [2022-04-04 16:31:55,550] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:31:55,802] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.268 seconds
+[2022-04-04 16:32:55,496] {processor.py:163} INFO - Started process (PID=7054) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:32:56,175] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:32:56,176] {logging_mixin.py:109} INFO - [2022-04-04 16:32:56,176] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:32:56,584] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:32:56,594] {logging_mixin.py:109} INFO - [2022-04-04 16:32:56,593] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:32:56,614] {logging_mixin.py:109} INFO - [2022-04-04 16:32:56,614] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:32:57,956] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.462 seconds
+[2022-04-04 16:33:55,222] {processor.py:163} INFO - Started process (PID=7106) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:33:55,318] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:33:55,318] {logging_mixin.py:109} INFO - [2022-04-04 16:33:55,318] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:33:55,678] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:33:55,684] {logging_mixin.py:109} INFO - [2022-04-04 16:33:55,684] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:33:55,695] {logging_mixin.py:109} INFO - [2022-04-04 16:33:55,695] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:33:57,147] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.930 seconds
+[2022-04-04 16:34:54,338] {processor.py:163} INFO - Started process (PID=7169) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:34:54,350] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:34:54,351] {logging_mixin.py:109} INFO - [2022-04-04 16:34:54,351] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:34:54,736] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:34:54,742] {logging_mixin.py:109} INFO - [2022-04-04 16:34:54,742] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:34:54,752] {logging_mixin.py:109} INFO - [2022-04-04 16:34:54,752] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:34:55,412] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.076 seconds
+[2022-04-04 16:36:13,344] {processor.py:163} INFO - Started process (PID=7225) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:36:13,440] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:36:13,441] {logging_mixin.py:109} INFO - [2022-04-04 16:36:13,441] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:36:15,328] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:36:15,371] {logging_mixin.py:109} INFO - [2022-04-04 16:36:15,362] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:36:15,420] {logging_mixin.py:109} INFO - [2022-04-04 16:36:15,419] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:36:17,914] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 4.574 seconds
+[2022-04-04 16:37:31,447] {processor.py:163} INFO - Started process (PID=7281) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:37:31,458] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:37:31,459] {logging_mixin.py:109} INFO - [2022-04-04 16:37:31,459] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:37:32,029] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:37:32,052] {logging_mixin.py:109} INFO - [2022-04-04 16:37:32,052] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:37:32,096] {logging_mixin.py:109} INFO - [2022-04-04 16:37:32,096] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:37:32,259] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 0.817 seconds
+[2022-04-04 16:38:44,191] {processor.py:163} INFO - Started process (PID=7339) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:38:44,254] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:38:44,255] {logging_mixin.py:109} INFO - [2022-04-04 16:38:44,255] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:38:44,706] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:38:44,714] {logging_mixin.py:109} INFO - [2022-04-04 16:38:44,714] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:38:44,725] {logging_mixin.py:109} INFO - [2022-04-04 16:38:44,725] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:38:46,094] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.906 seconds
+[2022-04-04 16:43:41,455] {processor.py:163} INFO - Started process (PID=7404) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:43:41,474] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:43:41,474] {logging_mixin.py:109} INFO - [2022-04-04 16:43:41,474] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:43:42,522] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:43:42,539] {logging_mixin.py:109} INFO - [2022-04-04 16:43:42,539] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:43:42,570] {logging_mixin.py:109} INFO - [2022-04-04 16:43:42,570] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:43:43,788] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 2.336 seconds
+[2022-04-04 16:45:31,153] {processor.py:163} INFO - Started process (PID=7478) to work on /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:45:31,187] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py for tasks to queue
+[2022-04-04 16:45:31,188] {logging_mixin.py:109} INFO - [2022-04-04 16:45:31,188] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:45:31,610] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_univ_flores']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py
+[2022-04-04 16:45:31,618] {logging_mixin.py:109} INFO - [2022-04-04 16:45:31,618] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-04 16:45:31,632] {logging_mixin.py:109} INFO - [2022-04-04 16:45:31,632] {dag.py:2937} INFO - Setting next_dagrun for python_operator_univ_flores to None
+[2022-04-04 16:45:32,151] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_De_Flores_dag.py took 1.001 seconds

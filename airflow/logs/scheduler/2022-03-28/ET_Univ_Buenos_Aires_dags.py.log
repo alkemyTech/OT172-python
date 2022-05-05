@@ -1,0 +1,94 @@
+[2022-03-27 20:47:55,539] {processor.py:163} INFO - Started process (PID=1685) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:47:55,541] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:47:55,542] {logging_mixin.py:109} INFO - [2022-03-27 20:47:55,542] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:47:56,075] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:47:56,079] {logging_mixin.py:109} INFO - [2022-03-27 20:47:56,078] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:47:56,091] {logging_mixin.py:109} INFO - [2022-03-27 20:47:56,091] {dag.py:2937} INFO - Setting next_dagrun for python_operator to 2022-03-27T03:21:12.968439+00:00
+[2022-03-27 20:47:56,383] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.847 seconds
+[2022-03-27 20:49:24,511] {processor.py:163} INFO - Started process (PID=1759) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:49:24,717] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:49:24,718] {logging_mixin.py:109} INFO - [2022-03-27 20:49:24,717] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:49:25,150] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:49:25,157] {logging_mixin.py:109} INFO - [2022-03-27 20:49:25,157] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:49:25,167] {logging_mixin.py:109} INFO - [2022-03-27 20:49:25,167] {dag.py:2937} INFO - Setting next_dagrun for python_operator to 2022-03-27T03:21:12.968439+00:00
+[2022-03-27 20:49:25,656] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 1.147 seconds
+[2022-03-27 20:50:22,342] {processor.py:163} INFO - Started process (PID=1805) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:50:22,351] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:50:22,351] {logging_mixin.py:109} INFO - [2022-03-27 20:50:22,351] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:50:22,739] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:50:23,298] {logging_mixin.py:109} INFO - [2022-03-27 20:50:23,297] {manager.py:496} INFO - Created Permission View: can read on DAG:python_operator_uba
+[2022-03-27 20:50:23,454] {logging_mixin.py:109} INFO - [2022-03-27 20:50:23,454] {manager.py:496} INFO - Created Permission View: can edit on DAG:python_operator_uba
+[2022-03-27 20:50:23,455] {logging_mixin.py:109} INFO - [2022-03-27 20:50:23,454] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:50:23,461] {logging_mixin.py:109} INFO - [2022-03-27 20:50:23,460] {dag.py:2417} INFO - Creating ORM DAG for python_operator_uba
+[2022-03-27 20:50:23,470] {logging_mixin.py:109} INFO - [2022-03-27 20:50:23,470] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-27T01:50:23.470018+00:00
+[2022-03-27 20:50:23,626] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 1.286 seconds
+[2022-03-27 20:51:31,895] {processor.py:163} INFO - Started process (PID=1872) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:51:31,944] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:51:31,944] {logging_mixin.py:109} INFO - [2022-03-27 20:51:31,944] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:51:32,476] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:51:32,485] {logging_mixin.py:109} INFO - [2022-03-27 20:51:32,485] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:51:32,498] {logging_mixin.py:109} INFO - [2022-03-27 20:51:32,498] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-27T01:51:32.498299+00:00
+[2022-03-27 20:51:32,652] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.760 seconds
+[2022-03-27 20:52:50,746] {processor.py:163} INFO - Started process (PID=1959) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:52:50,749] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:52:50,750] {logging_mixin.py:109} INFO - [2022-03-27 20:52:50,750] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:52:51,144] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:52:51,151] {logging_mixin.py:109} INFO - [2022-03-27 20:52:51,151] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:52:51,160] {logging_mixin.py:109} INFO - [2022-03-27 20:52:51,160] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-27T01:52:51.159904+00:00
+[2022-03-27 20:52:51,299] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.555 seconds
+[2022-03-27 20:53:49,668] {processor.py:163} INFO - Started process (PID=2013) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:53:49,672] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:53:49,672] {logging_mixin.py:109} INFO - [2022-03-27 20:53:49,672] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:53:50,111] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:53:50,121] {logging_mixin.py:109} INFO - [2022-03-27 20:53:50,120] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:53:50,136] {logging_mixin.py:109} INFO - [2022-03-27 20:53:50,136] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:53:50,277] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.612 seconds
+[2022-03-27 20:54:40,110] {processor.py:163} INFO - Started process (PID=2079) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:54:40,115] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:54:40,115] {logging_mixin.py:109} INFO - [2022-03-27 20:54:40,115] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:54:40,496] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:54:40,503] {logging_mixin.py:109} INFO - [2022-03-27 20:54:40,502] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:54:40,511] {logging_mixin.py:109} INFO - [2022-03-27 20:54:40,511] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:54:40,724] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.616 seconds
+[2022-03-27 20:55:32,437] {processor.py:163} INFO - Started process (PID=2140) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:55:32,438] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:55:32,439] {logging_mixin.py:109} INFO - [2022-03-27 20:55:32,439] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:55:33,038] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:55:33,046] {logging_mixin.py:109} INFO - [2022-03-27 20:55:33,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:55:33,057] {logging_mixin.py:109} INFO - [2022-03-27 20:55:33,057] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:55:33,190] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.755 seconds
+[2022-03-27 20:56:15,822] {processor.py:163} INFO - Started process (PID=2191) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:56:15,827] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:56:15,828] {logging_mixin.py:109} INFO - [2022-03-27 20:56:15,828] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:56:16,184] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:56:16,190] {logging_mixin.py:109} INFO - [2022-03-27 20:56:16,190] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:56:16,199] {logging_mixin.py:109} INFO - [2022-03-27 20:56:16,199] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:56:16,346] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.526 seconds
+[2022-03-27 20:57:21,747] {processor.py:163} INFO - Started process (PID=2249) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:57:21,784] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:57:21,785] {logging_mixin.py:109} INFO - [2022-03-27 20:57:21,784] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:57:22,153] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:57:22,160] {logging_mixin.py:109} INFO - [2022-03-27 20:57:22,160] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:57:22,170] {logging_mixin.py:109} INFO - [2022-03-27 20:57:22,170] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:57:22,312] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.568 seconds
+[2022-03-27 20:58:21,042] {processor.py:163} INFO - Started process (PID=2307) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:58:21,057] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:58:21,057] {logging_mixin.py:109} INFO - [2022-03-27 20:58:21,057] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:58:21,428] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:58:21,435] {logging_mixin.py:109} INFO - [2022-03-27 20:58:21,434] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:58:21,444] {logging_mixin.py:109} INFO - [2022-03-27 20:58:21,444] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:58:21,576] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.537 seconds
+[2022-03-27 20:59:20,661] {processor.py:163} INFO - Started process (PID=2356) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:59:20,662] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-27 20:59:20,663] {logging_mixin.py:109} INFO - [2022-03-27 20:59:20,662] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:59:21,132] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-27 20:59:21,140] {logging_mixin.py:109} INFO - [2022-03-27 20:59:21,140] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-27 20:59:21,150] {logging_mixin.py:109} INFO - [2022-03-27 20:59:21,150] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-27 20:59:21,288] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 0.630 seconds
+[2022-03-28 05:37:06,969] {processor.py:163} INFO - Started process (PID=325) to work on /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-28 05:37:06,996] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py for tasks to queue
+[2022-03-28 05:37:06,996] {logging_mixin.py:109} INFO - [2022-03-28 05:37:06,996] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-28 05:37:07,384] {processor.py:654} INFO - DAG(s) dict_keys(['python_operator_uba']) retrieved from /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py
+[2022-03-28 05:37:07,393] {logging_mixin.py:109} INFO - [2022-03-28 05:37:07,392] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-28 05:37:07,405] {logging_mixin.py:109} INFO - [2022-03-28 05:37:07,405] {dag.py:2937} INFO - Setting next_dagrun for python_operator_uba to 2022-03-28T01:52:51.159904+00:00
+[2022-03-28 05:37:08,526] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/ET_Univ_Buenos_Aires_dags.py took 1.559 seconds

@@ -1,0 +1,441 @@
+[2022-03-29 00:12:51,497] {processor.py:163} INFO - Started process (PID=232) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 00:12:51,498] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 00:12:51,499] {logging_mixin.py:109} INFO - [2022-03-29 00:12:51,499] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 00:12:51,529] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 00:12:51,715] {logging_mixin.py:109} INFO - [2022-03-29 00:12:51,715] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:12:51,726] {logging_mixin.py:109} INFO - [2022-03-29 00:12:51,726] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T05:12:51.725861+00:00
+[2022-03-29 00:12:53,073] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.578 seconds
+[2022-03-29 00:14:34,927] {processor.py:163} INFO - Started process (PID=310) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 00:14:34,983] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 00:14:34,984] {logging_mixin.py:109} INFO - [2022-03-29 00:14:34,984] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 00:14:35,017] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 00:14:35,208] {logging_mixin.py:109} INFO - [2022-03-29 00:14:35,208] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:14:35,293] {logging_mixin.py:109} INFO - [2022-03-29 00:14:35,293] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T05:14:35.293056+00:00
+[2022-03-29 00:14:35,760] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.836 seconds
+[2022-03-29 09:35:25,848] {processor.py:163} INFO - Started process (PID=655) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:35:25,850] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:35:25,851] {logging_mixin.py:109} INFO - [2022-03-29 09:35:25,851] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:35:25,890] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:35:26,182] {logging_mixin.py:109} INFO - [2022-03-29 09:35:26,182] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:35:26,199] {logging_mixin.py:109} INFO - [2022-03-29 09:35:26,199] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:35:26.199404+00:00
+[2022-03-29 09:35:27,802] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.958 seconds
+[2022-03-29 09:37:10,960] {processor.py:163} INFO - Started process (PID=734) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:37:10,995] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:37:10,996] {logging_mixin.py:109} INFO - [2022-03-29 09:37:10,995] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:37:11,030] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:37:11,208] {logging_mixin.py:109} INFO - [2022-03-29 09:37:11,208] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:37:11,291] {logging_mixin.py:109} INFO - [2022-03-29 09:37:11,291] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:37:11.290928+00:00
+[2022-03-29 09:37:12,811] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.855 seconds
+[2022-03-29 09:39:01,490] {processor.py:163} INFO - Started process (PID=898) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:39:01,665] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:39:01,666] {logging_mixin.py:109} INFO - [2022-03-29 09:39:01,666] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:39:01,701] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:39:01,956] {logging_mixin.py:109} INFO - [2022-03-29 09:39:01,956] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:39:01,967] {logging_mixin.py:109} INFO - [2022-03-29 09:39:01,967] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:39:01.967550+00:00
+[2022-03-29 09:39:03,608] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 2.120 seconds
+[2022-03-29 09:40:33,996] {processor.py:163} INFO - Started process (PID=960) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:40:34,167] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:40:34,167] {logging_mixin.py:109} INFO - [2022-03-29 09:40:34,167] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:40:34,199] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:40:34,442] {logging_mixin.py:109} INFO - [2022-03-29 09:40:34,442] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:40:34,451] {logging_mixin.py:109} INFO - [2022-03-29 09:40:34,451] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:40:34.451145+00:00
+[2022-03-29 09:40:35,047] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.053 seconds
+[2022-03-29 09:42:27,473] {processor.py:163} INFO - Started process (PID=1040) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:42:27,476] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:42:27,476] {logging_mixin.py:109} INFO - [2022-03-29 09:42:27,476] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:42:27,510] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:42:27,783] {logging_mixin.py:109} INFO - [2022-03-29 09:42:27,783] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:42:27,793] {logging_mixin.py:109} INFO - [2022-03-29 09:42:27,793] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:42:27.793329+00:00
+[2022-03-29 09:42:29,168] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.697 seconds
+[2022-03-29 09:44:17,193] {processor.py:163} INFO - Started process (PID=1126) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:44:17,205] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:44:17,206] {logging_mixin.py:109} INFO - [2022-03-29 09:44:17,206] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:44:17,236] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:44:17,479] {logging_mixin.py:109} INFO - [2022-03-29 09:44:17,479] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:44:17,488] {logging_mixin.py:109} INFO - [2022-03-29 09:44:17,488] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:44:17.488033+00:00
+[2022-03-29 09:44:19,033] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.842 seconds
+[2022-03-29 09:45:43,023] {processor.py:163} INFO - Started process (PID=1207) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:45:43,025] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:45:43,026] {logging_mixin.py:109} INFO - [2022-03-29 09:45:43,026] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:45:43,057] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:45:43,305] {logging_mixin.py:109} INFO - [2022-03-29 09:45:43,305] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:45:43,314] {logging_mixin.py:109} INFO - [2022-03-29 09:45:43,314] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:45:43.314363+00:00
+[2022-03-29 09:45:43,455] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.435 seconds
+[2022-03-29 09:47:09,044] {processor.py:163} INFO - Started process (PID=1275) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:47:09,067] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:47:09,067] {logging_mixin.py:109} INFO - [2022-03-29 09:47:09,067] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:47:09,100] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:47:09,357] {logging_mixin.py:109} INFO - [2022-03-29 09:47:09,357] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:47:09,367] {logging_mixin.py:109} INFO - [2022-03-29 09:47:09,367] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:47:09.367620+00:00
+[2022-03-29 09:47:10,827] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.786 seconds
+[2022-03-29 09:48:24,712] {processor.py:163} INFO - Started process (PID=1352) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:48:24,728] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:48:24,728] {logging_mixin.py:109} INFO - [2022-03-29 09:48:24,728] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:48:24,762] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:48:24,992] {logging_mixin.py:109} INFO - [2022-03-29 09:48:24,992] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:48:25,000] {logging_mixin.py:109} INFO - [2022-03-29 09:48:25,000] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:48:25.000430+00:00
+[2022-03-29 09:48:25,133] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.424 seconds
+[2022-03-29 09:49:48,142] {processor.py:163} INFO - Started process (PID=1414) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:49:48,167] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:49:48,168] {logging_mixin.py:109} INFO - [2022-03-29 09:49:48,168] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:49:48,209] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:49:48,460] {logging_mixin.py:109} INFO - [2022-03-29 09:49:48,459] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:49:48,468] {logging_mixin.py:109} INFO - [2022-03-29 09:49:48,468] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:49:48.467857+00:00
+[2022-03-29 09:49:49,292] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.153 seconds
+[2022-03-29 09:51:17,409] {processor.py:163} INFO - Started process (PID=1493) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:51:17,414] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:51:17,414] {logging_mixin.py:109} INFO - [2022-03-29 09:51:17,414] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:51:17,445] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:51:17,676] {logging_mixin.py:109} INFO - [2022-03-29 09:51:17,676] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:51:17,685] {logging_mixin.py:109} INFO - [2022-03-29 09:51:17,685] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:51:17.684882+00:00
+[2022-03-29 09:51:17,843] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.437 seconds
+[2022-03-29 09:52:19,607] {processor.py:163} INFO - Started process (PID=1561) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:52:19,620] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:52:19,621] {logging_mixin.py:109} INFO - [2022-03-29 09:52:19,620] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:52:19,652] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:52:19,905] {logging_mixin.py:109} INFO - [2022-03-29 09:52:19,905] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:52:19,915] {logging_mixin.py:109} INFO - [2022-03-29 09:52:19,915] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:52:19.915297+00:00
+[2022-03-29 09:52:20,049] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.445 seconds
+[2022-03-29 09:53:28,358] {processor.py:163} INFO - Started process (PID=1627) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:53:28,370] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:53:28,371] {logging_mixin.py:109} INFO - [2022-03-29 09:53:28,371] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:53:28,401] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:53:28,659] {logging_mixin.py:109} INFO - [2022-03-29 09:53:28,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:53:28,672] {logging_mixin.py:109} INFO - [2022-03-29 09:53:28,671] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:53:28.671722+00:00
+[2022-03-29 09:53:28,862] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.507 seconds
+[2022-03-29 09:54:53,405] {processor.py:163} INFO - Started process (PID=1701) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:54:53,488] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:54:53,488] {logging_mixin.py:109} INFO - [2022-03-29 09:54:53,488] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:54:53,536] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:54:53,822] {logging_mixin.py:109} INFO - [2022-03-29 09:54:53,822] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:54:53,832] {logging_mixin.py:109} INFO - [2022-03-29 09:54:53,832] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:54:53.831957+00:00
+[2022-03-29 09:54:54,059] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.657 seconds
+[2022-03-29 09:55:45,383] {processor.py:163} INFO - Started process (PID=1758) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:55:45,386] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:55:45,387] {logging_mixin.py:109} INFO - [2022-03-29 09:55:45,386] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:55:45,419] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:55:45,660] {logging_mixin.py:109} INFO - [2022-03-29 09:55:45,660] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:55:45,671] {logging_mixin.py:109} INFO - [2022-03-29 09:55:45,670] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:55:45.670673+00:00
+[2022-03-29 09:55:45,819] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.439 seconds
+[2022-03-29 09:56:36,670] {processor.py:163} INFO - Started process (PID=1809) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:56:36,673] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:56:36,673] {logging_mixin.py:109} INFO - [2022-03-29 09:56:36,673] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:56:36,712] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:56:36,984] {logging_mixin.py:109} INFO - [2022-03-29 09:56:36,984] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:56:36,996] {logging_mixin.py:109} INFO - [2022-03-29 09:56:36,996] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:56:36.996331+00:00
+[2022-03-29 09:56:37,157] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.491 seconds
+[2022-03-29 09:57:32,477] {processor.py:163} INFO - Started process (PID=1864) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:57:32,480] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:57:32,480] {logging_mixin.py:109} INFO - [2022-03-29 09:57:32,480] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:57:32,511] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:57:32,744] {logging_mixin.py:109} INFO - [2022-03-29 09:57:32,744] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:57:32,752] {logging_mixin.py:109} INFO - [2022-03-29 09:57:32,752] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:57:32.752311+00:00
+[2022-03-29 09:57:32,902] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.428 seconds
+[2022-03-29 09:58:27,052] {processor.py:163} INFO - Started process (PID=1916) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:58:27,055] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:58:27,055] {logging_mixin.py:109} INFO - [2022-03-29 09:58:27,055] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:58:27,088] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:58:27,348] {logging_mixin.py:109} INFO - [2022-03-29 09:58:27,348] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:58:27,358] {logging_mixin.py:109} INFO - [2022-03-29 09:58:27,358] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:58:27.358048+00:00
+[2022-03-29 09:58:27,517] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.468 seconds
+[2022-03-29 09:59:32,691] {processor.py:163} INFO - Started process (PID=1972) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:59:32,715] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 09:59:32,716] {logging_mixin.py:109} INFO - [2022-03-29 09:59:32,716] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:59:32,749] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 09:59:33,014] {logging_mixin.py:109} INFO - [2022-03-29 09:59:33,014] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:59:33,022] {logging_mixin.py:109} INFO - [2022-03-29 09:59:33,022] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T14:59:33.022630+00:00
+[2022-03-29 09:59:33,222] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.533 seconds
+[2022-03-29 10:01:10,326] {processor.py:163} INFO - Started process (PID=2054) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:01:10,329] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:01:10,330] {logging_mixin.py:109} INFO - [2022-03-29 10:01:10,330] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:01:10,366] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:01:10,640] {logging_mixin.py:109} INFO - [2022-03-29 10:01:10,640] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:01:10,648] {logging_mixin.py:109} INFO - [2022-03-29 10:01:10,648] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:01:10.648063+00:00
+[2022-03-29 10:01:11,237] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.914 seconds
+[2022-03-29 10:02:56,970] {processor.py:163} INFO - Started process (PID=2139) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:02:56,973] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:02:56,973] {logging_mixin.py:109} INFO - [2022-03-29 10:02:56,973] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:02:57,004] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:02:57,263] {logging_mixin.py:109} INFO - [2022-03-29 10:02:57,263] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:02:57,274] {logging_mixin.py:109} INFO - [2022-03-29 10:02:57,274] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:02:57.274499+00:00
+[2022-03-29 10:02:58,057] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.089 seconds
+[2022-03-29 10:04:10,943] {processor.py:163} INFO - Started process (PID=2201) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:04:11,589] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:04:11,590] {logging_mixin.py:109} INFO - [2022-03-29 10:04:11,590] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:04:11,620] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:04:11,913] {logging_mixin.py:109} INFO - [2022-03-29 10:04:11,913] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:04:11,922] {logging_mixin.py:109} INFO - [2022-03-29 10:04:11,922] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:04:11.922119+00:00
+[2022-03-29 10:04:12,103] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.163 seconds
+[2022-03-29 10:05:55,509] {processor.py:163} INFO - Started process (PID=2292) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:05:55,527] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:05:55,528] {logging_mixin.py:109} INFO - [2022-03-29 10:05:55,528] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:05:55,562] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:05:55,795] {logging_mixin.py:109} INFO - [2022-03-29 10:05:55,795] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:05:55,804] {logging_mixin.py:109} INFO - [2022-03-29 10:05:55,804] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:05:55.803777+00:00
+[2022-03-29 10:05:55,946] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.439 seconds
+[2022-03-29 10:06:49,596] {processor.py:163} INFO - Started process (PID=2346) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:06:49,618] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:06:49,619] {logging_mixin.py:109} INFO - [2022-03-29 10:06:49,619] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:06:49,651] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:06:49,890] {logging_mixin.py:109} INFO - [2022-03-29 10:06:49,890] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:06:49,900] {logging_mixin.py:109} INFO - [2022-03-29 10:06:49,900] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:06:49.899943+00:00
+[2022-03-29 10:06:50,051] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.459 seconds
+[2022-03-29 10:07:40,797] {processor.py:163} INFO - Started process (PID=2398) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:07:40,806] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:07:40,806] {logging_mixin.py:109} INFO - [2022-03-29 10:07:40,806] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:07:40,838] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:07:41,127] {logging_mixin.py:109} INFO - [2022-03-29 10:07:41,126] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:07:41,138] {logging_mixin.py:109} INFO - [2022-03-29 10:07:41,138] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:07:41.138034+00:00
+[2022-03-29 10:07:41,297] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.503 seconds
+[2022-03-29 10:08:40,846] {processor.py:163} INFO - Started process (PID=2456) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:08:40,849] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:08:40,850] {logging_mixin.py:109} INFO - [2022-03-29 10:08:40,850] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:08:40,882] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:08:41,135] {logging_mixin.py:109} INFO - [2022-03-29 10:08:41,135] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:08:41,147] {logging_mixin.py:109} INFO - [2022-03-29 10:08:41,147] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:08:41.147405+00:00
+[2022-03-29 10:08:41,277] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.433 seconds
+[2022-03-29 10:09:37,267] {processor.py:163} INFO - Started process (PID=2517) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:09:37,276] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:09:37,276] {logging_mixin.py:109} INFO - [2022-03-29 10:09:37,276] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:09:37,362] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:09:37,630] {logging_mixin.py:109} INFO - [2022-03-29 10:09:37,630] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:09:37,640] {logging_mixin.py:109} INFO - [2022-03-29 10:09:37,640] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:09:37.640377+00:00
+[2022-03-29 10:09:37,774] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.509 seconds
+[2022-03-29 10:10:45,917] {processor.py:163} INFO - Started process (PID=2575) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:10:45,928] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:10:45,928] {logging_mixin.py:109} INFO - [2022-03-29 10:10:45,928] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:10:45,958] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:10:46,196] {logging_mixin.py:109} INFO - [2022-03-29 10:10:46,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:10:46,204] {logging_mixin.py:109} INFO - [2022-03-29 10:10:46,204] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:10:46.204202+00:00
+[2022-03-29 10:10:47,471] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.556 seconds
+[2022-03-29 10:12:50,598] {processor.py:163} INFO - Started process (PID=2678) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:12:50,602] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:12:50,603] {logging_mixin.py:109} INFO - [2022-03-29 10:12:50,603] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:12:50,634] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:12:50,891] {logging_mixin.py:109} INFO - [2022-03-29 10:12:50,891] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:12:50,901] {logging_mixin.py:109} INFO - [2022-03-29 10:12:50,901] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:12:50.900941+00:00
+[2022-03-29 10:12:51,078] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.483 seconds
+[2022-03-29 10:13:59,030] {processor.py:163} INFO - Started process (PID=2744) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:13:59,033] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:13:59,034] {logging_mixin.py:109} INFO - [2022-03-29 10:13:59,034] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:13:59,069] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:13:59,488] {logging_mixin.py:109} INFO - [2022-03-29 10:13:59,488] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:13:59,681] {logging_mixin.py:109} INFO - [2022-03-29 10:13:59,681] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:13:59.681399+00:00
+[2022-03-29 10:13:59,931] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.904 seconds
+[2022-03-29 10:15:35,611] {processor.py:163} INFO - Started process (PID=2833) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:15:35,621] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:15:35,622] {logging_mixin.py:109} INFO - [2022-03-29 10:15:35,622] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:15:35,653] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:15:35,917] {logging_mixin.py:109} INFO - [2022-03-29 10:15:35,917] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:15:35,928] {logging_mixin.py:109} INFO - [2022-03-29 10:15:35,927] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:15:35.927729+00:00
+[2022-03-29 10:15:36,322] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.713 seconds
+[2022-03-29 10:17:07,097] {processor.py:163} INFO - Started process (PID=2922) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:17:07,118] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:17:07,118] {logging_mixin.py:109} INFO - [2022-03-29 10:17:07,118] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:17:07,151] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:17:07,865] {logging_mixin.py:109} INFO - [2022-03-29 10:17:07,865] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:17:07,877] {logging_mixin.py:109} INFO - [2022-03-29 10:17:07,877] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:17:07.876935+00:00
+[2022-03-29 10:17:08,102] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.008 seconds
+[2022-03-29 10:18:59,956] {processor.py:163} INFO - Started process (PID=3021) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:18:59,979] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:18:59,980] {logging_mixin.py:109} INFO - [2022-03-29 10:18:59,980] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:19:00,015] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:19:00,341] {logging_mixin.py:109} INFO - [2022-03-29 10:19:00,341] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:19:00,351] {logging_mixin.py:109} INFO - [2022-03-29 10:19:00,351] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:19:00.351366+00:00
+[2022-03-29 10:19:01,261] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.308 seconds
+[2022-03-29 10:20:39,313] {processor.py:163} INFO - Started process (PID=3117) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:20:39,324] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:20:39,325] {logging_mixin.py:109} INFO - [2022-03-29 10:20:39,324] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:20:39,356] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:20:39,597] {logging_mixin.py:109} INFO - [2022-03-29 10:20:39,597] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:20:39,606] {logging_mixin.py:109} INFO - [2022-03-29 10:20:39,606] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:20:39.606140+00:00
+[2022-03-29 10:20:39,758] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.448 seconds
+[2022-03-29 10:22:30,994] {processor.py:163} INFO - Started process (PID=3213) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:22:31,010] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:22:31,011] {logging_mixin.py:109} INFO - [2022-03-29 10:22:31,011] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:22:31,047] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:22:31,286] {logging_mixin.py:109} INFO - [2022-03-29 10:22:31,286] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:22:31,296] {logging_mixin.py:109} INFO - [2022-03-29 10:22:31,296] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:22:31.295844+00:00
+[2022-03-29 10:22:31,440] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.448 seconds
+[2022-03-29 10:23:29,062] {processor.py:163} INFO - Started process (PID=3276) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:23:29,073] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:23:29,073] {logging_mixin.py:109} INFO - [2022-03-29 10:23:29,073] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:23:29,116] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:23:29,587] {logging_mixin.py:109} INFO - [2022-03-29 10:23:29,587] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:23:29,600] {logging_mixin.py:109} INFO - [2022-03-29 10:23:29,600] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:23:29.600377+00:00
+[2022-03-29 10:23:29,885] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.825 seconds
+[2022-03-29 10:24:24,477] {processor.py:163} INFO - Started process (PID=3328) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:24:24,486] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:24:24,487] {logging_mixin.py:109} INFO - [2022-03-29 10:24:24,487] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:24:24,519] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:24:24,788] {logging_mixin.py:109} INFO - [2022-03-29 10:24:24,788] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:24:24,798] {logging_mixin.py:109} INFO - [2022-03-29 10:24:24,798] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:24:24.797817+00:00
+[2022-03-29 10:24:24,940] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.465 seconds
+[2022-03-29 10:25:23,386] {processor.py:163} INFO - Started process (PID=3381) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:25:23,402] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:25:23,402] {logging_mixin.py:109} INFO - [2022-03-29 10:25:23,402] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:25:23,428] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:25:23,685] {logging_mixin.py:109} INFO - [2022-03-29 10:25:23,685] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:25:23,699] {logging_mixin.py:109} INFO - [2022-03-29 10:25:23,699] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:25:23.698881+00:00
+[2022-03-29 10:25:24,007] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.623 seconds
+[2022-03-29 10:26:29,596] {processor.py:163} INFO - Started process (PID=3443) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:26:29,610] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:26:29,610] {logging_mixin.py:109} INFO - [2022-03-29 10:26:29,610] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:26:29,643] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:26:29,889] {logging_mixin.py:109} INFO - [2022-03-29 10:26:29,889] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:26:29,900] {logging_mixin.py:109} INFO - [2022-03-29 10:26:29,900] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:26:29.900026+00:00
+[2022-03-29 10:26:30,060] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.467 seconds
+[2022-03-29 10:27:27,704] {processor.py:163} INFO - Started process (PID=3497) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:27:27,711] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:27:27,711] {logging_mixin.py:109} INFO - [2022-03-29 10:27:27,711] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:27:27,743] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:27:27,974] {logging_mixin.py:109} INFO - [2022-03-29 10:27:27,974] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:27:27,985] {logging_mixin.py:109} INFO - [2022-03-29 10:27:27,984] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:27:27.984626+00:00
+[2022-03-29 10:27:28,150] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.448 seconds
+[2022-03-29 10:28:23,103] {processor.py:163} INFO - Started process (PID=3550) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:28:23,106] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:28:23,107] {logging_mixin.py:109} INFO - [2022-03-29 10:28:23,106] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:28:23,137] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:28:23,385] {logging_mixin.py:109} INFO - [2022-03-29 10:28:23,385] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:28:23,395] {logging_mixin.py:109} INFO - [2022-03-29 10:28:23,395] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:28:23.394968+00:00
+[2022-03-29 10:28:23,552] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.451 seconds
+[2022-03-29 10:29:13,932] {processor.py:163} INFO - Started process (PID=3602) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:29:13,944] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:29:13,944] {logging_mixin.py:109} INFO - [2022-03-29 10:29:13,944] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:29:13,975] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:29:14,213] {logging_mixin.py:109} INFO - [2022-03-29 10:29:14,213] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:29:14,222] {logging_mixin.py:109} INFO - [2022-03-29 10:29:14,222] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:29:14.222541+00:00
+[2022-03-29 10:29:14,372] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.442 seconds
+[2022-03-29 10:30:09,008] {processor.py:163} INFO - Started process (PID=3654) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:30:09,022] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:30:09,023] {logging_mixin.py:109} INFO - [2022-03-29 10:30:09,023] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:30:09,053] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:30:09,299] {logging_mixin.py:109} INFO - [2022-03-29 10:30:09,299] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:30:09,309] {logging_mixin.py:109} INFO - [2022-03-29 10:30:09,309] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:30:09.309060+00:00
+[2022-03-29 10:30:09,471] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.465 seconds
+[2022-03-29 10:31:28,150] {processor.py:163} INFO - Started process (PID=3720) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:31:28,158] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:31:28,158] {logging_mixin.py:109} INFO - [2022-03-29 10:31:28,158] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:31:28,189] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:31:28,431] {logging_mixin.py:109} INFO - [2022-03-29 10:31:28,431] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:31:28,440] {logging_mixin.py:109} INFO - [2022-03-29 10:31:28,440] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:31:28.439964+00:00
+[2022-03-29 10:31:28,585] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.438 seconds
+[2022-03-29 10:32:28,850] {processor.py:163} INFO - Started process (PID=3774) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:32:28,860] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:32:28,860] {logging_mixin.py:109} INFO - [2022-03-29 10:32:28,860] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:32:28,892] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:32:29,140] {logging_mixin.py:109} INFO - [2022-03-29 10:32:29,140] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:32:29,150] {logging_mixin.py:109} INFO - [2022-03-29 10:32:29,150] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:32:29.150297+00:00
+[2022-03-29 10:32:29,377] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.529 seconds
+[2022-03-29 10:33:24,203] {processor.py:163} INFO - Started process (PID=3826) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:33:24,220] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:33:24,220] {logging_mixin.py:109} INFO - [2022-03-29 10:33:24,220] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:33:24,252] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:33:24,525] {logging_mixin.py:109} INFO - [2022-03-29 10:33:24,525] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:33:24,541] {logging_mixin.py:109} INFO - [2022-03-29 10:33:24,540] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:33:24.540762+00:00
+[2022-03-29 10:33:25,312] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.112 seconds
+[2022-03-29 10:34:49,655] {processor.py:163} INFO - Started process (PID=3901) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:34:49,658] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 10:34:49,659] {logging_mixin.py:109} INFO - [2022-03-29 10:34:49,658] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:34:49,690] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 10:34:49,906] {logging_mixin.py:109} INFO - [2022-03-29 10:34:49,906] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:34:49,914] {logging_mixin.py:109} INFO - [2022-03-29 10:34:49,914] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T15:34:49.914604+00:00
+[2022-03-29 10:34:50,735] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.081 seconds
+[2022-03-29 15:22:32,241] {processor.py:163} INFO - Started process (PID=440) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:22:32,247] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:22:32,248] {logging_mixin.py:109} INFO - [2022-03-29 15:22:32,248] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:22:32,294] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:22:32,598] {logging_mixin.py:109} INFO - [2022-03-29 15:22:32,598] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:22:32,610] {logging_mixin.py:109} INFO - [2022-03-29 15:22:32,610] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:22:32.610026+00:00
+[2022-03-29 15:22:35,096] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 2.858 seconds
+[2022-03-29 15:24:19,581] {processor.py:163} INFO - Started process (PID=515) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:24:19,756] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:24:19,757] {logging_mixin.py:109} INFO - [2022-03-29 15:24:19,757] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:24:19,798] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:24:19,968] {logging_mixin.py:109} INFO - [2022-03-29 15:24:19,968] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:24:20,053] {logging_mixin.py:109} INFO - [2022-03-29 15:24:20,053] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:24:20.053339+00:00
+[2022-03-29 15:24:21,361] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.782 seconds
+[2022-03-29 15:26:47,598] {processor.py:163} INFO - Started process (PID=607) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:26:48,160] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:26:48,161] {logging_mixin.py:109} INFO - [2022-03-29 15:26:48,161] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:26:48,192] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:26:48,460] {logging_mixin.py:109} INFO - [2022-03-29 15:26:48,460] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:26:48,469] {logging_mixin.py:109} INFO - [2022-03-29 15:26:48,469] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:26:48.469106+00:00
+[2022-03-29 15:26:48,645] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.051 seconds
+[2022-03-29 15:28:26,004] {processor.py:163} INFO - Started process (PID=667) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:28:26,020] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:28:26,020] {logging_mixin.py:109} INFO - [2022-03-29 15:28:26,020] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:28:26,054] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:28:26,328] {logging_mixin.py:109} INFO - [2022-03-29 15:28:26,327] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:28:26,339] {logging_mixin.py:109} INFO - [2022-03-29 15:28:26,339] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:28:26.338933+00:00
+[2022-03-29 15:28:27,523] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.521 seconds
+[2022-03-29 15:30:48,044] {processor.py:163} INFO - Started process (PID=765) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:30:48,151] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:30:48,152] {logging_mixin.py:109} INFO - [2022-03-29 15:30:48,152] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:30:48,188] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:30:48,448] {logging_mixin.py:109} INFO - [2022-03-29 15:30:48,448] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:30:48,457] {logging_mixin.py:109} INFO - [2022-03-29 15:30:48,457] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:30:48.457405+00:00
+[2022-03-29 15:30:49,157] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.115 seconds
+[2022-03-29 15:32:38,275] {processor.py:163} INFO - Started process (PID=846) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:32:38,287] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:32:38,287] {logging_mixin.py:109} INFO - [2022-03-29 15:32:38,287] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:32:38,340] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:32:38,763] {logging_mixin.py:109} INFO - [2022-03-29 15:32:38,763] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:32:38,774] {logging_mixin.py:109} INFO - [2022-03-29 15:32:38,774] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:32:38.773659+00:00
+[2022-03-29 15:32:38,949] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.677 seconds
+[2022-03-29 15:34:50,838] {processor.py:163} INFO - Started process (PID=946) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:34:50,973] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:34:50,974] {logging_mixin.py:109} INFO - [2022-03-29 15:34:50,974] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:34:51,006] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:34:51,323] {logging_mixin.py:109} INFO - [2022-03-29 15:34:51,323] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:34:51,333] {logging_mixin.py:109} INFO - [2022-03-29 15:34:51,333] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:34:51.333193+00:00
+[2022-03-29 15:34:52,296] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.462 seconds
+[2022-03-29 15:36:50,812] {processor.py:163} INFO - Started process (PID=1039) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:36:50,822] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:36:50,823] {logging_mixin.py:109} INFO - [2022-03-29 15:36:50,822] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:36:50,856] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:36:51,085] {logging_mixin.py:109} INFO - [2022-03-29 15:36:51,084] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:36:51,093] {logging_mixin.py:109} INFO - [2022-03-29 15:36:51,093] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:36:51.093308+00:00
+[2022-03-29 15:36:52,676] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.868 seconds
+[2022-03-29 15:39:11,854] {processor.py:163} INFO - Started process (PID=1156) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:39:11,882] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:39:11,882] {logging_mixin.py:109} INFO - [2022-03-29 15:39:11,882] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:39:11,923] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:39:12,266] {logging_mixin.py:109} INFO - [2022-03-29 15:39:12,266] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:39:12,283] {logging_mixin.py:109} INFO - [2022-03-29 15:39:12,283] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:39:12.283402+00:00
+[2022-03-29 15:39:12,537] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.685 seconds
+[2022-03-29 15:41:22,067] {processor.py:163} INFO - Started process (PID=1275) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:41:22,073] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:41:22,074] {logging_mixin.py:109} INFO - [2022-03-29 15:41:22,074] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:41:22,104] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:41:22,425] {logging_mixin.py:109} INFO - [2022-03-29 15:41:22,425] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:41:22,436] {logging_mixin.py:109} INFO - [2022-03-29 15:41:22,436] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:41:22.436245+00:00
+[2022-03-29 15:41:23,668] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 1.604 seconds
+[2022-03-29 15:42:57,254] {processor.py:163} INFO - Started process (PID=1387) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:42:57,268] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:42:57,269] {logging_mixin.py:109} INFO - [2022-03-29 15:42:57,269] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:42:57,304] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:42:57,605] {logging_mixin.py:109} INFO - [2022-03-29 15:42:57,605] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:42:57,616] {logging_mixin.py:109} INFO - [2022-03-29 15:42:57,616] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:42:57.615861+00:00
+[2022-03-29 15:42:57,768] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.516 seconds
+[2022-03-29 15:44:05,551] {processor.py:163} INFO - Started process (PID=1448) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:44:05,553] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:44:05,553] {logging_mixin.py:109} INFO - [2022-03-29 15:44:05,553] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:44:05,589] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:44:05,841] {logging_mixin.py:109} INFO - [2022-03-29 15:44:05,841] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:44:05,855] {logging_mixin.py:109} INFO - [2022-03-29 15:44:05,855] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:44:05.855141+00:00
+[2022-03-29 15:44:06,011] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.462 seconds
+[2022-03-29 15:45:02,206] {processor.py:163} INFO - Started process (PID=1510) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:45:02,220] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:45:02,221] {logging_mixin.py:109} INFO - [2022-03-29 15:45:02,220] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:45:02,255] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:45:02,555] {logging_mixin.py:109} INFO - [2022-03-29 15:45:02,555] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:45:02,563] {logging_mixin.py:109} INFO - [2022-03-29 15:45:02,563] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:45:02.563484+00:00
+[2022-03-29 15:45:02,709] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.506 seconds
+[2022-03-29 15:45:50,880] {processor.py:163} INFO - Started process (PID=1559) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:45:50,894] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-03-29 15:45:50,895] {logging_mixin.py:109} INFO - [2022-03-29 15:45:50,895] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:45:50,948] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-03-29 15:45:51,215] {logging_mixin.py:109} INFO - [2022-03-29 15:45:51,215] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:45:51,231] {logging_mixin.py:109} INFO - [2022-03-29 15:45:51,231] {dag.py:2937} INFO - Setting next_dagrun for example_task_group_decorator to 2022-03-28T20:45:51.231062+00:00
+[2022-03-29 15:45:51,401] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.524 seconds

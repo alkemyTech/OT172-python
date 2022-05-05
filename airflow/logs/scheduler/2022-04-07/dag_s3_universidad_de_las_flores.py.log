@@ -1,0 +1,21 @@
+[2022-04-07 15:08:19,710] {processor.py:163} INFO - Started process (PID=156) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:08:19,712] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py for tasks to queue
+[2022-04-07 15:08:19,712] {logging_mixin.py:109} INFO - [2022-04-07 15:08:19,712] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:08:19,878] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_flores']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:08:19,887] {logging_mixin.py:109} INFO - [2022-04-07 15:08:19,887] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:08:19,911] {logging_mixin.py:109} INFO - [2022-04-07 15:08:19,911] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_flores to 2022-04-06 00:00:00+00:00
+[2022-04-07 15:08:20,098] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py took 0.392 seconds
+[2022-04-07 15:10:18,125] {processor.py:163} INFO - Started process (PID=246) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:10:18,230] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py for tasks to queue
+[2022-04-07 15:10:18,230] {logging_mixin.py:109} INFO - [2022-04-07 15:10:18,230] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:10:18,341] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_flores']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:10:18,350] {logging_mixin.py:109} INFO - [2022-04-07 15:10:18,350] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:10:18,365] {logging_mixin.py:109} INFO - [2022-04-07 15:10:18,365] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_flores to 2022-04-07T00:00:00+00:00
+[2022-04-07 15:10:18,528] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py took 0.405 seconds
+[2022-04-07 15:11:45,664] {processor.py:163} INFO - Started process (PID=300) to work on /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:11:45,907] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py for tasks to queue
+[2022-04-07 15:11:45,908] {logging_mixin.py:109} INFO - [2022-04-07 15:11:45,907] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:11:46,025] {processor.py:654} INFO - DAG(s) dict_keys(['s3_uni_flores']) retrieved from /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py
+[2022-04-07 15:11:46,035] {logging_mixin.py:109} INFO - [2022-04-07 15:11:46,034] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-07 15:11:46,050] {logging_mixin.py:109} INFO - [2022-04-07 15:11:46,050] {dag.py:2937} INFO - Setting next_dagrun for s3_uni_flores to 2022-04-07T00:00:00+00:00
+[2022-04-07 15:11:47,147] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dag_s3_universidad_de_las_flores.py took 1.486 seconds

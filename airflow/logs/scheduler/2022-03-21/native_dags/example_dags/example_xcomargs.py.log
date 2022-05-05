@@ -1,0 +1,392 @@
+[2022-03-21 05:19:14,189] {processor.py:163} INFO - Started process (PID=173) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:19:14,190] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:19:14,191] {logging_mixin.py:109} INFO - [2022-03-21 05:19:14,191] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:19:14,690] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:19:15,028] {logging_mixin.py:109} INFO - [2022-03-21 05:19:15,028] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:19:15,048] {logging_mixin.py:109} INFO - [2022-03-21 05:19:15,048] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:19:15,049] {logging_mixin.py:109} INFO - [2022-03-21 05:19:15,049] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:19:15,306] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.121 seconds
+[2022-03-21 05:21:07,243] {processor.py:163} INFO - Started process (PID=285) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:21:07,250] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:21:07,252] {logging_mixin.py:109} INFO - [2022-03-21 05:21:07,251] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:21:07,284] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:21:07,516] {logging_mixin.py:109} INFO - [2022-03-21 05:21:07,516] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:21:07,526] {logging_mixin.py:109} INFO - [2022-03-21 05:21:07,526] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:21:07,526] {logging_mixin.py:109} INFO - [2022-03-21 05:21:07,526] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:21:08,376] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.135 seconds
+[2022-03-21 05:22:37,888] {processor.py:163} INFO - Started process (PID=325) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:22:37,916] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:22:37,917] {logging_mixin.py:109} INFO - [2022-03-21 05:22:37,916] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:22:37,950] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:22:38,211] {logging_mixin.py:109} INFO - [2022-03-21 05:22:38,211] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:22:38,228] {logging_mixin.py:109} INFO - [2022-03-21 05:22:38,228] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:22:38,228] {logging_mixin.py:109} INFO - [2022-03-21 05:22:38,228] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:22:38,570] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.686 seconds
+[2022-03-21 05:24:02,050] {processor.py:163} INFO - Started process (PID=364) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:24:02,093] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:24:02,094] {logging_mixin.py:109} INFO - [2022-03-21 05:24:02,094] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:24:02,127] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:24:02,353] {logging_mixin.py:109} INFO - [2022-03-21 05:24:02,353] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:24:02,437] {logging_mixin.py:109} INFO - [2022-03-21 05:24:02,437] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:24:02,438] {logging_mixin.py:109} INFO - [2022-03-21 05:24:02,438] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:24:03,076] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.028 seconds
+[2022-03-21 05:25:04,111] {processor.py:163} INFO - Started process (PID=397) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:25:04,125] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:25:04,126] {logging_mixin.py:109} INFO - [2022-03-21 05:25:04,126] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:25:04,152] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:25:04,359] {logging_mixin.py:109} INFO - [2022-03-21 05:25:04,359] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:25:04,441] {logging_mixin.py:109} INFO - [2022-03-21 05:25:04,441] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:25:04,441] {logging_mixin.py:109} INFO - [2022-03-21 05:25:04,441] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:25:05,832] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.722 seconds
+[2022-03-21 05:26:43,803] {processor.py:163} INFO - Started process (PID=437) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:26:43,842] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:26:43,842] {logging_mixin.py:109} INFO - [2022-03-21 05:26:43,842] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:26:43,868] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:26:44,142] {logging_mixin.py:109} INFO - [2022-03-21 05:26:44,142] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:26:44,152] {logging_mixin.py:109} INFO - [2022-03-21 05:26:44,152] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:26:44,153] {logging_mixin.py:109} INFO - [2022-03-21 05:26:44,153] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:26:44,658] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.857 seconds
+[2022-03-21 05:28:07,315] {processor.py:163} INFO - Started process (PID=474) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:28:08,444] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:28:08,445] {logging_mixin.py:109} INFO - [2022-03-21 05:28:08,445] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:28:08,701] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:28:08,970] {logging_mixin.py:109} INFO - [2022-03-21 05:28:08,970] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:28:08,980] {logging_mixin.py:109} INFO - [2022-03-21 05:28:08,980] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:28:08,980] {logging_mixin.py:109} INFO - [2022-03-21 05:28:08,980] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:28:09,542] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.229 seconds
+[2022-03-21 05:29:28,945] {processor.py:163} INFO - Started process (PID=510) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:29:29,842] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:29:29,842] {logging_mixin.py:109} INFO - [2022-03-21 05:29:29,842] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:29:29,868] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:29:30,158] {logging_mixin.py:109} INFO - [2022-03-21 05:29:30,158] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:29:30,169] {logging_mixin.py:109} INFO - [2022-03-21 05:29:30,169] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:29:30,169] {logging_mixin.py:109} INFO - [2022-03-21 05:29:30,169] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:29:30,309] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.367 seconds
+[2022-03-21 05:30:52,656] {processor.py:163} INFO - Started process (PID=553) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:30:52,836] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:30:52,837] {logging_mixin.py:109} INFO - [2022-03-21 05:30:52,837] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:30:52,863] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:30:53,157] {logging_mixin.py:109} INFO - [2022-03-21 05:30:53,157] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:30:53,168] {logging_mixin.py:109} INFO - [2022-03-21 05:30:53,168] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:30:53,169] {logging_mixin.py:109} INFO - [2022-03-21 05:30:53,169] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:30:53,530] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.876 seconds
+[2022-03-21 05:32:21,432] {processor.py:163} INFO - Started process (PID=603) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:32:21,449] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:32:21,450] {logging_mixin.py:109} INFO - [2022-03-21 05:32:21,450] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:32:21,476] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:32:21,717] {logging_mixin.py:109} INFO - [2022-03-21 05:32:21,717] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:32:21,727] {logging_mixin.py:109} INFO - [2022-03-21 05:32:21,727] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:32:21,728] {logging_mixin.py:109} INFO - [2022-03-21 05:32:21,728] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:32:21,930] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.501 seconds
+[2022-03-21 05:33:44,934] {processor.py:163} INFO - Started process (PID=645) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:33:44,942] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:33:44,943] {logging_mixin.py:109} INFO - [2022-03-21 05:33:44,942] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:33:44,968] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:33:45,232] {logging_mixin.py:109} INFO - [2022-03-21 05:33:45,232] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:33:45,244] {logging_mixin.py:109} INFO - [2022-03-21 05:33:45,244] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:33:45,244] {logging_mixin.py:109} INFO - [2022-03-21 05:33:45,244] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:33:45,429] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.498 seconds
+[2022-03-21 05:35:17,525] {processor.py:163} INFO - Started process (PID=702) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:35:18,025] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:35:18,026] {logging_mixin.py:109} INFO - [2022-03-21 05:35:18,026] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:35:18,055] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:35:18,267] {logging_mixin.py:109} INFO - [2022-03-21 05:35:18,267] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:35:18,279] {logging_mixin.py:109} INFO - [2022-03-21 05:35:18,279] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:35:18,279] {logging_mixin.py:109} INFO - [2022-03-21 05:35:18,279] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:35:18,570] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.048 seconds
+[2022-03-21 05:36:50,088] {processor.py:163} INFO - Started process (PID=751) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:36:50,093] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:36:50,094] {logging_mixin.py:109} INFO - [2022-03-21 05:36:50,094] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:36:50,119] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:36:50,310] {logging_mixin.py:109} INFO - [2022-03-21 05:36:50,310] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:36:50,321] {logging_mixin.py:109} INFO - [2022-03-21 05:36:50,320] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:36:50,321] {logging_mixin.py:109} INFO - [2022-03-21 05:36:50,321] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:36:52,021] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.937 seconds
+[2022-03-21 05:38:21,874] {processor.py:163} INFO - Started process (PID=793) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:38:21,885] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:38:21,885] {logging_mixin.py:109} INFO - [2022-03-21 05:38:21,885] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:38:21,910] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:38:22,137] {logging_mixin.py:109} INFO - [2022-03-21 05:38:22,137] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:38:22,147] {logging_mixin.py:109} INFO - [2022-03-21 05:38:22,147] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:38:22,148] {logging_mixin.py:109} INFO - [2022-03-21 05:38:22,148] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:38:22,508] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.636 seconds
+[2022-03-21 05:40:10,713] {processor.py:163} INFO - Started process (PID=839) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:40:10,812] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:40:10,813] {logging_mixin.py:109} INFO - [2022-03-21 05:40:10,813] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:40:10,841] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:40:11,036] {logging_mixin.py:109} INFO - [2022-03-21 05:40:11,036] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:40:11,118] {logging_mixin.py:109} INFO - [2022-03-21 05:40:11,118] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:40:11,119] {logging_mixin.py:109} INFO - [2022-03-21 05:40:11,119] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:40:12,692] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.983 seconds
+[2022-03-21 05:41:43,211] {processor.py:163} INFO - Started process (PID=880) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:41:43,750] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:41:43,751] {logging_mixin.py:109} INFO - [2022-03-21 05:41:43,751] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:41:43,778] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:41:44,023] {logging_mixin.py:109} INFO - [2022-03-21 05:41:44,023] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:41:44,035] {logging_mixin.py:109} INFO - [2022-03-21 05:41:44,035] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:41:44,036] {logging_mixin.py:109} INFO - [2022-03-21 05:41:44,036] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:41:44,579] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.372 seconds
+[2022-03-21 05:43:21,650] {processor.py:163} INFO - Started process (PID=932) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:43:23,466] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:43:23,466] {logging_mixin.py:109} INFO - [2022-03-21 05:43:23,466] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:43:23,921] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:43:24,200] {logging_mixin.py:109} INFO - [2022-03-21 05:43:24,200] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:43:24,217] {logging_mixin.py:109} INFO - [2022-03-21 05:43:24,216] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:43:24,217] {logging_mixin.py:109} INFO - [2022-03-21 05:43:24,217] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:43:24,348] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.700 seconds
+[2022-03-21 05:44:49,552] {processor.py:163} INFO - Started process (PID=971) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:44:50,036] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:44:50,037] {logging_mixin.py:109} INFO - [2022-03-21 05:44:50,037] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:44:50,195] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:44:50,489] {logging_mixin.py:109} INFO - [2022-03-21 05:44:50,489] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:44:50,500] {logging_mixin.py:109} INFO - [2022-03-21 05:44:50,500] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:44:50,500] {logging_mixin.py:109} INFO - [2022-03-21 05:44:50,500] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:44:50,735] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.186 seconds
+[2022-03-21 05:46:15,594] {processor.py:163} INFO - Started process (PID=1011) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:46:16,808] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:46:16,813] {logging_mixin.py:109} INFO - [2022-03-21 05:46:16,813] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:46:17,479] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:46:17,796] {logging_mixin.py:109} INFO - [2022-03-21 05:46:17,796] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:46:17,810] {logging_mixin.py:109} INFO - [2022-03-21 05:46:17,809] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:46:17,810] {logging_mixin.py:109} INFO - [2022-03-21 05:46:17,810] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:46:18,041] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.449 seconds
+[2022-03-21 05:48:01,050] {processor.py:163} INFO - Started process (PID=1052) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:48:01,155] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:48:01,155] {logging_mixin.py:109} INFO - [2022-03-21 05:48:01,155] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:48:01,184] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:48:01,460] {logging_mixin.py:109} INFO - [2022-03-21 05:48:01,460] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:48:01,470] {logging_mixin.py:109} INFO - [2022-03-21 05:48:01,470] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:48:01,470] {logging_mixin.py:109} INFO - [2022-03-21 05:48:01,470] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:48:01,970] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.921 seconds
+[2022-03-21 05:49:22,923] {processor.py:163} INFO - Started process (PID=1090) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:49:22,941] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:49:22,942] {logging_mixin.py:109} INFO - [2022-03-21 05:49:22,942] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:49:22,968] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:49:23,216] {logging_mixin.py:109} INFO - [2022-03-21 05:49:23,216] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:49:23,225] {logging_mixin.py:109} INFO - [2022-03-21 05:49:23,225] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:49:23,226] {logging_mixin.py:109} INFO - [2022-03-21 05:49:23,226] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:49:23,735] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.814 seconds
+[2022-03-21 05:51:08,249] {processor.py:163} INFO - Started process (PID=1136) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:51:08,450] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:51:08,451] {logging_mixin.py:109} INFO - [2022-03-21 05:51:08,451] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:51:08,476] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:51:08,739] {logging_mixin.py:109} INFO - [2022-03-21 05:51:08,739] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:51:08,750] {logging_mixin.py:109} INFO - [2022-03-21 05:51:08,750] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:51:08,750] {logging_mixin.py:109} INFO - [2022-03-21 05:51:08,750] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:51:09,390] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.143 seconds
+[2022-03-21 05:52:52,434] {processor.py:163} INFO - Started process (PID=1178) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:52:52,469] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:52:52,470] {logging_mixin.py:109} INFO - [2022-03-21 05:52:52,470] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:52:52,541] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:52:53,296] {logging_mixin.py:109} INFO - [2022-03-21 05:52:53,296] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:52:53,322] {logging_mixin.py:109} INFO - [2022-03-21 05:52:53,321] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:52:53,322] {logging_mixin.py:109} INFO - [2022-03-21 05:52:53,322] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:52:53,750] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.320 seconds
+[2022-03-21 05:54:19,688] {processor.py:163} INFO - Started process (PID=1216) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:54:21,251] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:54:21,252] {logging_mixin.py:109} INFO - [2022-03-21 05:54:21,252] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:54:22,319] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:54:22,767] {logging_mixin.py:109} INFO - [2022-03-21 05:54:22,767] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:54:22,785] {logging_mixin.py:109} INFO - [2022-03-21 05:54:22,784] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:54:22,785] {logging_mixin.py:109} INFO - [2022-03-21 05:54:22,785] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:54:22,967] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 3.281 seconds
+[2022-03-21 05:55:52,626] {processor.py:163} INFO - Started process (PID=1256) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:55:53,530] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:55:53,531] {logging_mixin.py:109} INFO - [2022-03-21 05:55:53,531] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:55:53,556] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:55:53,818] {logging_mixin.py:109} INFO - [2022-03-21 05:55:53,818] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:55:53,829] {logging_mixin.py:109} INFO - [2022-03-21 05:55:53,828] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:55:53,829] {logging_mixin.py:109} INFO - [2022-03-21 05:55:53,829] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:55:54,584] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.961 seconds
+[2022-03-21 05:57:38,428] {processor.py:163} INFO - Started process (PID=1299) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:57:38,468] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:57:38,469] {logging_mixin.py:109} INFO - [2022-03-21 05:57:38,469] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:57:38,513] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:57:38,875] {logging_mixin.py:109} INFO - [2022-03-21 05:57:38,875] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:57:38,887] {logging_mixin.py:109} INFO - [2022-03-21 05:57:38,887] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:57:38,888] {logging_mixin.py:109} INFO - [2022-03-21 05:57:38,888] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:57:39,958] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.535 seconds
+[2022-03-21 05:59:17,970] {processor.py:163} INFO - Started process (PID=1340) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:59:19,483] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 05:59:19,484] {logging_mixin.py:109} INFO - [2022-03-21 05:59:19,484] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:59:19,575] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 05:59:20,172] {logging_mixin.py:109} INFO - [2022-03-21 05:59:20,172] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 05:59:20,189] {logging_mixin.py:109} INFO - [2022-03-21 05:59:20,188] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 05:59:20,189] {logging_mixin.py:109} INFO - [2022-03-21 05:59:20,189] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 05:59:20,346] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.379 seconds
+[2022-03-21 06:00:41,400] {processor.py:163} INFO - Started process (PID=1379) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:00:42,786] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:00:42,787] {logging_mixin.py:109} INFO - [2022-03-21 06:00:42,787] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:00:42,818] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:00:43,077] {logging_mixin.py:109} INFO - [2022-03-21 06:00:43,077] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:00:43,086] {logging_mixin.py:109} INFO - [2022-03-21 06:00:43,086] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:00:43,087] {logging_mixin.py:109} INFO - [2022-03-21 06:00:43,087] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:00:43,894] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.497 seconds
+[2022-03-21 06:02:17,383] {processor.py:163} INFO - Started process (PID=1418) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:02:17,843] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:02:17,844] {logging_mixin.py:109} INFO - [2022-03-21 06:02:17,844] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:02:17,903] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:02:18,729] {logging_mixin.py:109} INFO - [2022-03-21 06:02:18,729] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:02:18,748] {logging_mixin.py:109} INFO - [2022-03-21 06:02:18,747] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:02:18,748] {logging_mixin.py:109} INFO - [2022-03-21 06:02:18,748] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:02:19,590] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.209 seconds
+[2022-03-21 06:03:54,447] {processor.py:163} INFO - Started process (PID=1460) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:03:54,468] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:03:54,468] {logging_mixin.py:109} INFO - [2022-03-21 06:03:54,468] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:03:54,535] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:03:54,900] {logging_mixin.py:109} INFO - [2022-03-21 06:03:54,900] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:03:54,911] {logging_mixin.py:109} INFO - [2022-03-21 06:03:54,911] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:03:54,911] {logging_mixin.py:109} INFO - [2022-03-21 06:03:54,911] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:03:55,781] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.337 seconds
+[2022-03-21 06:05:25,983] {processor.py:163} INFO - Started process (PID=1499) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:05:25,994] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:05:25,995] {logging_mixin.py:109} INFO - [2022-03-21 06:05:25,995] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:05:26,025] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:05:26,285] {logging_mixin.py:109} INFO - [2022-03-21 06:05:26,285] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:05:26,296] {logging_mixin.py:109} INFO - [2022-03-21 06:05:26,296] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:05:26,296] {logging_mixin.py:109} INFO - [2022-03-21 06:05:26,296] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:05:27,896] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.915 seconds
+[2022-03-21 06:06:58,911] {processor.py:163} INFO - Started process (PID=1540) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:06:58,926] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:06:58,927] {logging_mixin.py:109} INFO - [2022-03-21 06:06:58,927] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:06:58,951] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:06:59,188] {logging_mixin.py:109} INFO - [2022-03-21 06:06:59,188] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:06:59,197] {logging_mixin.py:109} INFO - [2022-03-21 06:06:59,197] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:06:59,197] {logging_mixin.py:109} INFO - [2022-03-21 06:06:59,197] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:06:59,463] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.554 seconds
+[2022-03-21 06:08:29,694] {processor.py:163} INFO - Started process (PID=1579) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:08:29,756] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:08:29,756] {logging_mixin.py:109} INFO - [2022-03-21 06:08:29,756] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:08:29,782] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:08:30,033] {logging_mixin.py:109} INFO - [2022-03-21 06:08:30,033] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:08:30,042] {logging_mixin.py:109} INFO - [2022-03-21 06:08:30,042] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:08:30,043] {logging_mixin.py:109} INFO - [2022-03-21 06:08:30,043] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:08:31,860] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.168 seconds
+[2022-03-21 06:09:43,609] {processor.py:163} INFO - Started process (PID=1615) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:09:43,837] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:09:43,837] {logging_mixin.py:109} INFO - [2022-03-21 06:09:43,837] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:09:43,862] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:09:44,120] {logging_mixin.py:109} INFO - [2022-03-21 06:09:44,120] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:09:44,128] {logging_mixin.py:109} INFO - [2022-03-21 06:09:44,128] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:09:44,129] {logging_mixin.py:109} INFO - [2022-03-21 06:09:44,129] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:09:45,276] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.669 seconds
+[2022-03-21 06:11:08,035] {processor.py:163} INFO - Started process (PID=1654) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:11:08,131] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:11:08,132] {logging_mixin.py:109} INFO - [2022-03-21 06:11:08,132] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:11:08,157] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:11:08,432] {logging_mixin.py:109} INFO - [2022-03-21 06:11:08,432] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:11:08,444] {logging_mixin.py:109} INFO - [2022-03-21 06:11:08,444] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:11:08,444] {logging_mixin.py:109} INFO - [2022-03-21 06:11:08,444] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:11:08,875] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.842 seconds
+[2022-03-21 06:12:22,678] {processor.py:163} INFO - Started process (PID=1690) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:12:22,784] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:12:22,784] {logging_mixin.py:109} INFO - [2022-03-21 06:12:22,784] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:12:22,809] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:12:23,065] {logging_mixin.py:109} INFO - [2022-03-21 06:12:23,065] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:12:23,079] {logging_mixin.py:109} INFO - [2022-03-21 06:12:23,079] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:12:23,079] {logging_mixin.py:109} INFO - [2022-03-21 06:12:23,079] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:12:24,082] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.407 seconds
+[2022-03-21 06:13:45,840] {processor.py:163} INFO - Started process (PID=1728) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:13:46,663] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:13:46,663] {logging_mixin.py:109} INFO - [2022-03-21 06:13:46,663] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:13:46,692] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:13:46,972] {logging_mixin.py:109} INFO - [2022-03-21 06:13:46,972] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:13:46,984] {logging_mixin.py:109} INFO - [2022-03-21 06:13:46,984] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:13:46,984] {logging_mixin.py:109} INFO - [2022-03-21 06:13:46,984] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:13:47,147] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.311 seconds
+[2022-03-21 06:15:13,868] {processor.py:163} INFO - Started process (PID=1767) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:15:13,881] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:15:13,881] {logging_mixin.py:109} INFO - [2022-03-21 06:15:13,881] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:15:13,919] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:15:14,210] {logging_mixin.py:109} INFO - [2022-03-21 06:15:14,209] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:15:14,218] {logging_mixin.py:109} INFO - [2022-03-21 06:15:14,218] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:15:14,218] {logging_mixin.py:109} INFO - [2022-03-21 06:15:14,218] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:15:14,765] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.899 seconds
+[2022-03-21 06:16:50,419] {processor.py:163} INFO - Started process (PID=1807) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:16:50,466] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:16:50,467] {logging_mixin.py:109} INFO - [2022-03-21 06:16:50,467] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:16:50,493] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:16:50,737] {logging_mixin.py:109} INFO - [2022-03-21 06:16:50,737] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:16:50,747] {logging_mixin.py:109} INFO - [2022-03-21 06:16:50,747] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:16:50,748] {logging_mixin.py:109} INFO - [2022-03-21 06:16:50,748] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:16:50,993] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.578 seconds
+[2022-03-21 06:18:16,954] {processor.py:163} INFO - Started process (PID=1846) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:18:17,840] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:18:17,840] {logging_mixin.py:109} INFO - [2022-03-21 06:18:17,840] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:18:18,108] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:18:18,397] {logging_mixin.py:109} INFO - [2022-03-21 06:18:18,397] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:18:18,405] {logging_mixin.py:109} INFO - [2022-03-21 06:18:18,405] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:18:18,406] {logging_mixin.py:109} INFO - [2022-03-21 06:18:18,406] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:18:19,013] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.062 seconds
+[2022-03-21 06:19:35,004] {processor.py:163} INFO - Started process (PID=1882) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:19:35,021] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:19:35,022] {logging_mixin.py:109} INFO - [2022-03-21 06:19:35,022] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:19:35,049] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:19:35,323] {logging_mixin.py:109} INFO - [2022-03-21 06:19:35,323] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:19:35,335] {logging_mixin.py:109} INFO - [2022-03-21 06:19:35,335] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:19:35,335] {logging_mixin.py:109} INFO - [2022-03-21 06:19:35,335] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:19:36,774] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.773 seconds
+[2022-03-21 06:20:53,371] {processor.py:163} INFO - Started process (PID=1920) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:20:54,347] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:20:54,348] {logging_mixin.py:109} INFO - [2022-03-21 06:20:54,347] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:20:54,704] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:20:54,966] {logging_mixin.py:109} INFO - [2022-03-21 06:20:54,966] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:20:54,976] {logging_mixin.py:109} INFO - [2022-03-21 06:20:54,976] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:20:54,976] {logging_mixin.py:109} INFO - [2022-03-21 06:20:54,976] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:20:55,888] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 2.519 seconds
+[2022-03-21 06:22:29,535] {processor.py:163} INFO - Started process (PID=1959) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:22:29,571] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:22:29,571] {logging_mixin.py:109} INFO - [2022-03-21 06:22:29,571] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:22:29,603] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:22:29,873] {logging_mixin.py:109} INFO - [2022-03-21 06:22:29,873] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:22:29,882] {logging_mixin.py:109} INFO - [2022-03-21 06:22:29,881] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:22:29,882] {logging_mixin.py:109} INFO - [2022-03-21 06:22:29,882] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:22:31,326] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.793 seconds
+[2022-03-21 06:24:08,052] {processor.py:163} INFO - Started process (PID=2003) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:24:08,140] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:24:08,141] {logging_mixin.py:109} INFO - [2022-03-21 06:24:08,141] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:24:08,798] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:24:09,078] {logging_mixin.py:109} INFO - [2022-03-21 06:24:09,078] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:24:09,087] {logging_mixin.py:109} INFO - [2022-03-21 06:24:09,086] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:24:09,087] {logging_mixin.py:109} INFO - [2022-03-21 06:24:09,087] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:24:09,256] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.207 seconds
+[2022-03-21 06:25:36,131] {processor.py:163} INFO - Started process (PID=2042) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:25:36,152] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:25:36,152] {logging_mixin.py:109} INFO - [2022-03-21 06:25:36,152] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:25:36,177] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:25:36,440] {logging_mixin.py:109} INFO - [2022-03-21 06:25:36,440] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:25:36,449] {logging_mixin.py:109} INFO - [2022-03-21 06:25:36,449] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:25:36,449] {logging_mixin.py:109} INFO - [2022-03-21 06:25:36,449] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:25:36,675] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.546 seconds
+[2022-03-21 06:26:28,480] {processor.py:163} INFO - Started process (PID=2075) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:26:28,541] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:26:28,542] {logging_mixin.py:109} INFO - [2022-03-21 06:26:28,542] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:26:28,800] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:26:29,119] {logging_mixin.py:109} INFO - [2022-03-21 06:26:29,119] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:26:29,129] {logging_mixin.py:109} INFO - [2022-03-21 06:26:29,129] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:26:29,129] {logging_mixin.py:109} INFO - [2022-03-21 06:26:29,129] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:26:29,376] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.899 seconds
+[2022-03-21 06:27:57,933] {processor.py:163} INFO - Started process (PID=2122) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:27:58,226] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:27:58,227] {logging_mixin.py:109} INFO - [2022-03-21 06:27:58,227] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:27:58,254] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:27:58,503] {logging_mixin.py:109} INFO - [2022-03-21 06:27:58,503] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:27:58,513] {logging_mixin.py:109} INFO - [2022-03-21 06:27:58,513] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:27:58,514] {logging_mixin.py:109} INFO - [2022-03-21 06:27:58,514] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:27:59,069] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.138 seconds
+[2022-03-21 06:30:20,246] {processor.py:163} INFO - Started process (PID=2182) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:30:20,262] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:30:20,263] {logging_mixin.py:109} INFO - [2022-03-21 06:30:20,263] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:30:20,291] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:30:20,483] {logging_mixin.py:109} INFO - [2022-03-21 06:30:20,483] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:30:20,493] {logging_mixin.py:109} INFO - [2022-03-21 06:30:20,492] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:30:20,493] {logging_mixin.py:109} INFO - [2022-03-21 06:30:20,493] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:30:21,679] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 1.435 seconds
+[2022-03-21 06:31:41,440] {processor.py:163} INFO - Started process (PID=2232) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:31:41,462] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-03-21 06:31:41,463] {logging_mixin.py:109} INFO - [2022-03-21 06:31:41,463] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:31:41,489] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-03-21 06:31:41,687] {logging_mixin.py:109} INFO - [2022-03-21 06:31:41,687] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-21 06:31:41,697] {logging_mixin.py:109} INFO - [2022-03-21 06:31:41,697] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args to None
+[2022-03-21 06:31:41,697] {logging_mixin.py:109} INFO - [2022-03-21 06:31:41,697] {dag.py:2937} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2022-03-21 06:31:42,413] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py took 0.976 seconds

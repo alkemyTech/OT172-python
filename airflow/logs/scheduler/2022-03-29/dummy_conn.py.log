@@ -1,0 +1,644 @@
+[2022-03-29 00:12:05,998] {processor.py:163} INFO - Started process (PID=213) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:12:05,999] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 00:12:06,000] {logging_mixin.py:109} INFO - [2022-03-29 00:12:06,000] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:12:06,038] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:12:06,047] {logging_mixin.py:109} INFO - [2022-03-29 00:12:06,047] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:12:06,060] {logging_mixin.py:109} INFO - [2022-03-29 00:12:06,060] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 00:12:06,989] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.993 seconds
+[2022-03-29 00:13:35,902] {processor.py:163} INFO - Started process (PID=267) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:13:36,671] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 00:13:36,672] {logging_mixin.py:109} INFO - [2022-03-29 00:13:36,672] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:13:36,713] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:13:36,724] {logging_mixin.py:109} INFO - [2022-03-29 00:13:36,724] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:13:36,739] {logging_mixin.py:109} INFO - [2022-03-29 00:13:36,739] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 00:13:36,920] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.021 seconds
+[2022-03-29 00:14:24,672] {processor.py:163} INFO - Started process (PID=306) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:14:24,675] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 00:14:24,676] {logging_mixin.py:109} INFO - [2022-03-29 00:14:24,676] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:14:24,715] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:14:24,724] {logging_mixin.py:109} INFO - [2022-03-29 00:14:24,724] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:14:24,739] {logging_mixin.py:109} INFO - [2022-03-29 00:14:24,739] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 00:14:24,881] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.212 seconds
+[2022-03-29 00:15:24,104] {processor.py:163} INFO - Started process (PID=345) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:15:24,106] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 00:15:24,107] {logging_mixin.py:109} INFO - [2022-03-29 00:15:24,107] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:15:24,143] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 00:15:24,153] {logging_mixin.py:109} INFO - [2022-03-29 00:15:24,153] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 00:15:24,165] {logging_mixin.py:109} INFO - [2022-03-29 00:15:24,165] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 00:15:25,657] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.556 seconds
+[2022-03-29 09:34:29,508] {processor.py:163} INFO - Started process (PID=630) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:34:29,837] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:34:29,838] {logging_mixin.py:109} INFO - [2022-03-29 09:34:29,838] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:34:29,888] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:34:29,900] {logging_mixin.py:109} INFO - [2022-03-29 09:34:29,900] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:34:29,917] {logging_mixin.py:109} INFO - [2022-03-29 09:34:29,917] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:34:30,151] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.647 seconds
+[2022-03-29 09:36:09,189] {processor.py:163} INFO - Started process (PID=690) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:36:09,269] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:36:09,270] {logging_mixin.py:109} INFO - [2022-03-29 09:36:09,270] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:36:09,313] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:36:09,322] {logging_mixin.py:109} INFO - [2022-03-29 09:36:09,322] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:36:09,335] {logging_mixin.py:109} INFO - [2022-03-29 09:36:09,335] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:36:09,493] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.307 seconds
+[2022-03-29 09:37:01,625] {processor.py:163} INFO - Started process (PID=729) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:37:02,303] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:37:02,304] {logging_mixin.py:109} INFO - [2022-03-29 09:37:02,304] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:37:02,875] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:37:02,885] {logging_mixin.py:109} INFO - [2022-03-29 09:37:02,885] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:37:02,901] {logging_mixin.py:109} INFO - [2022-03-29 09:37:02,901] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:37:03,118] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.494 seconds
+[2022-03-29 09:37:55,875] {processor.py:163} INFO - Started process (PID=843) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:37:55,961] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:37:55,961] {logging_mixin.py:109} INFO - [2022-03-29 09:37:55,961] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:37:56,002] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:37:56,012] {logging_mixin.py:109} INFO - [2022-03-29 09:37:56,012] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:37:56,026] {logging_mixin.py:109} INFO - [2022-03-29 09:37:56,026] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:37:56,170] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.297 seconds
+[2022-03-29 09:38:50,006] {processor.py:163} INFO - Started process (PID=892) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:38:50,050] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:38:50,051] {logging_mixin.py:109} INFO - [2022-03-29 09:38:50,051] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:38:50,087] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:38:50,097] {logging_mixin.py:109} INFO - [2022-03-29 09:38:50,096] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:38:50,110] {logging_mixin.py:109} INFO - [2022-03-29 09:38:50,109] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:38:50,268] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.264 seconds
+[2022-03-29 09:39:50,470] {processor.py:163} INFO - Started process (PID=937) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:39:50,474] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:39:50,475] {logging_mixin.py:109} INFO - [2022-03-29 09:39:50,474] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:39:50,521] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:39:50,530] {logging_mixin.py:109} INFO - [2022-03-29 09:39:50,530] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:39:50,543] {logging_mixin.py:109} INFO - [2022-03-29 09:39:50,543] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:39:51,712] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.245 seconds
+[2022-03-29 09:40:49,792] {processor.py:163} INFO - Started process (PID=981) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:40:49,802] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:40:49,803] {logging_mixin.py:109} INFO - [2022-03-29 09:40:49,803] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:40:49,866] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:40:49,877] {logging_mixin.py:109} INFO - [2022-03-29 09:40:49,877] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:40:49,893] {logging_mixin.py:109} INFO - [2022-03-29 09:40:49,893] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:40:50,316] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.527 seconds
+[2022-03-29 09:41:44,795] {processor.py:163} INFO - Started process (PID=1021) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:41:44,798] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:41:44,798] {logging_mixin.py:109} INFO - [2022-03-29 09:41:44,798] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:41:44,837] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:41:44,846] {logging_mixin.py:109} INFO - [2022-03-29 09:41:44,846] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:41:44,860] {logging_mixin.py:109} INFO - [2022-03-29 09:41:44,860] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:41:44,997] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.204 seconds
+[2022-03-29 09:42:46,733] {processor.py:163} INFO - Started process (PID=1062) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:42:46,735] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:42:46,736] {logging_mixin.py:109} INFO - [2022-03-29 09:42:46,736] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:42:46,775] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:42:46,783] {logging_mixin.py:109} INFO - [2022-03-29 09:42:46,783] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:42:46,799] {logging_mixin.py:109} INFO - [2022-03-29 09:42:46,799] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:42:47,486] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.755 seconds
+[2022-03-29 09:43:38,660] {processor.py:163} INFO - Started process (PID=1105) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:43:38,761] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:43:38,761] {logging_mixin.py:109} INFO - [2022-03-29 09:43:38,761] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:43:38,799] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:43:38,808] {logging_mixin.py:109} INFO - [2022-03-29 09:43:38,808] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:43:38,821] {logging_mixin.py:109} INFO - [2022-03-29 09:43:38,820] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:43:39,921] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.265 seconds
+[2022-03-29 09:44:34,330] {processor.py:163} INFO - Started process (PID=1149) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:44:34,346] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:44:34,347] {logging_mixin.py:109} INFO - [2022-03-29 09:44:34,347] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:44:34,385] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:44:34,393] {logging_mixin.py:109} INFO - [2022-03-29 09:44:34,393] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:44:34,406] {logging_mixin.py:109} INFO - [2022-03-29 09:44:34,406] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:44:34,543] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.215 seconds
+[2022-03-29 09:45:19,381] {processor.py:163} INFO - Started process (PID=1192) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:45:19,416] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:45:19,417] {logging_mixin.py:109} INFO - [2022-03-29 09:45:19,417] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:45:19,636] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:45:19,648] {logging_mixin.py:109} INFO - [2022-03-29 09:45:19,648] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:45:19,661] {logging_mixin.py:109} INFO - [2022-03-29 09:45:19,661] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:45:20,387] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.009 seconds
+[2022-03-29 09:46:33,344] {processor.py:163} INFO - Started process (PID=1260) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:46:33,367] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:46:33,368] {logging_mixin.py:109} INFO - [2022-03-29 09:46:33,368] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:46:33,405] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:46:33,414] {logging_mixin.py:109} INFO - [2022-03-29 09:46:33,414] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:46:33,427] {logging_mixin.py:109} INFO - [2022-03-29 09:46:33,427] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:46:34,828] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.486 seconds
+[2022-03-29 09:47:26,592] {processor.py:163} INFO - Started process (PID=1297) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:47:26,597] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:47:26,597] {logging_mixin.py:109} INFO - [2022-03-29 09:47:26,597] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:47:26,640] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:47:26,652] {logging_mixin.py:109} INFO - [2022-03-29 09:47:26,652] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:47:26,666] {logging_mixin.py:109} INFO - [2022-03-29 09:47:26,666] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:47:26,805] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.215 seconds
+[2022-03-29 09:48:07,185] {processor.py:163} INFO - Started process (PID=1341) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:48:07,202] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:48:07,203] {logging_mixin.py:109} INFO - [2022-03-29 09:48:07,202] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:48:07,240] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:48:07,249] {logging_mixin.py:109} INFO - [2022-03-29 09:48:07,249] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:48:07,262] {logging_mixin.py:109} INFO - [2022-03-29 09:48:07,262] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:48:07,400] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.218 seconds
+[2022-03-29 09:49:16,868] {processor.py:163} INFO - Started process (PID=1396) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:49:16,995] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:49:16,996] {logging_mixin.py:109} INFO - [2022-03-29 09:49:16,996] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:49:17,036] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:49:17,045] {logging_mixin.py:109} INFO - [2022-03-29 09:49:17,044] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:49:17,057] {logging_mixin.py:109} INFO - [2022-03-29 09:49:17,057] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:49:17,191] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.326 seconds
+[2022-03-29 09:50:05,623] {processor.py:163} INFO - Started process (PID=1436) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:50:05,660] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:50:05,661] {logging_mixin.py:109} INFO - [2022-03-29 09:50:05,660] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:50:05,699] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:50:05,708] {logging_mixin.py:109} INFO - [2022-03-29 09:50:05,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:50:05,722] {logging_mixin.py:109} INFO - [2022-03-29 09:50:05,721] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:50:06,815] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.194 seconds
+[2022-03-29 09:50:51,022] {processor.py:163} INFO - Started process (PID=1476) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:50:51,062] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:50:51,062] {logging_mixin.py:109} INFO - [2022-03-29 09:50:51,062] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:50:51,098] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:50:51,107] {logging_mixin.py:109} INFO - [2022-03-29 09:50:51,107] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:50:51,121] {logging_mixin.py:109} INFO - [2022-03-29 09:50:51,121] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:50:51,261] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.242 seconds
+[2022-03-29 09:51:58,280] {processor.py:163} INFO - Started process (PID=1546) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:51:58,294] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:51:58,295] {logging_mixin.py:109} INFO - [2022-03-29 09:51:58,295] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:51:58,331] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:51:58,339] {logging_mixin.py:109} INFO - [2022-03-29 09:51:58,339] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:51:58,353] {logging_mixin.py:109} INFO - [2022-03-29 09:51:58,353] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:51:58,483] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.204 seconds
+[2022-03-29 09:52:50,078] {processor.py:163} INFO - Started process (PID=1598) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:52:50,091] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:52:50,091] {logging_mixin.py:109} INFO - [2022-03-29 09:52:50,091] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:52:50,136] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:52:50,146] {logging_mixin.py:109} INFO - [2022-03-29 09:52:50,145] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:52:50,161] {logging_mixin.py:109} INFO - [2022-03-29 09:52:50,161] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:52:50,372] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.296 seconds
+[2022-03-29 09:53:52,837] {processor.py:163} INFO - Started process (PID=1657) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:53:52,855] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:53:52,855] {logging_mixin.py:109} INFO - [2022-03-29 09:53:52,855] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:53:52,900] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:53:52,910] {logging_mixin.py:109} INFO - [2022-03-29 09:53:52,910] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:53:52,924] {logging_mixin.py:109} INFO - [2022-03-29 09:53:52,924] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:53:53,103] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.268 seconds
+[2022-03-29 09:55:13,863] {processor.py:163} INFO - Started process (PID=1731) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:55:13,870] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:55:13,870] {logging_mixin.py:109} INFO - [2022-03-29 09:55:13,870] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:55:13,915] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:55:13,923] {logging_mixin.py:109} INFO - [2022-03-29 09:55:13,923] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:55:13,939] {logging_mixin.py:109} INFO - [2022-03-29 09:55:13,938] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:55:14,065] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.205 seconds
+[2022-03-29 09:56:09,245] {processor.py:163} INFO - Started process (PID=1789) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:56:09,252] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:56:09,253] {logging_mixin.py:109} INFO - [2022-03-29 09:56:09,253] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:56:09,293] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:56:09,301] {logging_mixin.py:109} INFO - [2022-03-29 09:56:09,301] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:56:09,315] {logging_mixin.py:109} INFO - [2022-03-29 09:56:09,314] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:56:09,471] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.229 seconds
+[2022-03-29 09:57:04,024] {processor.py:163} INFO - Started process (PID=1842) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:57:04,033] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:57:04,034] {logging_mixin.py:109} INFO - [2022-03-29 09:57:04,034] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:57:04,070] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:57:04,078] {logging_mixin.py:109} INFO - [2022-03-29 09:57:04,078] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:57:04,091] {logging_mixin.py:109} INFO - [2022-03-29 09:57:04,091] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:57:04,233] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.211 seconds
+[2022-03-29 09:57:57,007] {processor.py:163} INFO - Started process (PID=1895) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:57:57,015] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:57:57,016] {logging_mixin.py:109} INFO - [2022-03-29 09:57:57,016] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:57:57,054] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:57:57,062] {logging_mixin.py:109} INFO - [2022-03-29 09:57:57,062] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:57:57,075] {logging_mixin.py:109} INFO - [2022-03-29 09:57:57,075] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:57:57,884] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.879 seconds
+[2022-03-29 09:58:53,195] {processor.py:163} INFO - Started process (PID=1948) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:58:53,247] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 09:58:53,247] {logging_mixin.py:109} INFO - [2022-03-29 09:58:53,247] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:58:53,394] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 09:58:53,403] {logging_mixin.py:109} INFO - [2022-03-29 09:58:53,403] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 09:58:53,416] {logging_mixin.py:109} INFO - [2022-03-29 09:58:53,416] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 09:58:53,681] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.489 seconds
+[2022-03-29 10:00:05,507] {processor.py:163} INFO - Started process (PID=2006) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:00:05,523] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:00:05,523] {logging_mixin.py:109} INFO - [2022-03-29 10:00:05,523] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:00:05,558] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:00:05,565] {logging_mixin.py:109} INFO - [2022-03-29 10:00:05,565] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:00:05,577] {logging_mixin.py:109} INFO - [2022-03-29 10:00:05,576] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:00:06,367] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.862 seconds
+[2022-03-29 10:00:56,982] {processor.py:163} INFO - Started process (PID=2048) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:00:56,994] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:00:56,995] {logging_mixin.py:109} INFO - [2022-03-29 10:00:56,995] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:00:57,032] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:00:57,041] {logging_mixin.py:109} INFO - [2022-03-29 10:00:57,041] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:00:57,054] {logging_mixin.py:109} INFO - [2022-03-29 10:00:57,054] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:00:58,111] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.131 seconds
+[2022-03-29 10:01:54,230] {processor.py:163} INFO - Started process (PID=2090) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:01:55,021] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:01:55,026] {logging_mixin.py:109} INFO - [2022-03-29 10:01:55,026] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:01:55,247] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:01:55,256] {logging_mixin.py:109} INFO - [2022-03-29 10:01:55,256] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:01:55,270] {logging_mixin.py:109} INFO - [2022-03-29 10:01:55,270] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:01:55,406] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.179 seconds
+[2022-03-29 10:02:49,813] {processor.py:163} INFO - Started process (PID=2133) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:02:49,825] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:02:49,826] {logging_mixin.py:109} INFO - [2022-03-29 10:02:49,826] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:02:49,864] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:02:49,876] {logging_mixin.py:109} INFO - [2022-03-29 10:02:49,876] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:02:49,893] {logging_mixin.py:109} INFO - [2022-03-29 10:02:49,893] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:02:50,105] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.295 seconds
+[2022-03-29 10:03:48,321] {processor.py:163} INFO - Started process (PID=2189) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:03:48,336] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:03:48,337] {logging_mixin.py:109} INFO - [2022-03-29 10:03:48,337] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:03:49,371] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:03:49,383] {logging_mixin.py:109} INFO - [2022-03-29 10:03:49,383] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:03:49,402] {logging_mixin.py:109} INFO - [2022-03-29 10:03:49,402] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:03:49,742] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.424 seconds
+[2022-03-29 10:04:47,830] {processor.py:163} INFO - Started process (PID=2238) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:04:47,845] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:04:47,846] {logging_mixin.py:109} INFO - [2022-03-29 10:04:47,846] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:04:47,882] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:04:47,890] {logging_mixin.py:109} INFO - [2022-03-29 10:04:47,890] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:04:47,903] {logging_mixin.py:109} INFO - [2022-03-29 10:04:47,903] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:04:48,038] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.211 seconds
+[2022-03-29 10:05:40,166] {processor.py:163} INFO - Started process (PID=2284) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:05:40,175] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:05:40,175] {logging_mixin.py:109} INFO - [2022-03-29 10:05:40,175] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:05:40,213] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:05:40,221] {logging_mixin.py:109} INFO - [2022-03-29 10:05:40,221] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:05:40,235] {logging_mixin.py:109} INFO - [2022-03-29 10:05:40,235] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:05:42,549] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 2.385 seconds
+[2022-03-29 10:06:38,432] {processor.py:163} INFO - Started process (PID=2338) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:06:38,437] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:06:38,438] {logging_mixin.py:109} INFO - [2022-03-29 10:06:38,438] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:06:38,476] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:06:38,484] {logging_mixin.py:109} INFO - [2022-03-29 10:06:38,484] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:06:38,501] {logging_mixin.py:109} INFO - [2022-03-29 10:06:38,501] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:06:38,706] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.276 seconds
+[2022-03-29 10:07:29,049] {processor.py:163} INFO - Started process (PID=2389) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:07:29,061] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:07:29,061] {logging_mixin.py:109} INFO - [2022-03-29 10:07:29,061] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:07:29,098] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:07:29,107] {logging_mixin.py:109} INFO - [2022-03-29 10:07:29,107] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:07:29,121] {logging_mixin.py:109} INFO - [2022-03-29 10:07:29,121] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:07:29,254] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.209 seconds
+[2022-03-29 10:08:24,465] {processor.py:163} INFO - Started process (PID=2440) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:08:24,491] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:08:24,491] {logging_mixin.py:109} INFO - [2022-03-29 10:08:24,491] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:08:24,530] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:08:24,540] {logging_mixin.py:109} INFO - [2022-03-29 10:08:24,540] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:08:24,552] {logging_mixin.py:109} INFO - [2022-03-29 10:08:24,552] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:08:24,705] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.242 seconds
+[2022-03-29 10:09:04,849] {processor.py:163} INFO - Started process (PID=2492) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:09:04,864] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:09:04,865] {logging_mixin.py:109} INFO - [2022-03-29 10:09:04,865] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:09:04,902] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:09:04,910] {logging_mixin.py:109} INFO - [2022-03-29 10:09:04,910] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:09:04,923] {logging_mixin.py:109} INFO - [2022-03-29 10:09:04,923] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:09:05,060] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.214 seconds
+[2022-03-29 10:10:06,779] {processor.py:163} INFO - Started process (PID=2548) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:10:06,793] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:10:06,793] {logging_mixin.py:109} INFO - [2022-03-29 10:10:06,793] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:10:06,831] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:10:06,839] {logging_mixin.py:109} INFO - [2022-03-29 10:10:06,839] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:10:06,852] {logging_mixin.py:109} INFO - [2022-03-29 10:10:06,852] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:10:06,971] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.195 seconds
+[2022-03-29 10:11:34,186] {processor.py:163} INFO - Started process (PID=2612) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:11:34,958] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:11:34,958] {logging_mixin.py:109} INFO - [2022-03-29 10:11:34,958] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:11:35,432] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:11:35,440] {logging_mixin.py:109} INFO - [2022-03-29 10:11:35,440] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:11:35,454] {logging_mixin.py:109} INFO - [2022-03-29 10:11:35,454] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:11:35,741] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.557 seconds
+[2022-03-29 10:12:33,117] {processor.py:163} INFO - Started process (PID=2666) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:12:33,120] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:12:33,120] {logging_mixin.py:109} INFO - [2022-03-29 10:12:33,120] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:12:33,159] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:12:33,168] {logging_mixin.py:109} INFO - [2022-03-29 10:12:33,167] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:12:33,181] {logging_mixin.py:109} INFO - [2022-03-29 10:12:33,181] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:12:34,067] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.953 seconds
+[2022-03-29 10:13:15,603] {processor.py:163} INFO - Started process (PID=2711) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:13:15,648] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:13:15,650] {logging_mixin.py:109} INFO - [2022-03-29 10:13:15,649] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:13:15,697] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:13:15,705] {logging_mixin.py:109} INFO - [2022-03-29 10:13:15,704] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:13:15,716] {logging_mixin.py:109} INFO - [2022-03-29 10:13:15,716] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:13:15,893] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.292 seconds
+[2022-03-29 10:14:28,566] {processor.py:163} INFO - Started process (PID=2775) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:14:29,230] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:14:29,231] {logging_mixin.py:109} INFO - [2022-03-29 10:14:29,231] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:14:29,270] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:14:29,280] {logging_mixin.py:109} INFO - [2022-03-29 10:14:29,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:14:29,301] {logging_mixin.py:109} INFO - [2022-03-29 10:14:29,301] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:14:29,753] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.189 seconds
+[2022-03-29 10:15:24,056] {processor.py:163} INFO - Started process (PID=2826) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:15:24,269] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:15:24,270] {logging_mixin.py:109} INFO - [2022-03-29 10:15:24,270] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:15:24,313] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:15:24,322] {logging_mixin.py:109} INFO - [2022-03-29 10:15:24,322] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:15:24,336] {logging_mixin.py:109} INFO - [2022-03-29 10:15:24,336] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:15:24,835] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.782 seconds
+[2022-03-29 10:16:04,935] {processor.py:163} INFO - Started process (PID=2864) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:16:04,937] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:16:04,937] {logging_mixin.py:109} INFO - [2022-03-29 10:16:04,937] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:16:04,979] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:16:04,989] {logging_mixin.py:109} INFO - [2022-03-29 10:16:04,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:16:05,003] {logging_mixin.py:109} INFO - [2022-03-29 10:16:05,003] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:16:05,138] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.206 seconds
+[2022-03-29 10:16:53,798] {processor.py:163} INFO - Started process (PID=2914) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:16:53,808] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:16:53,808] {logging_mixin.py:109} INFO - [2022-03-29 10:16:53,808] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:16:53,846] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:16:53,856] {logging_mixin.py:109} INFO - [2022-03-29 10:16:53,855] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:16:53,868] {logging_mixin.py:109} INFO - [2022-03-29 10:16:53,868] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:16:55,407] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.611 seconds
+[2022-03-29 10:17:47,689] {processor.py:163} INFO - Started process (PID=2954) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:17:47,813] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:17:47,814] {logging_mixin.py:109} INFO - [2022-03-29 10:17:47,814] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:17:47,856] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:17:47,864] {logging_mixin.py:109} INFO - [2022-03-29 10:17:47,864] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:17:47,876] {logging_mixin.py:109} INFO - [2022-03-29 10:17:47,876] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:17:48,684] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.997 seconds
+[2022-03-29 10:18:43,967] {processor.py:163} INFO - Started process (PID=3007) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:18:44,180] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:18:44,182] {logging_mixin.py:109} INFO - [2022-03-29 10:18:44,182] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:18:44,954] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:18:44,962] {logging_mixin.py:109} INFO - [2022-03-29 10:18:44,962] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:18:44,975] {logging_mixin.py:109} INFO - [2022-03-29 10:18:44,975] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:18:45,137] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.171 seconds
+[2022-03-29 10:19:30,977] {processor.py:163} INFO - Started process (PID=3060) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:19:30,979] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:19:30,979] {logging_mixin.py:109} INFO - [2022-03-29 10:19:30,979] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:19:31,017] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:19:31,026] {logging_mixin.py:109} INFO - [2022-03-29 10:19:31,025] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:19:31,039] {logging_mixin.py:109} INFO - [2022-03-29 10:19:31,039] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:19:32,203] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.228 seconds
+[2022-03-29 10:20:22,679] {processor.py:163} INFO - Started process (PID=3104) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:20:22,727] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:20:22,728] {logging_mixin.py:109} INFO - [2022-03-29 10:20:22,728] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:20:22,764] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:20:22,773] {logging_mixin.py:109} INFO - [2022-03-29 10:20:22,773] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:20:22,786] {logging_mixin.py:109} INFO - [2022-03-29 10:20:22,786] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:20:22,938] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.262 seconds
+[2022-03-29 10:21:16,687] {processor.py:163} INFO - Started process (PID=3156) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:21:16,711] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:21:16,711] {logging_mixin.py:109} INFO - [2022-03-29 10:21:16,711] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:21:16,747] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:21:16,755] {logging_mixin.py:109} INFO - [2022-03-29 10:21:16,755] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:21:16,769] {logging_mixin.py:109} INFO - [2022-03-29 10:21:16,769] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:21:17,060] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.375 seconds
+[2022-03-29 10:22:11,156] {processor.py:163} INFO - Started process (PID=3202) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:22:11,174] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:22:11,175] {logging_mixin.py:109} INFO - [2022-03-29 10:22:11,175] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:22:11,219] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:22:11,227] {logging_mixin.py:109} INFO - [2022-03-29 10:22:11,227] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:22:11,241] {logging_mixin.py:109} INFO - [2022-03-29 10:22:11,241] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:22:13,769] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 2.615 seconds
+[2022-03-29 10:22:54,453] {processor.py:163} INFO - Started process (PID=3249) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:22:54,457] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:22:54,458] {logging_mixin.py:109} INFO - [2022-03-29 10:22:54,458] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:22:54,508] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:22:54,519] {logging_mixin.py:109} INFO - [2022-03-29 10:22:54,519] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:22:54,533] {logging_mixin.py:109} INFO - [2022-03-29 10:22:54,533] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:22:54,782] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.331 seconds
+[2022-03-29 10:23:51,967] {processor.py:163} INFO - Started process (PID=3303) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:23:51,978] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:23:51,979] {logging_mixin.py:109} INFO - [2022-03-29 10:23:51,979] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:23:52,017] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:23:52,026] {logging_mixin.py:109} INFO - [2022-03-29 10:23:52,026] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:23:52,039] {logging_mixin.py:109} INFO - [2022-03-29 10:23:52,039] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:23:52,188] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.223 seconds
+[2022-03-29 10:24:47,277] {processor.py:163} INFO - Started process (PID=3356) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:24:47,289] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:24:47,290] {logging_mixin.py:109} INFO - [2022-03-29 10:24:47,290] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:24:47,356] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:24:47,372] {logging_mixin.py:109} INFO - [2022-03-29 10:24:47,372] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:24:47,394] {logging_mixin.py:109} INFO - [2022-03-29 10:24:47,393] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:24:47,555] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.280 seconds
+[2022-03-29 10:25:51,166] {processor.py:163} INFO - Started process (PID=3413) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:25:51,924] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:25:51,925] {logging_mixin.py:109} INFO - [2022-03-29 10:25:51,925] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:25:51,978] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:25:51,990] {logging_mixin.py:109} INFO - [2022-03-29 10:25:51,990] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:25:52,004] {logging_mixin.py:109} INFO - [2022-03-29 10:25:52,004] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:25:53,901] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 2.737 seconds
+[2022-03-29 10:26:49,983] {processor.py:163} INFO - Started process (PID=3467) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:26:49,989] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:26:49,990] {logging_mixin.py:109} INFO - [2022-03-29 10:26:49,990] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:26:50,027] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:26:50,035] {logging_mixin.py:109} INFO - [2022-03-29 10:26:50,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:26:50,048] {logging_mixin.py:109} INFO - [2022-03-29 10:26:50,048] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:26:50,201] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.220 seconds
+[2022-03-29 10:27:48,424] {processor.py:163} INFO - Started process (PID=3521) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:27:48,426] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:27:48,427] {logging_mixin.py:109} INFO - [2022-03-29 10:27:48,427] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:27:48,466] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:27:48,476] {logging_mixin.py:109} INFO - [2022-03-29 10:27:48,476] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:27:48,499] {logging_mixin.py:109} INFO - [2022-03-29 10:27:48,499] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:27:48,652] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.231 seconds
+[2022-03-29 10:28:42,526] {processor.py:163} INFO - Started process (PID=3573) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:28:42,530] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:28:42,531] {logging_mixin.py:109} INFO - [2022-03-29 10:28:42,531] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:28:42,573] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:28:42,581] {logging_mixin.py:109} INFO - [2022-03-29 10:28:42,581] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:28:42,595] {logging_mixin.py:109} INFO - [2022-03-29 10:28:42,595] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:28:42,740] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.217 seconds
+[2022-03-29 10:29:31,045] {processor.py:163} INFO - Started process (PID=3622) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:29:31,048] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:29:31,049] {logging_mixin.py:109} INFO - [2022-03-29 10:29:31,049] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:29:31,086] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:29:31,095] {logging_mixin.py:109} INFO - [2022-03-29 10:29:31,095] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:29:31,108] {logging_mixin.py:109} INFO - [2022-03-29 10:29:31,108] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:29:31,244] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.201 seconds
+[2022-03-29 10:30:26,471] {processor.py:163} INFO - Started process (PID=3673) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:30:26,792] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:30:26,792] {logging_mixin.py:109} INFO - [2022-03-29 10:30:26,792] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:30:26,830] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:30:26,839] {logging_mixin.py:109} INFO - [2022-03-29 10:30:26,839] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:30:26,852] {logging_mixin.py:109} INFO - [2022-03-29 10:30:26,852] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:30:27,136] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.667 seconds
+[2022-03-29 10:31:10,270] {processor.py:163} INFO - Started process (PID=3709) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:31:10,302] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:31:10,302] {logging_mixin.py:109} INFO - [2022-03-29 10:31:10,302] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:31:10,362] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:31:10,371] {logging_mixin.py:109} INFO - [2022-03-29 10:31:10,371] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:31:10,388] {logging_mixin.py:109} INFO - [2022-03-29 10:31:10,388] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:31:10,528] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.261 seconds
+[2022-03-29 10:31:50,332] {processor.py:163} INFO - Started process (PID=3748) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:31:50,459] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:31:50,460] {logging_mixin.py:109} INFO - [2022-03-29 10:31:50,460] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:31:50,511] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:31:50,523] {logging_mixin.py:109} INFO - [2022-03-29 10:31:50,522] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:31:50,541] {logging_mixin.py:109} INFO - [2022-03-29 10:31:50,541] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:31:51,883] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.553 seconds
+[2022-03-29 10:32:49,450] {processor.py:163} INFO - Started process (PID=3802) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:32:49,531] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:32:49,531] {logging_mixin.py:109} INFO - [2022-03-29 10:32:49,531] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:32:49,568] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:32:49,578] {logging_mixin.py:109} INFO - [2022-03-29 10:32:49,578] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:32:49,592] {logging_mixin.py:109} INFO - [2022-03-29 10:32:49,592] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:32:49,888] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.441 seconds
+[2022-03-29 10:33:52,455] {processor.py:163} INFO - Started process (PID=3856) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:33:52,850] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:33:52,851] {logging_mixin.py:109} INFO - [2022-03-29 10:33:52,851] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:33:52,902] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:33:52,916] {logging_mixin.py:109} INFO - [2022-03-29 10:33:52,916] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:33:52,930] {logging_mixin.py:109} INFO - [2022-03-29 10:33:52,930] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:33:54,265] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.813 seconds
+[2022-03-29 10:34:33,125] {processor.py:163} INFO - Started process (PID=3890) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:34:33,127] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 10:34:33,128] {logging_mixin.py:109} INFO - [2022-03-29 10:34:33,128] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:34:33,174] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 10:34:33,184] {logging_mixin.py:109} INFO - [2022-03-29 10:34:33,184] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 10:34:33,202] {logging_mixin.py:109} INFO - [2022-03-29 10:34:33,202] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 10:34:33,361] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.239 seconds
+[2022-03-29 15:21:44,968] {processor.py:163} INFO - Started process (PID=356) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:21:45,367] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:21:45,368] {logging_mixin.py:109} INFO - [2022-03-29 15:21:45,368] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:21:45,410] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:21:45,420] {logging_mixin.py:109} INFO - [2022-03-29 15:21:45,420] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:21:45,435] {logging_mixin.py:109} INFO - [2022-03-29 15:21:45,435] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:21:46,684] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.718 seconds
+[2022-03-29 15:23:10,856] {processor.py:163} INFO - Started process (PID=472) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:23:10,893] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:23:10,893] {logging_mixin.py:109} INFO - [2022-03-29 15:23:10,893] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:23:10,935] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:23:10,945] {logging_mixin.py:109} INFO - [2022-03-29 15:23:10,945] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:23:10,960] {logging_mixin.py:109} INFO - [2022-03-29 15:23:10,959] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:23:11,912] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.058 seconds
+[2022-03-29 15:24:08,163] {processor.py:163} INFO - Started process (PID=509) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:24:08,377] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:24:08,378] {logging_mixin.py:109} INFO - [2022-03-29 15:24:08,378] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:24:08,417] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:24:08,428] {logging_mixin.py:109} INFO - [2022-03-29 15:24:08,428] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:24:08,443] {logging_mixin.py:109} INFO - [2022-03-29 15:24:08,442] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:24:09,604] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.444 seconds
+[2022-03-29 15:25:04,120] {processor.py:163} INFO - Started process (PID=550) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:25:04,140] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:25:04,141] {logging_mixin.py:109} INFO - [2022-03-29 15:25:04,141] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:25:04,205] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:25:04,220] {logging_mixin.py:109} INFO - [2022-03-29 15:25:04,220] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:25:04,235] {logging_mixin.py:109} INFO - [2022-03-29 15:25:04,235] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:25:04,672] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.558 seconds
+[2022-03-29 15:26:20,541] {processor.py:163} INFO - Started process (PID=595) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:26:20,565] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:26:20,566] {logging_mixin.py:109} INFO - [2022-03-29 15:26:20,566] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:26:21,068] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:26:21,088] {logging_mixin.py:109} INFO - [2022-03-29 15:26:21,088] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:26:21,110] {logging_mixin.py:109} INFO - [2022-03-29 15:26:21,110] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:26:21,295] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.757 seconds
+[2022-03-29 15:27:46,266] {processor.py:163} INFO - Started process (PID=648) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:27:46,276] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:27:46,277] {logging_mixin.py:109} INFO - [2022-03-29 15:27:46,277] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:27:46,322] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:27:46,333] {logging_mixin.py:109} INFO - [2022-03-29 15:27:46,333] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:27:46,348] {logging_mixin.py:109} INFO - [2022-03-29 15:27:46,348] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:27:46,573] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.310 seconds
+[2022-03-29 15:28:53,060] {processor.py:163} INFO - Started process (PID=692) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:28:53,115] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:28:53,116] {logging_mixin.py:109} INFO - [2022-03-29 15:28:53,116] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:28:53,155] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:28:53,164] {logging_mixin.py:109} INFO - [2022-03-29 15:28:53,164] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:28:53,181] {logging_mixin.py:109} INFO - [2022-03-29 15:28:53,181] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:28:54,129] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.071 seconds
+[2022-03-29 15:29:58,523] {processor.py:163} INFO - Started process (PID=745) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:29:59,561] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:30:01,201] {logging_mixin.py:109} INFO - [2022-03-29 15:30:01,201] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:30:01,575] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:30:01,583] {logging_mixin.py:109} INFO - [2022-03-29 15:30:01,583] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:30:01,596] {logging_mixin.py:109} INFO - [2022-03-29 15:30:01,596] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:30:01,735] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 3.214 seconds
+[2022-03-29 15:31:09,992] {processor.py:163} INFO - Started process (PID=790) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:31:11,066] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:31:11,067] {logging_mixin.py:109} INFO - [2022-03-29 15:31:11,067] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:31:11,344] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:31:11,357] {logging_mixin.py:109} INFO - [2022-03-29 15:31:11,357] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:31:11,370] {logging_mixin.py:109} INFO - [2022-03-29 15:31:11,370] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:31:11,489] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.503 seconds
+[2022-03-29 15:32:07,029] {processor.py:163} INFO - Started process (PID=831) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:32:07,128] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:32:07,129] {logging_mixin.py:109} INFO - [2022-03-29 15:32:07,128] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:32:07,186] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:32:07,199] {logging_mixin.py:109} INFO - [2022-03-29 15:32:07,199] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:32:07,217] {logging_mixin.py:109} INFO - [2022-03-29 15:32:07,217] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:32:07,531] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.505 seconds
+[2022-03-29 15:33:13,749] {processor.py:163} INFO - Started process (PID=877) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:33:13,784] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:33:13,785] {logging_mixin.py:109} INFO - [2022-03-29 15:33:13,785] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:33:13,823] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:33:13,832] {logging_mixin.py:109} INFO - [2022-03-29 15:33:13,832] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:33:13,844] {logging_mixin.py:109} INFO - [2022-03-29 15:33:13,844] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:33:14,067] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.320 seconds
+[2022-03-29 15:34:19,713] {processor.py:163} INFO - Started process (PID=932) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:34:19,928] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:34:19,929] {logging_mixin.py:109} INFO - [2022-03-29 15:34:19,929] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:34:19,969] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:34:19,978] {logging_mixin.py:109} INFO - [2022-03-29 15:34:19,977] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:34:19,990] {logging_mixin.py:109} INFO - [2022-03-29 15:34:19,990] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:34:20,236] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.527 seconds
+[2022-03-29 15:35:10,653] {processor.py:163} INFO - Started process (PID=977) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:35:10,738] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:35:10,739] {logging_mixin.py:109} INFO - [2022-03-29 15:35:10,739] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:35:10,793] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:35:10,808] {logging_mixin.py:109} INFO - [2022-03-29 15:35:10,808] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:35:10,830] {logging_mixin.py:109} INFO - [2022-03-29 15:35:10,830] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:35:11,670] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.020 seconds
+[2022-03-29 15:36:13,955] {processor.py:163} INFO - Started process (PID=1018) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:36:14,208] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:36:14,209] {logging_mixin.py:109} INFO - [2022-03-29 15:36:14,209] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:36:14,245] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:36:14,253] {logging_mixin.py:109} INFO - [2022-03-29 15:36:14,253] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:36:14,266] {logging_mixin.py:109} INFO - [2022-03-29 15:36:14,266] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:36:14,794] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.842 seconds
+[2022-03-29 15:37:15,033] {processor.py:163} INFO - Started process (PID=1073) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:37:15,144] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:37:15,145] {logging_mixin.py:109} INFO - [2022-03-29 15:37:15,145] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:37:15,197] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:37:15,212] {logging_mixin.py:109} INFO - [2022-03-29 15:37:15,212] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:37:15,236] {logging_mixin.py:109} INFO - [2022-03-29 15:37:15,236] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:37:16,299] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.269 seconds
+[2022-03-29 15:38:26,221] {processor.py:163} INFO - Started process (PID=1130) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:38:26,243] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:38:26,244] {logging_mixin.py:109} INFO - [2022-03-29 15:38:26,244] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:38:26,290] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:38:26,304] {logging_mixin.py:109} INFO - [2022-03-29 15:38:26,304] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:38:26,322] {logging_mixin.py:109} INFO - [2022-03-29 15:38:26,322] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:38:26,488] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.270 seconds
+[2022-03-29 15:39:38,130] {processor.py:163} INFO - Started process (PID=1181) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:39:38,823] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:39:38,878] {logging_mixin.py:109} INFO - [2022-03-29 15:39:38,878] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:39:39,855] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:39:39,864] {logging_mixin.py:109} INFO - [2022-03-29 15:39:39,864] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:39:39,879] {logging_mixin.py:109} INFO - [2022-03-29 15:39:39,878] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:39:40,019] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 1.892 seconds
+[2022-03-29 15:40:51,641] {processor.py:163} INFO - Started process (PID=1242) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:40:51,656] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:40:51,656] {logging_mixin.py:109} INFO - [2022-03-29 15:40:51,656] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:40:51,701] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:40:51,715] {logging_mixin.py:109} INFO - [2022-03-29 15:40:51,714] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:40:51,729] {logging_mixin.py:109} INFO - [2022-03-29 15:40:51,729] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:40:51,994] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.356 seconds
+[2022-03-29 15:41:46,465] {processor.py:163} INFO - Started process (PID=1306) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:41:46,499] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:41:46,500] {logging_mixin.py:109} INFO - [2022-03-29 15:41:46,500] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:41:46,541] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:41:46,549] {logging_mixin.py:109} INFO - [2022-03-29 15:41:46,549] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:41:46,563] {logging_mixin.py:109} INFO - [2022-03-29 15:41:46,563] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:41:46,860] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.397 seconds
+[2022-03-29 15:42:37,730] {processor.py:163} INFO - Started process (PID=1364) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:42:37,744] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:42:37,744] {logging_mixin.py:109} INFO - [2022-03-29 15:42:37,744] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:42:37,782] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:42:37,790] {logging_mixin.py:109} INFO - [2022-03-29 15:42:37,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:42:37,803] {logging_mixin.py:109} INFO - [2022-03-29 15:42:37,803] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:42:37,986] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.260 seconds
+[2022-03-29 15:43:35,423] {processor.py:163} INFO - Started process (PID=1428) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:43:35,437] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:43:35,437] {logging_mixin.py:109} INFO - [2022-03-29 15:43:35,437] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:43:35,485] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:43:35,493] {logging_mixin.py:109} INFO - [2022-03-29 15:43:35,493] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:43:35,510] {logging_mixin.py:109} INFO - [2022-03-29 15:43:35,509] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:43:35,630] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.209 seconds
+[2022-03-29 15:44:18,695] {processor.py:163} INFO - Started process (PID=1472) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:44:18,710] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:44:18,711] {logging_mixin.py:109} INFO - [2022-03-29 15:44:18,711] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:44:18,753] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:44:18,761] {logging_mixin.py:109} INFO - [2022-03-29 15:44:18,761] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:44:18,774] {logging_mixin.py:109} INFO - [2022-03-29 15:44:18,774] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:44:19,115] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.424 seconds
+[2022-03-29 15:45:13,709] {processor.py:163} INFO - Started process (PID=1526) to work on /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:45:13,723] {processor.py:642} INFO - Processing file /home/lowenhard/airflow/dags/dummy_conn.py for tasks to queue
+[2022-03-29 15:45:13,724] {logging_mixin.py:109} INFO - [2022-03-29 15:45:13,723] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:45:13,769] {processor.py:654} INFO - DAG(s) dict_keys(['Etl']) retrieved from /home/lowenhard/airflow/dags/dummy_conn.py
+[2022-03-29 15:45:13,780] {logging_mixin.py:109} INFO - [2022-03-29 15:45:13,780] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-29 15:45:13,792] {logging_mixin.py:109} INFO - [2022-03-29 15:45:13,792] {dag.py:2937} INFO - Setting next_dagrun for Etl to 2022-03-28 00:00:00+00:00
+[2022-03-29 15:45:13,955] {processor.py:171} INFO - Processing /home/lowenhard/airflow/dags/dummy_conn.py took 0.249 seconds

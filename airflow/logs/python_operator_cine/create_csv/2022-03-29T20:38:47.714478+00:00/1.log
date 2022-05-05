@@ -1,0 +1,94 @@
+[2022-03-29 15:39:04,607] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator_cine.create_csv manual__2022-03-29T20:38:47.714478+00:00 [queued]>
+[2022-03-29 15:39:04,621] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: python_operator_cine.create_csv manual__2022-03-29T20:38:47.714478+00:00 [queued]>
+[2022-03-29 15:39:04,621] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-29 15:39:04,621] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-29 15:39:04,622] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-29 15:39:04,926] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): create_csv> on 2022-03-29 20:38:47.714478+00:00
+[2022-03-29 15:39:04,929] {standard_task_runner.py:52} INFO - Started process 1154 to run task
+[2022-03-29 15:39:04,934] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator_cine', 'create_csv', 'manual__2022-03-29T20:38:47.714478+00:00', '--job-id', '205', '--raw', '--subdir', 'DAGS_FOLDER/ET_Univ_del_Cine_dags.py', '--cfg-path', '/tmp/tmpexf2ku1i', '--error-file', '/tmp/tmpw9rh_vhq']
+[2022-03-29 15:39:04,935] {standard_task_runner.py:77} INFO - Job 205: Subtask create_csv
+[2022-03-29 15:39:05,194] {logging_mixin.py:109} INFO - Running <TaskInstance: python_operator_cine.create_csv manual__2022-03-29T20:38:47.714478+00:00 [running]> on host LAPTOP-5HJG55H7.localdomain
+[2022-03-29 15:39:06,248] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator_cine
+AIRFLOW_CTX_TASK_ID=create_csv
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-29T20:38:47.714478+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-29T20:38:47.714478+00:00
+[2022-03-29 15:39:06,266] {base.py:70} INFO - Using connection to: id: airflow-universities. Host: training-main.cghe7e6sfljt.us-east-1.rds.amazonaws.com, Port: 5432, Schema: training, Login: alkymer, Password: ***, extra: {}
+[2022-03-29 15:39:07,408] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py", line 35, in get_data_cine
+    df.to_csv(os.path.join(parent_folder, 'files/ET_Univ_del_Cine.csv'), header=header, index=False)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/generic.py", line 3563, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 261, in save
+    self._save()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 265, in _save
+    self._save_header()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 270, in _save_header
+    self.writer.writerow(self.encoded_labels)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 232, in encoded_labels
+    encoded_labels += list(self.write_cols)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 213, in write_cols
+    raise ValueError(
+ValueError: Writing 9 cols but got 7 aliases
+[2022-03-29 15:39:07,848] {taskinstance.py:1272} INFO - Marking task as FAILED. dag_id=python_operator_cine, task_id=create_csv, execution_date=20220329T203847, start_date=20220329T203904, end_date=20220329T203907
+[2022-03-29 15:39:08,085] {standard_task_runner.py:89} ERROR - Failed to execute job 205 for task create_csv
+Traceback (most recent call last):
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lowenhard/airflow/dags/ET_Univ_del_Cine_dags.py", line 35, in get_data_cine
+    df.to_csv(os.path.join(parent_folder, 'files/ET_Univ_del_Cine.csv'), header=header, index=False)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/core/generic.py", line 3563, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 261, in save
+    self._save()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 265, in _save
+    self._save_header()
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 270, in _save_header
+    self.writer.writerow(self.encoded_labels)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 232, in encoded_labels
+    encoded_labels += list(self.write_cols)
+  File "/home/lowenhard/acceleration/env/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 213, in write_cols
+    raise ValueError(
+ValueError: Writing 9 cols but got 7 aliases
+[2022-03-29 15:39:08,123] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-29 15:39:09,039] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,160 @@
+[2022-03-26 18:27:06,593] {processor.py:163} INFO - Started process (PID=576) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:27:06,594] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:27:06,595] {logging_mixin.py:109} INFO - [2022-03-26 18:27:06,595] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:27:06,612] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:27:06,623] {logging_mixin.py:109} INFO - [2022-03-26 18:27:06,623] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:27:06,634] {logging_mixin.py:109} INFO - [2022-03-26 18:27:06,634] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:27:06,634] {logging_mixin.py:109} INFO - [2022-03-26 18:27:06,634] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:27:06,770] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.178 seconds
+[2022-03-26 18:29:49,269] {processor.py:163} INFO - Started process (PID=644) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:29:49,288] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:29:49,290] {logging_mixin.py:109} INFO - [2022-03-26 18:29:49,289] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:29:49,550] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:29:49,562] {logging_mixin.py:109} INFO - [2022-03-26 18:29:49,562] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:29:49,574] {logging_mixin.py:109} INFO - [2022-03-26 18:29:49,573] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:29:49,574] {logging_mixin.py:109} INFO - [2022-03-26 18:29:49,574] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:29:49,710] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.444 seconds
+[2022-03-26 18:31:22,387] {processor.py:163} INFO - Started process (PID=708) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:31:22,406] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:31:22,406] {logging_mixin.py:109} INFO - [2022-03-26 18:31:22,406] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:31:22,424] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:31:22,435] {logging_mixin.py:109} INFO - [2022-03-26 18:31:22,435] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:31:22,446] {logging_mixin.py:109} INFO - [2022-03-26 18:31:22,446] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:31:22,446] {logging_mixin.py:109} INFO - [2022-03-26 18:31:22,446] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:31:22,580] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.195 seconds
+[2022-03-26 18:32:17,383] {processor.py:163} INFO - Started process (PID=749) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:32:17,391] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:32:17,392] {logging_mixin.py:109} INFO - [2022-03-26 18:32:17,392] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:32:17,409] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:32:17,420] {logging_mixin.py:109} INFO - [2022-03-26 18:32:17,420] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:32:17,431] {logging_mixin.py:109} INFO - [2022-03-26 18:32:17,431] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:32:17,431] {logging_mixin.py:109} INFO - [2022-03-26 18:32:17,431] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:32:17,571] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.190 seconds
+[2022-03-26 18:33:11,871] {processor.py:163} INFO - Started process (PID=785) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:33:11,875] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:33:11,876] {logging_mixin.py:109} INFO - [2022-03-26 18:33:11,876] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:33:11,898] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:33:11,910] {logging_mixin.py:109} INFO - [2022-03-26 18:33:11,910] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:33:11,921] {logging_mixin.py:109} INFO - [2022-03-26 18:33:11,921] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:33:11,921] {logging_mixin.py:109} INFO - [2022-03-26 18:33:11,921] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:33:12,057] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.188 seconds
+[2022-03-26 18:34:08,194] {processor.py:163} INFO - Started process (PID=828) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:34:08,206] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:34:08,207] {logging_mixin.py:109} INFO - [2022-03-26 18:34:08,207] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:34:08,231] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:34:08,242] {logging_mixin.py:109} INFO - [2022-03-26 18:34:08,242] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:34:08,253] {logging_mixin.py:109} INFO - [2022-03-26 18:34:08,253] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:34:08,254] {logging_mixin.py:109} INFO - [2022-03-26 18:34:08,254] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:34:08,557] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.366 seconds
+[2022-03-26 18:35:09,387] {processor.py:163} INFO - Started process (PID=869) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:35:09,407] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:35:09,407] {logging_mixin.py:109} INFO - [2022-03-26 18:35:09,407] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:35:09,426] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:35:09,436] {logging_mixin.py:109} INFO - [2022-03-26 18:35:09,436] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:35:09,448] {logging_mixin.py:109} INFO - [2022-03-26 18:35:09,448] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:35:09,448] {logging_mixin.py:109} INFO - [2022-03-26 18:35:09,448] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:35:09,800] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.415 seconds
+[2022-03-26 18:36:07,587] {processor.py:163} INFO - Started process (PID=905) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:36:07,610] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:36:07,610] {logging_mixin.py:109} INFO - [2022-03-26 18:36:07,610] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:36:07,627] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:36:07,639] {logging_mixin.py:109} INFO - [2022-03-26 18:36:07,639] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:36:07,649] {logging_mixin.py:109} INFO - [2022-03-26 18:36:07,649] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:36:07,649] {logging_mixin.py:109} INFO - [2022-03-26 18:36:07,649] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:36:07,890] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.306 seconds
+[2022-03-26 18:37:02,661] {processor.py:163} INFO - Started process (PID=940) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:37:02,690] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:37:02,691] {logging_mixin.py:109} INFO - [2022-03-26 18:37:02,691] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:37:02,725] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:37:02,973] {logging_mixin.py:109} INFO - [2022-03-26 18:37:02,973] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:37:02,990] {logging_mixin.py:109} INFO - [2022-03-26 18:37:02,990] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:37:02,991] {logging_mixin.py:109} INFO - [2022-03-26 18:37:02,991] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:37:03,196] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.537 seconds
+[2022-03-26 18:38:31,003] {processor.py:163} INFO - Started process (PID=982) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:38:31,038] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:38:31,038] {logging_mixin.py:109} INFO - [2022-03-26 18:38:31,038] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:38:31,056] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:38:31,066] {logging_mixin.py:109} INFO - [2022-03-26 18:38:31,066] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:38:31,076] {logging_mixin.py:109} INFO - [2022-03-26 18:38:31,076] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:38:31,076] {logging_mixin.py:109} INFO - [2022-03-26 18:38:31,076] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:38:31,377] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.375 seconds
+[2022-03-26 18:40:08,268] {processor.py:163} INFO - Started process (PID=1041) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:40:08,284] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:40:08,284] {logging_mixin.py:109} INFO - [2022-03-26 18:40:08,284] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:40:08,306] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:40:08,317] {logging_mixin.py:109} INFO - [2022-03-26 18:40:08,317] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:40:08,330] {logging_mixin.py:109} INFO - [2022-03-26 18:40:08,329] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:40:08,330] {logging_mixin.py:109} INFO - [2022-03-26 18:40:08,330] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:40:08,469] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.202 seconds
+[2022-03-26 18:42:51,572] {processor.py:163} INFO - Started process (PID=1131) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:42:52,766] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:42:52,767] {logging_mixin.py:109} INFO - [2022-03-26 18:42:52,767] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:42:53,121] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:42:53,132] {logging_mixin.py:109} INFO - [2022-03-26 18:42:53,132] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:42:53,144] {logging_mixin.py:109} INFO - [2022-03-26 18:42:53,144] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:42:53,145] {logging_mixin.py:109} INFO - [2022-03-26 18:42:53,145] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:42:53,383] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.813 seconds
+[2022-03-26 18:44:22,437] {processor.py:163} INFO - Started process (PID=1173) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:44:22,653] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:44:22,653] {logging_mixin.py:109} INFO - [2022-03-26 18:44:22,653] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:44:22,677] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:44:22,688] {logging_mixin.py:109} INFO - [2022-03-26 18:44:22,688] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:44:22,700] {logging_mixin.py:109} INFO - [2022-03-26 18:44:22,700] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:44:22,700] {logging_mixin.py:109} INFO - [2022-03-26 18:44:22,700] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:44:23,296] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.861 seconds
+[2022-03-26 18:45:58,613] {processor.py:163} INFO - Started process (PID=1220) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:45:58,796] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:45:58,797] {logging_mixin.py:109} INFO - [2022-03-26 18:45:58,797] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:45:58,820] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:45:58,831] {logging_mixin.py:109} INFO - [2022-03-26 18:45:58,831] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:45:58,842] {logging_mixin.py:109} INFO - [2022-03-26 18:45:58,842] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:45:58,842] {logging_mixin.py:109} INFO - [2022-03-26 18:45:58,842] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:45:59,843] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.233 seconds
+[2022-03-26 18:48:56,441] {processor.py:163} INFO - Started process (PID=1288) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:48:56,496] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:48:56,497] {logging_mixin.py:109} INFO - [2022-03-26 18:48:56,497] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:48:56,519] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:48:56,532] {logging_mixin.py:109} INFO - [2022-03-26 18:48:56,532] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:48:56,546] {logging_mixin.py:109} INFO - [2022-03-26 18:48:56,546] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:48:56,546] {logging_mixin.py:109} INFO - [2022-03-26 18:48:56,546] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:48:57,109] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.672 seconds
+[2022-03-26 18:51:38,781] {processor.py:163} INFO - Started process (PID=1374) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:51:39,708] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:51:39,709] {logging_mixin.py:109} INFO - [2022-03-26 18:51:39,709] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:51:40,971] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:51:40,989] {logging_mixin.py:109} INFO - [2022-03-26 18:51:40,989] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:51:41,002] {logging_mixin.py:109} INFO - [2022-03-26 18:51:41,002] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:51:41,002] {logging_mixin.py:109} INFO - [2022-03-26 18:51:41,002] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:51:41,218] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 2.439 seconds
+[2022-03-26 18:54:04,319] {processor.py:163} INFO - Started process (PID=1438) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:54:04,427] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:54:04,428] {logging_mixin.py:109} INFO - [2022-03-26 18:54:04,428] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:54:04,447] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:54:04,459] {logging_mixin.py:109} INFO - [2022-03-26 18:54:04,459] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:54:04,471] {logging_mixin.py:109} INFO - [2022-03-26 18:54:04,471] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:54:04,472] {logging_mixin.py:109} INFO - [2022-03-26 18:54:04,472] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:54:06,244] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.929 seconds
+[2022-03-26 18:56:02,588] {processor.py:163} INFO - Started process (PID=1507) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:56:02,631] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:56:02,635] {logging_mixin.py:109} INFO - [2022-03-26 18:56:02,635] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:56:03,187] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:56:03,204] {logging_mixin.py:109} INFO - [2022-03-26 18:56:03,204] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:56:03,222] {logging_mixin.py:109} INFO - [2022-03-26 18:56:03,221] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:56:03,222] {logging_mixin.py:109} INFO - [2022-03-26 18:56:03,222] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:56:03,368] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.783 seconds
+[2022-03-26 18:58:22,490] {processor.py:163} INFO - Started process (PID=1571) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:58:22,502] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:58:22,503] {logging_mixin.py:109} INFO - [2022-03-26 18:58:22,503] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:58:22,521] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:58:22,532] {logging_mixin.py:109} INFO - [2022-03-26 18:58:22,532] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:58:22,543] {logging_mixin.py:109} INFO - [2022-03-26 18:58:22,543] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:58:22,543] {logging_mixin.py:109} INFO - [2022-03-26 18:58:22,543] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:58:22,705] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.218 seconds
+[2022-03-26 18:59:44,716] {processor.py:163} INFO - Started process (PID=1613) to work on /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:59:44,847] {processor.py:642} INFO - Processing file /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-03-26 18:59:44,847] {logging_mixin.py:109} INFO - [2022-03-26 18:59:44,847] {dagbag.py:500} INFO - Filling up the DagBag from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:59:44,869] {processor.py:654} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-03-26 18:59:44,880] {logging_mixin.py:109} INFO - [2022-03-26 18:59:44,880] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-03-26 18:59:44,893] {logging_mixin.py:109} INFO - [2022-03-26 18:59:44,893] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-03-26 18:59:44,893] {logging_mixin.py:109} INFO - [2022-03-26 18:59:44,893] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-03-26 18:59:46,260] {processor.py:171} INFO - Processing /home/lowenhard/acceleration/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.546 seconds
